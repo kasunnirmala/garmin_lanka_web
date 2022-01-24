@@ -1,0 +1,406 @@
+/* Elementor Admin */
+
+@import 'direction';
+
+#elementor-panel-categories {
+    display: flex;
+    flex-direction: column;
+
+    #elementor-panel-category-basic {
+        order: -3;
+    }
+    #elementor-panel-category-riode_widget {
+        order: -1;
+    }
+    #elementor-panel-category-riode_single_product_widget,
+    #elementor-panel-category-riode_header_widget {
+        order: -2;
+    }
+}
+
+.elementor-element {
+    .riode-elementor-widget-icon::after {
+        position: absolute;
+        right: 10px;
+        top: 12px;
+        color: rgba(#999, 0.3);
+        content: "";
+        display: block;
+        box-shadow: -2px 2px 0 4px;
+        width: 5px;
+        height: 5px;
+        transform: rotate(45deg);
+    }
+    .riode-elementor-widget-icon {
+        display: inline-block;
+        height: 28px;
+        width: 50px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+.elementor-navigator__element__element-type .riode-elementor-widget-icon {
+    display: inline-block;
+    height: 17px;
+    width: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.elementor-element, 
+.elementor-navigator__element__element-type {
+    .widget-icon-360 {
+        background-image: url('../images/element-images/360.png');
+    }
+    .widget-icon-banner {
+        background-image: url('../images/element-images/banner.png');
+    }
+    .widget-icon-block {
+        background-image: url('../images/element-images/block.png');
+    }
+    .widget-icon-blockquote {
+        background-image: url('../images/element-images/blockquote.png');
+    }
+    .widget-icon-breadcrumb {
+        background-image: url('../images/element-images/breadcrumb.png');
+    }
+    .widget-icon-button {
+        background-image: url('../images/element-images/button.png');
+    }
+    .widget-icon-categories {
+        background-image: url('../images/element-images/categories.png');
+    }
+    .widget-icon-countdown {
+        background-image: url('../images/element-images/countdown.png');
+    }
+    .widget-icon-filter {
+        background-image: url('../images/element-images/filter.png');
+    }
+    .widget-icon-svg-floating {
+        background-image: url('../images/element-images/svg-floating.png');
+    }
+    .widget-icon-heading {
+        background-image: url('../images/element-images/heading.png');
+    }
+    .widget-icon-hotspot {
+        background-image: url('../images/element-images/hotspot.png');
+    }
+    .widget-icon-image-box {
+        background-image: url('../images/element-images/image-box.png');
+    }
+    .widget-icon-image-gallery {
+        background-image: url('../images/element-images/image-gallery.png');
+    }
+    .widget-icon-info-box {
+        background-image: url('../images/element-images/info-box.png');
+    }
+    .widget-icon-list {
+        background-image: url('../images/element-images/list.png');
+    }
+    .widget-icon-logo {
+        background-image: url('../images/element-images/logo.png');
+    }
+    .widget-icon-menu {
+        background-image: url('../images/element-images/menu.png');
+    }
+    .widget-icon-posts {
+        background-image: url('../images/element-images/posts.png');
+    }
+    .widget-icon-products {
+        background-image: url('../images/element-images/products.png');
+    }
+    .widget-icon-products-banner {
+        background-image: url('../images/element-images/products-banner.png');
+    }
+    .widget-icon-products-single {
+        background-image: url('../images/element-images/products-single.png');
+    }
+    .widget-icon-products-tab {
+        background-image: url('../images/element-images/products-tab.png');
+    }
+    .widget-icon-social {
+        background-image: url('../images/element-images/social.png');
+    }
+    .widget-icon-single-product {
+        background-image: url('../images/element-images/single-product.png');
+    }
+    .widget-icon-subcategories {
+        background-image: url('../images/element-images/subcategories.png');
+    }
+    .widget-icon-testimonial {
+        background-image: url('../images/element-images/testimonial.png');
+    }
+    .widget-icon-testimonial-group {
+        background-image: url('../images/element-images/testimonial-group.png');
+    }
+    .widget-icon-vendors {
+        background-image: url('../images/element-images/vendors.png');
+    }
+}
+
+.elementor-control-type-riode_image_choose {
+    .elementor-control-field {
+        flex-wrap: wrap;
+    }
+
+    .elementor-control-content>.elementor-control-field>.elementor-control-input-wrapper {
+        margin-#{$left}: 0;
+        width: 100%;
+    }
+
+    .elementor-choices {
+        height: auto;
+        line-height: normal;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: -4px;
+        margin-right: -4px;
+
+        label.elementor-choices-label {
+            width: 30%;
+            margin: 7px 4px;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            border: 1px solid #d5dadf;
+            border-radius: 3px;
+            transition: none;
+        }
+        .elementor-choices-label.width-full {
+            width: 100%;
+        }
+        .elementor-choices-label.width-50 {
+            width: 47%;
+	    }
+    }
+}
+
+.elementor-control-type-riode_description p {
+    line-height: 1.4;
+}
+
+.elementor-control-type-color .elementor-control-field .elementor-control-title {
+    flex: none;
+}
+
+.elementor-control-page_js {
+    margin: -10px 0;
+}
+.elementor-control-page_css,
+.elementor-control-page_js {
+    .elementor-control-tag-area {
+        font-family: monospace;
+
+        &::-webkit-scrollbar-thumb {
+            margin-right: 2px;
+            background: rgba(0,0,0,0);
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        &::-webkit-scrollbar {
+            height: 7px;
+            width: 4px;
+        }
+
+        &:hover::-webkit-scrollbar-thumb {
+            background: rgba(0,0,0,0.25);
+        }
+    }
+}
+
+.elementor-control-type-select2 .elementor-control-input-wrapper {
+    min-width: 100px;
+    flex: 1;
+    max-width: 135px;
+}
+
+.elementor-icons-manager__tab__item .la {
+    font-size: 25px;
+}
+
+.elementor-control-input-wrapper > input[type="number"] {
+    width: 70px;
+}
+.elementor-choices.elementor-origin-choices {
+    flex-wrap: wrap;
+    width: 66px;
+    height: 66px;
+    .elementor-choices-label {
+        margin: 1px;
+        width: 20px;
+        height: 20px;
+        border-radius: 0;
+        border: 1px solid #d5dadf;
+    }
+}
+
+.elementor-control-riode_settings ~ .elementor-control-type-heading {
+    padding: 10px 20px;
+}
+
+.elementor-icons-manager__tab-link .d-icon-gift {
+    font-size: 22px;
+}
+
+.elementor-control-description .important-note {
+    color: #d26e4b;
+    background: #fff5eb;
+    display: block;
+    padding: 10px;
+    border-radius: 2px;
+    line-height: 1.8;
+}
+
+/* Header Builder */
+.elementor-control-lang_switcher_description textarea {
+    height: 200px;
+    line-height: 1.68;
+    padding: 0;
+    -webkit-appearance: none;
+    border: none;
+    pointer-events: none;
+    resize: none;
+
+    &::placeholder {
+        color: #666;
+    }
+}
+.eicon-vertical-divider::before {
+    content: '\e828';
+    display: block;
+    transform: rotate(90deg);
+}
+.elementor-element .d-icon-bars2 {
+    font-size: 26px;
+}
+.elementor-control-type-riode_image_choose .elementor-choices [value="hs-toggle"] {
+    ~ label {
+        width: 100%;
+
+        img {
+            height: 50px;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    + label img {
+        height: 110px;
+    }
+}
+.elementor-control-type-riode_image_choose .elementor-choices [value=hs-fullscreen]+label img {
+    height: 110px;
+}
+.elementor-control-structure-preset-wrapper {
+    min-width: 112.84px;
+    text-align: center;
+}
+.elementor-control-riode_scroll_stop {
+    .elementor-control-field {
+        display: block;
+    }
+    .elementor-control-input-wrapper {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+
+/* Riode Custom Tab */
+.elementor-panel .elementor-panel-navigation .elementor-tab-control-riode_custom_tab {
+    a {
+        display: flex;
+        flex-direction: column;
+    }
+    a:before {
+        content: '';
+        display: block;
+        box-shadow: -2px 2px 0 4px;
+        width: 5px;
+        height: 5px;
+        transform: rotate(45deg) translateY(-5px);
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 8px;
+    }
+}
+.elementor-control-_riode_custom_css,
+.elementor-control-_riode_custom_js,
+.elementor-control-riode_blank_styles {
+    display: none;
+}
+
+// Elementor panel's riode studio button
+.riode-elementor-addons-toggle {
+    display: block;
+    padding: 12px 0;
+
+    .riode-mini-logo {
+        display: inline-block;
+        transform: scale(.8);
+    
+        &:before {
+            content: '';
+            display: block;
+            box-shadow: -2px 2px 0 4px;
+            width: 5px;
+            height: 5px;
+            transform: rotate(45deg);
+        }
+    }
+    &:before {
+        content: '!';
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 1.2em;
+        transform: translateX(if-ltr(-9px, 4px));
+        color: #fff;
+        animation: fade-in 2s infinite linear;
+    }
+}
+
+#riode-elementor-addons {
+    .dropdown-box {
+        position: absolute;
+        display: none;
+        bottom: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #556068;
+        padding: 15px;
+        z-index: 10000;
+    }
+
+    .dropdown-box.show {
+        display: block;
+    }
+
+    .options {
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    li {
+        background-color: #495157;
+        text-align: left;
+        color: #d5dadf;
+        padding: 15px 10px;
+        margin-bottom: 1px;
+        opacity: 0.7;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        i {
+            position: relative;
+            bottom: -1px;
+            margin-right: 8px;
+            font-size: 18px;
+            width: 20px;
+            text-align: center;
+        }
+    }
+}

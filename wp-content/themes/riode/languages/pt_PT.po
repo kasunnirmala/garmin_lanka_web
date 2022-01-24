@@ -1,0 +1,5603 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Riode 1.0\n"
+"POT-Creation-Date: 2021-04-05 15:47-0700\n"
+"PO-Revision-Date: 2021-04-09 16:20+0000\n"
+"Last-Translator: \n"
+"Language-Team: Portuguese (Portugal)\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: woocommerce/cart/cart-empty.php\n"
+"X-Poedit-SearchPathExcluded-1: woocommerce/checkout/form-billing.php\n"
+"X-Poedit-SearchPathExcluded-2: woocommerce/checkout/form-checkout.php\n"
+"X-Poedit-SearchPathExcluded-3: woocommerce/checkout/form-coupon.php\n"
+"X-Poedit-SearchPathExcluded-4: woocommerce/checkout/form-pay.php\n"
+"X-Poedit-SearchPathExcluded-5: woocommerce/checkout/form-shipping.php\n"
+"X-Poedit-SearchPathExcluded-6: woocommerce/global/form-login.php\n"
+"X-Poedit-SearchPathExcluded-7: woocommerce/global/wrapper-end.php\n"
+"X-Poedit-SearchPathExcluded-8: woocommerce/global/wrapper-start.php\n"
+"X-Poedit-SearchPathExcluded-9: woocommerce/loop/add-to-cart.php\n"
+"X-Poedit-SearchPathExcluded-10: woocommerce/loop/loop-end.php\n"
+"X-Poedit-SearchPathExcluded-11: woocommerce/loop/loop-start.php\n"
+"X-Poedit-SearchPathExcluded-12: woocommerce/loop/pagination.php\n"
+"X-Poedit-SearchPathExcluded-13: woocommerce/loop/price.php\n"
+"X-Poedit-SearchPathExcluded-14: woocommerce/myaccount/dashboard.php\n"
+"X-Poedit-SearchPathExcluded-15: woocommerce/myaccount/downloads.php\n"
+"X-Poedit-SearchPathExcluded-16: woocommerce/myaccount/form-edit-account.php\n"
+"X-Poedit-SearchPathExcluded-17: woocommerce/myaccount/form-edit-address.php\n"
+"X-Poedit-SearchPathExcluded-18: woocommerce/myaccount/my-account.php\n"
+"X-Poedit-SearchPathExcluded-19: woocommerce/myaccount/my-address.php\n"
+"X-Poedit-SearchPathExcluded-20: woocommerce/myaccount/navigation.php\n"
+"X-Poedit-SearchPathExcluded-21: woocommerce/myaccount/orders.php\n"
+"X-Poedit-SearchPathExcluded-22: woocommerce/notices\n"
+"X-Poedit-SearchPathExcluded-23: woocommerce/order/order-downloads.php\n"
+"X-Poedit-SearchPathExcluded-24: woocommerce/single-product/meta.php\n"
+"X-Poedit-SearchPathExcluded-25: woocommerce/single-product/product-image."
+"php\n"
+"X-Poedit-SearchPathExcluded-26: woocommerce/single-product/product-"
+"thumbnails.php\n"
+"X-Poedit-SearchPathExcluded-27: woocommerce/single-product/rating.php\n"
+"X-Poedit-SearchPathExcluded-28: woocommerce/single-product/related.php\n"
+"X-Poedit-SearchPathExcluded-29: woocommerce/single-product/review-meta.php\n"
+"X-Poedit-SearchPathExcluded-30: woocommerce/single-product/sale-flash.php\n"
+"X-Poedit-SearchPathExcluded-31: woocommerce/single-product/title.php\n"
+"X-Poedit-SearchPathExcluded-32: woocommerce/single-product/up-sells.php\n"
+"X-Poedit-SearchPathExcluded-33: woocommerce/single-product/tabs\n"
+"X-Poedit-SearchPathExcluded-34: woocommerce/add-to-wishlist-added.php\n"
+"X-Poedit-SearchPathExcluded-35: woocommerce/add-to-wishlist-browse.php\n"
+"X-Poedit-SearchPathExcluded-36: woocommerce/add-to-wishlist-button.php\n"
+"X-Poedit-SearchPathExcluded-37: woocommerce/archive-product.php\n"
+"X-Poedit-SearchPathExcluded-38: woocommerce/content-product.php\n"
+"X-Poedit-SearchPathExcluded-39: woocommerce/content-product_cat.php\n"
+"X-Poedit-SearchPathExcluded-40: woocommerce/content-single-product.php\n"
+"X-Poedit-SearchPathExcluded-41: woocommerce/share.php\n"
+"X-Poedit-SearchPathExcluded-42: woocommerce/single-product.php\n"
+"X-Poedit-SearchPathExcluded-43: woocommerce/wishlist-view-header.php\n"
+"X-Poedit-SearchPathExcluded-44: woocommerce/wishlist-view-mobile.php\n"
+"X-Poedit-SearchPathExcluded-45: inc/plugins/tgm-plugin-activation\n"
+"X-Poedit-SearchPathExcluded-46: inc/plugins/scssphp\n"
+"X-Poedit-SearchPathExcluded-47: assets\n"
+"X-Poedit-SearchPathExcluded-48: dokan/store-sidebar.php\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.5.2; wp-5.7"
+
+#: 404.php:24 inc/add-on/studio/studio.php:55
+#: inc/admin/customizer/option/404/option-404.php:10
+msgid "Error 404"
+msgstr "Erro 404"
+
+#: 404.php:26
+msgid "OOOPPS.! THAT PAGE CAN’T BE FOUND."
+msgstr "OOOPPS.! A PÁGINA NÃO PODE SER ENCONTRADA."
+
+#: 404.php:27
+msgid "It looks like nothing was found at this location."
+msgstr "Parece que nada foi encontrado no local."
+
+#: 404.php:28
+msgid "Go Home"
+msgstr "Vá Para Casa"
+
+#: comments.php:19 inc/admin/customizer/option/blog/option-blog-post.php:54
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:112
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:137
+msgid "No"
+msgstr "Nenhum"
+
+#: comments.php:19 inc/action_filter/calls.php:855
+msgid "Comment"
+msgstr "Comentário"
+
+#: comments.php:19 inc/admin/customizer/option/blog/option-blog-single.php:44
+msgid "Comments"
+msgstr "Comentários"
+
+#: comments.php:54
+msgid "Comments are closed."
+msgstr "Os comentários estão fechados."
+
+#: dokan/dashboard/orders-widget.php:22
+msgid "Orders"
+msgstr "Encomendas"
+
+#: dokan/dashboard/orders-widget.php:28 dokan/dashboard/products-widget.php:26
+#: woocommerce/cart/cart-totals.php:100 woocommerce/cart/cart-totals.php:101
+msgid "Total"
+msgstr "Total"
+
+#: dokan/dashboard/orders-widget.php:33
+msgid "Completed"
+msgstr "Concluído"
+
+#: dokan/dashboard/orders-widget.php:38
+msgid "Pending"
+msgstr "Pendente"
+
+#: dokan/dashboard/orders-widget.php:43
+msgid "Processing"
+msgstr "Processamento de"
+
+#: dokan/dashboard/orders-widget.php:48
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#: dokan/dashboard/orders-widget.php:53
+msgid "Refunded"
+msgstr "Reembolsado"
+
+#: dokan/dashboard/orders-widget.php:58
+msgid "On hold"
+msgstr "Em espera"
+
+#: dokan/dashboard/products-widget.php:16 inc/add-on/studio/studio.php:39
+#: inc/admin/setup_wizard/views/demo.php:49
+#: inc/functions/woocommerce/product-category.php:186
+msgid "Products"
+msgstr "Produtos"
+
+#: dokan/dashboard/products-widget.php:19
+msgid "+ Add new product"
+msgstr "+ Adicionar novo produto"
+
+#: dokan/dashboard/products-widget.php:31
+msgid "Live"
+msgstr "Ao vivo"
+
+#: dokan/dashboard/products-widget.php:36
+msgid "Offline"
+msgstr "Offline"
+
+#: dokan/dashboard/products-widget.php:41
+msgid "Pending Review"
+msgstr "Revisão Pendente"
+
+#: dokan/global/product-tab.php:15
+msgid "Store Name:"
+msgstr "Nome Da Loja:"
+
+#: dokan/global/product-tab.php:24
+msgid "Vendor:"
+msgstr "Fornecedor de:"
+
+#: dokan/global/product-tab.php:33
+msgid "Address:"
+msgstr "Endereço:"
+
+#: dokan/global/seller-registration-form.php:15
+msgid "First Name"
+msgstr "Primeiro Nome"
+
+#: dokan/global/seller-registration-form.php:25
+msgid "Last Name"
+msgstr "Último Nome"
+
+#: dokan/global/seller-registration-form.php:36
+msgid "Shop Name"
+msgstr "Loja De Nome"
+
+#: dokan/global/seller-registration-form.php:46
+msgid "Shop URL"
+msgstr "Loja de URL"
+
+#: dokan/global/seller-registration-form.php:58
+msgid "Phone Number"
+msgstr "Número De Telefone"
+
+#: dokan/global/seller-registration-form.php:79
+#, php-format
+msgid ""
+"I have read and agree to the <a target=\"_blank\" href=\"%s\">Terms &amp; "
+"Conditions</a>."
+msgstr ""
+
+#: dokan/global/seller-registration-form.php:101
+msgid "I am a customer"
+msgstr "Sou cliente"
+
+#: dokan/global/seller-registration-form.php:104
+msgid "I am a vendor"
+msgstr "Eu sou um fornecedor"
+
+#: dokan/store-lists-filter.php:27 inc/add-on/studio/blocks-wrapper.php:113
+#: template_parts/sidebar.php:73 woocommerce/loop/orderby.php:76
+#: woocommerce/loop/orderby.php:96 woocommerce/loop/orderby.php:128
+#: woocommerce/loop/orderby.php:183
+msgid "Filter"
+msgstr "Filtro"
+
+#: dokan/store-lists-filter.php:31
+msgid "Total store showing"
+msgstr "Total de armazenamento mostrando"
+
+#: dokan/store-lists-filter.php:38 dokan/store-lists-filter.php:40
+msgid "Sort by"
+msgstr "Ordenar por"
+
+#: dokan/store-lists-filter.php:67
+msgid "Search Vendors"
+msgstr "Pesquisa De Fornecedores"
+
+#: dokan/store-lists-filter.php:76
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: dokan/store-lists-filter.php:77
+msgid "Apply"
+msgstr "Aplicar"
+
+#: dokan/store-lists-loop.php:36
+msgid "Featured"
+msgstr "Destaque"
+
+#: dokan/store-lists-loop.php:43 inc/functions/woocommerce/product-loop.php:454
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Avaliado %s out of 5"
+
+#: dokan/store-lists-loop.php:46
+#, php-format
+msgid "%s out of 5"
+msgstr "%s out of 5"
+
+#: dokan/store-lists-loop.php:78
+msgid "Visit Store"
+msgstr "Visite A Loja"
+
+#: dokan/store-lists-loop.php:100
+msgid "&larr; Previous"
+msgstr "← Anteriores"
+
+#: dokan/store-lists-loop.php:101
+msgid "Next &rarr;"
+msgstr "Ao lado →"
+
+#: dokan/store-lists-loop.php:127
+msgid "No vendor found!"
+msgstr "Nenhum fornecedor encontrado!"
+
+#: dokan/store.php:68
+msgid "No products were found of this vendor!"
+msgstr "Nenhum produto foi encontrado deste vendedor!"
+
+#: dokan/widgets/widget-content-product.php:41
+msgid "No products found"
+msgstr "Nenhum produto encontrado"
+
+#: footer.php:126
+#, php-format
+msgid "Riode eCommerce &copy; %s. All Rights Reserved"
+msgstr "Riode comã © %s. Todos Os Direitos Reservados"
+
+#: inc/action_filter/calls.php:86
+msgid "1. Shopping Cart"
+msgstr "1. Carrinho De Compras"
+
+#: inc/action_filter/calls.php:90
+msgid "2. Checkout"
+msgstr "2. Checkout"
+
+#: inc/action_filter/calls.php:94
+msgid "3. Order Complete"
+msgstr "3. A Fim De Concluir"
+
+#: inc/action_filter/calls.php:505 inc/action_filter/calls.php:518
+msgid "Error:"
+msgstr "Erro:"
+
+#: inc/action_filter/calls.php:521
+msgid "Username is required."
+msgstr "Nome de usuário é necessária."
+
+#: inc/action_filter/calls.php:551
+msgid "Login successful, redirecting..."
+msgstr "Início de sessão bem-sucedida, redirecionando..."
+
+#: inc/action_filter/calls.php:561
+msgid "Wrong username or password."
+msgstr "Errado o nome de usuário ou senha."
+
+#: inc/action_filter/calls.php:620
+msgid "Register successful, redirecting..."
+msgstr "Registo bem sucedido, redirecionando..."
+
+#: inc/action_filter/calls.php:630
+msgid "Register failed."
+msgstr "Registo falhou."
+
+#: inc/action_filter/calls.php:649 inc/general_function.php:1393
+msgid "Search your keywords..."
+msgstr "Pesquisa de palavras-chave..."
+
+#: inc/action_filter/calls.php:756
+msgid "Send"
+msgstr "Enviar"
+
+#: inc/action_filter/calls.php:850
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:226
+#: inc/admin/optimize_wizard/views/templates_load.php:27
+#: inc/admin/optimize_wizard/views/templates_load.php:55
+msgid "Name"
+msgstr "Nome"
+
+#: inc/action_filter/calls.php:851 inc/setup/theme-options.php:16
+msgid "Email"
+msgstr "E-mail"
+
+#: inc/action_filter/calls.php:857
+#: inc/plugins/importer/riode-wordpress-importer.php:478
+#: inc/plugins/importer/wordpress-importer.php:376
+msgid "Submit"
+msgstr "Enviar"
+
+#: inc/action_filter/calls.php:857
+msgid "Post Comment"
+msgstr "Postar Comentário"
+
+#: inc/add-on/breadcrumb/breadcrumb.php:119
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:40
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:95
+#: inc/setup/theme-options.php:133
+msgid "Home"
+msgstr "Casa"
+
+#: inc/add-on/breadcrumb/breadcrumb.php:184
+#, php-format
+msgid "Tag - %s"
+msgstr "Tag - %s"
+
+#: inc/add-on/breadcrumb/breadcrumb.php:187
+#, php-format
+msgid "Product Tag - %s"
+msgstr "O produto Tag - %s"
+
+#: inc/add-on/breadcrumb/breadcrumb.php:475
+#, php-format
+msgid "Search - %s"
+msgstr "De pesquisa - %s"
+
+#: inc/add-on/breadcrumb/breadcrumb.php:478
+msgid "404"
+msgstr "404"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:23
+msgid "Riode Image Change & Swatch"
+msgstr "Riode Mudança De Imagem & Swatch"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:52
+#, php-format
+msgid ""
+"Before you can add image swatch you need to add some %1$slist%2$s variation "
+"attributes on the %1$sAttributes%2$s tab."
+msgstr ""
+"Antes que você possa adicionar amostra da imagem você precisará adicionar "
+"algumas %1$slist%2$s variação de atributos no %1$sAttributes%2$s guia."
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:53
+msgid "Learn more"
+msgstr "Saiba mais"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:59
+msgid ""
+"This will replace product image with following uploaded image when attribute "
+"button is clicked."
+msgstr ""
+"Isso irá substituir a imagem do produto com a seguinte imagem carregada "
+"atributo quando o botão é clicado."
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:80
+msgid "Button Type"
+msgstr "Tipo De Botão"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:82
+#: inc/admin/customizer/option/blog/option-blog-single.php:97
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:52
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:87
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:224
+msgid "Default"
+msgstr "Padrão"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:83
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:90
+msgid "Image"
+msgstr "Imagem"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:85
+msgid "Select button type as image to show image on button."
+msgstr "Selecione o tipo de botão de imagem para mostrar a imagem no botão."
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:89
+msgid "Attribute"
+msgstr "Atributo"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:112
+msgid "Thumbnail Preview"
+msgstr "Pré-Visualização De Miniaturas"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:114
+msgid "Upload/Add image"
+msgstr "Upload/Adicionar imagem"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:115
+msgid "Remove image"
+msgstr "Remover imagem"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:129
+msgid "Expand"
+msgstr "Expanda"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:129
+msgid "Close"
+msgstr "Fechar"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:130
+#: inc/add-on/product-custom-tab/product-custom-tab-admin.php:63
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:78
+msgid "Save changes"
+msgstr "Salve as alterações"
+
+#: inc/add-on/live-search/live-search.php:66
+#: inc/add-on/live-search/live-search.php:77
+msgid "(no title)"
+msgstr "(nenhum título)"
+
+#: inc/add-on/product-custom-tab/product-custom-tab-admin.php:26
+msgid "Riode Custom Description Tab "
+msgstr "Riode Personalizado Guia Descrição "
+
+#: inc/add-on/product-custom-tab/product-custom-tab-admin.php:42
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:154
+msgid "Custom Tab Title"
+msgstr "Guia Personalizada Título"
+
+#: inc/add-on/product-custom-tab/product-custom-tab-admin.php:47
+msgid "Custom Tab Content"
+msgstr "Guia Personalizar O Conteúdo"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:26
+msgid "Riode Extra Options"
+msgstr "Riode Opções Extras"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:45
+msgid "Image Change on Hover"
+msgstr "Mudança de imagem em Foco"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:47
+msgid "Theme Option"
+msgstr "Opção De Tema"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:48
+#: inc/admin/customizer/option/menu/option-menu-labels.php:65
+msgid "Change"
+msgstr "Mudança"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:49
+msgid "Do not change"
+msgstr "Não altere"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:51
+msgid ""
+"This option determines whether second featured image is changed or not on "
+"hover event."
+msgstr ""
+"Esta opção determina se a segunda imagem de destaque é alterado ou não em "
+"foco no evento."
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:61
+msgid "Virtual Buy Time"
+msgstr "Virtual Compra"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:63
+msgid ""
+"This is Virtual Buy Time for this product. This time will be shown in sales "
+"popup until this product is really sold. Track for boost sale for unsold "
+"products."
+msgstr ""
+"Este é Virtual de Comprar Tempo para este produto. Desta vez será mostrado "
+"em vendas pop-up até que este produto é realmente vendido. Pista para "
+"impulsionar a venda para vender produtos."
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:71
+msgid "Virtual Buy Time Text"
+msgstr "Virtual Compra De Texto"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:73
+msgid ""
+"This virtual buy time text will always be shown in sales popup. Track for "
+"boost sale for this product."
+msgstr ""
+"Este buy virtual de texto em tempo sempre vai ser mostrado em vendas pop-up. "
+"Pista para impulsionar a venda para este produto."
+
+#: inc/add-on/sales-popup/sales-popup.php:46
+msgid "A While Ago"
+msgstr "Há Um Tempo Atrás"
+
+#: inc/add-on/studio/blocks-wrapper.php:12
+msgid "Template Library"
+msgstr "Modelo De Biblioteca"
+
+#: inc/add-on/studio/blocks-wrapper.php:13
+msgid "Close (Esc)"
+msgstr "Fechar (Esc)"
+
+#: inc/add-on/studio/blocks-wrapper.php:16 inc/add-on/studio/studio.php:104
+#: inc/add-on/studio/studio.php:118
+msgid "Riode Studio"
+msgstr "Riode Studio"
+
+#: inc/add-on/studio/blocks-wrapper.php:22
+#: inc/admin/setup_wizard/views/demo.php:45
+#: inc/functions/woocommerce/product-archive.php:135
+#: template_parts/posts/archive.php:54
+msgid "All"
+msgstr "Todos"
+
+#: inc/add-on/studio/blocks-wrapper.php:29
+#: inc/add-on/studio/blocks-wrapper.php:119
+msgid "Blocks"
+msgstr "Blocos"
+
+#: inc/add-on/studio/blocks-wrapper.php:87
+msgid "All in One Library"
+msgstr "Tudo em Uma Biblioteca"
+
+#: inc/add-on/studio/blocks-wrapper.php:88
+msgid "Choose any type of template from our library."
+msgstr "Escolha qualquer tipo de modelo da nossa biblioteca."
+
+#: inc/add-on/studio/blocks-wrapper.php:100
+#: inc/admin/setup_wizard/views/demo.php:62
+msgid "Select Demo"
+msgstr "Selecione Demonstração"
+
+#: inc/add-on/studio/blocks.php:14 inc/add-on/studio/blocks.php:40
+msgid "Select"
+msgstr "Selecione"
+
+#: inc/add-on/studio/blocks.php:14 inc/add-on/studio/blocks.php:40
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:46
+msgid "Import"
+msgstr "Importação"
+
+#: inc/add-on/studio/blocks.php:36
+msgid "Favourite"
+msgstr "Favoritos"
+
+#: inc/add-on/studio/studio.php:33
+msgid "Demo"
+msgstr "Demonstração"
+
+#: inc/add-on/studio/studio.php:35
+msgid "Banner"
+msgstr "Banner"
+
+#: inc/add-on/studio/studio.php:37
+msgid "Call To Action"
+msgstr "Chamada Para Ação"
+
+#: inc/add-on/studio/studio.php:41 inc/admin/setup_wizard/views/demo.php:47
+msgid "Posts"
+msgstr "Posts"
+
+#: inc/add-on/studio/studio.php:43
+msgid "Testimonial"
+msgstr "Depoimento"
+
+#: inc/add-on/studio/studio.php:45
+msgid "Other"
+msgstr "Outros"
+
+#: inc/add-on/studio/studio.php:47
+#: inc/admin/customizer/option/header/option-header.php:10
+msgid "Header"
+msgstr "Cabeçalho"
+
+#: inc/add-on/studio/studio.php:49
+#: inc/admin/customizer/option/footer/option-footer.php:13
+msgid "Footer"
+msgstr "Rodapé"
+
+#: inc/add-on/studio/studio.php:51
+msgid "Single Product"
+msgstr "Produto Único"
+
+#: inc/add-on/studio/studio.php:53
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:53
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:323
+msgid "Popup"
+msgstr "Pop-up"
+
+#: inc/add-on/studio/studio.php:57
+msgid "Favourites"
+msgstr "Favoritos"
+
+#: inc/add-on/studio/studio.php:59
+msgid "My Templates"
+msgstr "Meus Modelos"
+
+#: inc/add-on/studio/studio.php:164
+msgid "Loading failed!"
+msgstr "Carregamento falhou!"
+
+#: inc/add-on/studio/studio.php:165
+msgid "There was an error when importing block. Please try again later!"
+msgstr ""
+"Houve um erro ao importar bloco. Por favor, tente novamente mais tarde!"
+
+#: inc/add-on/studio/studio.php:166
+msgid "Coming Soon..."
+msgstr "Em Breve..."
+
+#: inc/add-on/studio/studio.php:330
+msgid "Security issue found! Please try again later."
+msgstr ""
+"Problema de segurança encontrado! Por favor, tente novamente mais tarde."
+
+#: inc/add-on/studio/studio.php:789 inc/add-on/studio/studio.php:847
+msgid "Could not connect to the API Server! Please try again later."
+msgstr ""
+"Não pôde se conectar ao Servidor de API! Por favor, tente novamente mais "
+"tarde."
+
+#: inc/admin/admin.php:47
+msgid "Theme License"
+msgstr "Tema Licença"
+
+#: inc/admin/admin.php:50 inc/admin/panel/panel.php:30
+#: inc/admin/panel/panel.php:31 inc/admin/panel/views/header.php:25
+#: inc/admin/panel/views/header.php:34
+#: inc/admin/setup_wizard/views/index.php:13
+msgid "Setup Wizard"
+msgstr "Assistente De Configuração"
+
+#: inc/admin/admin.php:53 inc/admin/panel/panel.php:37
+#: inc/admin/panel/views/header.php:18 inc/admin/setup_wizard/views/demo.php:52
+msgid "Theme Options"
+msgstr "Opções De Tema"
+
+#: inc/admin/admin.php:56 inc/admin/optimize_wizard/views/index.php:13
+#: inc/admin/panel/panel.php:41 inc/admin/panel/panel.php:42
+#: inc/admin/panel/views/header.php:31 inc/admin/panel/views/header.php:35
+msgid "Optimize Wizard"
+msgstr "Otimizar Assistente"
+
+#: inc/admin/admin.php:59 inc/admin/panel/panel.php:51
+#: inc/admin/panel/panel.php:52 inc/admin/panel/views/header.php:45
+msgid "Page Layouts"
+msgstr "Layouts De Página"
+
+#: inc/admin/admin.php:62 inc/admin/panel/panel.php:59
+#: inc/admin/panel/views/header.php:51
+msgid "Templates Builder"
+msgstr "Modelos Builder"
+
+#: inc/admin/admin.php:63 inc/admin/panel/panel.php:62
+#: inc/admin/panel/views/header.php:57
+msgid "Sidebar Manage"
+msgstr "Lateral Gerenciar"
+
+#: inc/admin/admin.php:67 inc/admin/setup_wizard/views/demo.php:147
+msgid "Activate Theme"
+msgstr "Activar Tema"
+
+#: inc/admin/admin.php:174
+msgid "Your ip address is blocked as spam!!!"
+msgstr "O seu endereço de ip é bloqueado como spam!!!"
+
+#: inc/admin/admin.php:176
+msgid "Purchase Code is not valid!!!"
+msgstr "Adquirir o Código não é válido!!!"
+
+#: inc/admin/admin.php:178
+#, php-format
+msgid "This code was already used in %s"
+msgstr "Este código já foi usado em %s"
+
+#: inc/admin/admin.php:180
+msgid "Please re-activate the theme."
+msgstr "Por favor, volte a activar o tema."
+
+#: inc/admin/admin.php:182
+msgid "Riode Theme is unregistered!"
+msgstr "Riode Tema não está registado!"
+
+#: inc/admin/admin.php:184
+msgid "Riode Theme is activated!"
+msgstr "Riode Tema é ativado!"
+
+#: inc/admin/admin.php:273
+#, php-format
+msgid ""
+"Please %s Riode theme to get access to pre-built demo websites and auto "
+"updates."
+msgstr ""
+"Por favor, %s Riode tema para obter acesso ao pré-construído demonstração de "
+"websites e atualizações automáticas."
+
+#: inc/admin/admin.php:273
+msgid "register"
+msgstr "registar"
+
+#: inc/admin/admin.php:280
+msgid "Purchase Code is not valid or could not connect to the API server!"
+msgstr ""
+"Código de compra não é válida ou não pode se conectar ao servidor de API!"
+
+#: inc/admin/admin.php:298
+msgid "View Details"
+msgstr "Ver Detalhes"
+
+#: inc/admin/admin.php:320
+#, php-format
+msgid ""
+"Please %1$sregister%2$s riode theme to get access to pre-built demo websites "
+"and auto updates."
+msgstr ""
+"Por favor, %1$sregister%2$s riode tema para obter acesso ao pré-construído "
+"demonstração de websites e atualizações automáticas."
+
+#: inc/admin/admin.php:322
+#, php-format
+msgid ""
+"%1$s Important! %2$s One %3$s standard license %4$s is valid for only %1$s1 "
+"website%2$s. Running multiple websites on a single license is a copyright "
+"violation."
+msgstr ""
+"%1$s Importante! %2$s %3$s licença padrão %4$s é válida apenas para %1$s1 "
+"site de%2$s. Executando vários sites em uma única licença é uma violação de "
+"direitos autorais."
+
+#: inc/admin/admin.php:323
+msgid "Dismiss this notice."
+msgstr "Fechar este aviso."
+
+#: inc/admin/admin.php:354
+#, php-format
+msgid "Please %1$sverify purchase%2$s to get updates!"
+msgstr "Por favor, %1$sverify compra de%2$s para obter atualizações!"
+
+#: inc/admin/admin.php:373
+msgid ""
+"There is a problem contacting to the Riode API server. Please try again "
+"later."
+msgstr ""
+"Há um problema contactando para o Riode de servidor de API. Por favor, tente "
+"novamente mais tarde."
+
+#: inc/admin/customizer/customizer.php:415
+msgid "Navigator"
+msgstr "Navigator"
+
+#: inc/admin/customizer/option/404/option-404.php:22
+msgid "Eror 404 Page"
+msgstr "Eror Página 404"
+
+#: inc/admin/customizer/option/404/option-404.php:28
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:171
+msgid "Select Block"
+msgstr "Selecione Bloco De"
+
+#: inc/admin/customizer/option/404/option-404.php:37
+msgid "404 Block"
+msgstr "404 Bloco"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:10
+msgid "Theme Features"
+msgstr "Tema Recursos"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:22
+msgid "Riode Features"
+msgstr "Riode Recursos"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:33
+msgid "Image LazyLoad"
+msgstr "Imagem LazyLoad"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:35
+msgid "All images will be lazyloaded."
+msgstr "Todas as imagens serão lazyloaded."
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:46
+msgid "Lazyload Image Initial Color"
+msgstr "Lazyload Imagem Da Cor Inicial"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:68
+msgid "Menu Lazyload"
+msgstr "Menu Lazyload"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:70
+msgid ""
+"Menus will be lazyloaded. They will be saved in clients' local storages for "
+"faster performance, and they will be updated when menu has been changed."
+msgstr ""
+"Menus serão lazyloaded. Eles serão guardados em clientes locais de "
+"armazenamentos para um desempenho mais rápido, e eles serão atualizados "
+"quando o menu tiver sido alterado."
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:81
+msgid "Live Search"
+msgstr "O Live Search"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:82
+msgid ""
+"Search boxes will show instant, quick and live search results in below "
+"dropdown."
+msgstr ""
+"Caixas de pesquisa irá mostrar instantânea, rápida e viver resultados de "
+"pesquisa abaixo suspensa."
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:94
+#: inc/admin/optimize_wizard/views/lazyload.php:21
+msgid "Skeleton Screen"
+msgstr "Esqueleto Tela"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:95
+msgid ""
+"Beautiful skeleton screen will appear instead of preloading icon in all "
+"archive pages, single pages, quickview popup and any other ajax loading."
+msgstr ""
+"Belo esqueleto de tela será exibido em vez de pré-carregamento ícone em "
+"todas as páginas de arquivo, páginas simples, quickview pop-up e qualquer "
+"outro carregamento ajax."
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:96
+msgid ""
+"NOTE: If you face into js compatibility problems with some plugins like "
+"dokan pro, please disable this feature."
+msgstr ""
+"NOTA: Se você enfrentar em js problemas de compatibilidade com alguns "
+"plugins como o dokan pro, por favor, desative esse recurso."
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:108
+msgid "Social Login"
+msgstr "O Social Login"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:109
+msgid "Please activate Nextend Social Login plugin and enable social links."
+msgstr ""
+"Por favor, ative Nextend Social plugin Login e permitir ligações sociais."
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:122
+msgid "Riode Starter Guides"
+msgstr "Riode Guias De Iniciação"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:133
+msgid "Show Elementor Guide"
+msgstr "Mostrar Elementor Guia"
+
+#: inc/admin/customizer/option/advanced/option-advanced-image.php:10
+#: inc/admin/customizer/option/advanced/option-advanced-image.php:22
+msgid "Image Size"
+msgstr "Tamanho Da Imagem"
+
+#: inc/admin/customizer/option/advanced/option-advanced-image.php:36
+msgid ""
+"Do you need a custom image size? Please input width and height to register "
+"new size. Do not forget to regenerate previously uploaded images."
+msgstr ""
+"Você precisa personalizar o tamanho da imagem? Por favor, insira a largura e "
+"a altura para registrar o novo tamanho. Não se esqueça de regenerar "
+"previamente carregados de imagens."
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:10
+msgid "Import/Export/Reset"
+msgstr "Importação/Exportação/Reset"
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:22
+msgid "Import/Export Options"
+msgstr "Opções De Importação/Exportação"
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:33
+msgid "Please select source option file to import"
+msgstr "Por favor, selecione a opção fonte de arquivo para importação"
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:57
+msgid "Export theme options"
+msgstr "Exportação de opções de tema"
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:57
+msgid "Download Theme Options"
+msgstr "Download Opções De Tema"
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:68
+msgid "Reset Options"
+msgstr "Opções De Reposição"
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:80
+msgid "Please click below button to reset options."
+msgstr "Por favor, clique em botão abaixo para opções de reposição."
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:80
+msgid "Reset Theme Options"
+msgstr "Redefinir Opções De Tema"
+
+#: inc/admin/customizer/option/advanced/option-advanced.php:10
+msgid "Advanced"
+msgstr "Avançado"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:10
+msgid "Blog Page"
+msgstr "Página Do Blog"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:22
+msgid "Blog Archive"
+msgstr "Arquivo Do Blog"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:32
+msgid "Posts Grid"
+msgstr "Postos De Grade"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:35
+msgid "Grid"
+msgstr "Grade"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:36
+msgid "Masonry"
+msgstr "Alvenaria"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:49
+msgid "Posts per row"
+msgstr "Posts por linha"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:50
+msgid "How many posts should be shown per row?"
+msgstr "Quantos posts deve ser mostrado por linha?"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:66
+msgid "Show Category Filter"
+msgstr "Mostrar Filtro De Categoria"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:67
+msgid "Show post category filter on top of post archive page."
+msgstr "Show de post filtro de categoria no topo do post de página de arquivo."
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:79
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:181
+msgid "Load More Type"
+msgstr "Carregar Mais Tipo"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:80
+msgid "Select method to load more posts."
+msgstr "Selecione o método para carregar mais publicações."
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:97
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:199
+msgid "Loadmore Button Text"
+msgstr "Loadmore Texto Do Botão"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:98
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:200
+msgid "Input loadmore button label."
+msgstr "Entrada loadmore o rótulo do botão."
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:10
+#: inc/admin/customizer/option/blog/option-blog-post.php:21
+#: inc/admin/customizer/option/blog/option-blog-post.php:31
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:54
+msgid "Post Type"
+msgstr "Tipo De Pós -"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:50
+msgid "Post Overlay"
+msgstr "Post Sobreposição"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:52
+msgid "Select image overlay effect when mouse is over."
+msgstr "Selecione a sobreposição de imagem efeito quando o mouse está sobre."
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:55
+#: inc/admin/customizer/option/footer/option-footer-general.php:38
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:113
+msgid "Light"
+msgstr "Luz"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:56
+#: inc/admin/customizer/option/footer/option-footer-general.php:37
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:114
+#: inc/setup/theme-setup.php:136
+msgid "Dark"
+msgstr "Escuro"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:57
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:115
+msgid "Zoom"
+msgstr "Zoom"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:58
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:116
+msgid "Zoom and Light"
+msgstr "Zoom e Luz"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:59
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:117
+msgid "Zoom and Dark"
+msgstr "O Zoom e o Escuro"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:71
+msgid "Show Date-Box on Image"
+msgstr "Mostrar Data-Caixa de Imagem"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:83
+msgid "Excerpt Limit By"
+msgstr "Trecho Do Limite De"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:86
+msgid "Word"
+msgstr "Palavra"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:87
+msgid "Letter"
+msgstr "Letra"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:99
+msgid "Excerpt Limit"
+msgstr "Trecho Do Limite"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:10
+msgid "Post Detail Page"
+msgstr "Post Da Página De Detalhes"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:21
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:202
+msgid "Showing Information"
+msgstr "Mostrar Informações"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:32
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:212
+msgid "Items to show"
+msgstr "Itens para mostrar"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:33
+msgid "Check items to show in single post page"
+msgstr "Verifique itens para mostrar em uma única página de postagem"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:36
+msgid "Media"
+msgstr "Media"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:37
+msgid "Meta Information"
+msgstr "Informações De Meta"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:38
+msgid "Post Content"
+msgstr "A Postagem De Conteúdo"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:39
+msgid "Author Box"
+msgstr "Autor Caixa"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:40
+msgid "Tag List"
+msgstr "Lista De Tags"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:41
+msgid "Share Options"
+msgstr "Opções De Compartilhamento"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:42
+msgid "Prev and Next Navigation"
+msgstr "Prev e Next Navegação"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:43
+#: inc/admin/customizer/option/blog/option-blog-single.php:55
+#: template_parts/posts/elements/post-related.php:28
+msgid "Related Posts"
+msgstr "Posts Relacionados"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:66
+msgid "Count of Related Posts"
+msgstr "Contagem de Posts Relacionados"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:78
+msgid "Related Posts per Row"
+msgstr "Posts relacionados por Linha"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:93
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:220
+msgid "Order By"
+msgstr "Ordem"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:98
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:225
+msgid "ID"
+msgstr "ID"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:99
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:22
+msgid "Title"
+msgstr "Título"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:100
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:227
+msgid "Date"
+msgstr "Data"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:101
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:228
+msgid "Modified"
+msgstr "Modificado"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:102
+msgid "Author"
+msgstr "Autor"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:103
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:232
+msgid "Comment count"
+msgstr "A quantidade de comentários"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:114
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:245
+msgid "Order Way"
+msgstr "Ordem De Forma"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:118
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:249
+msgid "Descending"
+msgstr "Descendente"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:119
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:250
+msgid "Ascending"
+msgstr "Crescente"
+
+#: inc/admin/customizer/option/blog/option-blog.php:10
+msgid "Blog"
+msgstr "Blog"
+
+#: inc/admin/customizer/option/custom/option-custom.php:10
+msgid "Custom CSS & JS"
+msgstr "CSS personalizado & JS"
+
+#: inc/admin/customizer/option/custom/option-custom.php:21
+msgid "CSS code"
+msgstr "Código CSS"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:10
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:33
+msgid "Footer Bottom"
+msgstr "Rodapé Inferior"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:22
+#: inc/admin/customizer/option/footer/option-footer-main.php:22
+#: inc/admin/customizer/option/footer/option-footer-top.php:22
+#, php-format
+msgid "Below options will %1$snot%2$s be applied to %1$sfooter builders%2$s."
+msgstr ""
+"Abaixo das opções de %1$ranho%2$s ser aplicada para %1$sfooter construtores "
+"de%2$s."
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:44
+#: inc/admin/customizer/option/footer/option-footer-main.php:44
+#: inc/admin/customizer/option/footer/option-footer-top.php:44
+msgid "Wrap"
+msgstr "Enrole"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:48
+#: inc/admin/customizer/option/footer/option-footer-main.php:48
+#: inc/admin/customizer/option/footer/option-footer-top.php:48
+msgid "Container"
+msgstr "Contentor"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:49
+#: inc/admin/customizer/option/footer/option-footer-main.php:49
+#: inc/admin/customizer/option/footer/option-footer-top.php:49
+msgid "Container Fluid"
+msgstr "Recipiente De Fluido"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:50
+#: inc/admin/customizer/option/footer/option-footer-main.php:50
+#: inc/admin/customizer/option/footer/option-footer-top.php:50
+#: inc/admin/customizer/option/general/option-general.php:37
+msgid "Full"
+msgstr "Completo"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:61
+#: inc/admin/customizer/option/footer/option-footer-main.php:61
+#: inc/admin/customizer/option/footer/option-footer-top.php:61
+msgid "Widget Layout"
+msgstr "Widget De Layout"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:62
+#: inc/admin/customizer/option/footer/option-footer-main.php:62
+#: inc/admin/customizer/option/footer/option-footer-top.php:62
+msgid ""
+"Input \"+\" separated grid items ( e.g. 1/4 + 3/4 ). Empty Value will "
+"justify widgets with \"space-between\" property."
+msgstr ""
+"Entrada \"+\" separados grade de itens ( e.g. 1/4 + 3/4 ). Valor vazio "
+"justifica widgets com o \"espaço-entre\" propriedade."
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:74
+msgid "Footer Bottom Padding(px)"
+msgstr "Rodapé Inferior Preenchimento(px)"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:86
+msgid "Add Divider to Footer Bottom"
+msgstr "Adicionar Divisor para o Rodapé Inferior"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:98
+#: inc/admin/customizer/option/footer/option-footer-main.php:98
+#: inc/admin/customizer/option/footer/option-footer-top.php:98
+msgid "You can change divider color in"
+msgstr "Você pode alterar divisor de cor em"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:98
+#: inc/admin/customizer/option/footer/option-footer-main.php:98
+#: inc/admin/customizer/option/footer/option-footer-top.php:98
+msgid "Footer/General"
+msgstr "Rodapé/Geral"
+
+#: inc/admin/customizer/option/footer/option-footer-builder.php:10
+#: inc/admin/customizer/option/footer/option-footer-builder.php:22
+msgid "Footer Builder"
+msgstr "Rodapé Builder"
+
+#: inc/admin/customizer/option/footer/option-footer-builder.php:22
+msgid "There are 2 methods to build your footer."
+msgstr "Existem 2 métodos para criar seu rodapé."
+
+#: inc/admin/customizer/option/footer/option-footer-builder.php:22
+#, php-format
+msgid ""
+"1. Complete your footer by drag and drop widgets to %1$sWidget Areas%2$s. "
+"(Classic Footer)"
+msgstr ""
+"1. Complete o seu rodapé, através do método arrastar e largar widgets para "
+"%1$sWidget Áreas de%2$s. (Clássico De Rodapé)"
+
+#: inc/admin/customizer/option/footer/option-footer-builder.php:22
+#, php-format
+msgid ""
+"2. Create your footer with %1$sFooter Builder%2$s and show it in %3$sLayout "
+"Dashboard%4$s."
+msgstr ""
+"2. Crie o seu rodapé com o %1$sFooter Construtor de%2$s e mostrá-la em "
+"%3$sLayout Dashboard%4$s."
+
+#: inc/admin/customizer/option/footer/option-footer-builder.php:22
+msgid "Classic Footer"
+msgstr "Clássico Rodapé"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:10
+#: inc/admin/customizer/option/general/option-general.php:11
+msgid "General"
+msgstr "Geral"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:22
+#: inc/admin/customizer/option/footer/option-footer-general.php:33
+msgid "Footer Skin"
+msgstr "Rodapé De Pele"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:49
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:48
+msgid "Background"
+msgstr "Fundo"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:61
+msgid "Link color"
+msgstr "Cor de Link"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:73
+msgid "Link Hover color"
+msgstr "Link Hover cor"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:85
+msgid "Divider color"
+msgstr "Divisor de cor"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:98
+msgid "Scroll To Top Button"
+msgstr "Desloque-Se Para Cima Botão"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:109
+msgid "Button Size"
+msgstr "O Tamanho Do Botão"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:127
+msgid "Button Position"
+msgstr "Posição Do Botão"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:131
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:150
+msgid "Left"
+msgstr "Esquerda"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:132
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:152
+msgid "Right"
+msgstr "Direito"
+
+#: inc/admin/customizer/option/footer/option-footer-main.php:10
+#: inc/admin/customizer/option/footer/option-footer-main.php:33
+msgid "Footer Main"
+msgstr "Rodapé Principal"
+
+#: inc/admin/customizer/option/footer/option-footer-main.php:74
+msgid "Footer Main Padding(px)"
+msgstr "Rodapé Principal de Preenchimento(px)"
+
+#: inc/admin/customizer/option/footer/option-footer-main.php:86
+msgid "Add Divider to Footer Main"
+msgstr "Adicionar Divisor para o Rodapé Principal"
+
+#: inc/admin/customizer/option/footer/option-footer-top.php:10
+#: inc/admin/customizer/option/footer/option-footer-top.php:33
+msgid "Footer Top"
+msgstr "Rodapé Superior"
+
+#: inc/admin/customizer/option/footer/option-footer-top.php:74
+msgid "Footer Top Padding(px)"
+msgstr "Rodapé Superior de Preenchimento(px)"
+
+#: inc/admin/customizer/option/footer/option-footer-top.php:86
+msgid "Add Divider to Footer Top"
+msgstr "Adicionar Divisor para o Rodapé Topo"
+
+#: inc/admin/customizer/option/footer/option-footer-typography.php:10
+#: inc/admin/customizer/option/style/option-style-typography.php:10
+msgid "Typography"
+msgstr "Tipografia"
+
+#: inc/admin/customizer/option/footer/option-footer-typography.php:22
+msgid "Footer Typography"
+msgstr "Rodapé Tipografia"
+
+#: inc/admin/customizer/option/footer/option-footer-typography.php:33
+msgid "Footer Base"
+msgstr "Rodapé Da Base De Dados"
+
+#: inc/admin/customizer/option/footer/option-footer-typography.php:45
+msgid "Widget Title"
+msgstr "Widget Título"
+
+#: inc/admin/customizer/option/footer/option-footer-typography.php:57
+msgid "Widget"
+msgstr "Widget"
+
+#: inc/admin/customizer/option/general/option-general.php:23
+msgid "General Settings"
+msgstr "Definições Gerais"
+
+#: inc/admin/customizer/option/general/option-general.php:33
+msgid "Site Type"
+msgstr "O Tipo De Site"
+
+#: inc/admin/customizer/option/general/option-general.php:38
+msgid "Boxed"
+msgstr "Embalado"
+
+#: inc/admin/customizer/option/general/option-general.php:39
+msgid "Framed"
+msgstr "Emoldurado"
+
+#: inc/admin/customizer/option/general/option-general.php:50
+msgid "Box/Frame Width (px)"
+msgstr "Caixa/Largura da Moldura (px)"
+
+#: inc/admin/customizer/option/general/option-general.php:69
+msgid "Box/Frame Gap (px)"
+msgstr "Caixa/Frame Gap (px)"
+
+#: inc/admin/customizer/option/general/option-general.php:88
+msgid "Screen Background"
+msgstr "Plano De Fundo De Tela"
+
+#: inc/admin/customizer/option/general/option-general.php:89
+msgid "Change background of outside the frame."
+msgstr "Alterar o plano de fundo do lado de fora da moldura."
+
+#: inc/admin/customizer/option/general/option-general.php:108
+msgid "Content Background"
+msgstr "Conteúdo Do Plano De Fundo"
+
+#: inc/admin/customizer/option/general/option-general.php:121
+msgid "Site Content"
+msgstr "O Conteúdo Do Site"
+
+#: inc/admin/customizer/option/general/option-general.php:131
+msgid "Container Width (px)"
+msgstr "Largura do recipiente (px)"
+
+#: inc/admin/customizer/option/general/option-general.php:143
+msgid "Container Fluid Width (px)"
+msgstr "Recipiente de Fluido de Largura (px)"
+
+#: inc/admin/customizer/option/general/option-general.php:155
+msgid "Grid Gutter Size (px)"
+msgstr "Grelha de Calha de Tamanho (px)"
+
+#: inc/admin/customizer/option/general/option-general.php:156
+msgid "This gutter is the space between columns."
+msgstr "Este sarjeta é o espaço entre as colunas."
+
+#: inc/admin/customizer/option/general/option-general.php:168
+msgid "Grid Gutter Large Size (px)"
+msgstr "Grelha de Calha de Tamanho Grande (px)"
+
+#: inc/admin/customizer/option/general/option-general.php:180
+msgid "Grid Gutter Small Size (px)"
+msgstr "Grelha de Calha de Tamanho Pequeno (px)"
+
+#: inc/admin/customizer/option/header/option-header-builder.php:10
+#: inc/admin/customizer/option/header/option-header-builder.php:22
+msgid "Header Builder"
+msgstr "Cabeçalho Builder"
+
+#: inc/admin/customizer/option/header/option-header-builder.php:22
+msgid "Create your header with Header Builder and show it in Layout Dashboard"
+msgstr ""
+"Crie o seu cabeçalho o Cabeçalho de Construtor e mostrá-lo no Layout de "
+"Painel"
+
+#: inc/admin/customizer/option/header/option-header-builder.php:22
+msgid "Layout Dashboard"
+msgstr "Layout Do Painel"
+
+#: inc/admin/customizer/option/header/option-header-typography.php:10
+msgid "Header Style"
+msgstr "Estilo Do Cabeçalho"
+
+#: inc/admin/customizer/option/header/option-header-typography.php:22
+#: inc/admin/customizer/option/header/option-header-typography.php:33
+msgid "Header Typography"
+msgstr "Cabeçalho De Tipografia"
+
+#: inc/admin/customizer/option/header/option-header-typography.php:45
+msgid "Hover Color"
+msgstr "Passe O Mouse A Cor"
+
+#: inc/admin/customizer/option/header/option-header-typography.php:58
+msgid "Header Bakcground"
+msgstr "Cabeçalho Bakcground"
+
+#: inc/admin/customizer/option/header/option-header-typography.php:69
+msgid "Header Background"
+msgstr "Fundo Do Cabeçalho"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:10
+#: inc/admin/customizer/option/menu/option-menu-labels.php:23
+#: inc/admin/customizer/option/menu/option-menu-labels.php:35
+#: inc/admin/customizer/option/menu/option-menu-labels.php:45
+msgid "Menu Labels"
+msgstr "Menu De Etiquetas"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:24
+msgid ""
+"Please change or remove registered labels. You could select menu labels "
+"while you are editing menus."
+msgstr ""
+"Por favor, alterar ou remover registrado rótulos. Você pode selecionar o "
+"menu de etiquetas durante a edição de menus."
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:60
+msgid "Label Text to Change"
+msgstr "Etiqueta de Texto para Alterar"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:62
+msgid "Label Background Color to Change"
+msgstr "Etiqueta de Cor de plano de Fundo para Alterar"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:66
+#: woocommerce/compare.php:138 woocommerce/wishlist-view.php:245
+msgid "Remove"
+msgstr "Remover"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:92
+msgid "New Label"
+msgstr "Novo Rótulo"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:93
+msgid "Please input label text and color to register new one."
+msgstr "Por favor, insira a etiqueta de texto e cor para registrar um novo."
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:102
+msgid "Input Label Text"
+msgstr "Rótulo De Entrada De Texto"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:104
+msgid "Choose Label Background Color"
+msgstr "Escolha O Rótulo De Cor De Plano De Fundo"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:107
+msgid "Add"
+msgstr "Adicionar"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:10
+msgid "Mobile Sticky Icon Bar"
+msgstr "Móveis Pegajoso Ícone Da Barra De"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:23
+msgid "Mobile Icon Bar"
+msgstr "Móveis Ícone Da Barra De"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:34
+msgid "Mobile Bar Icons"
+msgstr "Móvel Bar Icons"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:37
+msgid "Select items to show in mobile sticky bottom bar."
+msgstr "Selecione itens para mostrar móvel pegajoso barra inferior."
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:39
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:59
+msgid "Mobile Menu Toggle"
+msgstr "Móveis Menu Toggle"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:41
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:131
+msgid "Shop"
+msgstr "Loja"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:42
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:167
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:223
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:276
+#: inc/setup/theme-options.php:137
+#: template_parts/header/elements/element-wishlist.php:19
+msgid "Wishlist"
+msgstr "Lista de desejos"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:43
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:221
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:274
+#: inc/functions/woocommerce/product-loop.php:553
+#: inc/setup/theme-options.php:139
+msgid "Compare"
+msgstr "Compare"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:44
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:203
+#: inc/setup/theme-options.php:141
+msgid "Account"
+msgstr "Conta"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:45
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:239
+#: inc/setup/theme-options.php:143
+msgid "Cart"
+msgstr "Carrinho"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:46
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:275
+#: inc/setup/theme-options.php:145
+msgid "Search"
+msgstr "Procura"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:47
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:311
+#: inc/setup/theme-options.php:147
+msgid "To Top"
+msgstr "Para O Topo"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:70
+msgid "Menu Label"
+msgstr "Etiqueta Menu"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:82
+msgid "Menu Icon"
+msgstr "Ícone De Menu"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:106
+msgid "Home Label"
+msgstr "Casa Rótulo"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:118
+msgid "Home Icon"
+msgstr "Ícone Home"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:142
+msgid "Shop Label"
+msgstr "Loja De Etiqueta"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:154
+msgid "Shop Icon"
+msgstr "Ícone De Loja"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:178
+msgid "Wishlist Label"
+msgstr "Lista De Desejos Rótulo"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:190
+msgid "Wishlist Icon"
+msgstr "Lista De Desejos Ícone"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:214
+msgid "Account Label"
+msgstr "Rótulo De Conta"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:226
+msgid "Account Icon"
+msgstr "Ícone De Conta"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:250
+msgid "Cart Label"
+msgstr "Carrinho De Etiqueta"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:262
+msgid "Cart Icon"
+msgstr "Ícone Do Seu Carrinho"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:286
+msgid "Search Label"
+msgstr "Etiqueta De Pesquisa"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:298
+msgid "Search Icon"
+msgstr "Ícone De Pesquisa"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:322
+msgid "To Top Label"
+msgstr "A Etiqueta Na Parte Superior"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:334
+msgid "To Top Icon"
+msgstr "A Parte Superior Do Ícone"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:10
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:23
+msgid "Mobile Menu"
+msgstr "Móveis De Menu"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:40
+msgid "Mobile Menus"
+msgstr "Móveis Menus"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:43
+msgid "Select which menus you want show in mobile menu."
+msgstr "Selecione menus que você deseja mostrar em móveis de menu."
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:54
+msgid "Mobile Menus Arrange"
+msgstr "Móveis Menus Organizar"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:57
+msgid "How would you like to arrange several menus?"
+msgstr "Como você gostaria de organizar vários menus?"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:59
+msgid "Following"
+msgstr "Seguinte"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:60
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:105
+msgid "Tab"
+msgstr "Guia"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:10
+#: inc/admin/customizer/option/menu/option-menu-skin.php:22
+msgid "Menu Skins"
+msgstr "Menu De Peles"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:23
+msgid ""
+"Change styles of below 3 supported menu skins and assign to different menus."
+msgstr ""
+"Alterar estilos de níveis inferiores a 3 edições do menu de peles e atribuir "
+"aos menus diferentes."
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:36
+#: inc/admin/customizer/option/menu/option-menu-skin.php:50
+msgid "Skin 1"
+msgstr "Pele 1"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:37
+#: inc/admin/customizer/option/menu/option-menu-skin.php:481
+msgid "Skin 2"
+msgstr "Pele 2"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:38
+#: inc/admin/customizer/option/menu/option-menu-skin.php:912
+msgid "Skin 3"
+msgstr "Pele 3"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:70
+#: inc/admin/customizer/option/menu/option-menu-skin.php:501
+#: inc/admin/customizer/option/menu/option-menu-skin.php:932
+msgid "Ancestor"
+msgstr "Ancestral"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:71
+#: inc/admin/customizer/option/menu/option-menu-skin.php:502
+#: inc/admin/customizer/option/menu/option-menu-skin.php:933
+msgid "Content"
+msgstr "Conteúdo"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:72
+#: inc/admin/customizer/option/menu/option-menu-skin.php:503
+#: inc/admin/customizer/option/menu/option-menu-skin.php:934
+msgid "Toggle"
+msgstr "Alternância"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:90
+#: inc/admin/customizer/option/menu/option-menu-skin.php:521
+#: inc/admin/customizer/option/menu/option-menu-skin.php:952
+msgid "Ancestor Typography"
+msgstr "Ancestral Tipografia"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:92
+#: inc/admin/customizer/option/menu/option-menu-skin.php:523
+#: inc/admin/customizer/option/menu/option-menu-skin.php:954
+msgid ""
+"Menu ancestors are top-level menu items, which can have submenus and "
+"megamenus."
+msgstr ""
+"Menu antepassados são de nível superior do menu de itens, o que pode ter "
+"submenus e megamenus."
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:115
+#: inc/admin/customizer/option/menu/option-menu-skin.php:546
+#: inc/admin/customizer/option/menu/option-menu-skin.php:977
+msgid "Ancestor Gap Space (px)"
+msgstr "Ancestral Espaço (px)"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:139
+#: inc/admin/customizer/option/menu/option-menu-skin.php:570
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1001
+msgid "Ancestor Padding(px)"
+msgstr "Ancestral de Preenchimento(px)"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:163
+#: inc/admin/customizer/option/menu/option-menu-skin.php:594
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1025
+msgid "Ancestor Background"
+msgstr "Antepassado Do Plano De Fundo"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:190
+#: inc/admin/customizer/option/menu/option-menu-skin.php:621
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1052
+msgid "Ancestor Hover Background"
+msgstr "Ancestral Foco Do Plano De Fundo"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:217
+#: inc/admin/customizer/option/menu/option-menu-skin.php:648
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1079
+msgid "Ancestor Hover Color"
+msgstr "Ancestral Passe A Cor"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:244
+#: inc/admin/customizer/option/menu/option-menu-skin.php:675
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1106
+msgid "Content Typography"
+msgstr "Conteúdo Tipografia"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:246
+#: inc/admin/customizer/option/menu/option-menu-skin.php:677
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1108
+msgid "Please change style of submenus or megamenus"
+msgstr "Por favor, altere o estilo de submenus ou megamenus"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:269
+#: inc/admin/customizer/option/menu/option-menu-skin.php:700
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1131
+msgid "Menu Content Background"
+msgstr "Menu De Conteúdo Do Plano De Fundo"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:296
+#: inc/admin/customizer/option/menu/option-menu-skin.php:727
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1158
+msgid "Menu Item Hover Background"
+msgstr "Item De Menu Hover Fundo"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:323
+#: inc/admin/customizer/option/menu/option-menu-skin.php:754
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1185
+msgid "Menu Item Hover Color"
+msgstr "Item De Menu Cor Temporária"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:350
+#: inc/admin/customizer/option/menu/option-menu-skin.php:781
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1212
+msgid "Toggle Typography"
+msgstr "Alternar Tipografia"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:351
+#: inc/admin/customizer/option/menu/option-menu-skin.php:782
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1213
+msgid "Please change menu toggle's style in toggle-type menus."
+msgstr "Por favor, altere o menu toggle estilo de alternar o tipo de menus."
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:375
+#: inc/admin/customizer/option/menu/option-menu-skin.php:806
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1237
+msgid "Toggle Padding(px)"
+msgstr "Alternância de Preenchimento(px)"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:399
+#: inc/admin/customizer/option/menu/option-menu-skin.php:830
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1261
+msgid "Toggle Background"
+msgstr "Alternância De Fundo"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:426
+#: inc/admin/customizer/option/menu/option-menu-skin.php:857
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1288
+msgid "Toggle Hover Background"
+msgstr "Alternar O Foco Do Plano De Fundo"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:453
+#: inc/admin/customizer/option/menu/option-menu-skin.php:884
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1315
+msgid "Toggle Hover Color"
+msgstr "Alternar O Foco De Cor"
+
+#: inc/admin/customizer/option/menu/option-menu.php:10
+msgid "Menus"
+msgstr "Menus"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-config.php:10
+msgid "PTB Config"
+msgstr "PTB Config"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-config.php:21
+msgid "PTB Type"
+msgstr "PTB Tipo de"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-config.php:39
+msgid "Show Page Title"
+msgstr "Mostrar Título Da Página"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-config.php:51
+msgid "Show Page Subtitle"
+msgstr "Mostrar A Página De Legendas"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-config.php:63
+msgid "Show Breadcrumb"
+msgstr "Show De Trilha"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:10
+msgid "PTB Style"
+msgstr "PTB Estilo"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:22
+msgid "Title Bar Style"
+msgstr "Estilo De Barra De Título"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:33
+msgid "Title Bar Height (px)"
+msgstr "Barra de título Altura (px)"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:61
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:58
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:69
+msgid "Breadcrumb"
+msgstr "Breadcrumb"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:72
+msgid "Show Home Icon"
+msgstr "Mostrar Ícone Home"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:73
+msgid "Do you want to show home icon instead of home link?"
+msgstr "Você quer mostrar ícone em vez de home link?"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:85
+msgid "Breadcrumb Delimiter"
+msgstr "Trilha Delimitador"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:86
+msgid "Please input delimiter text between breadcrumb links"
+msgstr "Por favor, introduza o delimitador de texto entre links de trilha"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:98
+msgid "Use Icon for Delimiter"
+msgstr "Use o Ícone para Delimitador"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:110
+msgid "Delimiter Icon"
+msgstr "Delimitador De Ícone"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:111
+msgid "Please input icon class for delimiter symbol"
+msgstr "Por favor, introduza o ícone de classe para o símbolo delimitador de"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:10
+msgid "PTB Typography"
+msgstr "PTB Tipografia"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:33
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:233
+msgid "Page Title"
+msgstr "Título Da Página"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:45
+msgid "Page Subtitle"
+msgstr "Página De Legendas"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb.php:13
+msgid "Page Title Bar"
+msgstr "Página De Título A Barra De"
+
+#: inc/admin/customizer/option/share/option-share.php:15
+msgid "Share"
+msgstr "Compartilhar"
+
+#: inc/admin/customizer/option/share/option-share.php:27
+#: inc/admin/customizer/option/share/option-share.php:105
+msgid "Share Icons"
+msgstr "Ícones De Compartilhamento"
+
+#: inc/admin/customizer/option/share/option-share.php:39
+#, php-format
+msgid ""
+"Please change options for %1$ssocial share buttons%2$s in single product and "
+"post page."
+msgstr ""
+"Por favor, alterar opções para %1$ssocial botões de compartilhamento%2$s no "
+"produto único e página de postagem."
+
+#: inc/admin/customizer/option/share/option-share.php:50
+msgid "Share Icon Type"
+msgstr "Ícone De Compartilhamento De Tipo"
+
+#: inc/admin/customizer/option/share/option-share.php:68
+msgid "Use Custom Color"
+msgstr "O Uso De Cores Personalizado"
+
+#: inc/admin/customizer/option/share/option-share.php:80
+#: inc/admin/customizer/option/style/option-style-color.php:10
+msgid "Color"
+msgstr "Cor"
+
+#: inc/admin/customizer/option/style/option-style-color.php:22
+msgid "Colors"
+msgstr "Cores"
+
+#: inc/admin/customizer/option/style/option-style-color.php:32
+msgid "Primary Color"
+msgstr "Cor Primária"
+
+#: inc/admin/customizer/option/style/option-style-color.php:47
+msgid "Secondary Color"
+msgstr "Cor Secundária"
+
+#: inc/admin/customizer/option/style/option-style-color.php:62
+msgid "Alert Color"
+msgstr "Alerta De Cor"
+
+#: inc/admin/customizer/option/style/option-style-color.php:77
+msgid "Success Color"
+msgstr "Sucesso Cor"
+
+#: inc/admin/customizer/option/style/option-style-color.php:92
+msgid "Dark Color"
+msgstr "Cor Escura"
+
+#: inc/admin/customizer/option/style/option-style-color.php:107
+msgid "Light Color"
+msgstr "Cor Da Luz"
+
+#: inc/admin/customizer/option/style/option-style-skin.php:10
+msgid "Skin"
+msgstr "Pele"
+
+#: inc/admin/customizer/option/style/option-style-skin.php:21
+msgid "Enable Rounded Border"
+msgstr "Activar Arredondado Fronteira"
+
+#: inc/admin/customizer/option/style/option-style-skin.php:23
+msgid ""
+"All buttons, images and borders will have border-radius value by default. "
+"Product image is an exception."
+msgstr ""
+"Todos os botões, imagens e fronteiras border-radius valor por padrão. Imagem "
+"do produto é uma exceção."
+
+#: inc/admin/customizer/option/style/option-style-typography.php:21
+#, php-format
+msgid ""
+"You can set header and footer typography in %1$sHeader/Header "
+"General%2$sFooter/Typography%3$s Section"
+msgstr ""
+"Você pode definir cabeçalho e rodapé tipografia no %1$sHeader "
+"Cabeçalho/Geral%2$sFooter/Tipografia%3$s Seção"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:31
+msgid "Default Typography"
+msgstr "Padrão De Tipografia"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:53
+msgid "Heading Typography"
+msgstr "Título Tipografia"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:75
+msgid "Custom Google Fonts"
+msgstr "Google Personalizado Fontes"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:85
+msgid "Select other google fonts to download"
+msgstr "Selecione outras fontes do google para baixar"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:98
+msgid "Custom 1"
+msgstr "Personalizado 1"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:99
+msgid "Custom 2"
+msgstr "Personalizado 2"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:100
+msgid "Custom 3"
+msgstr "Personalizado 3"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:111
+msgid "Custom Font 1"
+msgstr "Tipo De Letra Personalizado 1"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:130
+msgid "Custom Font 2"
+msgstr "Tipo De Letra Personalizado 2"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:149
+msgid "Custom Font 3"
+msgstr "Tipo De Letra Personalizado 3"
+
+#: inc/admin/customizer/option/style/option-style.php:10
+msgid "Style"
+msgstr "Estilo"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:9
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:21
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:31
+msgid "Category Type"
+msgstr "Tipo Da Categoria"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:57
+msgid "You can refer category elements page"
+msgstr "Você pode referir-se a categoria de elementos de página"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:57
+msgid "here"
+msgstr "aqui"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:67
+msgid "Content Width Auto"
+msgstr "Largura Do Conteúdo Do Auto"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:70
+msgid "Do you want to make content width auto for default type?"
+msgstr ""
+"Você quer fazer a largura do conteúdo automático para o tipo de padrão?"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:87
+msgid "Subcategory Count"
+msgstr "Subcategoria Contagem"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:90
+msgid "Current category type requires subcategories"
+msgstr "Atual categoria de tipo requer subcategorias"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:107
+msgid "Imave Hover Effect"
+msgstr "Imave Efeito Hover"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:109
+msgid "Select hover effect of category image when mouse is over."
+msgstr ""
+"Seleccione apontar efeito de categoria de imagem quando o mouse está sobre."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-checkout.php:10
+#: inc/admin/customizer/option/woocommerce/option-wc-checkout.php:22
+msgid "Checkout"
+msgstr "Checkout"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-dokan.php:12
+#: inc/admin/customizer/option/woocommerce/option-wc-dokan.php:38
+msgid "Dokan"
+msgstr "Dokan"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-dokan.php:24
+msgid "Vendor Dashboard"
+msgstr "Fornecedor De Painel"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-dokan.php:34
+msgid "Vendor Dashboard Style"
+msgstr "Fornecedor De Painel Estilo"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-dokan.php:39
+msgid "Theme"
+msgstr "Tema"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:10
+msgid "Woo Features"
+msgstr "Woo Recursos"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:22
+msgid "Image Swatch"
+msgstr "Amostra Da Imagem"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:32
+msgid "Enable Image Swatch"
+msgstr "Activar A Imagem De Amostra"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:34
+msgid ""
+"Check this to use image swatches as well as color swatches and label "
+"swatches."
+msgstr ""
+"Marque esta opção para usar a imagem de amostras, bem como amostras de cores "
+"e rótulo de amostras."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:47
+msgid "Notification"
+msgstr "Notificação"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:57
+msgid "Auto remove alerts after (seconds)"
+msgstr "Auto remover alertas depois (segundos)"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:59
+msgid ""
+"Notifications from wishlist, checkout and other Woo pages will be removed "
+"automatically after below time."
+msgstr ""
+"Notificações de lista de desejos, check-out e outros Woo páginas serão "
+"removidos automaticamente depois de seguir tempo."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:72
+msgid "Sales Popup"
+msgstr "Vendas Pop-Up"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:73
+msgid ""
+"Sales popup shows some products to the visitors including recently sold "
+"products, best selling products, featured products."
+msgstr ""
+"Vendas pop-up mostra alguns produtos para os visitantes, incluindo, "
+"recentemente, produtos vendidos, produtos mais vendidos, produtos em "
+"destaque."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:83
+msgid "Popup Content"
+msgstr "Pop-Up De Conteúdo"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:86
+msgid "Select which products you want to show in sales popup."
+msgstr "Selecione os produtos que você deseja mostrar em vendas pop-up."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:88
+msgid "Do not show"
+msgstr "Não mostrar"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:89
+msgid "Popular products"
+msgstr "Produtos populares"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:90
+msgid "Top rated products"
+msgstr "Top rated produtos"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:91
+msgid "Sale products"
+msgstr "Venda de produtos"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:92
+msgid "Featured products"
+msgstr "Produtos em destaque"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:93
+msgid "Recent products"
+msgstr "Produtos recentes"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:94
+msgid "Select a category"
+msgstr "Seleccione uma categoria"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:95
+msgid "Select products"
+msgstr "Seleção de produtos"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:121
+msgid "Sales Popup Category"
+msgstr "Vendas Pop-Up Categoria"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:140
+msgid "Input Products Ids"
+msgstr "Entrada Produtos De Ids"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:141
+msgid "Input comma seperated product ids for sales popup. e.g) 18, 21, 120"
+msgstr ""
+"Entrada vírgula separados ids de produto para vendas de pop-up. e.g) 18, 21, "
+"120"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:161
+msgid "Products Count"
+msgstr "Produtos De Contagem"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:189
+msgid "Popup Title"
+msgstr "Pop-Up Título"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:209
+msgid "Start Delay(seconds)"
+msgstr "Iniciar Atraso(segundos)"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:211
+msgid "Change delay time to show the first popup after page loading."
+msgstr ""
+"Alterar o tempo de atraso para mostrar a primeira pop-up após o carregamento "
+"da página."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:234
+msgid "Interval(seconds)"
+msgstr "Intervalo(segundos)"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:236
+msgid ""
+"Change duration between popups. Each sales popup will be disappeared after 4 "
+"seconds."
+msgstr ""
+"Alterar a duração entre popups. Cada um de vendas pop-up será desapareceu "
+"depois de 4 segundos."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:258
+msgid "Enable on Mobile"
+msgstr "Activar no Celular"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:261
+msgid "Do you want to enable sales popup on mobile?"
+msgstr "Você deseja habilitar pop-up de vendas no celular?"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product-images.php:10
+#: inc/admin/customizer/option/woocommerce/option-wc-product-images.php:22
+msgid "Product Images"
+msgstr "Imagens Do Produto"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:10
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:22
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:32
+msgid "Product Type"
+msgstr "Tipo De Produto"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:48
+msgid "Hover Effect"
+msgstr "Efeito Hover"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:54
+msgid "Slide Up"
+msgstr "Deslize Para Cima"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:72
+msgid "Add To Cart Position"
+msgstr "Adicionar Ao Carrinho Posição"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:75
+msgid ""
+"Change add to cart button's position. Cart button will be placed in blue "
+"filled area."
+msgstr ""
+"Alterar botão adicionar ao carrinho posição. Carrinho de botão será colocada "
+"em azul cheio de área."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:98
+msgid "Quickview Position"
+msgstr "Quickview Posição"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:101
+msgid ""
+"Change quickview button's position. Quickview button will be placed in blue "
+"filled area."
+msgstr ""
+"Alterar a visualização rápida do botão de posição. Quickview botão será "
+"colocado no azul cheio de área."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:122
+msgid "Add To Wishlist Position"
+msgstr "Adicionar À Lista De Desejos Posição"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:125
+msgid ""
+"Change wishlist button's position. Wishlist button will be placed in blue "
+"filled area."
+msgstr ""
+"Alterar a lista de desejos do botão de posição. Lista de desejos botão será "
+"colocado no azul cheio de área."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:146
+msgid "Content Align"
+msgstr "Conteúdo Alinhar"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:151
+msgid "Center"
+msgstr "Centro"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:163
+msgid "Show In Box"
+msgstr "Mostrar Na Caixa"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:164
+msgid ""
+"Products will be shown inside boxes. You can see each products have border "
+"around them."
+msgstr ""
+"Os produtos serão mostrados dentro de caixas. Você pode ver cada um dos "
+"produtos tem borda em torno deles."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:176
+msgid "Show Review Text"
+msgstr "Show Revisão De Texto"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:178
+msgid "Review link will be shown like ( * reviews )."
+msgstr "Análise de link será mostrado como ( * comentários )."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:189
+msgid "Show Split Line"
+msgstr "Show De Divisão De Linha"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:190
+msgid ""
+"Vertical and Horizontal dividers will be shown between products. If you set "
+"this option, gap option does not work in product layout."
+msgstr ""
+"Vertical e Horizontal divisores vai ser mostrado entre os produtos. Se você "
+"definir esta opção, opção de intervalo não funciona no esquema de produto."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:215
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:268
+msgid "Category"
+msgstr "Categoria"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:216
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:269
+msgid "Label"
+msgstr "Rótulo"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:217
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:270
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:229
+#: woocommerce/cart/cart.php:34 woocommerce/cart/cart.php:85
+#: woocommerce/wishlist-view.php:73
+msgid "Price"
+msgstr "Preço"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:218
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:271
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:231
+msgid "Rating"
+msgstr "Classificação"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:219
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:272
+msgid "Attributes"
+msgstr "Atributos"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:220
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:273
+msgid "Add To Cart"
+msgstr "Adicionar Ao Carrinho"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:222
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:275
+msgid "Quickview"
+msgstr "Quickview"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:240
+msgid "Showing Attributes"
+msgstr "Mostrando Atributos"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:242
+msgid ""
+"This is efficient when you are going to show label, color and image swatches."
+" Please make sure that each attribute's type is list."
+msgstr ""
+"Esse é eficiente quando você vai mostrar o nome, a cor e a imagem de "
+"amostras. Por favor, certifique-se de que cada atributo do tipo lista."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:254
+msgid "Change different access roles for each items"
+msgstr "Alterar diferentes funções de acesso para cada um dos itens"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:265
+#: inc/setup/theme-options.php:667
+msgid "Visitor"
+msgstr "Visitante"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:307
+msgid "Quickview Popup"
+msgstr "Quickview Pop-Up"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:317
+msgid "Quickview Loading Type"
+msgstr "Quickview Tipo De Carga"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:320
+msgid ""
+"Select appearance of quickview while your site is loading product details."
+msgstr ""
+"Selecione a aparência de quickview enquanto o site é carregado de detalhes "
+"do produto."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:322
+msgid "Skeleton"
+msgstr "Esqueleto"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:324
+msgid "Loading"
+msgstr "Carregamento"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:326
+#, php-format
+msgid ""
+"Skeleton type is available only if skeleton screen is enabled. You could "
+"enable skeleton screen in %1$sTheme Option > Advanced > Theme Features%2$s"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:336
+msgid "Hover Effects"
+msgstr "Efeitos"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:346
+msgid "Box shadow on Hover"
+msgstr "Caixa de sombra em Foco"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:349
+msgid "Show shadow of product when mouse is over."
+msgstr "Mostrar a sombra do produto quando o mouse está sobre."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:366
+msgid "Media Shadow Effect on Hover"
+msgstr "Mídia Efeito de Sombra em Foco"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:367
+msgid "Show shadow of Product Image when mouse is over."
+msgstr "Mostrar a sombra do Produto Imagem quando o mouse está sobre."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:379
+msgid "Change Image on Hover"
+msgstr "Mudar Imagem em Foco"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:381
+msgid ""
+"Show second product image when mouse is over. You could change this option "
+"for individual products"
+msgstr ""
+"A segunda imagem do produto quando o mouse está sobre. Você pode alterar "
+"esta opção para produtos individuais"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:10
+msgid "Shop Pages"
+msgstr "Loja Páginas"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:22
+msgid "Shop Configuration"
+msgstr "Loja De Configuração"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:32
+msgid "Shop page display"
+msgstr "Loja de visualização da página"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:33
+msgid "Choose what to display on the main shop page."
+msgstr "Escolher o que exibir na loja principal da página."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:35
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:52
+msgid "Show products"
+msgstr "Mostrar produtos"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:36
+msgid "Show categories"
+msgstr "Mostrar categorias"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:37
+msgid "Show categories &amp; products"
+msgstr "Mostrar categorias e produtos"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:49
+msgid "Category display"
+msgstr "Indicação de categoria"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:50
+msgid "Choose what to display on product category pages."
+msgstr "Escolher o que mostrar na categoria de produto de páginas."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:53
+msgid "Show subcategories"
+msgstr "Mostrar subcategorias"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:54
+msgid "Show subcategories &amp; products"
+msgstr "Mostrar as sub-categorias e produtos"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:66
+msgid "Default product sorting"
+msgstr "Produto padrão de classificação"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:67
+msgid "How should products be sorted in shop page by default?"
+msgstr "Como deve produtos classificados na loja de página por padrão?"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:71
+msgid "Default sorting (custom ordering + name)"
+msgstr "Padrão de classificação (ordenação personalizada + nome)"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:72
+msgid "Popularity (sales)"
+msgstr "Popularidade (vendas)"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:73
+msgid "Average rating"
+msgstr "Classificação média"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:74
+msgid "Sort by most recent"
+msgstr "Ordenar por mais recentes"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:75
+msgid "Sort by price (asc)"
+msgstr "Classificar por preço (asc)"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:76
+msgid "Sort by price (desc)"
+msgstr "Classificar por preço (desc)"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:89
+msgid "Shop Grid"
+msgstr "Loja De Grade"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:100
+msgid "Products per row"
+msgstr "Produtos por linha"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:101
+msgid "How many products should be shown per row?"
+msgstr "Como muitos produtos deve ser mostrado por linha?"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:117
+msgid "List Type Products per row"
+msgstr "O Tipo de lista de Produtos por linha"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:118
+msgid "How many products should be shown per row when it is list view mode."
+msgstr ""
+"Como muitos produtos deve ser mostrado por linha quando ele é modo de "
+"exibição de lista."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:134
+msgid "Products Gap"
+msgstr "Produtos Gap"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:135
+msgid "Change gap size between products"
+msgstr "Alterar tamanho do gap entre produtos"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:138
+msgid "XS"
+msgstr "XS"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:139
+#: inc/setup/theme-setup.php:85
+msgid "S"
+msgstr "S"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:140
+#: inc/setup/theme-setup.php:97
+msgid "M"
+msgstr "M"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:141
+#: inc/setup/theme-setup.php:103
+msgid "L"
+msgstr "L"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:154
+msgid "Simple Shop"
+msgstr "Simples Loja"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:155
+msgid ""
+"Show only basic information including image, name and price. The else will "
+"be hidden."
+msgstr ""
+"Mostrar apenas as informações básicas, incluindo imagem, nome e preço. O "
+"resto será oculto."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:167
+msgid "Enable Sticky Toolbox on Mobile."
+msgstr "Activar Pegajoso de Ferramentas no Celular."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:168
+msgid "Show sticky toolbox on mobile."
+msgstr "Show sticky caixa de ferramentas no celular."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:182
+msgid "Select method to load more products."
+msgstr "Seleccione o método de carregar mais produtos."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:218
+msgid "Shop Top Toolbox"
+msgstr "Loja De Ferramentas Superior"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:229
+msgid "Top Toolbox Items"
+msgstr "Topo Itens De Caixa De Ferramentas"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:230
+msgid "Check items to show in shop page's top toolbox bar"
+msgstr ""
+"Verifique itens para mostrar na loja de página de topo da barra de "
+"ferramentas"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:234
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:278
+msgid "Result Count of Products"
+msgstr "Resultado de Contagem dos Produtos"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:235
+msgid "Sort By Selectbox"
+msgstr "Ordenar Por Seleccionar"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:236
+msgid "View Type Select"
+msgstr "Tipo De Modo De Exibição Selecione"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:237
+msgid "Per Page Select Box"
+msgstr "Por Página, Seleccione A Caixa De"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:238
+msgid "Category Filter"
+msgstr "Filtro De Categoria"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:239
+msgid "Toggle Type Search"
+msgstr "Alternar O Tipo De Pesquisa"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:251
+msgid "Per Page Select Options"
+msgstr "Por Página, Seleccione Opções"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:252
+msgid ""
+"Please input comma separated integers. Every integers will be shown as "
+"option of select box in product archive page. Integer with prefix \"_\" will "
+"be default count. e.g: 9, _12, 24, 36"
+msgstr ""
+"Por favor, entrada de números inteiros separados por vírgulas. Todos os "
+"números inteiros será mostrado como opção de selecionar a caixa do produto "
+"de página de arquivo. Inteiro com o prefixo \"_\" vai ser padrão de contagem."
+" e.g: 9, _12, 24, 36"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:263
+msgid "Shop Bottom Toolbox"
+msgstr "Loja De Ferramentas Inferior"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:274
+msgid "Bottom Toolbox Items"
+msgstr "Inferior Itens De Caixa De Ferramentas"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:275
+msgid "Check items to show in shop page's bottom toolbox bar"
+msgstr ""
+"Verifique itens para mostrar na loja da página inferior barra de ferramentas"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:10
+msgid "Product Detail Page"
+msgstr "Página De Detalhes Do Produto"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:22
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:32
+msgid "Single Product Type"
+msgstr "Único Tipo De Produto"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:34
+msgid ""
+"Use supported single product preset or build your own. You can build your "
+"own product page with Riode Template Builder. Please visit products menu of "
+"Riode demos to get complete understanding of each presets."
+msgstr ""
+"Usar o suporte do único produto predefinidos ou criar o seu próprio. Você "
+"pode criar sua própria página de produto com Riode Construtor de Modelo. Por "
+"favor, visite o menu produtos do Riode demos para obter entendimento "
+"completo de cada presets."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:73
+#, php-format
+msgid "You could build your product layout with %1$sSingle Product Builder%2$s"
+msgstr ""
+"Você pode construir o seu layout de produto com o %1$sSingle Produto "
+"Construtor de%2$s"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:84
+msgid "Breadcrumb + Navigation Position"
+msgstr "Trilha + Navegação Posição"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:85
+msgid ""
+"This option is for breadcrumb and navigation position in single product page."
+msgstr ""
+"Esta opção é para trilha e navegação posição em uma única página do produto."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:88
+msgid "On Top"
+msgstr "No Topo"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:89
+msgid "Hide"
+msgstr "Esconder"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:101
+msgid "Data Tab Type"
+msgstr "Dados Tipo De Guia"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:103
+msgid ""
+"You could select tab or accordion type of product data tab. Data tab "
+"includes description, additional information and reviews by default. However "
+"you could add some more."
+msgstr ""
+"Você pode selecionar a guia ou acordeão tipo de produto separador dados. "
+"Guia de dados inclui descrição, informações adicionais e comentários por "
+"padrão. No entanto, você pode adicionar um pouco mais."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:106
+msgid "Accordion"
+msgstr "Acordeão"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:118
+msgid "Cart Sticky"
+msgstr "Carrinho Pegajoso"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:120
+msgid ""
+"Add to cart area will be sticky while scrolling to make visitors easy to buy."
+msgstr ""
+"Adicionar ao carrinho área vai ser pegajoso durante a rolagem para fazer com "
+"que os visitantes fácil de comprar."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:131
+msgid "Data Tab Inside"
+msgstr "Dados Do Guia Interior"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:133
+msgid "Do you want place product data tab inside product information column?"
+msgstr ""
+"Você quer colocar o produto separador dados dentro de informações do produto "
+"da coluna?"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:144
+msgid "Global Additional Data Tab"
+msgstr "Global De Dados Adicionais Guia"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:155
+msgid "This is global data tab and will be shown all product detail pages."
+msgstr ""
+"Este é global separador dados e, vai ser mostrado todos os detalhes do "
+"produto páginas."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:167
+msgid "Custom Tab Content Block"
+msgstr "Guia Personalizar O Conteúdo Do Bloco De"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:168
+msgid "Please select global additional product data tab."
+msgstr "Por favor, seleccione global de produtos adicionais de dados guia."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:182
+msgid "Related Products"
+msgstr "Produtos Relacionados"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:193
+msgid "Count of Related Products"
+msgstr "Contagem de Produtos Relacionados"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:205
+msgid "Related Products per Row"
+msgstr "Produtos relacionados por Linha"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:230
+msgid "Random"
+msgstr "Aleatória"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:233
+msgid "Total Sales"
+msgstr "Total De Vendas"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-store-notice.php:10
+#: inc/admin/customizer/option/woocommerce/option-wc-store-notice.php:22
+msgid "Store Notice"
+msgstr "Loja Aviso"
+
+#: inc/admin/customizer/option/woocommerce/option-woocommerce.php:11
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/admin/customizer/option/wp/option-wp.php:10
+msgid "Site Identity"
+msgstr "Identidade Do Site"
+
+#: inc/admin/customizer/option/wp/option-wp.php:18
+#: inc/admin/setup_wizard/views/demo.php:51
+msgid "Widgets"
+msgstr "Widgets"
+
+#: inc/admin/customizer/option/wp/option-wp.php:26
+msgid "Homepage Settings"
+msgstr "Configurações De Página Inicial"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:142
+msgid "Loading Failed"
+msgstr "Carregamento Falhou"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:143
+#: inc/admin/setup_wizard/setup_wizard.php:239
+msgid "Failed"
+msgstr "Falha"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:144
+#: inc/admin/setup_wizard/setup_wizard.php:240
+msgid "Ajax error"
+msgstr "Ajax erro"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:328
+#: inc/admin/optimize_wizard/optimize_wizard.php:406
+#: inc/admin/setup_wizard/setup_wizard.php:445
+msgid "No Slug Found"
+msgstr "Não Slug Encontrado"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:348
+#: inc/admin/setup_wizard/setup_wizard.php:465
+msgid "Activating Plugin"
+msgstr "A Ativação Do Plugin"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:363
+#: inc/admin/setup_wizard/setup_wizard.php:480
+msgid "Updating Plugin"
+msgstr "A Atualização Do Plugin"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:378
+#: inc/admin/setup_wizard/setup_wizard.php:495
+msgid "Installing Plugin"
+msgstr "Instalação Do Plugin"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:392
+#: inc/admin/setup_wizard/setup_wizard.php:509
+msgid "Success"
+msgstr "Sucesso"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:414
+msgid "Sorry, you are not allowed to deactivate this plugin."
+msgstr "Desculpe, você não tem permissão para desativar esse plugin."
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:436
+msgid "Resources"
+msgstr "Recursos"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:442
+#: inc/admin/optimize_wizard/views/lazyload.php:4
+msgid "Lazyload"
+msgstr "Lazyload"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:448
+msgid "Peformance"
+msgstr "Peformance"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:457
+#: inc/admin/optimize_wizard/views/plugins.php:4
+#: inc/admin/optimize_wizard/views/widgets.php:9
+#: inc/admin/setup_wizard/setup_wizard.php:175
+msgid "Plugins"
+msgstr "Plugins"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:465
+#: inc/admin/setup_wizard/setup_wizard.php:190
+msgid "Ready!"
+msgstr "Pronto!"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:489
+#: inc/admin/optimize_wizard/optimize_wizard.php:506
+#: inc/admin/optimize_wizard/optimize_wizard.php:545
+msgid "Nonce Error"
+msgstr "Nonce Erro"
+
+#: inc/admin/optimize_wizard/views/index.php:9
+#: inc/admin/setup_wizard/views/index.php:9
+msgid "Riode eCommerce"
+msgstr "Riode de comércio eletrônico"
+
+#: inc/admin/optimize_wizard/views/index.php:9
+#: inc/admin/setup_wizard/views/index.php:9
+msgid "version"
+msgstr "versão"
+
+#: inc/admin/optimize_wizard/views/index.php:14
+msgid ""
+"Riode optimize wizard will help you configure proper website with optimum "
+"resources and peak efficiency."
+msgstr ""
+"Riode otimizar o assistente ajuda o utilizador a configurar bom site com o "
+"máximo de recursos e eficiência de pico."
+
+#: inc/admin/optimize_wizard/views/index.php:15
+msgid ""
+"Note! Make sure that you have finished developing. Changes after running "
+"this wizard will not be affected. If you have such a problem, please rerun "
+"this wizard."
+msgstr ""
+"Nota! Certifique-se de que você terminou de desenvolvimento. Alterações "
+"depois de executar este assistente não será afetado. Se você tiver um "
+"problema, execute novamente o assistente."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:6
+msgid ""
+"This will help you make your site faster by lazyloading images and contents."
+msgstr ""
+"Isso vai ajudar você a tornar seu site mais rápido por lazyloading imagens e "
+"conteúdo."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:9
+msgid "Lazyload Images"
+msgstr "Lazyload Imagens"
+
+#: inc/admin/optimize_wizard/views/lazyload.php:11
+msgid ""
+"All image resources will be lazyloaded so that page's loading speed gets "
+"faster."
+msgstr ""
+"Todos os recursos de imagem será lazyloaded para que a página da velocidade "
+"de carregamento fica mais rápido."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:12
+msgid ""
+"Use with caution! Disable this option if you have any compability problems."
+msgstr ""
+"Use com cuidado! Desativar esta opção se você tiver quaisquer problemas de "
+"compatibilização."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:15
+msgid "Lazyload Menus"
+msgstr "Lazyload Menus"
+
+#: inc/admin/optimize_wizard/views/lazyload.php:17
+msgid "Menus will be lazyloaded and cached in browsers for faster load."
+msgstr ""
+"Menus serão lazyloaded e armazenados em cache de navegadores para "
+"carregamento mais rápido."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:18
+msgid ""
+"Cached menus will be updated after they have been changed or customizer "
+"panel has been saved."
+msgstr ""
+"Em cache menus será atualizado depois de ter sido alteradas ou "
+"personalizador de painel foi salvo."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:23
+msgid ""
+"Instead of real content, skeleton is used to enhance speed of page loading "
+"and makes it more beautiful."
+msgstr ""
+"Em vez de conteúdo real, o esqueleto é usada para melhorar a velocidade de "
+"carregamento da página e torna-lo mais bonito."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:26
+msgid "Enable Web Font Loader"
+msgstr "Activar Web De Fonte Carregador"
+
+#: inc/admin/optimize_wizard/views/lazyload.php:32
+#, php-format
+msgid ""
+"Using %1$sWeb Font Loader%2$s, you can enhance page loading speed by about 4 "
+"percent in %3$sGoogle PageSpeed Insights%4$s for both mobile and desktop."
+msgstr ""
+"Usando o %1$sWeb Fonte Carregador%2$s, você pode melhorar a velocidade de "
+"carregamento das páginas por cerca de 4% em %3$sGoogle PageSpeed "
+"Insights%4$s tanto para mobile e desktop."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:42
+#: inc/admin/optimize_wizard/views/resources.php:65
+#: inc/admin/optimize_wizard/views/widgets.php:53
+#: inc/admin/setup_wizard/views/customize.php:30
+#: inc/admin/setup_wizard/views/demo.php:218
+msgid "Skip this step"
+msgstr "Ignore este passo"
+
+#: inc/admin/optimize_wizard/views/lazyload.php:43
+#: inc/admin/optimize_wizard/views/resources.php:66
+msgid "Save & Continue"
+msgstr "Salvar E Continuar"
+
+#: inc/admin/optimize_wizard/views/plugins.php:6
+msgid "1. Recommended Plugins"
+msgstr "1. Plugins Recomendados"
+
+#: inc/admin/optimize_wizard/views/plugins.php:11
+msgid "This will install the plugins which can acclerate your site."
+msgstr "Isto irá instalar os plugins que pode acclerate seu site."
+
+#: inc/admin/optimize_wizard/views/plugins.php:12
+msgid ""
+"You should disable below plugins while in development. Changes may not be "
+"applied because of them."
+msgstr ""
+"Você deve desativar abaixo plugins enquanto em desenvolvimento. Alterações "
+"não podem ser aplicadas devido a eles."
+
+#: inc/admin/optimize_wizard/views/plugins.php:37
+msgid "How to enable leverage browser  caching."
+msgstr "Como habilitar aproveitar o cache do navegador."
+
+#: inc/admin/optimize_wizard/views/plugins.php:38
+msgid ""
+"Page loading duration can be significantly improved by asking visitors to "
+"save and reuse the files included in your website."
+msgstr ""
+"O carregamento de uma página a duração podem ser significativamente "
+"melhoradas, pedindo que os visitantes para salvar e reutilizar os arquivos "
+"incluídos no seu website."
+
+#: inc/admin/optimize_wizard/views/plugins.php:43
+msgid "Good News! All recommended plugins are already installed up-to-date."
+msgstr ""
+"Boas Notícias! Todas as recomendações de plugins já instalados up-to-date."
+
+#: inc/admin/optimize_wizard/views/plugins.php:49
+msgid "2. Installed Plugins"
+msgstr "2. Plugins Instalados"
+
+#: inc/admin/optimize_wizard/views/plugins.php:50
+msgid "Please check active plugins. You can deactivate unnecessary plugins."
+msgstr ""
+"Por favor, verifique o active plug-ins. Você pode desativar plugins "
+"desnecessários."
+
+#: inc/admin/optimize_wizard/views/plugins.php:54
+msgid "Plugin Name"
+msgstr "Nome Do Plugin"
+
+#: inc/admin/optimize_wizard/views/plugins.php:55
+#: inc/admin/optimize_wizard/views/templates_load.php:28
+#: inc/admin/optimize_wizard/views/templates_load.php:56
+msgid "Action"
+msgstr "Ação"
+
+#: inc/admin/optimize_wizard/views/plugins.php:63
+#: inc/admin/panel/views/activate.php:62
+msgid "Deactivate"
+msgstr "Desativar"
+
+#: inc/admin/optimize_wizard/views/plugins.php:74
+msgid "Network Activate"
+msgstr "Ativar Rede"
+
+#: inc/admin/optimize_wizard/views/plugins.php:83
+msgid "Share Plugins Information"
+msgstr "Compartilhar Plugins Informações"
+
+#: inc/admin/optimize_wizard/views/plugins.php:84
+msgid ""
+"Please contribute to upgrade theme and your site to the best one! Your "
+"cooperation would be highly appreciated."
+msgstr ""
+"Por favor, contribuir para a atualização do tema e o seu site para o melhor! "
+"Sua cooperação seria muito apreciada."
+
+#: inc/admin/optimize_wizard/views/plugins.php:85
+msgid ""
+"We will never collect any sensivite or private data such as IP addresses, "
+"email, usernames, or passwords."
+msgstr ""
+"Nós nunca iremos recolher qualquer sensivite ou privadas de dados, tais como "
+"endereços IP, e-mail, nomes de usuário ou senhas."
+
+#: inc/admin/optimize_wizard/views/plugins.php:89
+#: inc/admin/setup_wizard/views/customize.php:37
+#: inc/admin/setup_wizard/views/demo.php:219
+#: inc/admin/setup_wizard/views/plugins.php:75
+#: inc/admin/setup_wizard/views/status.php:178
+msgid "Continue"
+msgstr "Continuar"
+
+#: inc/admin/optimize_wizard/views/ready.php:5
+msgid "Your Website is now optimized much better than before!"
+msgstr "O seu Site é otimizado muito melhor do que antes!"
+
+#: inc/admin/optimize_wizard/views/ready.php:7
+msgid ""
+"Congratulations! The Site is now much faster, better and fully optimized. "
+"Please visit your new site to notice how its performance changed."
+msgstr ""
+"Parabéns! O Site agora está muito mais rápido, melhor e totalmente otimizado."
+" Por favor, visite seu novo site a perceber como o seu desempenho alterado."
+
+#: inc/admin/optimize_wizard/views/ready.php:7
+#: inc/admin/setup_wizard/views/ready.php:48
+msgid "View your new website!"
+msgstr "Vista o seu novo site!"
+
+#: inc/admin/optimize_wizard/views/ready.php:13
+msgid "Leave a Comment"
+msgstr "Deixe um Comentário"
+
+#: inc/admin/optimize_wizard/views/ready.php:18
+#, php-format
+msgid ""
+"Are you satisfied by Riode Optimize Wizard? If you find any bugs or any new "
+"suggestions, please %1$sleave a comment %2$s. Thank you."
+msgstr ""
+"Você está satisfeito por Riode Otimizar o Assistente? Se você encontrar "
+"quaisquer erros ou quaisquer novas sugestões, por favor, entre %1$sleave um "
+"comentário de %2$s. Obrigado."
+
+#: inc/admin/optimize_wizard/views/ready.php:27
+#, php-format
+msgid ""
+"Please leave a %1$s5-star rating%2$s if you are satisfied with this theme. "
+"Thanks!"
+msgstr ""
+"Por favor, deixe um %1$s5-classificação de estrela%2$s se você está "
+"satisfeito com este tema. Obrigado!"
+
+#: inc/admin/optimize_wizard/views/resources.php:4
+msgid "Performance"
+msgstr "Desempenho"
+
+#: inc/admin/optimize_wizard/views/resources.php:9
+msgid "Disable animations in mobile"
+msgstr "Desativar animações em móveis"
+
+#: inc/admin/optimize_wizard/views/resources.php:12
+msgid "Preload Fonts"
+msgstr "Pré-Carregamento De Fontes"
+
+#: inc/admin/optimize_wizard/views/resources.php:15
+#, php-format
+msgid ""
+"This improves page load time as the browser caches preloaded resources so "
+"they are available immediately when needed. By using this option, you can "
+"increase page speed about 1 ~ 4 percent in %1$sGoogle PageSpeed Insights%2$s "
+"for both of mobile and desktop."
+msgstr ""
+"Isso melhora o tempo de carregamento da página como o navegador armazena em "
+"cache pré recursos, de modo que eles ficam disponíveis de imediato quando "
+"necessário. Usando esta opção, você pode aumentar a página de velocidade de "
+"cerca de 1 ~ 4% no %1$sGoogle PageSpeed Insights%2$s tanto de móveis e "
+"desktop."
+
+#: inc/admin/optimize_wizard/views/resources.php:25
+msgid "Riode Icons"
+msgstr "Riode Ícones"
+
+#: inc/admin/optimize_wizard/views/resources.php:28
+msgid "Font Awesome 5 Solid"
+msgstr "Fonte Incrível De 5 Sólido"
+
+#: inc/admin/optimize_wizard/views/resources.php:31
+msgid "Font Awesome 5 Regular"
+msgstr "Fonte Incrível De 5 Regular"
+
+#: inc/admin/optimize_wizard/views/resources.php:34
+msgid "Font Awesome 5 Brands"
+msgstr "Fonte Incrível De 5 Marcas"
+
+#: inc/admin/optimize_wizard/views/resources.php:38
+msgid ""
+"Please input other resources that will be pre loaded. Ex. https://d-themes."
+"com/wordpress/riode/wp-content/themes/riode-child/fonts/custom.woff2."
+msgstr ""
+
+#: inc/admin/optimize_wizard/views/resources.php:42
+msgid "Asynchronous Scripts"
+msgstr "Assíncrona Scripts"
+
+#: inc/admin/optimize_wizard/views/resources.php:45
+msgid "Asynchronous load"
+msgstr "O carregamento assíncrono"
+
+#: inc/admin/optimize_wizard/views/resources.php:47
+msgid ""
+"Some javascript libraries does not affect first paint. And you can increase "
+"page loading speed by loading them asynchronously."
+msgstr ""
+"Algumas bibliotecas javascript não afecta primeira pintura. E você pode "
+"aumentar a velocidade de carregamento das páginas, carregando-os de forma "
+"assíncrona."
+
+#: inc/admin/optimize_wizard/views/resources.php:50
+msgid "Split tasks"
+msgstr "Divisão de tarefas"
+
+#: inc/admin/optimize_wizard/views/resources.php:52
+msgid ""
+"Long time tasks may cause unintentional rendering suspension or affect to "
+"its performance. To make pages faster, please check split task option."
+msgstr ""
+"Longo tempo de tarefas pode causar não intencional de renderização de "
+"suspensão ou afetar seu desempenho. Para tornar as páginas mais rápido, por "
+"favor, verifique divisão de tarefas opção."
+
+#: inc/admin/optimize_wizard/views/resources.php:55
+msgid "Only necessary JS at loading"
+msgstr "Necessário apenas JS no carregamento"
+
+#: inc/admin/optimize_wizard/views/resources.php:57
+msgid ""
+"While page is loaded, there exists a lot of unnecessary javascripts running "
+"during initialization. If they works in idle time and only necessary ones "
+"runs while loading time, page speed will be faster."
+msgstr ""
+"Enquanto a página é carregada, existe um grande e desnecessário javascripts "
+"em execução durante inicialização. Se eles funciona em tempo ocioso e apenas "
+"necessários executado enquanto o tempo de carregamento, velocidade página "
+"será mais rápido."
+
+#: inc/admin/optimize_wizard/views/resources.php:60
+msgid "Process after load event"
+msgstr "Processo depois do evento load"
+
+#: inc/admin/optimize_wizard/views/resources.php:62
+msgid ""
+"This will accelerate page's load time. But this may cause compatibility "
+"issue since page still not be ready. It will be in ready state after "
+"document or window load event is ready. To fix this problem, Please add "
+"event handlers to window's \"riode_complete\" event."
+msgstr ""
+"Isto irá acelerar o tempo de carregamento da página. Mas isso pode causar "
+"problema de compatibilidade desde que a página ainda não estar pronto. Ele "
+"vai estar no estado pronto depois de documento ou janela de evento load está "
+"pronto. Para corrigir este problema, Favor adicionar manipuladores de "
+"eventos para a janela do \"riode_complete\" do evento."
+
+#: inc/admin/optimize_wizard/views/templates_load.php:16
+msgid "Through this step, you can remove unused layouts and sidebars."
+msgstr ""
+"Com este passo, você pode remover não utilizados layouts e barras laterais."
+
+#: inc/admin/optimize_wizard/views/templates_load.php:18
+msgid ""
+"Selected items will be saved for next use and the others will be "
+"automatically removed."
+msgstr ""
+"Os itens selecionados serão guardadas para a próxima utilização e a outros, "
+"será automaticamente removido."
+
+#: inc/admin/optimize_wizard/views/templates_load.php:21
+msgid "Please check used layouts and sidebars!"
+msgstr "Por favor, verifique usado layouts e laterais!"
+
+#: inc/admin/optimize_wizard/views/templates_load.php:23
+msgid "1. Layouts"
+msgstr "1. Layouts"
+
+#: inc/admin/optimize_wizard/views/templates_load.php:52
+msgid "2. Sidebars"
+msgstr "2. Sidebars"
+
+#: inc/admin/optimize_wizard/views/welcome.php:5
+#, php-format
+msgid "Welcome to the optimize wizard for %s."
+msgstr "Bem-vindo ao otimizar o assistente para %s."
+
+#: inc/admin/optimize_wizard/views/welcome.php:10
+msgid "It looks like you have already optimized your site."
+msgstr "Parece que você já tem otimizado seu site."
+
+#: inc/admin/optimize_wizard/views/welcome.php:13
+msgid "Run Optimize Wizard Again"
+msgstr "Executar Otimizar O Assistente Novamente"
+
+#: inc/admin/optimize_wizard/views/welcome.php:14
+msgid "Exit to Riode Panel"
+msgstr "Sair para Riode Painel"
+
+#: inc/admin/optimize_wizard/views/welcome.php:20
+msgid ""
+"This Optimize Wizard is introduced to optimize all resources that are "
+"unnecessary for your site. Every step has enough description about how it "
+"works. Some options may produce some conflicts if your site is still in "
+"development progress, so we advise you to enable all options once site "
+"development is completed."
+msgstr ""
+"Este Otimizar o Assistente é introduzido para otimizar todos os recursos que "
+"são desnecessários para o seu site. Cada passo tem o suficiente descrição "
+"sobre como ele funciona. Algumas opções podem produzir alguns conflitos se o "
+"site ainda está em desenvolvimento, por isso aconselhamos que você ativar "
+"todas as opções uma vez que o desenvolvimento do site é concluída."
+
+#: inc/admin/optimize_wizard/views/welcome.php:21
+msgid "No time right now? "
+msgstr "Não há tempo agora? "
+
+#: inc/admin/optimize_wizard/views/welcome.php:21
+msgid ""
+"If you don't want to go through the wizard, you can skip and return to the "
+"WordPress dashboard. Come back anytime you want!"
+msgstr ""
+"Se você não quer ir com o assistente, você pode pular e voltar para o painel "
+"do WordPress. Voltar a qualquer hora que você quiser!"
+
+#: inc/admin/optimize_wizard/views/welcome.php:23
+msgid "Not right now"
+msgstr "Não agora"
+
+#: inc/admin/optimize_wizard/views/welcome.php:24
+msgid "Let's Go"
+msgstr "Vamos"
+
+#: inc/admin/optimize_wizard/views/widgets.php:4
+msgid "Optimize Resources"
+msgstr "Otimizar Recursos"
+
+#: inc/admin/optimize_wizard/views/widgets.php:7
+msgid "Styles"
+msgstr "Estilos"
+
+#: inc/admin/optimize_wizard/views/widgets.php:8
+msgid "Templates"
+msgstr "Modelos"
+
+#: inc/admin/optimize_wizard/views/widgets.php:13
+msgid "This will help you to optimize theme styles."
+msgstr "Isso vai ajudar você a otimizar o tema estilos."
+
+#: inc/admin/optimize_wizard/views/widgets.php:15
+msgid ""
+"Riode comes with powerful optimization wizard for theme styles. Detailed "
+"options for used components and helper classes will optimize your site "
+"perfectly."
+msgstr ""
+"Riode vem com um poderoso assistente de otimização para o tema estilos. "
+"Opções detalhadas para componentes e classes auxiliares irá otimizar seu "
+"site perfeitamente."
+
+#: inc/admin/optimize_wizard/views/widgets.php:17
+msgid ""
+"All options you have been checked will be saved for next use. After you have "
+"finished development, please run this wizard."
+msgstr ""
+"Todas as opções que você tem sido verificada serão guardadas para a próxima "
+"utilização. Após você ter concluído o desenvolvimento, por favor, execute o "
+"assistente."
+
+#: inc/admin/optimize_wizard/views/widgets.php:19
+msgid "Please check used resources."
+msgstr "Por favor, verifique recursos utilizados."
+
+#: inc/admin/optimize_wizard/views/widgets.php:22
+#: inc/admin/optimize_wizard/views/widgets.php:29
+msgid "Prev Step"
+msgstr "Prev Passo"
+
+#: inc/admin/optimize_wizard/views/widgets.php:23
+#: inc/admin/optimize_wizard/views/widgets.php:30
+msgid "Next Step"
+msgstr "Próximo Passo"
+
+#: inc/admin/optimize_wizard/views/widgets.php:35
+msgid ""
+"This is the last step of resource optimize. You can remove unnecessary "
+"plugin styles & scripts."
+msgstr ""
+"Este é o último passo de otimizar recursos. Você pode remover desnecessárias "
+"plugin estilos e scripts."
+
+#: inc/admin/optimize_wizard/views/widgets.php:38
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#: inc/admin/optimize_wizard/views/widgets.php:40
+msgid "If any gutenberg block isn't used in site, check me."
+msgstr "Se qualquer gutenberg bloco não é utilizado no site, verifique mim."
+
+#: inc/admin/optimize_wizard/views/widgets.php:43
+msgid "WooCommerce blocks for Gutenberg"
+msgstr "WooCommerce blocos de Gutenberg"
+
+#: inc/admin/optimize_wizard/views/widgets.php:45
+msgid "If any WooCommerce blocks for Gutenberg isn't used in sites, check me."
+msgstr ""
+"Se qualquer WooCommerce blocos de Gutenberg não é usado em sites, verifique "
+"mim."
+
+#: inc/admin/optimize_wizard/views/widgets.php:48
+msgid "Elementor's Resources"
+msgstr "Elementor Recursos"
+
+#: inc/admin/optimize_wizard/views/widgets.php:50
+msgid "If some elementor resources such as swiper.js are never used, check me."
+msgstr ""
+"Se alguns elementor recursos, tais como swiper.js nunca são usados, "
+"verifique mim."
+
+#: inc/admin/optimize_wizard/views/widgets.php:54
+msgid "Compile & Continue"
+msgstr "Compilar E Continuar"
+
+#: inc/admin/optimize_wizard/views/widgets_load.php:7
+msgid "Theme Resources"
+msgstr "Tema Recursos"
+
+#: inc/admin/optimize_wizard/views/widgets_load.php:11
+msgid "WPBakery Shortcodes"
+msgstr "WPBakery Shortcodes"
+
+#: inc/admin/optimize_wizard/views/widgets_load.php:53
+#: inc/admin/optimize_wizard/views/widgets_load.php:82
+msgid "Toggle All"
+msgstr "Alternar Todos Os"
+
+#: inc/admin/panel/panel.php:26 inc/admin/panel/views/header.php:15
+msgid "Welcome"
+msgstr "Bem-vindo"
+
+#: inc/admin/panel/views/activate.php:5
+msgid "Welcome to Riode"
+msgstr "Bem-vindo ao Riode"
+
+#: inc/admin/panel/views/activate.php:7
+msgid "Congratulations! Your product is registered now."
+msgstr "Parabéns! Seu produto é registrado agora."
+
+#: inc/admin/panel/views/activate.php:9
+msgid ""
+"Thank you for choosing Riode theme from ThemeForest. Please register your "
+"purchase and make sure that you have fulfilled all of the requirements."
+msgstr ""
+"Obrigado por escolher Riode tema da ThemeForest. Por favor registe a sua "
+"compra e certifique-se de que você cumpriu todos os requisitos."
+
+#: inc/admin/panel/views/activate.php:16
+msgid "Please enter your Purchase Code to complete registration."
+msgstr "Por favor, introduza o seu Código de Compra para concluir o registo."
+
+#: inc/admin/panel/views/activate.php:19
+msgid "Where can I find my purchase code?"
+msgstr "Onde posso encontrar meu código de compra?"
+
+#: inc/admin/panel/views/activate.php:22
+#, php-format
+msgid "Please go to %1$sThemeForest.net/downloads%2$s"
+msgstr "Por favor, vá para %1$sThemeForest.net/downloads%2$s"
+
+#: inc/admin/panel/views/activate.php:23
+msgid "Click the Download button in Riode row"
+msgstr "Clique no botão de Download no Riode linha"
+
+#: inc/admin/panel/views/activate.php:24
+msgid "Select License Certificate & Purchase code"
+msgstr "Selecione Licença de Certificado de Compra e o código de"
+
+#: inc/admin/panel/views/activate.php:25
+msgid "Copy Item Purchase Code"
+msgstr "Copiar O Item De Código De Compra"
+
+#: inc/admin/panel/views/activate.php:39
+msgid "Purchase code not updated. We will keep the existing one."
+msgstr "Código de compra não são atualizadas. Vamos manter o existente."
+
+#: inc/admin/panel/views/activate.php:42
+#, php-format
+msgid ""
+"Your %1$spurchase code is valid%2$s. Thank you! Enjoy Riode Theme and "
+"automatic updates."
+msgstr ""
+"O %1$spurchase código é válido%2$s. Obrigado! Desfrute Riode Tema e "
+"atualizações automáticas."
+
+#: inc/admin/panel/views/activate.php:56
+msgid ""
+"You are using Envato Hosted, this subscription code can not be deregistered."
+msgstr ""
+"Você está usando Envato Hospedado, este código de inscrição não pode ser "
+"cancelada."
+
+#: inc/admin/panel/views/activate.php:59
+msgid "Purchase Code"
+msgstr "Código De Compra"
+
+#: inc/admin/panel/views/activate.php:65
+msgid "Activate"
+msgstr "Activar"
+
+#: inc/admin/panel/views/activate.php:74
+#, php-format
+msgid ""
+"Before you get started, please be sure to always check out %1$sthis "
+"documentation%2$s. We outline all kinds of good information, and provide you "
+"with all the details you need to use Riode."
+msgstr ""
+"Antes de começar, por favor, certifique-se de sempre verificar o %1$sthis "
+"documentação de%2$s. Apresentamos todos os tipos de boas informações, e "
+"fornecer-lhe todos os detalhes que você precisa para usar Riode."
+
+#: inc/admin/panel/views/activate.php:78
+#, php-format
+msgid ""
+"If you are unable to find your answer in our documentation, we encourage you "
+"to contact us through %1$ssupport page%2$s with your site CPanel (or FTP) "
+"and WordPress admin details. We are very happy to help you and you will get "
+"reply from us more faster than you expected."
+msgstr ""
+"Se você não conseguir encontrar a sua resposta em nossa documentação, nós "
+"encorajamos você a contactar-nos através %1$ssupport página de%2$s com o seu "
+"site com CPanel (ou FTP) e de administração do WordPress detalhes. Estamos "
+"muito felizes em ajudá-lo e você vai obter a resposta de nós mais rápido do "
+"que você esperava."
+
+#: inc/admin/setup_wizard/setup_wizard.php:160
+msgid "Status"
+msgstr "Estado"
+
+#: inc/admin/setup_wizard/setup_wizard.php:167
+#: inc/admin/setup_wizard/views/customize.php:7
+msgid "Child Theme"
+msgstr "Tema Criança"
+
+#: inc/admin/setup_wizard/setup_wizard.php:183
+#: inc/admin/setup_wizard/views/demo.php:85
+msgid "Demo Import"
+msgstr "Demonstração De Importação"
+
+#: inc/admin/setup_wizard/setup_wizard.php:231
+msgid "Are you sure you want to leave?"
+msgstr "Você tem certeza que quer sair?"
+
+#: inc/admin/setup_wizard/setup_wizard.php:232
+msgid "Are you sure to import demo contents and override old one?"
+msgstr ""
+"Tem certeza de que deseja importar demo conteúdo e substituir o antigo?"
+
+#: inc/admin/setup_wizard/setup_wizard.php:234
+#, php-format
+msgid ""
+"Failed importing! Please check the %1$s\"System Status\"%2$s tab to ensure "
+"your server meets all requirements for a successful import. Settings that "
+"need attention will be listed in red. If your server provider does not allow "
+"to update settings, please try using alternative import mode."
+msgstr ""
+"Falha na importação! Por favor, verifique com o %1$s\"Status do "
+"Sistema\"%2$s guia para garantir que o servidor atende a todos os requisitos "
+"para uma importação bem-sucedida. Definições que precisam de atenção serão "
+"listados em vermelho. Se o seu provedor de servidor não permite "
+"configurações de atualização, por favor, tente utilizar a alternativa de "
+"modo de importação."
+
+#: inc/admin/setup_wizard/setup_wizard.php:235
+msgid " installation is failed!"
+msgstr " a instalação é falha!"
+
+#: inc/admin/setup_wizard/setup_wizard.php:236
+msgid " installation is finished!"
+msgstr " a instalação está concluída!"
+
+#: inc/admin/setup_wizard/setup_wizard.php:237
+msgid "Installing"
+msgstr "Instalação"
+
+#: inc/admin/setup_wizard/setup_wizard.php:238
+msgid "Visit your site."
+msgstr "Visite o seu site."
+
+#: inc/admin/setup_wizard/setup_wizard.php:281
+msgid "Failed to find TGM"
+msgstr "Falha ao localizar TGM"
+
+#: inc/admin/setup_wizard/setup_wizard.php:375
+#, php-format
+msgid "Directory permission required for %s"
+msgstr "Diretório de permissão necessária para %s"
+
+#: inc/admin/setup_wizard/setup_wizard.php:395
+#, php-format
+msgid ""
+"Child Theme %1$s has been created and activated!%2$s Folder is located in "
+"%3$s"
+msgstr ""
+"Tema criança %1$s foi criado e ativado!%2$s pasta está localizada na Pasta "
+"%3$s"
+
+#: inc/admin/setup_wizard/setup_wizard.php:551
+msgid "Remote API error."
+msgstr "API remota de erro."
+
+#: inc/admin/setup_wizard/setup_wizard.php:626
+msgid "Successfully reset menus!"
+msgstr "Com êxito redefinir menus!"
+
+#: inc/admin/setup_wizard/setup_wizard.php:655
+msgid "Successfully reset widgets!"
+msgstr "Com sucesso de reposição de widgets!"
+
+#: inc/admin/setup_wizard/setup_wizard.php:872
+msgid "Successfully imported widgets!"
+msgstr "Importado com êxito widgets!"
+
+#: inc/admin/setup_wizard/setup_wizard.php:1110
+msgid ""
+"Please compile default css files by publishing options in customize panel."
+msgstr ""
+"Por favor, compilação padrão do css ficheiros por opções de publicação em "
+"personalizar painel."
+
+#: inc/admin/setup_wizard/views/customize.php:4
+msgid "Setup Riode Child Theme (Optional)"
+msgstr "O Programa De Configuração Riode Tema Criança (Opcional)"
+
+#: inc/admin/setup_wizard/views/customize.php:7
+#, php-format
+msgid ""
+"If you are going to make changes to the theme source code please use a %1$s "
+"rather than modifying the main theme HTML/CSS/PHP code. %2$s This allows the "
+"parent theme to receive updates without overwriting your source code changes."
+" Use the form below to create and activate the Child Theme."
+msgstr ""
+"Se você estiver indo para fazer alterações para o tema de código fonte por "
+"favor, use o %1$s em vez de modificar o tema principal do HTML/CSS/PHP de "
+"código. %2$s Isso permite que o tema pai para receber atualizações sem a "
+"substituição de seu código-fonte alterações. Use o formulário abaixo para "
+"criar e ativar o Tema Criança."
+
+#: inc/admin/setup_wizard/views/customize.php:23
+msgid "Child Theme Title:"
+msgstr "Tema Filho Título:"
+
+#: inc/admin/setup_wizard/views/customize.php:27
+msgid ""
+"If you're not sure what a Child Theme is just click the \"Skip this step\" "
+"button."
+msgstr ""
+"Se você não tiver certeza de que uma Criança é Tema basta clicar em \"Pular "
+"esta etapa\" botão."
+
+#: inc/admin/setup_wizard/views/customize.php:31
+msgid "Create and Use Child Theme"
+msgstr "Criar e Usar o Tema Criança"
+
+#: inc/admin/setup_wizard/views/demo.php:6
+msgid "Demo Content Installation"
+msgstr "Conteúdo De Demonstração De Instalação"
+
+#: inc/admin/setup_wizard/views/demo.php:7
+msgid "In this step you can upload your logo and select a demo from the list."
+msgstr ""
+"Nesta etapa, você pode fazer o upload de seu logotipo e selecione uma "
+"demonstração da lista."
+
+#: inc/admin/setup_wizard/views/demo.php:12
+msgid "Your Logo:"
+msgstr "Seu Logotipo:"
+
+#: inc/admin/setup_wizard/views/demo.php:35
+msgid "Remove all installed demo contents"
+msgstr "Remover todos os demo instalada conteúdo"
+
+#: inc/admin/setup_wizard/views/demo.php:36
+msgid "Remove Content"
+msgstr "Remover O Conteúdo"
+
+#: inc/admin/setup_wizard/views/demo.php:41
+msgid "Demo Contents Remove"
+msgstr "Demo Remover Conteúdo"
+
+#: inc/admin/setup_wizard/views/demo.php:46
+msgid "Pages"
+msgstr "Páginas"
+
+#: inc/admin/setup_wizard/views/demo.php:48
+msgid "Attachments"
+msgstr "Anexos"
+
+#: inc/admin/setup_wizard/views/demo.php:50
+msgid "Builders"
+msgstr "Construtores"
+
+#: inc/admin/setup_wizard/views/demo.php:55
+msgid ""
+"Please backup your site before uninstalling. All imported and overriden "
+"contents from Riode demos would be removed."
+msgstr ""
+"Por favor, cópia de segurança do seu site antes de desinstalar. Todos "
+"importados e substituído conteúdo do Riode demonstrações seria removido."
+
+#: inc/admin/setup_wizard/views/demo.php:57
+msgid "Uninstall"
+msgstr "Desinstalação"
+
+#: inc/admin/setup_wizard/views/demo.php:98
+#: inc/admin/setup_wizard/views/demo.php:126
+msgid "Import theme options"
+msgstr "Importação de opções de tema"
+
+#: inc/admin/setup_wizard/views/demo.php:99
+#: inc/admin/setup_wizard/views/demo.php:128
+msgid "Reset menus"
+msgstr "Redefinir menus"
+
+#: inc/admin/setup_wizard/views/demo.php:100
+#: inc/admin/setup_wizard/views/demo.php:129
+msgid "Reset widgets"
+msgstr "Reposição de widgets"
+
+#: inc/admin/setup_wizard/views/demo.php:101
+#: inc/admin/setup_wizard/views/demo.php:130
+msgid "Import dummy content"
+msgstr "Importação fictício conteúdo"
+
+#: inc/admin/setup_wizard/views/demo.php:102
+#: inc/admin/setup_wizard/views/demo.php:131
+msgid "Import widgets"
+msgstr "Importar widgets"
+
+#: inc/admin/setup_wizard/views/demo.php:103
+#: inc/admin/setup_wizard/views/demo.php:133
+msgid "Import subpages"
+msgstr "Importação de subpáginas"
+
+#: inc/admin/setup_wizard/views/demo.php:125
+msgid "Select Content to Import"
+msgstr "Selecionar Conteúdo para Importação"
+
+#: inc/admin/setup_wizard/views/demo.php:132
+msgid "Override existing contents"
+msgstr "Substituir conteúdo existente"
+
+#: inc/admin/setup_wizard/views/demo.php:136
+msgid "Do you want to install demo? It can also take a minute to complete."
+msgstr ""
+"Você deseja instalar o demo? Ele também pode levar um minuto para concluir."
+
+#: inc/admin/setup_wizard/views/demo.php:137
+msgid "Standard Import"
+msgstr "Padrão De Importação"
+
+#: inc/admin/setup_wizard/views/demo.php:139
+msgid ""
+"Your server performance does not satisfy Riode demo importer engine's "
+"requirement. We recommend you to use alternative method to perform demo "
+"import without any issues but it may take much time than standard import."
+msgstr ""
+"O desempenho do servidor não atender Riode demo importador requisito do "
+"mecanismo. Recomendamos que você use o método alternativo para realizar a "
+"demonstração de importação, sem qualquer problemas, mas pode demorar muito "
+"tempo que o padrão de importação."
+
+#: inc/admin/setup_wizard/views/demo.php:141
+msgid ""
+"If you have any issues with standard import, please use Alternative mode. "
+"But it may take much time than standard import."
+msgstr ""
+"Se você tiver quaisquer problemas com o padrão de importação, por favor, use "
+"o modo Alternativo. Mas pode demorar muito tempo que o padrão de importação."
+
+#: inc/admin/setup_wizard/views/demo.php:143
+msgid "Alternative Mode"
+msgstr "Modo Alternativo"
+
+#: inc/admin/setup_wizard/views/demo.php:184
+#: inc/admin/setup_wizard/views/demo.php:199
+msgid "Install"
+msgstr "Instalar"
+
+#: inc/admin/setup_wizard/views/demo.php:210
+msgid ""
+"Installing a demo provides pages, posts, menus, images, theme options, "
+"widgets and more."
+msgstr ""
+"A instalação de uma demonstração fornece páginas, posts, menus, imagens, "
+"opções de temas, widgets e muito mais."
+
+#: inc/admin/setup_wizard/views/demo.php:211
+msgid "IMPORTANT: "
+msgstr "IMPORTANTE: "
+
+#: inc/admin/setup_wizard/views/demo.php:211
+msgid ""
+"The included plugins need to be installed and activated before you install a "
+"demo."
+msgstr ""
+"Incluído plugins precisam ser instalada e ativada antes de você instalar uma "
+"versão de demonstração."
+
+#: inc/admin/setup_wizard/views/demo.php:213
+#, php-format
+msgid ""
+"Please check the %1$sStatus%2$s step to ensure your server meets all "
+"requirements for a successful import. Settings that need attention will be "
+"listed in red."
+msgstr ""
+"Por favor, verifique com o %1$sStatus%2$s passo para garantir que seu "
+"servidor atende todos os requisitos para uma importação bem-sucedida. "
+"Definições que precisam de atenção serão listados em vermelho."
+
+#: inc/admin/setup_wizard/views/index.php:14
+msgid ""
+"This quick setup wizard will help you configure your new website. This "
+"wizard will install the required WordPress plugins, import demo."
+msgstr ""
+"Esta configuração rápida assistente ajudará você a configurar o seu novo "
+"site. Esse assistente será necessário instalar o WordPress plugins, "
+"importação de demonstração."
+
+#: inc/admin/setup_wizard/views/plugins.php:4
+msgid "Default Plugins"
+msgstr "Padrão De Plugins"
+
+#: inc/admin/setup_wizard/views/plugins.php:11
+msgid "This will install the default plugins which are used in Riode."
+msgstr "Isto irá instalar o padrão de plugins que são utilizados no Riode."
+
+#: inc/admin/setup_wizard/views/plugins.php:26
+msgid "Load more"
+msgstr "Carregar mais"
+
+#: inc/admin/setup_wizard/views/plugins.php:40
+msgid "Installation"
+msgstr "Instalação"
+
+#: inc/admin/setup_wizard/views/plugins.php:42
+msgid "Update"
+msgstr "Atualização"
+
+#: inc/admin/setup_wizard/views/plugins.php:44
+msgid "Activation"
+msgstr "Activação"
+
+#: inc/admin/setup_wizard/views/plugins.php:49
+#, php-format
+msgid "%s required"
+msgstr "%s necessários"
+
+#: inc/admin/setup_wizard/views/plugins.php:52
+#, php-format
+msgid "%s recommended for certain demos"
+msgstr "%s recomendada para certas demonstrações"
+
+#: inc/admin/setup_wizard/views/plugins.php:66
+#, php-format
+msgid ""
+"Using %1$sseveral page builders%2$s togther affects your site performance."
+msgstr ""
+"Usando o %1$sseveral página construtores de%2$s em conjunto afeta o "
+"desempenho do site."
+
+#: inc/admin/setup_wizard/views/plugins.php:70
+msgid ""
+"Good news! All plugins are already installed and up to date. Please continue."
+msgstr ""
+"Boas notícias! Todos os plugins já instalados e atualizados. Por favor, "
+"continue."
+
+#: inc/admin/setup_wizard/views/ready.php:5
+msgid "Your Website is Ready!"
+msgstr "Seu Site está Pronto!"
+
+#: inc/admin/setup_wizard/views/ready.php:7
+msgid ""
+"Congratulations! The theme has been activated and your website is ready. "
+"Please go to your WordPress dashboard to make changes and modify the content "
+"for your needs."
+msgstr ""
+"Parabéns! O tema tem sido ativada, e seu site está pronto. Por favor, vá ao "
+"seu painel do WordPress para fazer alterações e modificar o conteúdo para "
+"suas necessidades."
+
+#: inc/admin/setup_wizard/views/ready.php:9
+msgid ""
+"This theme comes with 6 months item support from purchase date (with the "
+"option to extend this period). This license allows you to use this theme on "
+"a single website. Please purchase an additional license to use this theme on "
+"another website."
+msgstr ""
+"Este tema vem com 6 meses de suporte do item a partir da data de compra (com "
+"a opção de estender esse período). Esta licença permite que você usar este "
+"tema em um único site. Por favor, compra de uma licença adicional para "
+"utilizar este tema em outro site."
+
+#: inc/admin/setup_wizard/views/ready.php:13
+#, php-format
+msgid "Item Support %1$sDOES%2$s Include:"
+msgstr "O Suporte do Item %1$sDOES%2$s Incluem:"
+
+#: inc/admin/setup_wizard/views/ready.php:16
+msgid "Availability of the author to answer questions"
+msgstr "Disponibilidade do autor para responder a perguntas"
+
+#: inc/admin/setup_wizard/views/ready.php:17
+msgid "Answering technical questions about item features"
+msgstr "Responder a questões técnicas sobre o item recursos"
+
+#: inc/admin/setup_wizard/views/ready.php:18
+msgid "Assistance with reported bugs and issues"
+msgstr "Assistência com relatórios de bugs e problemas"
+
+#: inc/admin/setup_wizard/views/ready.php:19
+msgid "Help with bundled 3rd party plugins"
+msgstr "A ajuda vem com plugins de 3"
+
+#: inc/admin/setup_wizard/views/ready.php:24
+#, php-format
+msgid "Item Support %1$sDOES NOT%2$s Include:"
+msgstr "O Suporte do Item %1$sDOES NÃO%2$s Incluem:"
+
+#: inc/admin/setup_wizard/views/ready.php:26
+#, php-format
+msgid ""
+"Customization services (this is available through %1$sptheme.customize@gmail."
+"com%2$s)"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:27
+#, php-format
+msgid ""
+"Installation services (this is available through %1$sptheme.customize@gmail."
+"com%2$s)"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:28
+msgid ""
+"Help and Support for non-bundled 3rd party plugins (i.e. plugins you install "
+"yourself later on)"
+msgstr ""
+"Ajuda e Suporte para não-agrupados plugins de 3 (i.e. plugins que você "
+"instalar-se mais tarde)"
+
+#: inc/admin/setup_wizard/views/ready.php:33
+#, php-format
+msgid ""
+"More details about item support can be found in the ThemeForest %1$sItem "
+"Support Policy%2$s."
+msgstr ""
+"Mais detalhes sobre o suporte do item pode ser encontrado no ThemeForest "
+"%1$sItem Política de Suporte de%2$s."
+
+#: inc/admin/setup_wizard/views/ready.php:37
+msgid "More Resources"
+msgstr "Mais Recursos"
+
+#: inc/admin/setup_wizard/views/ready.php:39
+msgid "Riode Documentation"
+msgstr "Riode Documentação"
+
+#: inc/admin/setup_wizard/views/ready.php:40
+msgid "Learn how to use WooCommerce"
+msgstr "Saiba como usar o WooCommerce"
+
+#: inc/admin/setup_wizard/views/ready.php:41
+msgid "Learn how to use WordPress"
+msgstr "Saiba como usar o WordPress"
+
+#: inc/admin/setup_wizard/views/ready.php:42
+msgid "Leave an Item Rating"
+msgstr "Deixar um Item de Classificação"
+
+#: inc/admin/setup_wizard/views/ready.php:45
+#, php-format
+msgid ""
+"Please come back and leave a %1$s5-star rating%2$s if you are happy with "
+"this theme. Thanks!"
+msgstr ""
+"Por favor, volte e deixe um %1$s5-classificação de estrela%2$s, se você está "
+"feliz com este tema. Obrigado!"
+
+#: inc/admin/setup_wizard/views/status.php:30
+msgid "System Status"
+msgstr "Status Do Sistema"
+
+#: inc/admin/setup_wizard/views/status.php:31
+msgid "Check your current server performance."
+msgstr "Verifique o seu atual desempenho do servidor."
+
+#: inc/admin/setup_wizard/views/status.php:42
+msgid "Uploads folder writable"
+msgstr "Pasta Uploads gravável"
+
+#: inc/admin/setup_wizard/views/status.php:45
+msgid ""
+"Uploads folder must be writable. Please set write permission to your wp-"
+"content/uploads folder."
+msgstr ""
+"Pasta Uploads deve ser gravado. Por favor, configure permissão de escrita "
+"para o seu wp-content/uploads pasta."
+
+#: inc/admin/setup_wizard/views/status.php:56
+msgid "WP File System"
+msgstr "WP Sistema de arquivos"
+
+#: inc/admin/setup_wizard/views/status.php:59
+msgid ""
+"File System access is required for pre-built websites and plugins "
+"installation. Please contact your hosting provider."
+msgstr ""
+"Acesso ao Sistema de arquivo é necessário para o pré-construído de sites e "
+"plug-ins de instalação. Por favor, contate seu provedor de hospedagem."
+
+#: inc/admin/setup_wizard/views/status.php:71
+msgid "ZipArchive"
+msgstr "ZipArchive"
+
+#: inc/admin/setup_wizard/views/status.php:74
+msgid ""
+"ZipArchive is required for pre-built websites and plugins installation. "
+"Please contact your hosting provider."
+msgstr ""
+"ZipArchive é necessário para o pré-construído de sites e plug-ins de "
+"instalação. Por favor, contate seu provedor de hospedagem."
+
+#: inc/admin/setup_wizard/views/status.php:82
+msgid "SUHOSIN Installed"
+msgstr "SUHOSIN Instalado"
+
+#: inc/admin/setup_wizard/views/status.php:83
+msgid ""
+"Suhosin may need to be configured to increase its data submission limits."
+msgstr ""
+"Suhosin pode precisar ser configurado para aumentar a sua apresentação de "
+"dados limites."
+
+#: inc/admin/setup_wizard/views/status.php:99
+msgid "PHP Memory Limit"
+msgstr "Limite de Memória PHP"
+
+#: inc/admin/setup_wizard/views/status.php:107
+#, php-format
+msgid "Minimum %1$s128 MB%2$s is required, %1$s256 MB%2$s is recommended."
+msgstr "Mínimo de %1$s128 MB%2$s é necessária, %1$s256 MB%2$s é recomendado."
+
+#: inc/admin/setup_wizard/views/status.php:111
+#, php-format
+msgid "Current memory limit is OK, however %1$s256 MB%2$s is recommended."
+msgstr "Atual limite de memória está OK, porém %1$s256 MB%2$s é recomendado."
+
+#: inc/admin/setup_wizard/views/status.php:128
+msgid "PHP max_execution_time"
+msgstr "PHP max_execution_time"
+
+#: inc/admin/setup_wizard/views/status.php:136
+#, php-format
+msgid "Minimum %1$s300%2$s is required, %1$s600%2$s is recommended."
+msgstr "Mínimo de %1$s300%2$s é necessária, %1$s600%2$s é recomendado."
+
+#: inc/admin/setup_wizard/views/status.php:140
+#, php-format
+msgid "Current time limit is OK, however %1$s600%2$s is recommended."
+msgstr "Atual limite de tempo é OK, porém %1$s600%2$s é recomendado."
+
+#: inc/admin/setup_wizard/views/status.php:153
+msgid "PHP max_input_vars"
+msgstr "PHP max_input_vars"
+
+#: inc/admin/setup_wizard/views/status.php:159
+msgid "Minimum 2000 is required"
+msgstr "Mínimo de 2000, é necessário"
+
+#: inc/admin/setup_wizard/views/status.php:163
+msgid ""
+"Do not worry if you are unable to update your server configuration due to "
+"hosting limit, you can use \"Alternative Import\" method in Demo Content "
+"import page."
+msgstr ""
+"Não se preocupe se você não consegue atualizar o seu servidor de "
+"configuração devido a hospedagem limite, você pode usar a Alternativa "
+"\"Importar\" método de Demonstração de Conteúdo de importação da página."
+
+#: inc/admin/setup_wizard/views/status.php:167
+msgid ""
+"php.ini values are shown above. Real values may vary, please check your "
+"limits using"
+msgstr ""
+"php.ini valores são mostrados acima. Os valores reais podem variar, por "
+"favor verifique os seus limites de utilização"
+
+#: inc/functions/woocommerce/product-archive.php:77
+msgid "Show :"
+msgstr "Mostrar :"
+
+#: inc/functions/woocommerce/product-category.php:199
+msgid "Shop Now"
+msgstr "Compre Agora"
+
+#: inc/functions/woocommerce/product-category.php:217
+#, php-format
+msgid "Subcategory %d"
+msgstr "Subcategoria %d"
+
+#: inc/functions/woocommerce/product-loop.php:168
+#: inc/functions/woocommerce/product-loop.php:212
+#: inc/functions/woocommerce/product-loop.php:302
+msgid "Quick View"
+msgstr "Visualização Rápida"
+
+#: inc/functions/woocommerce/product-loop.php:489
+#: inc/functions/woocommerce/product-single.php:721
+msgid "Add to Cart"
+msgstr "Adicionar ao Carrinho"
+
+#: inc/functions/woocommerce/product-loop.php:489
+msgid "Select Options"
+msgstr "Seleccione Opções"
+
+#: inc/functions/woocommerce/product-loop.php:489
+msgid "Read more"
+msgstr "Leia mais"
+
+#: inc/functions/woocommerce/product-loop.php:550
+#: inc/functions/woocommerce/product-single.php:842
+msgid "Added"
+msgstr "Adicionado"
+
+#: inc/functions/woocommerce/product-single.php:299
+#: inc/functions/woocommerce/product-single.php:491
+msgid "Awaiting product image"
+msgstr "A aguardar imagem de um produto"
+
+#: inc/functions/woocommerce/product-single.php:339
+#: inc/general_function.php:478 inc/general_function.php:545
+#: inc/general_function.php:547
+msgid "Prev"
+msgstr "Anterior"
+
+#: inc/functions/woocommerce/product-single.php:348
+#: inc/general_function.php:479 inc/general_function.php:550
+#: inc/general_function.php:552
+msgid "Next"
+msgstr "Próximo"
+
+#: inc/functions/woocommerce/product-single.php:613
+msgid "Off Ends In:"
+msgstr "Termina Em:"
+
+#: inc/functions/woocommerce/product-single.php:626
+msgid "days"
+msgstr "dias"
+
+#: inc/functions/woocommerce/product-single.php:845
+msgid "Add To Compare"
+msgstr "Adicionar Para Comparar"
+
+#: inc/functions/woocommerce/woocommerce.php:89 inc/setup/theme-assets.php:298
+msgid "View Cart"
+msgstr "Ver Carrinho"
+
+#: inc/functions/woocommerce/woocommerce.php:95
+msgid "Go To Checkout"
+msgstr "Ir Para A Caixa"
+
+#: inc/functions/woocommerce/woocommerce.php:232
+msgid "Product added to cart successfully"
+msgstr "Produto adicionado ao carrinho com sucesso"
+
+#: inc/functions/woocommerce/woocommerce.php:295
+msgid "Default sorting"
+msgstr "A classificação padrão"
+
+#: inc/functions/woocommerce/woocommerce.php:296
+msgid "Sort by popularity"
+msgstr "Ordenar por popularidade"
+
+#: inc/functions/woocommerce/woocommerce.php:297
+msgid "Sort by average rating"
+msgstr "Ordenar por classificação média"
+
+#: inc/functions/woocommerce/woocommerce.php:298
+msgid "Sort by latest"
+msgstr "Ordenar por mais recentes"
+
+#: inc/functions/woocommerce/woocommerce.php:299
+msgid "Sort by price: low to high"
+msgstr "Ordenar por preço: de alto a baixo"
+
+#: inc/functions/woocommerce/woocommerce.php:300
+msgid "Sort by price: high to low"
+msgstr "Ordenar por preço: baixa e alta"
+
+#: inc/functions/woocommerce/woocommerce.php:310
+msgid "Relevance"
+msgstr "Relevância"
+
+#: inc/general_function.php:457
+msgid "Load More"
+msgstr "Carregar Mais"
+
+#: inc/general_function.php:613
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/general_function.php:613
+msgid "(Edit)"
+msgstr "(Edit)"
+
+#: inc/general_function.php:623
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s a %2$s"
+
+#: inc/general_function.php:628
+msgid "Your comment is awaiting moderation."
+msgstr "O seu comentário está aguardando moderação."
+
+#: inc/general_function.php:683
+#, php-format
+msgid "%s ago"
+msgstr "%s atrás"
+
+#: inc/general_function.php:1115 inc/general_function.php:1117
+msgid "Our Blog"
+msgstr "Nosso Blog"
+
+#: inc/init.php:115 inc/init.php:166
+msgid "Default Animation"
+msgstr "Padrão De Animação"
+
+#: inc/init.php:116
+msgid "Bounce"
+msgstr "Rejeição"
+
+#: inc/init.php:117
+msgid "Flash"
+msgstr "Flash"
+
+#: inc/init.php:118
+msgid "Pulse"
+msgstr "Pulso"
+
+#: inc/init.php:119
+msgid "RubberBand"
+msgstr "RubberBand"
+
+#: inc/init.php:120
+msgid "Shake"
+msgstr "Shake"
+
+#: inc/init.php:121
+msgid "HeadShake"
+msgstr "HeadShake"
+
+#: inc/init.php:122
+msgid "Swing"
+msgstr "Balanço"
+
+#: inc/init.php:123
+msgid "Tada"
+msgstr "Tada"
+
+#: inc/init.php:124
+msgid "Wobble"
+msgstr "Wobble"
+
+#: inc/init.php:125
+msgid "Jello"
+msgstr "Jello"
+
+#: inc/init.php:126
+msgid "HearBeat"
+msgstr "HearBeat"
+
+#: inc/init.php:127 inc/init.php:209
+msgid "BlurIn"
+msgstr "BlurIn"
+
+#: inc/init.php:128
+msgid "BounceIn"
+msgstr "BounceIn"
+
+#: inc/init.php:129
+msgid "BounceInUp"
+msgstr "BounceInUp"
+
+#: inc/init.php:130
+msgid "BounceInDown"
+msgstr "BounceInDown"
+
+#: inc/init.php:131
+msgid "BounceInLeft"
+msgstr "BounceInLeft"
+
+#: inc/init.php:132
+msgid "BounceInRight"
+msgstr "BounceInRight"
+
+#: inc/init.php:133
+msgid "FadeIn"
+msgstr "FadeIn"
+
+#: inc/init.php:134
+msgid "FadeInUp"
+msgstr "FadeInUp"
+
+#: inc/init.php:135
+msgid "FadeInUpBig"
+msgstr "FadeInUpBig"
+
+#: inc/init.php:136
+msgid "FadeInDown"
+msgstr "FadeInDown"
+
+#: inc/init.php:137
+msgid "FadeInDownBig"
+msgstr "FadeInDownBig"
+
+#: inc/init.php:138
+msgid "FadeInLeft"
+msgstr "FadeInLeft"
+
+#: inc/init.php:139
+msgid "FadeInLeftBig"
+msgstr "FadeInLeftBig"
+
+#: inc/init.php:140
+msgid "FadeInRight"
+msgstr "FadeInRight"
+
+#: inc/init.php:141
+msgid "FadeInRightBig"
+msgstr "FadeInRightBig"
+
+#: inc/init.php:142
+msgid "Flip"
+msgstr "Flip"
+
+#: inc/init.php:143
+msgid "FlipInX"
+msgstr "FlipInX"
+
+#: inc/init.php:144
+msgid "FlipInY"
+msgstr "FlipInY"
+
+#: inc/init.php:145
+msgid "LightSpeedIn"
+msgstr "LightSpeedIn"
+
+#: inc/init.php:146
+msgid "RotateIn"
+msgstr "RotateIn"
+
+#: inc/init.php:147
+msgid "RotateInUpLeft"
+msgstr "RotateInUpLeft"
+
+#: inc/init.php:148
+msgid "RotateInUpRight"
+msgstr "RotateInUpRight"
+
+#: inc/init.php:149
+msgid "RotateInDownLeft"
+msgstr "RotateInDownLeft"
+
+#: inc/init.php:150
+msgid "RotateInDownRight"
+msgstr "RotateInDownRight"
+
+#: inc/init.php:151
+msgid "Hinge"
+msgstr "Dobradiça"
+
+#: inc/init.php:152
+msgid "JackInTheBox"
+msgstr "JackInTheBox"
+
+#: inc/init.php:153
+msgid "RollIn"
+msgstr "RollIn"
+
+#: inc/init.php:154
+msgid "ZoomIn"
+msgstr "ZoomIn"
+
+#: inc/init.php:155
+msgid "ZoomInUp"
+msgstr "ZoomInUp"
+
+#: inc/init.php:156
+msgid "ZoomInDown"
+msgstr "ZoomInDown"
+
+#: inc/init.php:157
+msgid "ZoomInLeft"
+msgstr "ZoomInLeft"
+
+#: inc/init.php:158
+msgid "ZoomInRight"
+msgstr "ZoomInRight"
+
+#: inc/init.php:159
+msgid "SlideInUp"
+msgstr "SlideInUp"
+
+#: inc/init.php:160
+msgid "SlideInDown"
+msgstr "SlideInDown"
+
+#: inc/init.php:161
+msgid "SlideInLeft"
+msgstr "SlideInLeft"
+
+#: inc/init.php:162
+msgid "SlideInRight"
+msgstr "SlideInRight"
+
+#: inc/init.php:167
+msgid "BlurOut"
+msgstr "BlurOut"
+
+#: inc/init.php:168
+msgid "BounceOut"
+msgstr "BounceOut"
+
+#: inc/init.php:169
+msgid "BounceOutUp"
+msgstr "BounceOutUp"
+
+#: inc/init.php:170
+msgid "BounceOutDown"
+msgstr "BounceOutDown"
+
+#: inc/init.php:171
+msgid "BounceOutLeft"
+msgstr "BounceOutLeft"
+
+#: inc/init.php:172
+msgid "BounceOutRight"
+msgstr "BounceOutRight"
+
+#: inc/init.php:173
+msgid "FadeOut"
+msgstr "Php"
+
+#: inc/init.php:174
+msgid "FadeOutUp"
+msgstr "FadeOutUp"
+
+#: inc/init.php:175
+msgid "FadeOutUpBig"
+msgstr "FadeOutUpBig"
+
+#: inc/init.php:176
+msgid "FadeOutDown"
+msgstr "FadeOutDown"
+
+#: inc/init.php:177
+msgid "FadeOutDownBig"
+msgstr "FadeOutDownBig"
+
+#: inc/init.php:178
+msgid "FadeOutLeft"
+msgstr "FadeOutLeft"
+
+#: inc/init.php:179
+msgid "FadeOutLeftBig"
+msgstr "FadeOutLeftBig"
+
+#: inc/init.php:180
+msgid "FadeOutRight"
+msgstr "FadeOutRight"
+
+#: inc/init.php:181
+msgid "FadeOutRightBig"
+msgstr "FadeOutRightBig"
+
+#: inc/init.php:182
+msgid "FlipOutX"
+msgstr "FlipOutX"
+
+#: inc/init.php:183
+msgid "FlipOutY"
+msgstr "FlipOutY"
+
+#: inc/init.php:184
+msgid "LightSpeedOut"
+msgstr "LightSpeedOut"
+
+#: inc/init.php:185
+msgid "RotateOutUpLeft"
+msgstr "RotateOutUpLeft"
+
+#: inc/init.php:186
+msgid "RotateOutUpRight"
+msgstr "RotateOutUpRight"
+
+#: inc/init.php:187
+msgid "RotateOutDownLeft"
+msgstr "RotateOutDownLeft"
+
+#: inc/init.php:188
+msgid "RotateOutDownRight"
+msgstr "RotateOutDownRight"
+
+#: inc/init.php:189
+msgid "RollOut"
+msgstr "Distribuição"
+
+#: inc/init.php:190
+msgid "ZoomOut"
+msgstr "ZoomOut"
+
+#: inc/init.php:191
+msgid "ZoomOutUp"
+msgstr "ZoomOutUp"
+
+#: inc/init.php:192
+msgid "ZoomOutDown"
+msgstr "ZoomOutDown"
+
+#: inc/init.php:193
+msgid "ZoomOutLeft"
+msgstr "ZoomOutLeft"
+
+#: inc/init.php:194
+msgid "ZoomOutRight"
+msgstr "ZoomOutRight"
+
+#: inc/init.php:195
+msgid "SlideOutUp"
+msgstr "SlideOutUp"
+
+#: inc/init.php:196
+msgid "SlideOutDown"
+msgstr "SlideOutDown"
+
+#: inc/init.php:197
+msgid "SlideOutLeft"
+msgstr "SlideOutLeft"
+
+#: inc/init.php:198
+msgid "SlideOutRight"
+msgstr "SlideOutRight"
+
+#: inc/init.php:203
+msgid "Fade In Down Shorter"
+msgstr "Fade In Para Baixo Mais Curto"
+
+#: inc/init.php:204
+msgid "Fade In Left Shorter"
+msgstr "Fade In Esquerdo Mais Curto"
+
+#: inc/init.php:205
+msgid "Fade In Right Shorter"
+msgstr "Desvanecem-Se No Direito De Menores"
+
+#: inc/init.php:206
+msgid "Fade In Up Shorter"
+msgstr "Fade In Até Mais Curto"
+
+#: inc/plugins/importer/importer-api.php:180
+msgid "The package could not be downloaded."
+msgstr "O pacote não pode ser baixado."
+
+#: inc/plugins/importer/importer-api.php:201
+msgid "WordPress filesystem error."
+msgstr "WordPress sistema de arquivos erro."
+
+#: inc/plugins/importer/importer-api.php:206
+msgid "The package could not be unziped."
+msgstr "O pacote não pôde ser unziped."
+
+#: inc/plugins/importer/importer-api.php:211
+#, php-format
+msgid "Demo data directory does not exist (%s)."
+msgstr "Demo de dados de diretório não existe (%s)."
+
+#: inc/plugins/importer/parsers.php:45 inc/plugins/importer/parsers.php:93
+#: inc/plugins/importer/parsers.php:101
+#: inc/plugins/importer/riode-parsers.php:46
+#: inc/plugins/importer/riode-parsers.php:96
+#: inc/plugins/importer/riode-parsers.php:104
+msgid "There was an error when reading this WXR file"
+msgstr "Houve um erro ao ler este arquivo WXR"
+
+#: inc/plugins/importer/parsers.php:46
+#: inc/plugins/importer/riode-parsers.php:47
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+"Os detalhes são mostrados acima. O importador será agora tente novamente com "
+"um outro analisador de..."
+
+#: inc/plugins/importer/parsers.php:106 inc/plugins/importer/parsers.php:112
+#: inc/plugins/importer/parsers.php:403 inc/plugins/importer/parsers.php:620
+#: inc/plugins/importer/riode-parsers.php:109
+#: inc/plugins/importer/riode-parsers.php:115
+#: inc/plugins/importer/riode-parsers.php:408
+#: inc/plugins/importer/riode-parsers.php:630
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+"Este não parece ser um arquivo WXR, ausente ou inválido WXR número de versão"
+
+#: inc/plugins/importer/parsers.php:561
+#: inc/plugins/importer/riode-parsers.php:569
+msgid "GZ Not Enabled"
+msgstr "GZ Não Habilitado"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:210
+msgid "Imported categories"
+msgstr "Categorias importadas"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:215
+msgid "Imported tags"
+msgstr "Marcas importados"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:220
+msgid "Imported terms"
+msgstr "Importado termos"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:226
+msgid "Imported posts"
+msgstr "Postagens importadas"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:232
+msgid "Importing posts"
+msgstr "A importação de posts"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:241
+msgid "Importing menus"
+msgstr "A importação de menus"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:247
+#: inc/plugins/importer/riode-wordpress-importer.php:255
+#: inc/plugins/importer/riode-wordpress-importer.php:260
+msgid "Processing menus"
+msgstr "Menus de processamento"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:267
+msgid "Successfully imported dummy content!"
+msgstr "Importado com êxito fictício conteúdo!"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:314
+#: inc/plugins/importer/riode-wordpress-importer.php:323
+#: inc/plugins/importer/riode-wordpress-importer.php:380
+#: inc/plugins/importer/riode-wordpress-importer.php:384
+#: inc/plugins/importer/riode-wordpress-importer.php:394
+#: inc/plugins/importer/wordpress-importer.php:207
+#: inc/plugins/importer/wordpress-importer.php:216
+#: inc/plugins/importer/wordpress-importer.php:278
+#: inc/plugins/importer/wordpress-importer.php:282
+#: inc/plugins/importer/wordpress-importer.php:292
+msgid "Sorry, there has been an error."
+msgstr "Desculpe, houve um erro."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:315
+#: inc/plugins/importer/wordpress-importer.php:208
+msgid "The file does not exist, please try again."
+msgstr "O arquivo não existir, por favor, tente novamente."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:386
+#: inc/plugins/importer/wordpress-importer.php:284
+#, php-format
+msgid ""
+"The export file could not be found at %s. It is likely that this was caused "
+"by a permissions problem."
+msgstr ""
+"O arquivo de exportação não pode ser encontrado em %s. É provável que isso "
+"foi causado por um problema de permissões."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:403
+#: inc/plugins/importer/wordpress-importer.php:301
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+"Este arquivo WXR (versão %s) podem não ser suportados por esta versão do "
+"importador. Por favor, considere a atualização."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:429
+#: inc/plugins/importer/wordpress-importer.php:327
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+"Falha ao importar o autor %s. Seus posts serão atribuídos para o usuário "
+"atual."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:456
+#: inc/plugins/importer/wordpress-importer.php:354
+msgid "Assign Authors"
+msgstr "Atribuir Autores"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:458
+#: inc/plugins/importer/wordpress-importer.php:356
+#, php-format
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as %1$sadmin%2$ss "
+"entries."
+msgstr ""
+"Para tornar mais fácil para você editar e salvar o conteúdo importado, você "
+"pode deseja reatribuir o autor do item importado para um utilizador "
+"existente do site. Por exemplo, você pode querer importar todas as entradas "
+"de como %1$sadmin%2$ss entradas."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:461
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user's role will be set as %s. Manually changing the "
+"new user&#8217;s details will be necessary."
+msgstr ""
+"Se é criado um novo usuário WordPress, uma nova senha gerada aleatoriamente, "
+"e a nova função do usuário será definido como %s. Alterar manualmente os "
+"novos dados do utilizador serão necessárias."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:471
+#: inc/plugins/importer/wordpress-importer.php:369
+msgid "Import Attachments"
+msgstr "Importar Anexos"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:474
+#: inc/plugins/importer/wordpress-importer.php:372
+msgid "Download and import file attachments"
+msgstr "O Download e importar ficheiros anexos"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:491
+#: inc/plugins/importer/wordpress-importer.php:389
+msgid "Import author:"
+msgstr "Importação autor:"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:505
+#: inc/plugins/importer/wordpress-importer.php:403
+msgid "or create new user with login name:"
+msgstr "ou criar novo usuário com o nome de início de sessão:"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:508
+#: inc/plugins/importer/wordpress-importer.php:406
+msgid "as a new user:"
+msgstr "como um novo usuário:"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:516
+#: inc/plugins/importer/wordpress-importer.php:414
+msgid "assign posts to an existing user:"
+msgstr "atribuir mensagens para um usuário existente:"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:518
+#: inc/plugins/importer/wordpress-importer.php:416
+msgid "or assign posts to an existing user:"
+msgstr "ou atribuir mensagens para um usuário existente:"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:525
+#: inc/plugins/importer/wordpress-importer.php:423
+msgid "- Select -"
+msgstr "- Selecione -"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:584
+#: inc/plugins/importer/wordpress-importer.php:482
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+"Falha ao criar novo usuário para %s. Seus posts serão atribuídos para o "
+"usuário atual."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:669
+#: inc/plugins/importer/wordpress-importer.php:565
+#, php-format
+msgid "Failed to import category %s"
+msgstr "Falha ao importar categoria %s"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:724
+#: inc/plugins/importer/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr "Falha ao importar o post da tag %s"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:806
+#: inc/plugins/importer/riode-wordpress-importer.php:1146
+#: inc/plugins/importer/wordpress-importer.php:698
+#: inc/plugins/importer/wordpress-importer.php:1038
+#, php-format
+msgid "Failed to import %1$s %2$s"
+msgstr "Falha ao importar %1$s %2$s"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:912
+#: inc/plugins/importer/wordpress-importer.php:795
+#, php-format
+msgid "Failed to import &#8220;%1$s&#8221;: Invalid post type %2$s"
+msgstr ""
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1003
+#: inc/plugins/importer/riode-wordpress-importer.php:1105
+#: inc/plugins/importer/wordpress-importer.php:895
+#: inc/plugins/importer/wordpress-importer.php:999
+#, php-format
+msgid "Failed to import %1$s &#8220;%2$s&#8221;"
+msgstr ""
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1366
+#: inc/plugins/importer/wordpress-importer.php:1261
+msgid "Menu item skipped due to missing menu slug"
+msgstr "Item de Menu ignorados, devido à falta de menu slug"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1373
+#: inc/plugins/importer/wordpress-importer.php:1268
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "Item de Menu ignorado devido ao menu inválido slug: %s"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1456
+#: inc/plugins/importer/wordpress-importer.php:1351
+msgid "Fetching attachments is not enabled"
+msgstr "Buscando anexos não está habilitado"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1473
+#: inc/plugins/importer/wordpress-importer.php:1368
+msgid "Invalid file type"
+msgstr "Tipo de arquivo inválido"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1542
+#: inc/plugins/importer/wordpress-importer.php:1437
+msgid "Remote server did not respond"
+msgstr "Servidor remoto não respondeu"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1549
+#: inc/plugins/importer/wordpress-importer.php:1444
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr "Servidor remoto retornou resposta de erro %1$d %2$s"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1558
+#: inc/plugins/importer/wordpress-importer.php:1453
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr "Arquivo remoto é muito grande, o limite é %s"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1671
+#: inc/plugins/importer/wordpress-importer.php:1560
+msgid "Import WordPress"
+msgstr "Importação WordPress"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1679
+#: inc/plugins/importer/wordpress-importer.php:1568
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+"Uma nova versão deste importador está disponível. Por favor, atualize para a "
+"versão %s para garantir a compatibilidade com os mais recentes arquivos de "
+"exportação."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1694
+#: inc/plugins/importer/wordpress-importer.php:1583
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1695
+#: inc/plugins/importer/wordpress-importer.php:1584
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+"Escolha um WXR (.xml) do arquivo para upload, em seguida, clique em fazer "
+"Upload de arquivo e importar."
+
+#: inc/plugins/importer/wordpress-importer.php:262
+msgid "All done."
+msgstr "Tudo feito."
+
+#: inc/plugins/importer/wordpress-importer.php:262
+msgid "Have fun!"
+msgstr "Divirta-se!"
+
+#: inc/plugins/importer/wordpress-importer.php:263
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+"Lembre-se de atualizar as senhas e os papéis dos utilizadores importados."
+
+#: inc/plugins/importer/wordpress-importer.php:359
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+"Se é criado um novo usuário WordPress, uma nova senha gerada aleatoriamente, "
+"e a nova função do usuário será definido como %s. Alterar manualmente os "
+"novos dados do utilizador serão necessárias."
+
+#: inc/plugins/importer/wordpress-importer.php:845
+#, php-format
+msgid "%1$s &#8220;%2$s&#8221; already exists."
+msgstr ""
+
+#: inc/setup/theme-assets.php:257
+msgid "Loading..."
+msgstr "A carregar..."
+
+#: inc/setup/theme-assets.php:258
+msgid "Loading failed"
+msgstr "Carregamento falhou"
+
+#: inc/setup/theme-assets.php:259
+msgid "The content could not be loaded."
+msgstr "O conteúdo não pode ser carregado."
+
+#: inc/setup/theme-assets.php:260
+#, php-format
+msgid "all %d"
+msgstr "todos os %d"
+
+#: inc/setup/theme-assets.php:296
+msgid "Successfully Added"
+msgstr "Adicionado Com Sucesso"
+
+#: inc/setup/theme-assets.php:297
+msgid "Add to wishlist"
+msgstr "Adicionar à lista de desejos"
+
+#: inc/setup/theme-assets.php:299
+msgid "Check Out"
+msgstr "Confira"
+
+#: inc/setup/theme-options.php:13
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/setup/theme-options.php:14
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/setup/theme-options.php:15
+msgid "Linkedin"
+msgstr "O Linkedin"
+
+#: inc/setup/theme-options.php:17
+msgid "Google +"
+msgstr "Google +"
+
+#: inc/setup/theme-options.php:18
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/setup/theme-options.php:19
+msgid "Reddit"
+msgstr "Reddit"
+
+#: inc/setup/theme-options.php:20
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: inc/setup/theme-options.php:21
+msgid "VK"
+msgstr "VK"
+
+#: inc/setup/theme-options.php:22
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: inc/setup/theme-options.php:23
+msgid "Xing"
+msgstr "Xing"
+
+#: inc/setup/theme-options.php:24
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/setup/theme-options.php:131
+msgid "Menu"
+msgstr "Menu"
+
+#: inc/setup/theme-options.php:135
+msgid "Categories"
+msgstr "Categorias"
+
+#: inc/setup/theme-setup.php:22
+msgid "Account Menu"
+msgstr "Menu Da Conta"
+
+#: inc/setup/theme-setup.php:38
+msgid "Currency Switcher"
+msgstr "Moeda Switcher"
+
+#: inc/setup/theme-setup.php:39
+msgid "Language Switcher"
+msgstr "Language Switcher"
+
+#: inc/setup/theme-setup.php:40
+msgid "Main Menu"
+msgstr "Menu Principal"
+
+#: inc/setup/theme-setup.php:84
+msgid "Small"
+msgstr "Pequeno"
+
+#: inc/setup/theme-setup.php:90
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/setup/theme-setup.php:91
+msgid "N"
+msgstr "N"
+
+#: inc/setup/theme-setup.php:96
+msgid "Medium"
+msgstr "Médio"
+
+#: inc/setup/theme-setup.php:102
+msgid "Large"
+msgstr "Grande"
+
+#: inc/setup/theme-setup.php:108
+msgid "Huge"
+msgstr "Enorme"
+
+#: inc/setup/theme-setup.php:109
+msgid "huge"
+msgstr "enorme"
+
+#: inc/setup/theme-setup.php:121
+msgid "Primary"
+msgstr "Principal"
+
+#: inc/setup/theme-setup.php:126
+msgid "Secondary"
+msgstr "Secundário"
+
+#: inc/setup/theme-setup.php:131
+msgid "Alert"
+msgstr "Alerta"
+
+#: inc/setup/theme-setup.php:141
+msgid "White"
+msgstr "Branco"
+
+#: inc/setup/theme-setup.php:146
+msgid "Default Font Color"
+msgstr "Cor De Fonte Padrão"
+
+#: inc/setup/theme-setup.php:151
+msgid "Transparent"
+msgstr "Transparente"
+
+#: inc/walker/walker-init.php:67
+msgid "Riode Custom Fields"
+msgstr "Riode Campos Personalizados"
+
+#: inc/walker/walker-init.php:72
+msgid "No Link"
+msgstr "Nenhum Link"
+
+#: inc/walker/walker-init.php:79
+msgid "Megamenu"
+msgstr "Megamenu"
+
+#: inc/walker/walker-init.php:85
+msgid "Megamenu Width (px)"
+msgstr "Megamenu Largura (px)"
+
+#: inc/walker/walker-init.php:92
+msgid "Megamenu Position"
+msgstr "Megamenu Posição"
+
+#: inc/walker/walker-init.php:122
+msgid "Select A Block"
+msgstr "Selecione Um Bloco De"
+
+#: inc/walker/walker-init.php:133
+msgid "This option only works in megamenu."
+msgstr "Esta opção só funciona em megamenu."
+
+#: inc/walker/walker-init.php:141
+msgid "Prefix Icon Class"
+msgstr "Prefixo Ícone De Classe"
+
+#: inc/walker/walker-init.php:143
+msgid "Riode Icon Store might be useful for you to select icons."
+msgstr "Riode Ícone da Loja podem ser úteis para você para selecionar ícones."
+
+#: inc/walker/walker-init.php:149
+msgid "Add Label"
+msgstr "Adicionar A Etiqueta"
+
+#: inc/walker/walker-init.php:151
+msgid "Select A Label"
+msgstr "Selecione Um Rótulo"
+
+#: inc/widget-area/widget-init.php:26
+#, php-format
+msgid "Footer %1$s Widget %2$s"
+msgstr "Rodapé %1$s Widget de %2$s"
+
+#: inc/widget-area/widget-init.php:39
+msgid "Blog Sidebar"
+msgstr "Barra Lateral Do Blog"
+
+#: inc/widget-area/widget-init.php:50
+msgid "Shop Sidebar"
+msgstr "Loja Barra Lateral"
+
+#: inc/widget-area/widget-init.php:66
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: page.php:27 template_parts/posts/archive.php:125
+msgid "Nothing Found"
+msgstr "Não Encontrado"
+
+#: searchform.php:17
+msgid "Search your keyword..."
+msgstr "Busca palavra-chave..."
+
+#: searchform.php:53
+msgid "All Categories"
+msgstr "Todas As Categorias"
+
+#: template_parts/header/elements/element-cart.php:77
+msgid "Shopping Cart"
+msgstr "Carrinho De Compras"
+
+#: template_parts/header/elements/element-cart.php:77
+msgid "close"
+msgstr "fechar"
+
+#: template_parts/header/elements/element-compare.php:38
+#, php-format
+msgid "%1$sYith Compare Plugin%2$s is not installed."
+msgstr "%1$sYith Comparar Plugin de%2$s não está instalado."
+
+#: template_parts/header/elements/element-currency-switcher.php:102
+#: template_parts/header/elements/element-currency-switcher.php:105
+msgid "USD"
+msgstr "USD"
+
+#: template_parts/header/elements/element-currency-switcher.php:104
+msgid "EUR"
+msgstr "EUR"
+
+#: template_parts/header/elements/element-language-switcher.php:100
+#: template_parts/header/elements/element-language-switcher.php:102
+msgid "ENG"
+msgstr "ENG"
+
+#: template_parts/header/elements/element-language-switcher.php:103
+msgid "FRA"
+msgstr "FRA"
+
+#: template_parts/header/elements/element-menu.php:93
+msgid "Select Menu"
+msgstr "Seleccione Menu"
+
+#: template_parts/header/elements/element-wishlist.php:36
+#, php-format
+msgid "%1$sYith Wishlist Plugin%2$s is not installed."
+msgstr "%1$sYith lista de Desejos Plugin de%2$s não está instalado."
+
+#: template_parts/header/header.php:62
+msgid "Welcome to Riode Store Message or Remove it!"
+msgstr "Bem-vindo ao Riode Armazenamento de Mensagem ou Removê-lo!"
+
+#: template_parts/posts/archive.php:126
+msgid ""
+"Sorry, I am afraid you do not have any matches. Please try again with other "
+"keywords."
+msgstr ""
+"Desculpe, eu tenho medo que você não tem qualquer correspondência. Por favor,"
+" tente novamente com outras palavras-chave."
+
+#: template_parts/posts/elements/post-author.php:16
+#, php-format
+msgid "View all posts by %s"
+msgstr "Ver todos os posts por %s"
+
+#: template_parts/posts/elements/post-meta.php:26
+#, php-format
+msgid "%1$s0%2$s Comments"
+msgstr "%1$s0%2$s Comentários"
+
+#: template_parts/posts/elements/post-meta.php:27
+#, php-format
+msgid "%1$s1%2$s Comment"
+msgstr "%1$s1%2$s Comentário"
+
+#: template_parts/posts/elements/post-meta.php:28
+#, php-format
+msgid "%1$s%2$s%3$s Comment"
+msgstr "%1$s%2$s%3$s Comentário"
+
+#: template_parts/posts/elements/post-navigation.php:5
+msgid "Previous Post"
+msgstr "Post Anterior"
+
+#: template_parts/posts/elements/post-navigation.php:6
+msgid "Next Post"
+msgstr "Próximo Post"
+
+#: template_parts/posts/post.php:137
+msgid "Read More"
+msgstr "Leia Mais"
+
+#: template_parts/sidebar.php:74 woocommerce/loop/orderby.php:218
+#: woocommerce/single-product/add-to-cart/variable.php:71
+msgid "Clean All"
+msgstr "Limpa Todos Os"
+
+#: woocommerce/cart/cart-shipping.php:31
+msgid "Calculate Shipping"
+msgstr "Calcular Frete"
+
+#: woocommerce/cart/cart-shipping.php:52
+#, php-format
+msgid "Shipping to %s."
+msgstr "Envio para %s."
+
+#: woocommerce/cart/cart-shipping.php:53
+msgid "Change address"
+msgstr "Alterar endereço"
+
+#: woocommerce/cart/cart-shipping.php:55
+msgid "Shipping options will be updated during checkout."
+msgstr "Opções de envio será atualizada durante o checkout."
+
+#: woocommerce/cart/cart-shipping.php:63
+msgid "Shipping costs are calculated during checkout."
+msgstr "Custos de envio são calculados durante o checkout."
+
+#: woocommerce/cart/cart-shipping.php:65
+msgid "Enter your address to view shipping options."
+msgstr "Insira o seu endereço para visualizar as opções de envio."
+
+#: woocommerce/cart/cart-shipping.php:68
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+"Não há opções de transporte disponíveis. Certifique-se de que o seu endereço "
+"foi digitado corretamente, ou entre em contato conosco se você precisar de "
+"alguma ajuda."
+
+#: woocommerce/cart/cart-shipping.php:71
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr "Sem opções de envio não foram encontrados para %s."
+
+#: woocommerce/cart/cart-shipping.php:72
+msgid "Enter a different address"
+msgstr "Introduza um endereço diferente"
+
+#: woocommerce/cart/cart-totals.php:26
+msgid "Cart Totals"
+msgstr "Carrinho Totais"
+
+#: woocommerce/cart/cart-totals.php:38 woocommerce/cart/cart-totals.php:39
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:113
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: woocommerce/cart/cart-totals.php:54 woocommerce/cart/cart-totals.php:55
+msgid "Shipping"
+msgstr "Envio"
+
+#: woocommerce/cart/cart-totals.php:74
+#, php-format
+msgid "(estimated for %s)"
+msgstr "(estimativa para %s)"
+
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:65
+#: woocommerce/wishlist-view.php:63
+msgid "Product"
+msgstr "Produto"
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:91
+#: woocommerce/wishlist-view.php:84
+msgid "Quantity"
+msgstr "Quantidade"
+
+#: woocommerce/cart/cart.php:80
+msgid "Available on backorder"
+msgstr "Disponível em backorder"
+
+#: woocommerce/cart/cart.php:125 woocommerce/cart/mini-cart.php:67
+msgid "Remove this item"
+msgstr "Remover este item"
+
+#: woocommerce/cart/cart.php:144
+msgid "Continue Shopping"
+msgstr "Continuar A Comprar"
+
+#: woocommerce/cart/cart.php:145
+msgid "Update cart"
+msgstr "Atualização carrinho"
+
+#: woocommerce/cart/cart.php:149
+msgid "Coupon Discount"
+msgstr "Cupom De Desconto"
+
+#: woocommerce/cart/cart.php:151
+msgid "Enter coupon code here..."
+msgstr "Digite o código do cupom aqui..."
+
+#: woocommerce/cart/cart.php:152
+msgid "Apply coupon"
+msgstr "Aplicar cupom"
+
+#: woocommerce/cart/mini-cart.php:103
+msgid "No products in the cart."
+msgstr "Nenhum produto no carrinho."
+
+#: woocommerce/cart/shipping-calculator.php:29
+msgid "Select a country / region&hellip;"
+msgstr "Selecione um país / região..."
+
+#: woocommerce/cart/shipping-calculator.php:48
+#: woocommerce/cart/shipping-calculator.php:53
+#: woocommerce/cart/shipping-calculator.php:65
+msgid "State / County"
+msgstr "Estado / Distrito"
+
+#: woocommerce/cart/shipping-calculator.php:54
+msgid "Select an option&hellip;"
+msgstr "Selecione uma opção..."
+
+#: woocommerce/cart/shipping-calculator.php:74
+msgid "City"
+msgstr "Cidade"
+
+#: woocommerce/cart/shipping-calculator.php:80
+msgid "Postcode / ZIP"
+msgstr "Código postal / ZIP"
+
+#: woocommerce/cart/shipping-calculator.php:84
+msgid "Update Totals"
+msgstr "Atualização Totais"
+
+#: woocommerce/checkout/payment.php:25
+msgid "Payment Methods"
+msgstr "Formas De Pagamento"
+
+#: woocommerce/checkout/payment.php:35
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"Desculpe, parece que não existem métodos de pagamento disponíveis para o seu "
+"estado. Por favor, entre em contato conosco se você precisar de ajuda ou "
+"deseja fazer arranjos alternativos."
+
+#: woocommerce/checkout/payment.php:35
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+"Por favor, preencha os seus detalhes acima para ver os métodos de pagamento "
+"disponíveis."
+
+#: woocommerce/checkout/payment.php:44
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+"Desde o seu browser não suporta JavaScript ou ele está desabilitado, por "
+"favor, garantir que você clique no %1$sUpdate Totais%2$s botão a antes de "
+"colocar a sua encomenda. Você poderá ser cobrado mais do que o valor "
+"estipulado acima, se você não conseguir fazer isso."
+
+#: woocommerce/checkout/payment.php:46
+msgid "Update totals"
+msgstr "Atualização totais"
+
+#: woocommerce/checkout/thankyou.php:31
+msgid ""
+"Unfortunately your order cannot be processed as the originating "
+"bank/merchant has declined your transaction. Please attempt your purchase "
+"again."
+msgstr ""
+"Infelizmente, o seu pedido não pode ser processado como origem o "
+"banco/comerciante recusou sua transação. Por favor, tente efetuar a compra "
+"novamente."
+
+#: woocommerce/checkout/thankyou.php:34
+msgid "Pay"
+msgstr "Pagar"
+
+#: woocommerce/checkout/thankyou.php:36
+msgid "My account"
+msgstr "Minha conta"
+
+#: woocommerce/checkout/thankyou.php:54
+msgid "Thank you!"
+msgstr "Obrigado!"
+
+#: woocommerce/checkout/thankyou.php:55
+msgid "Your order has been received"
+msgstr "A sua encomenda foi recebida"
+
+#: woocommerce/checkout/thankyou.php:63
+msgid "Order number:"
+msgstr "Número de ordem:"
+
+#: woocommerce/checkout/thankyou.php:68
+msgid "Status:"
+msgstr "Status:"
+
+#: woocommerce/checkout/thankyou.php:73
+msgid "Date:"
+msgstr "Data:"
+
+#: woocommerce/checkout/thankyou.php:78
+msgid "Email:"
+msgstr "E-mail:"
+
+#: woocommerce/checkout/thankyou.php:83
+msgid "Total:"
+msgstr "Total:"
+
+#: woocommerce/checkout/thankyou.php:89
+msgid "Payment method:"
+msgstr "Método de pagamento:"
+
+#: woocommerce/checkout/thankyou.php:103
+msgid "Thank you. Your order has been received."
+msgstr "Obrigado. A sua encomenda foi recebida."
+
+#: woocommerce/compare.php:92
+msgid "Close window [X]"
+msgstr ""
+
+#: woocommerce/compare.php:126
+msgid "No products added in the compare table."
+msgstr "Nenhum produto adicionado na tabela de comparação."
+
+#: woocommerce/loop/orderby.php:114 woocommerce/loop/orderby.php:144
+msgid "Sort By"
+msgstr "Ordenar Por"
+
+#: woocommerce/loop/orderby.php:117 woocommerce/loop/orderby.php:146
+msgid "Shop order"
+msgstr "Loja de ordem"
+
+#: woocommerce/loop/rating.php:50
+msgid "reviews"
+msgstr "comentários"
+
+#: woocommerce/loop/result-count.php:31
+msgid "Showing the single result"
+msgstr "Mostrando o resultado simples"
+
+#: woocommerce/loop/result-count.php:36
+#, php-format
+msgid "Showing %1$sall %2$d%3$s Product"
+msgid_plural "Showing %1$sall %2$d%3$s Products"
+msgstr[0] "Mostrando %1$sall %2$d%3$s do Produto"
+msgstr[1] "Mostrando %1$sall %2$d%3$s Produtos"
+
+#: woocommerce/loop/result-count.php:43
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing %4$s%1$d&ndash;%2$d of %3$d%5$s Product"
+msgid_plural "Showing %4$s%1$d&ndash;%2$d of %3$d%5$s Products"
+msgstr[0] "Mostrando %4$s%1$d–%2$d %3$d%5$s do Produto"
+msgstr[1] "Mostrando %4$s%1$d–%2$d %3$d%5$s Produtos"
+
+#: woocommerce/loop/sale-flash.php:43
+msgid "Top"
+msgstr "Topo"
+
+#: woocommerce/loop/sale-flash.php:56
+msgid "off"
+msgstr "fora"
+
+#: woocommerce/loop/sale-flash.php:62
+msgid "Out of Stock"
+msgstr "Fora do Estoque"
+
+#: woocommerce/myaccount/form-login.php:29
+msgid "Login"
+msgstr "Login"
+
+#: woocommerce/myaccount/form-login.php:32
+msgid "or"
+msgstr "ou"
+
+#: woocommerce/myaccount/form-login.php:34
+#: woocommerce/myaccount/form-login.php:112
+msgid "Register"
+msgstr "Registar"
+
+#: woocommerce/myaccount/form-login.php:46
+msgid "Username or Email Address"
+msgstr "Nome de usuário ou Endereço de e-Mail"
+
+#: woocommerce/myaccount/form-login.php:49
+#: woocommerce/myaccount/form-login.php:94
+msgid "Password"
+msgstr "Palavra-passe"
+
+#: woocommerce/myaccount/form-login.php:56
+msgid "Remember me"
+msgstr "Lembrar-me"
+
+#: woocommerce/myaccount/form-login.php:59
+msgid "Lost your password?"
+msgstr "Perdeu sua senha?"
+
+#: woocommerce/myaccount/form-login.php:64
+msgid "LogIn"
+msgstr "LogIn"
+
+#: woocommerce/myaccount/form-login.php:82
+msgid "Username"
+msgstr "Nome de usuário"
+
+#: woocommerce/myaccount/form-login.php:88
+msgid "Your Email address"
+msgstr "O seu endereço de e-Mail"
+
+#: woocommerce/myaccount/form-login.php:99
+msgid "A password will be sent to your email address."
+msgstr "Uma senha será enviada para seu endereço de e-mail."
+
+#: woocommerce/myaccount/form-login.php:107
+#, php-format
+msgid "%1$sI agree to the %2$s"
+msgstr "%1$sI concordar com o %2$s"
+
+#: woocommerce/order/order-details-customer.php:32
+msgid "Billing address"
+msgstr "Endereço de cobrança"
+
+#: woocommerce/order/order-details-customer.php:35
+#: woocommerce/order/order-details-customer.php:55
+msgid "N/A"
+msgstr "N/A"
+
+#: woocommerce/order/order-details-customer.php:53
+msgid "Shipping address"
+msgstr "Endereço para envio"
+
+#: woocommerce/order/order-details-customer.php:66
+msgid "Back To List"
+msgstr "Voltar Para A Lista"
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr "Este produto está fora de stock e disponível."
+
+#: woocommerce/wishlist-view.php:95
+msgid "Stock status"
+msgstr "Status do estoque"
+
+#: woocommerce/wishlist-view.php:113
+msgid "Arrange"
+msgstr "Organizar"
+
+#: woocommerce/wishlist-view.php:197
+msgid "Out of stock"
+msgstr "Fora do estoque"
+
+#: woocommerce/wishlist-view.php:197
+msgid "In Stock"
+msgstr "Em Estoque"
+
+#: woocommerce/wishlist-view.php:206
+#, php-format
+msgid "Added on: %s"
+msgstr "Adicionado em: %s"
+
+#: woocommerce/wishlist-view.php:219
+msgid "Move"
+msgstr "Mover"
+
+#: woocommerce/wishlist-view.php:238
+msgid "Move to another list &rsaquo;"
+msgstr "Mover para outra lista \""
+
+#: woocommerce/wishlist-view.php:245 woocommerce/wishlist-view.php:259
+msgid "Remove this product"
+msgstr "Remover este produto"
+
+#: woocommerce/wishlist-view.php:272
+msgid "No products added to the wishlist"
+msgstr "Nenhum produto adicionado à lista de desejos"
+
+#: woocommerce/wishlist-view.php:277
+msgid "GO SHOP"
+msgstr "IR PARA A LOJA"

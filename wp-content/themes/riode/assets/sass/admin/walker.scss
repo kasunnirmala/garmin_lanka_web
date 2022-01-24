@@ -1,0 +1,30 @@
+.field-megamenu,
+.field-megamenu_width,
+.field-megamenu_pos,
+.field-block {
+    display: none;
+}
+
+.menu-item-depth-0 {
+    .field-megamenu,
+    .field-megamenu_width,
+    .field-megamenu_pos {
+        display: block;
+    }
+}
+.menu-item-depth-2 {
+    .field-block {
+        display: block;
+    }
+}
+.menu-item-settings .riode-custom-fields-title {
+    font-size: 15px;
+    color: #222;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#nav-menus-frame #menu-settings-column {
+    position: sticky;
+    top: 0;
+}

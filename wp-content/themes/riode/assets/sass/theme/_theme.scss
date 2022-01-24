@@ -1,0 +1,89 @@
+/*
+1. config
+2. mixins
+3. demo config
+4. plugins
+5. base
+6. wp plugins
+7. components
+8. header
+9. footer
+10. pages
+*/
+
+/* 1. Riode SCSS Framework */
+@import 'mixins';
+@import 'config';
+@import 'direction';
+
+/* 2. Theme SCSS Framework */
+// @set_theme_configuration
+
+/* 3. base */
+@import 'base/base';
+@import 'base/type';
+@import 'base/layout';
+
+@import 'base/grid';
+@import 'base/spacing';
+@import 'base/helper';
+
+/* 6. wp plugins */
+@import 'wp-plugin/wp';
+@import 'wp-plugin/gutenberg';
+@import 'wp-plugin/woocommerce';
+@import 'wp-plugin/elementor';
+@import 'wp-plugin/wpb';
+@import 'wp-plugin/dokan';
+@import 'wp-plugin/plugins';
+
+/* 7. components */
+@import 'components/slider';
+@import 'components/price-slider';
+@import 'components/accordion';
+@import 'components/360-degree';
+@import 'components/alert';
+@import 'components/animation';
+@import 'components/banner';
+@import 'components/button';
+@import 'components/blockquote';
+@import 'components/category';
+@import 'components/comment';
+@import 'components/compare';
+@import 'components/counter';
+@import 'components/dropdown';
+@import 'components/duplex';
+@import 'components/element';
+@import 'components/hotspot';
+@import 'components/filter';
+@import 'components/form';
+@import 'components/icon-box';
+@import 'components/icon';
+@import 'components/image-box';
+@import 'components/instagram';
+@import 'components/minipopup';
+@import 'components/subcat';
+@import 'components/overlay';
+@import 'components/page-header';
+@import 'components/pagination'; 
+@import 'components/popup';
+@import 'components/post';
+@import 'components/product';
+@import 'components/product-single';
+@import 'components/social-icon';
+@import 'components/sidebar';
+@import 'components/ribbon';
+@import 'components/tab';
+@import 'components/testimonial';
+@import 'components/tooltip';
+@import 'components/title';
+@import 'components/text-effect';
+@import 'components/widget';
+@import 'components/404';
+
+/* 8. header */
+@import 'base/header/header';
+@import 'base/header/menu';
+
+/* 9. footer */
+@import 'base/footer/footer';

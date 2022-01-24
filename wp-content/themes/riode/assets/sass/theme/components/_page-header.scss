@@ -1,0 +1,191 @@
+/* -------------------------------------------
+    Page Header
+        - Page Title
+        - Breadcrumb
+---------------------------------------------- */
+
+// Variables
+@include set-default(
+    (
+        page-header: (
+            background-color: #385aa1,
+            background-image: url('../../images/page-title-bar.jpg'),
+            background-repeat: no-repeat,
+            background-size: cover,
+        ),
+        page-title-bar: (
+            height: 250px,
+
+            title: (
+                margin-bottom: 0,
+                text-transform: uppercase,
+                font-size: 4rem,
+                line-height: 1.125,
+                color: #fff,
+            ),
+
+            subtitle: (
+                text-transform: uppercase,
+                font-size: 2rem,
+                margin-bottom: 5px,
+                color: #fff,
+            ),
+
+            breadcrumb: (
+                padding: 1em 0,
+                font-size: 1.4rem,
+                line-height: 1.6,
+                color: #999,
+                background-color: transparent,
+            )
+        ),
+    )
+);
+
+// Page Title Bar
+.page-header {
+    background-color: var(--rio-ptb-bg-color);
+    background-image: var(--rio-ptb-bg-image);
+    background-repeat: var(--rio-ptb-bg-repeat);
+    background-position: var(--rio-ptb-bg-position);
+    background-size: var(--rio-ptb-bg-size);
+    background-attachment: var(--rio-ptb-bg-attachment);
+
+    .page-title {
+        margin-bottom: 0;
+
+        font-family: var(--rio-ptb-title-font-family, var(--rio-heading-font-family), var(--rio-body-font-family)), sans-serif;
+        font-weight: var(--rio-ptb-title-font-weight, var(--rio-heading-font-weight));
+        font-size: var(--rio-ptb-title-font-size);
+        line-height: var(--rio-ptb-title-line-height, var(--rio-heading-line-height, var(--rio-heading-line-height)));
+        letter-spacing: var(--rio-ptb-title-letter-spacing, var(--rio-heading-letter-spacing, var(--rio-heading-letter-spacing)));
+        text-transform: var(--rio-ptb-title-text-transform, var(--rio-heading-text-transform, var(--rio-heading-text-transform)));
+        color: var(--rio-ptb-title-color, var(--rio-heading-color, var(--rio-body-color)));
+    }
+
+    .page-subtitle {
+        margin-bottom: 5px;
+
+        font-family: var(--rio-ptb-subtitle-font-family), var(--rio-heading-font-family), var(--rio-body-font-family), sans-serif;
+        font-weight: var(--rio-ptb-subtitle-font-weight, var(--rio-heading-font-weight));
+        font-size: var(--rio-ptb-subtitle-font-size);
+        line-height: var(--rio-ptb-subtitle-line-height, var(--rio-heading-line-height, var(--rio-body-line-height)));
+        letter-spacing: var(--rio-ptb-subtitle-letter-spacing, var(--rio-heading-letter-spacing, var(--rio-body-letter-spacing)));
+        text-transform: var(--rio-ptb-subtitle-text-transform, var(--rio-heading-text-transform, var(--rio-body-text-transform)));
+        color: var(--rio-ptb-subtitle-color, var(--rio-heading-color, var(--rio-body-color)));
+    }
+}
+.page-title-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: var(--rio-ptb-height);
+
+    .breadcrumb {
+        margin-top: 1em;
+        padding: 0;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    &.type-left {
+        align-items: if-ltr(flex-start, flex-end);
+    }
+
+    &.type-center,
+    &.type-depart {
+        text-align: center;
+    }
+}
+
+// Page title
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .page-header .page-title-bar & {
+        margin-bottom: 0;
+    }
+
+    padding: 1em 0;
+    font-family: var(--rio-ptb-breadcrumb-font-family), var(--rio-body-font-family), sans-serif;
+    font-weight: var(--rio-ptb-breadcrumb-font-weight, var(--rio-body-font-weight));
+    font-size: var(--rio-ptb-breadcrumb-font-size, var(--rio-body-font-size));
+    line-height: var(--rio-ptb-breadcrumb-line-height, var(--rio-body-line-height));
+    letter-spacing: var(--rio-ptb-breadcrumb-letter-spacing, var(--rio-body-letter-spacing));
+    text-transform: var(--rio-ptb-breadcrumb-text-transform, var(--rio-body-text-transform));
+    color: var(--rio-ptb-breadcrumb-color, #fff);
+
+    .delimiter {
+        opacity: .5;
+
+        i {
+            vertical-align: middle;
+        }
+    }
+
+    a, span {
+        opacity: .5;
+        transition: color .3s, opacity .3s;
+    }
+
+    a:hover, a:focus {
+        opacity: 1;
+        color: inherit;
+    }
+
+    .delimiter {
+        margin: 0 .7em;
+        font-size: 85%;
+    }
+
+    &.home-icon {
+        > li:first-of-type > a::before {
+            font-family: 'riode';
+            content: '\e95a';
+        }
+    }
+
+    .breadcrumb_wrapper & {
+        color: inherit;
+    }
+
+    .type-center & {
+        justify-content: center;
+    }
+}
+
+@include mq(lg) {
+    .page-title-bar.type-inline {
+        justify-content: space-between;
+        flex-direction: row;
+
+        .breadcrumb {
+            margin-top: 0;
+        }
+    }
+}
+
+.breadcrumb_wrapper {
+    border-top: 1px solid #e1e1e1;
+
+    .page-header ~ & {
+        border-top: none;
+    }
+
+    ~ main {
+        padding-top: 0;
+    }
+}
+
+@include mq(md, max) {
+    .page-title-bar .page-title {
+        font-size: font-size(3rem);
+    }
+}

@@ -1,0 +1,45 @@
+/* -------------------------------------------
+	Riode Config Variables
+------------------------------------------- */
+
+$is_not_optimize: true !default;
+
+// Colors
+$primary-color: #27c !default;
+$primary-color-dark:  #222 !default;
+$secondary-color: #d26e4b !default;
+$alert-color: #b10001 !default; 
+$success-color: #a8c26e !default;
+$body-color: #666 !default;
+$dark-color: #222 !default;
+$light-color: #ccc !default;
+$grey-color: #999 !default;
+$border-color: #e1e1e1 !default;
+$border-color-light: #eee !default;
+
+// Font-families
+$alt-font-family: sans-serif !default;
+$font-family: var(--rio-body-font-family), $alt-font-family !default;
+
+$typo-ratio: 1 !default;
+
+// Breakpoints
+$breakpoints: (xs: 480px, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1600px, xlst: 1920px);
+$max-breakpoints: (xs: 479px, sm: 575px, md: 767px, lg: 991px, xl: 1199px, xxl: 1599px);
+
+// Color of Social Icons
+$social-facebook: #3b5998;
+$social-twitter: #1da1f2;
+$social-linkedin: #0073b2;
+$social-email: #6567A5;
+$social-google: #dd4b39;
+$social-pinterest: #C8232C;
+$social-reddit: #C6C6C6;
+$social-tumblr: #34526F;
+$social-vk: #2B587A;
+$social-whatsapp: #3c8a38;
+$social-xing: #126567;
+$social-instagram: #3F729B;
+$social-youtube: #C4302B;
+$social-tiktok: #010101;
+$social-wechat: #7bb22e;

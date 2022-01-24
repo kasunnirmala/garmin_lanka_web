@@ -1,0 +1,48 @@
+/* -------------------------------------------
+	Erorr 404 Page
+---------------------------------------------- */
+
+@include set-default(
+	(
+		404: (
+			background-image: url('../../images/404.png'),
+		)
+	)
+);
+
+.error404 .main {
+	padding-top: 0;
+	padding-bottom: 0;
+	border: none;
+}
+
+.area_404 {
+	background-color: #f7f7f7;
+	padding: 16.5rem 2rem;
+	text-align: center;
+
+	h1 {
+		font-size: font-size(6rem);
+	}
+
+	.img-area {
+		max-width: 609px;
+		height: 131px;
+		background-position: center;
+
+		@include css( background-image, 404, background-image );
+	}
+
+	h4 {
+		font-size: font-size(2.4rem);
+	}
+
+	p {
+		font-size: font-size(1.4rem);
+		color: #999;
+	}
+
+	.btn {
+		padding: 1em 3.6em;
+	}
+}

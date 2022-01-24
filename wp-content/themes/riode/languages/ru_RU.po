@@ -1,0 +1,5609 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Riode 1.0\n"
+"POT-Creation-Date: 2021-04-05 15:47-0700\n"
+"PO-Revision-Date: 2021-04-09 16:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: woocommerce/cart/cart-empty.php\n"
+"X-Poedit-SearchPathExcluded-1: woocommerce/checkout/form-billing.php\n"
+"X-Poedit-SearchPathExcluded-2: woocommerce/checkout/form-checkout.php\n"
+"X-Poedit-SearchPathExcluded-3: woocommerce/checkout/form-coupon.php\n"
+"X-Poedit-SearchPathExcluded-4: woocommerce/checkout/form-pay.php\n"
+"X-Poedit-SearchPathExcluded-5: woocommerce/checkout/form-shipping.php\n"
+"X-Poedit-SearchPathExcluded-6: woocommerce/global/form-login.php\n"
+"X-Poedit-SearchPathExcluded-7: woocommerce/global/wrapper-end.php\n"
+"X-Poedit-SearchPathExcluded-8: woocommerce/global/wrapper-start.php\n"
+"X-Poedit-SearchPathExcluded-9: woocommerce/loop/add-to-cart.php\n"
+"X-Poedit-SearchPathExcluded-10: woocommerce/loop/loop-end.php\n"
+"X-Poedit-SearchPathExcluded-11: woocommerce/loop/loop-start.php\n"
+"X-Poedit-SearchPathExcluded-12: woocommerce/loop/pagination.php\n"
+"X-Poedit-SearchPathExcluded-13: woocommerce/loop/price.php\n"
+"X-Poedit-SearchPathExcluded-14: woocommerce/myaccount/dashboard.php\n"
+"X-Poedit-SearchPathExcluded-15: woocommerce/myaccount/downloads.php\n"
+"X-Poedit-SearchPathExcluded-16: woocommerce/myaccount/form-edit-account.php\n"
+"X-Poedit-SearchPathExcluded-17: woocommerce/myaccount/form-edit-address.php\n"
+"X-Poedit-SearchPathExcluded-18: woocommerce/myaccount/my-account.php\n"
+"X-Poedit-SearchPathExcluded-19: woocommerce/myaccount/my-address.php\n"
+"X-Poedit-SearchPathExcluded-20: woocommerce/myaccount/navigation.php\n"
+"X-Poedit-SearchPathExcluded-21: woocommerce/myaccount/orders.php\n"
+"X-Poedit-SearchPathExcluded-22: woocommerce/notices\n"
+"X-Poedit-SearchPathExcluded-23: woocommerce/order/order-downloads.php\n"
+"X-Poedit-SearchPathExcluded-24: woocommerce/single-product/meta.php\n"
+"X-Poedit-SearchPathExcluded-25: woocommerce/single-product/product-image."
+"php\n"
+"X-Poedit-SearchPathExcluded-26: woocommerce/single-product/product-"
+"thumbnails.php\n"
+"X-Poedit-SearchPathExcluded-27: woocommerce/single-product/rating.php\n"
+"X-Poedit-SearchPathExcluded-28: woocommerce/single-product/related.php\n"
+"X-Poedit-SearchPathExcluded-29: woocommerce/single-product/review-meta.php\n"
+"X-Poedit-SearchPathExcluded-30: woocommerce/single-product/sale-flash.php\n"
+"X-Poedit-SearchPathExcluded-31: woocommerce/single-product/title.php\n"
+"X-Poedit-SearchPathExcluded-32: woocommerce/single-product/up-sells.php\n"
+"X-Poedit-SearchPathExcluded-33: woocommerce/single-product/tabs\n"
+"X-Poedit-SearchPathExcluded-34: woocommerce/add-to-wishlist-added.php\n"
+"X-Poedit-SearchPathExcluded-35: woocommerce/add-to-wishlist-browse.php\n"
+"X-Poedit-SearchPathExcluded-36: woocommerce/add-to-wishlist-button.php\n"
+"X-Poedit-SearchPathExcluded-37: woocommerce/archive-product.php\n"
+"X-Poedit-SearchPathExcluded-38: woocommerce/content-product.php\n"
+"X-Poedit-SearchPathExcluded-39: woocommerce/content-product_cat.php\n"
+"X-Poedit-SearchPathExcluded-40: woocommerce/content-single-product.php\n"
+"X-Poedit-SearchPathExcluded-41: woocommerce/share.php\n"
+"X-Poedit-SearchPathExcluded-42: woocommerce/single-product.php\n"
+"X-Poedit-SearchPathExcluded-43: woocommerce/wishlist-view-header.php\n"
+"X-Poedit-SearchPathExcluded-44: woocommerce/wishlist-view-mobile.php\n"
+"X-Poedit-SearchPathExcluded-45: inc/plugins/tgm-plugin-activation\n"
+"X-Poedit-SearchPathExcluded-46: inc/plugins/scssphp\n"
+"X-Poedit-SearchPathExcluded-47: assets\n"
+"X-Poedit-SearchPathExcluded-48: dokan/store-sidebar.php\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.5.2; wp-5.7"
+
+#: 404.php:24 inc/add-on/studio/studio.php:55
+#: inc/admin/customizer/option/404/option-404.php:10
+msgid "Error 404"
+msgstr "Ошибка 404"
+
+#: 404.php:26
+msgid "OOOPPS.! THAT PAGE CAN’T BE FOUND."
+msgstr "ЭТА СТРАНИЦА НЕ МОЖЕТ БЫТЬ НАЙДЕНА."
+
+#: 404.php:27
+msgid "It looks like nothing was found at this location."
+msgstr "Похоже, в этом месте ничего не нашли."
+
+#: 404.php:28
+msgid "Go Home"
+msgstr "пойти домой"
+
+#: comments.php:19 inc/admin/customizer/option/blog/option-blog-post.php:54
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:112
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:137
+msgid "No"
+msgstr "НЕТ"
+
+#: comments.php:19 inc/action_filter/calls.php:855
+msgid "Comment"
+msgstr "Комментарий"
+
+#: comments.php:19 inc/admin/customizer/option/blog/option-blog-single.php:44
+msgid "Comments"
+msgstr "Комментарии"
+
+#: comments.php:54
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: dokan/dashboard/orders-widget.php:22
+msgid "Orders"
+msgstr "Заказы"
+
+#: dokan/dashboard/orders-widget.php:28 dokan/dashboard/products-widget.php:26
+#: woocommerce/cart/cart-totals.php:100 woocommerce/cart/cart-totals.php:101
+msgid "Total"
+msgstr "Весь"
+
+#: dokan/dashboard/orders-widget.php:33
+msgid "Completed"
+msgstr "Завершено"
+
+#: dokan/dashboard/orders-widget.php:38
+msgid "Pending"
+msgstr "Ожидаемый"
+
+#: dokan/dashboard/orders-widget.php:43
+msgid "Processing"
+msgstr "Обработка"
+
+#: dokan/dashboard/orders-widget.php:48
+msgid "Cancelled"
+msgstr "Отмененный"
+
+#: dokan/dashboard/orders-widget.php:53
+msgid "Refunded"
+msgstr "Возвращен"
+
+#: dokan/dashboard/orders-widget.php:58
+msgid "On hold"
+msgstr "На удерживании"
+
+#: dokan/dashboard/products-widget.php:16 inc/add-on/studio/studio.php:39
+#: inc/admin/setup_wizard/views/demo.php:49
+#: inc/functions/woocommerce/product-category.php:186
+msgid "Products"
+msgstr "Продукты"
+
+#: dokan/dashboard/products-widget.php:19
+msgid "+ Add new product"
+msgstr "+ Добавить новый продукт"
+
+#: dokan/dashboard/products-widget.php:31
+msgid "Live"
+msgstr "ЖИВЫЕ КОНЦЕРТЫ"
+
+#: dokan/dashboard/products-widget.php:36
+msgid "Offline"
+msgstr "Не в сети"
+
+#: dokan/dashboard/products-widget.php:41
+msgid "Pending Review"
+msgstr "Ожидающий Рассмотрения"
+
+#: dokan/global/product-tab.php:15
+msgid "Store Name:"
+msgstr "Название Магазина:"
+
+#: dokan/global/product-tab.php:24
+msgid "Vendor:"
+msgstr "Продавец:"
+
+#: dokan/global/product-tab.php:33
+msgid "Address:"
+msgstr "Адрес:"
+
+#: dokan/global/seller-registration-form.php:15
+msgid "First Name"
+msgstr "имя"
+
+#: dokan/global/seller-registration-form.php:25
+msgid "Last Name"
+msgstr "фамилия"
+
+#: dokan/global/seller-registration-form.php:36
+msgid "Shop Name"
+msgstr "Название Магазина"
+
+#: dokan/global/seller-registration-form.php:46
+msgid "Shop URL"
+msgstr "Адрес магазина"
+
+#: dokan/global/seller-registration-form.php:58
+msgid "Phone Number"
+msgstr "номер телефона"
+
+#: dokan/global/seller-registration-form.php:79
+#, php-format
+msgid ""
+"I have read and agree to the <a target=\"_blank\" href=\"%s\">Terms &amp; "
+"Conditions</a>."
+msgstr ""
+
+#: dokan/global/seller-registration-form.php:101
+msgid "I am a customer"
+msgstr "Я клиент"
+
+#: dokan/global/seller-registration-form.php:104
+msgid "I am a vendor"
+msgstr "Я продавец"
+
+#: dokan/store-lists-filter.php:27 inc/add-on/studio/blocks-wrapper.php:113
+#: template_parts/sidebar.php:73 woocommerce/loop/orderby.php:76
+#: woocommerce/loop/orderby.php:96 woocommerce/loop/orderby.php:128
+#: woocommerce/loop/orderby.php:183
+msgid "Filter"
+msgstr "Фильтр"
+
+#: dokan/store-lists-filter.php:31
+msgid "Total store showing"
+msgstr "Общий показ магазина"
+
+#: dokan/store-lists-filter.php:38 dokan/store-lists-filter.php:40
+msgid "Sort by"
+msgstr "Сортировать по"
+
+#: dokan/store-lists-filter.php:67
+msgid "Search Vendors"
+msgstr "Поиск Поставщиков"
+
+#: dokan/store-lists-filter.php:76
+msgid "Cancel"
+msgstr "Отмена"
+
+#: dokan/store-lists-filter.php:77
+msgid "Apply"
+msgstr "Применять"
+
+#: dokan/store-lists-loop.php:36
+msgid "Featured"
+msgstr "Избранное"
+
+#: dokan/store-lists-loop.php:43 inc/functions/woocommerce/product-loop.php:454
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Номинальный %s из 5"
+
+#: dokan/store-lists-loop.php:46
+#, php-format
+msgid "%s out of 5"
+msgstr "%s из 5"
+
+#: dokan/store-lists-loop.php:78
+msgid "Visit Store"
+msgstr "Посетите Магазин"
+
+#: dokan/store-lists-loop.php:100
+msgid "&larr; Previous"
+msgstr "← Предыдущая"
+
+#: dokan/store-lists-loop.php:101
+msgid "Next &rarr;"
+msgstr "Далее →"
+
+#: dokan/store-lists-loop.php:127
+msgid "No vendor found!"
+msgstr "Продавец не найден!"
+
+#: dokan/store.php:68
+msgid "No products were found of this vendor!"
+msgstr "Никаких продуктов этого продавца найдено не было!"
+
+#: dokan/widgets/widget-content-product.php:41
+msgid "No products found"
+msgstr "Продукты не найдены"
+
+#: footer.php:126
+#, php-format
+msgid "Riode eCommerce &copy; %s. All Rights Reserved"
+msgstr "Riode eCommerce © %s. Все права защищены"
+
+#: inc/action_filter/calls.php:86
+msgid "1. Shopping Cart"
+msgstr "1. Корзина Для Покупок"
+
+#: inc/action_filter/calls.php:90
+msgid "2. Checkout"
+msgstr "2. Оформление заказа"
+
+#: inc/action_filter/calls.php:94
+msgid "3. Order Complete"
+msgstr "3. Заказ Завершен"
+
+#: inc/action_filter/calls.php:505 inc/action_filter/calls.php:518
+msgid "Error:"
+msgstr "Ошибка:"
+
+#: inc/action_filter/calls.php:521
+msgid "Username is required."
+msgstr "Требуется имя пользователя."
+
+#: inc/action_filter/calls.php:551
+msgid "Login successful, redirecting..."
+msgstr "Логин успешный, перенаправление..."
+
+#: inc/action_filter/calls.php:561
+msgid "Wrong username or password."
+msgstr "Неверное имя пользователя или пароль."
+
+#: inc/action_filter/calls.php:620
+msgid "Register successful, redirecting..."
+msgstr "Регистрация прошла успешно, перенаправление..."
+
+#: inc/action_filter/calls.php:630
+msgid "Register failed."
+msgstr "Регистрация не удалась."
+
+#: inc/action_filter/calls.php:649 inc/general_function.php:1393
+msgid "Search your keywords..."
+msgstr "Поиск по ключевым словам..."
+
+#: inc/action_filter/calls.php:756
+msgid "Send"
+msgstr "Отправить"
+
+#: inc/action_filter/calls.php:850
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:226
+#: inc/admin/optimize_wizard/views/templates_load.php:27
+#: inc/admin/optimize_wizard/views/templates_load.php:55
+msgid "Name"
+msgstr "Имя"
+
+#: inc/action_filter/calls.php:851 inc/setup/theme-options.php:16
+msgid "Email"
+msgstr "Электронная почта"
+
+#: inc/action_filter/calls.php:857
+#: inc/plugins/importer/riode-wordpress-importer.php:478
+#: inc/plugins/importer/wordpress-importer.php:376
+msgid "Submit"
+msgstr "Отправить"
+
+#: inc/action_filter/calls.php:857
+msgid "Post Comment"
+msgstr "Комментарий К Сообщению"
+
+#: inc/add-on/breadcrumb/breadcrumb.php:119
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:40
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:95
+#: inc/setup/theme-options.php:133
+msgid "Home"
+msgstr "Главная"
+
+#: inc/add-on/breadcrumb/breadcrumb.php:184
+#, php-format
+msgid "Tag - %s"
+msgstr "Тег - %s"
+
+#: inc/add-on/breadcrumb/breadcrumb.php:187
+#, php-format
+msgid "Product Tag - %s"
+msgstr "Бирка продукта - %s"
+
+#: inc/add-on/breadcrumb/breadcrumb.php:475
+#, php-format
+msgid "Search - %s"
+msgstr "Поиск - %s"
+
+#: inc/add-on/breadcrumb/breadcrumb.php:478
+msgid "404"
+msgstr "404"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:23
+msgid "Riode Image Change & Swatch"
+msgstr "Изменение Изображения Риода И Образец"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:52
+#, php-format
+msgid ""
+"Before you can add image swatch you need to add some %1$slist%2$s variation "
+"attributes on the %1$sAttributes%2$s tab."
+msgstr ""
+"Перед добавлением образца изображения необходимо добавить некоторые атрибуты "
+"вариации %1$slist%2$s на вкладке %1$sAttributes%2$s."
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:53
+msgid "Learn more"
+msgstr "Узнать больше"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:59
+msgid ""
+"This will replace product image with following uploaded image when attribute "
+"button is clicked."
+msgstr ""
+"Это заменит изображение продукта следующим загруженным изображением при "
+"нажатии кнопки атрибута."
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:80
+msgid "Button Type"
+msgstr "Тип Кнопки"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:82
+#: inc/admin/customizer/option/blog/option-blog-single.php:97
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:52
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:87
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:224
+msgid "Default"
+msgstr "По умолчанию"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:83
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:90
+msgid "Image"
+msgstr "Изображение"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:85
+msgid "Select button type as image to show image on button."
+msgstr ""
+"Выберите тип кнопки как изображение, чтобы показать изображение на кнопке."
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:89
+msgid "Attribute"
+msgstr "Атрибут"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:112
+msgid "Thumbnail Preview"
+msgstr "Предварительный Просмотр Миниатюр"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:114
+msgid "Upload/Add image"
+msgstr "Загрузить/добавить изображение"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:115
+msgid "Remove image"
+msgstr "Удалить изображение"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:129
+msgid "Expand"
+msgstr "Развернуть"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:129
+msgid "Close"
+msgstr "Закрыть"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:130
+#: inc/add-on/product-custom-tab/product-custom-tab-admin.php:63
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:78
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: inc/add-on/live-search/live-search.php:66
+#: inc/add-on/live-search/live-search.php:77
+msgid "(no title)"
+msgstr "(без названия)"
+
+#: inc/add-on/product-custom-tab/product-custom-tab-admin.php:26
+msgid "Riode Custom Description Tab "
+msgstr "Вкладка Пользовательское Описание Риода "
+
+#: inc/add-on/product-custom-tab/product-custom-tab-admin.php:42
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:154
+msgid "Custom Tab Title"
+msgstr "Пользовательский Заголовок Вкладки"
+
+#: inc/add-on/product-custom-tab/product-custom-tab-admin.php:47
+msgid "Custom Tab Content"
+msgstr "Содержимое Настраиваемой Вкладки"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:26
+msgid "Riode Extra Options"
+msgstr "Дополнительные Опции Риода"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:45
+msgid "Image Change on Hover"
+msgstr "Изменение изображения при наведении"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:47
+msgid "Theme Option"
+msgstr "Вариант Темы"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:48
+#: inc/admin/customizer/option/menu/option-menu-labels.php:65
+msgid "Change"
+msgstr "Изменить"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:49
+msgid "Do not change"
+msgstr "Не меняйся"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:51
+msgid ""
+"This option determines whether second featured image is changed or not on "
+"hover event."
+msgstr ""
+"Этот параметр определяет, будет ли изменено второе изображение при наведении."
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:61
+msgid "Virtual Buy Time"
+msgstr "Виртуальная Покупка Времени"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:63
+msgid ""
+"This is Virtual Buy Time for this product. This time will be shown in sales "
+"popup until this product is really sold. Track for boost sale for unsold "
+"products."
+msgstr ""
+"Это виртуальное время покупки для этого продукта. Это время будет "
+"отображаться во всплывающем окне продаж, пока этот продукт действительно не "
+"будет продан. Трек для повышения продаж непроданной продукции."
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:71
+msgid "Virtual Buy Time Text"
+msgstr "Виртуальное Время Покупки Текст"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:73
+msgid ""
+"This virtual buy time text will always be shown in sales popup. Track for "
+"boost sale for this product."
+msgstr ""
+"Этот виртуальный текст времени покупки всегда будет отображаться во "
+"всплывающем окне продаж. Трек для продажи boost для этого продукта."
+
+#: inc/add-on/sales-popup/sales-popup.php:46
+msgid "A While Ago"
+msgstr "Некоторое Время Назад"
+
+#: inc/add-on/studio/blocks-wrapper.php:12
+msgid "Template Library"
+msgstr "Библиотека Шаблонов"
+
+#: inc/add-on/studio/blocks-wrapper.php:13
+msgid "Close (Esc)"
+msgstr "Закрыть (Esc)"
+
+#: inc/add-on/studio/blocks-wrapper.php:16 inc/add-on/studio/studio.php:104
+#: inc/add-on/studio/studio.php:118
+msgid "Riode Studio"
+msgstr "Риод Студия"
+
+#: inc/add-on/studio/blocks-wrapper.php:22
+#: inc/admin/setup_wizard/views/demo.php:45
+#: inc/functions/woocommerce/product-archive.php:135
+#: template_parts/posts/archive.php:54
+msgid "All"
+msgstr "Все"
+
+#: inc/add-on/studio/blocks-wrapper.php:29
+#: inc/add-on/studio/blocks-wrapper.php:119
+msgid "Blocks"
+msgstr "Блоки"
+
+#: inc/add-on/studio/blocks-wrapper.php:87
+msgid "All in One Library"
+msgstr "Все в одной библиотеке"
+
+#: inc/add-on/studio/blocks-wrapper.php:88
+msgid "Choose any type of template from our library."
+msgstr "Выберите любой тип шаблона из нашей библиотеки."
+
+#: inc/add-on/studio/blocks-wrapper.php:100
+#: inc/admin/setup_wizard/views/demo.php:62
+msgid "Select Demo"
+msgstr "Выберите Демо"
+
+#: inc/add-on/studio/blocks.php:14 inc/add-on/studio/blocks.php:40
+msgid "Select"
+msgstr "Выбрать"
+
+#: inc/add-on/studio/blocks.php:14 inc/add-on/studio/blocks.php:40
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:46
+msgid "Import"
+msgstr "Импорт"
+
+#: inc/add-on/studio/blocks.php:36
+msgid "Favourite"
+msgstr "Любимый"
+
+#: inc/add-on/studio/studio.php:33
+msgid "Demo"
+msgstr "ДЕМОНСТРАЦИЯ"
+
+#: inc/add-on/studio/studio.php:35
+msgid "Banner"
+msgstr "Баннер"
+
+#: inc/add-on/studio/studio.php:37
+msgid "Call To Action"
+msgstr "Призыв К Действию"
+
+#: inc/add-on/studio/studio.php:41 inc/admin/setup_wizard/views/demo.php:47
+msgid "Posts"
+msgstr "Публикации"
+
+#: inc/add-on/studio/studio.php:43
+msgid "Testimonial"
+msgstr "Свидетельство"
+
+#: inc/add-on/studio/studio.php:45
+msgid "Other"
+msgstr "Прочее"
+
+#: inc/add-on/studio/studio.php:47
+#: inc/admin/customizer/option/header/option-header.php:10
+msgid "Header"
+msgstr "Заголовок"
+
+#: inc/add-on/studio/studio.php:49
+#: inc/admin/customizer/option/footer/option-footer.php:13
+msgid "Footer"
+msgstr "Нижний колонтитул"
+
+#: inc/add-on/studio/studio.php:51
+msgid "Single Product"
+msgstr "Один Продукт"
+
+#: inc/add-on/studio/studio.php:53
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:53
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:323
+msgid "Popup"
+msgstr "Всплывающий"
+
+#: inc/add-on/studio/studio.php:57
+msgid "Favourites"
+msgstr "Избранное"
+
+#: inc/add-on/studio/studio.php:59
+msgid "My Templates"
+msgstr "Мои Шаблоны"
+
+#: inc/add-on/studio/studio.php:164
+msgid "Loading failed!"
+msgstr "Загрузка не удалась!"
+
+#: inc/add-on/studio/studio.php:165
+msgid "There was an error when importing block. Please try again later!"
+msgstr ""
+"Произошла ошибка при импорте блока. Пожалуйста, попробуйте еще раз позже!"
+
+#: inc/add-on/studio/studio.php:166
+msgid "Coming Soon..."
+msgstr "Скоро выйдет..."
+
+#: inc/add-on/studio/studio.php:330
+msgid "Security issue found! Please try again later."
+msgstr ""
+"Обнаружена проблема безопасности! Пожалуйста, попробуйте еще раз позже."
+
+#: inc/add-on/studio/studio.php:789 inc/add-on/studio/studio.php:847
+msgid "Could not connect to the API Server! Please try again later."
+msgstr ""
+"Не удалось подключиться к серверу API! Пожалуйста, попробуйте еще раз позже."
+
+#: inc/admin/admin.php:47
+msgid "Theme License"
+msgstr "Тематическая Лицензия"
+
+#: inc/admin/admin.php:50 inc/admin/panel/panel.php:30
+#: inc/admin/panel/panel.php:31 inc/admin/panel/views/header.php:25
+#: inc/admin/panel/views/header.php:34
+#: inc/admin/setup_wizard/views/index.php:13
+msgid "Setup Wizard"
+msgstr "Мастер Настройки"
+
+#: inc/admin/admin.php:53 inc/admin/panel/panel.php:37
+#: inc/admin/panel/views/header.php:18 inc/admin/setup_wizard/views/demo.php:52
+msgid "Theme Options"
+msgstr "Параметры Темы"
+
+#: inc/admin/admin.php:56 inc/admin/optimize_wizard/views/index.php:13
+#: inc/admin/panel/panel.php:41 inc/admin/panel/panel.php:42
+#: inc/admin/panel/views/header.php:31 inc/admin/panel/views/header.php:35
+msgid "Optimize Wizard"
+msgstr "Мастер Оптимизации"
+
+#: inc/admin/admin.php:59 inc/admin/panel/panel.php:51
+#: inc/admin/panel/panel.php:52 inc/admin/panel/views/header.php:45
+msgid "Page Layouts"
+msgstr "Макеты Страниц"
+
+#: inc/admin/admin.php:62 inc/admin/panel/panel.php:59
+#: inc/admin/panel/views/header.php:51
+msgid "Templates Builder"
+msgstr "Конструктор Шаблонов"
+
+#: inc/admin/admin.php:63 inc/admin/panel/panel.php:62
+#: inc/admin/panel/views/header.php:57
+msgid "Sidebar Manage"
+msgstr "Управление Боковой Панелью"
+
+#: inc/admin/admin.php:67 inc/admin/setup_wizard/views/demo.php:147
+msgid "Activate Theme"
+msgstr "Активировать Тему"
+
+#: inc/admin/admin.php:174
+msgid "Your ip address is blocked as spam!!!"
+msgstr "Ваш ip-адрес заблокирован как спам!!!"
+
+#: inc/admin/admin.php:176
+msgid "Purchase Code is not valid!!!"
+msgstr "Код покупки недействителен!!!"
+
+#: inc/admin/admin.php:178
+#, php-format
+msgid "This code was already used in %s"
+msgstr "Этот код уже использовался в %s"
+
+#: inc/admin/admin.php:180
+msgid "Please re-activate the theme."
+msgstr "Пожалуйста, повторно активируйте тему."
+
+#: inc/admin/admin.php:182
+msgid "Riode Theme is unregistered!"
+msgstr "Тема Riode не зарегистрирована!"
+
+#: inc/admin/admin.php:184
+msgid "Riode Theme is activated!"
+msgstr "Тема Riode активирована!"
+
+#: inc/admin/admin.php:273
+#, php-format
+msgid ""
+"Please %s Riode theme to get access to pre-built demo websites and auto "
+"updates."
+msgstr ""
+"Пожалуйста, %s Riode theme, чтобы получить доступ к предварительно "
+"построенным демо-сайтам и автоматическим обновлениям."
+
+#: inc/admin/admin.php:273
+msgid "register"
+msgstr "Зарегистрироваться"
+
+#: inc/admin/admin.php:280
+msgid "Purchase Code is not valid or could not connect to the API server!"
+msgstr "Код покупки недействителен или не удалось подключиться к API-серверу!"
+
+#: inc/admin/admin.php:298
+msgid "View Details"
+msgstr "Подробнее"
+
+#: inc/admin/admin.php:320
+#, php-format
+msgid ""
+"Please %1$sregister%2$s riode theme to get access to pre-built demo websites "
+"and auto updates."
+msgstr ""
+"Пожалуйста, %1$sregister%2$s riode theme, чтобы получить доступ к встроенным "
+"демо-сайтам и автоматическим обновлениям."
+
+#: inc/admin/admin.php:322
+#, php-format
+msgid ""
+"%1$s Important! %2$s One %3$s standard license %4$s is valid for only %1$s1 "
+"website%2$s. Running multiple websites on a single license is a copyright "
+"violation."
+msgstr ""
+"%1$s важно! %2$s One %3$s стандартная лицензия %4$s действительна только для "
+"сайта %1$s1%2$s. Запуск нескольких веб-сайтов на одной лицензии является "
+"нарушением авторских прав."
+
+#: inc/admin/admin.php:323
+msgid "Dismiss this notice."
+msgstr "Отклоните это уведомление."
+
+#: inc/admin/admin.php:354
+#, php-format
+msgid "Please %1$sverify purchase%2$s to get updates!"
+msgstr "Пожалуйста %1$sverify купить%2$s, чтобы получить обновления!"
+
+#: inc/admin/admin.php:373
+msgid ""
+"There is a problem contacting to the Riode API server. Please try again "
+"later."
+msgstr ""
+"Существует проблема с контактом с сервером API Riode. Пожалуйста, попробуйте "
+"еще раз позже."
+
+#: inc/admin/customizer/customizer.php:415
+msgid "Navigator"
+msgstr "Навигатор"
+
+#: inc/admin/customizer/option/404/option-404.php:22
+msgid "Eror 404 Page"
+msgstr "Eror 404 Страница"
+
+#: inc/admin/customizer/option/404/option-404.php:28
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:171
+msgid "Select Block"
+msgstr "Выберите Блок"
+
+#: inc/admin/customizer/option/404/option-404.php:37
+msgid "404 Block"
+msgstr "404 блок"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:10
+msgid "Theme Features"
+msgstr "Особенности Темы"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:22
+msgid "Riode Features"
+msgstr "Особенности Риода"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:33
+msgid "Image LazyLoad"
+msgstr "Изображение LazyLoad"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:35
+msgid "All images will be lazyloaded."
+msgstr "Все изображения будут lazyloaded."
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:46
+msgid "Lazyload Image Initial Color"
+msgstr "Начальный Цвет Изображения Lazyload"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:68
+msgid "Menu Lazyload"
+msgstr "Меню Lazyload"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:70
+msgid ""
+"Menus will be lazyloaded. They will be saved in clients' local storages for "
+"faster performance, and they will be updated when menu has been changed."
+msgstr ""
+"Меню будет lazyloaded. Они будут сохранены в локальных хранилищах клиентов "
+"для более быстрой производительности и будут обновляться при изменении меню."
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:81
+msgid "Live Search"
+msgstr "Живой Поиск"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:82
+msgid ""
+"Search boxes will show instant, quick and live search results in below "
+"dropdown."
+msgstr ""
+"Поля поиска будут показывать мгновенные, быстрые и живые результаты поиска в "
+"раскрывающемся списке ниже."
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:94
+#: inc/admin/optimize_wizard/views/lazyload.php:21
+msgid "Skeleton Screen"
+msgstr "Экран Скелета"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:95
+msgid ""
+"Beautiful skeleton screen will appear instead of preloading icon in all "
+"archive pages, single pages, quickview popup and any other ajax loading."
+msgstr ""
+"Красивый скелетный экран появится вместо значка предварительной загрузки на "
+"всех архивных страницах, отдельных страницах, всплывающем окне quickview и "
+"любой другой загрузке ajax."
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:96
+msgid ""
+"NOTE: If you face into js compatibility problems with some plugins like "
+"dokan pro, please disable this feature."
+msgstr ""
+"Примечание: Если вы столкнулись с проблемами совместимости js с некоторыми "
+"плагинами, такими как dokan pro, пожалуйста, отключите эту функцию."
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:108
+msgid "Social Login"
+msgstr "Социальный Логин"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:109
+msgid "Please activate Nextend Social Login plugin and enable social links."
+msgstr ""
+"Пожалуйста, активируйте плагин Nextend Social Login и включите социальные "
+"ссылки."
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:122
+msgid "Riode Starter Guides"
+msgstr "Направляющие Стартера Риода"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:133
+msgid "Show Elementor Guide"
+msgstr "Показать Руководство По Элементору"
+
+#: inc/admin/customizer/option/advanced/option-advanced-image.php:10
+#: inc/admin/customizer/option/advanced/option-advanced-image.php:22
+msgid "Image Size"
+msgstr "Размер Изображения"
+
+#: inc/admin/customizer/option/advanced/option-advanced-image.php:36
+msgid ""
+"Do you need a custom image size? Please input width and height to register "
+"new size. Do not forget to regenerate previously uploaded images."
+msgstr ""
+"Вам нужен пользовательский размер изображения? Пожалуйста, введите ширину и "
+"высоту, чтобы зарегистрировать новый размер. Не забудьте восстановить ранее "
+"загруженные изображения."
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:10
+msgid "Import/Export/Reset"
+msgstr "Импорт/Экспорт/Сброс"
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:22
+msgid "Import/Export Options"
+msgstr "Параметры Импорта/Экспорта"
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:33
+msgid "Please select source option file to import"
+msgstr "Пожалуйста, выберите исходный файл опции для импорта"
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:57
+msgid "Export theme options"
+msgstr "Экспорт параметров темы"
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:57
+msgid "Download Theme Options"
+msgstr "Скачать Параметры Темы"
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:68
+msgid "Reset Options"
+msgstr "Параметры Сброса"
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:80
+msgid "Please click below button to reset options."
+msgstr "Пожалуйста, нажмите кнопку ниже, чтобы сбросить параметры."
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:80
+msgid "Reset Theme Options"
+msgstr "Сброс Параметров Темы"
+
+#: inc/admin/customizer/option/advanced/option-advanced.php:10
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:10
+msgid "Blog Page"
+msgstr "Страница Блога"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:22
+msgid "Blog Archive"
+msgstr "Архив Блога"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:32
+msgid "Posts Grid"
+msgstr "Сетка Столбов"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:35
+msgid "Grid"
+msgstr "Сетка"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:36
+msgid "Masonry"
+msgstr "Каменная кладка"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:49
+msgid "Posts per row"
+msgstr "Сообщения в строке"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:50
+msgid "How many posts should be shown per row?"
+msgstr "Сколько постов должно быть показано в строке?"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:66
+msgid "Show Category Filter"
+msgstr "Показать Фильтр Категорий"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:67
+msgid "Show post category filter on top of post archive page."
+msgstr ""
+"Показать фильтр категорий сообщений в верхней части страницы архива "
+"сообщений."
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:79
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:181
+msgid "Load More Type"
+msgstr "Загрузить Еще Один Тип"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:80
+msgid "Select method to load more posts."
+msgstr "Выберите метод загрузки дополнительных сообщений."
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:97
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:199
+msgid "Loadmore Button Text"
+msgstr "Текст Кнопки Loadmore"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:98
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:200
+msgid "Input loadmore button label."
+msgstr "Введите метку кнопки loadmore."
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:10
+#: inc/admin/customizer/option/blog/option-blog-post.php:21
+#: inc/admin/customizer/option/blog/option-blog-post.php:31
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:54
+msgid "Post Type"
+msgstr "Тип Должности"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:50
+msgid "Post Overlay"
+msgstr "Наложение Столба"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:52
+msgid "Select image overlay effect when mouse is over."
+msgstr "Выберите эффект наложения изображения, когда мышь закончена."
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:55
+#: inc/admin/customizer/option/footer/option-footer-general.php:38
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:113
+msgid "Light"
+msgstr "Свет"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:56
+#: inc/admin/customizer/option/footer/option-footer-general.php:37
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:114
+#: inc/setup/theme-setup.php:136
+msgid "Dark"
+msgstr "Темный"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:57
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:115
+msgid "Zoom"
+msgstr "Увеличить"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:58
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:116
+msgid "Zoom and Light"
+msgstr "Зум и Свет"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:59
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:117
+msgid "Zoom and Dark"
+msgstr "Зум и темнота"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:71
+msgid "Show Date-Box on Image"
+msgstr "Показать поле даты на изображении"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:83
+msgid "Excerpt Limit By"
+msgstr "Лимит Выдержки По"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:86
+msgid "Word"
+msgstr "Слово"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:87
+msgid "Letter"
+msgstr "Письмо"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:99
+msgid "Excerpt Limit"
+msgstr "Предел Выдержки"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:10
+msgid "Post Detail Page"
+msgstr "Страница Сведений О Публикации"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:21
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:202
+msgid "Showing Information"
+msgstr "Отображение Информации"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:32
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:212
+msgid "Items to show"
+msgstr "Предметы для показа"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:33
+msgid "Check items to show in single post page"
+msgstr "Проверьте элементы для отображения на одной странице записи"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:36
+msgid "Media"
+msgstr "Медиафайлы"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:37
+msgid "Meta Information"
+msgstr "Метаинформация"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:38
+msgid "Post Content"
+msgstr "Содержание Поста"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:39
+msgid "Author Box"
+msgstr "Авторская Шкатулка"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:40
+msgid "Tag List"
+msgstr "Список Тегов"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:41
+msgid "Share Options"
+msgstr "Опционы На Акции"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:42
+msgid "Prev and Next Navigation"
+msgstr "Prev и следующая навигация"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:43
+#: inc/admin/customizer/option/blog/option-blog-single.php:55
+#: template_parts/posts/elements/post-related.php:28
+msgid "Related Posts"
+msgstr "Связанные Посты"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:66
+msgid "Count of Related Posts"
+msgstr "Количество связанных должностей"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:78
+msgid "Related Posts per Row"
+msgstr "Связанные сообщения в строке"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:93
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:220
+msgid "Order By"
+msgstr "Заказать По"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:98
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:225
+msgid "ID"
+msgstr "ID"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:99
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:22
+msgid "Title"
+msgstr "Название"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:100
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:227
+msgid "Date"
+msgstr "Дата"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:101
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:228
+msgid "Modified"
+msgstr "Модифицированный"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:102
+msgid "Author"
+msgstr "Автор"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:103
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:232
+msgid "Comment count"
+msgstr "Количество комментариев"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:114
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:245
+msgid "Order Way"
+msgstr "Способ Заказа"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:118
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:249
+msgid "Descending"
+msgstr "Нисходящий"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:119
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:250
+msgid "Ascending"
+msgstr "Восходящий"
+
+#: inc/admin/customizer/option/blog/option-blog.php:10
+msgid "Blog"
+msgstr "Блог"
+
+#: inc/admin/customizer/option/custom/option-custom.php:10
+msgid "Custom CSS & JS"
+msgstr "Пользовательские CSS и JS"
+
+#: inc/admin/customizer/option/custom/option-custom.php:21
+msgid "CSS code"
+msgstr "CSS-код"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:10
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:33
+msgid "Footer Bottom"
+msgstr "Нижний Колонтитул"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:22
+#: inc/admin/customizer/option/footer/option-footer-main.php:22
+#: inc/admin/customizer/option/footer/option-footer-top.php:22
+#, php-format
+msgid "Below options will %1$snot%2$s be applied to %1$sfooter builders%2$s."
+msgstr ""
+"Ниже приведены варианты применения %1$snot%2$s к %1$sfooter builders%2$s."
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:44
+#: inc/admin/customizer/option/footer/option-footer-main.php:44
+#: inc/admin/customizer/option/footer/option-footer-top.php:44
+msgid "Wrap"
+msgstr "Заворачивать"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:48
+#: inc/admin/customizer/option/footer/option-footer-main.php:48
+#: inc/admin/customizer/option/footer/option-footer-top.php:48
+msgid "Container"
+msgstr "Контейнер"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:49
+#: inc/admin/customizer/option/footer/option-footer-main.php:49
+#: inc/admin/customizer/option/footer/option-footer-top.php:49
+msgid "Container Fluid"
+msgstr "Контейнерная Жидкость"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:50
+#: inc/admin/customizer/option/footer/option-footer-main.php:50
+#: inc/admin/customizer/option/footer/option-footer-top.php:50
+#: inc/admin/customizer/option/general/option-general.php:37
+msgid "Full"
+msgstr "Полный"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:61
+#: inc/admin/customizer/option/footer/option-footer-main.php:61
+#: inc/admin/customizer/option/footer/option-footer-top.php:61
+msgid "Widget Layout"
+msgstr "Макет Виджета"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:62
+#: inc/admin/customizer/option/footer/option-footer-main.php:62
+#: inc/admin/customizer/option/footer/option-footer-top.php:62
+msgid ""
+"Input \"+\" separated grid items ( e.g. 1/4 + 3/4 ). Empty Value will "
+"justify widgets with \"space-between\" property."
+msgstr ""
+"Введите \"+\" разделенные элементы сетки ( например, 1/4 + 3/4 ). Пустое "
+"значение будет оправдывать виджеты со свойством \"пробел между ними\"."
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:74
+msgid "Footer Bottom Padding(px)"
+msgstr "Нижняя прокладка нижнего колонтитула(px)"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:86
+msgid "Add Divider to Footer Bottom"
+msgstr "Добавить разделитель в нижний колонтитул"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:98
+#: inc/admin/customizer/option/footer/option-footer-main.php:98
+#: inc/admin/customizer/option/footer/option-footer-top.php:98
+msgid "You can change divider color in"
+msgstr "Вы можете изменить цвет делителя в"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:98
+#: inc/admin/customizer/option/footer/option-footer-main.php:98
+#: inc/admin/customizer/option/footer/option-footer-top.php:98
+msgid "Footer/General"
+msgstr "Нижний Колонтитул/Общие Сведения"
+
+#: inc/admin/customizer/option/footer/option-footer-builder.php:10
+#: inc/admin/customizer/option/footer/option-footer-builder.php:22
+msgid "Footer Builder"
+msgstr "Строитель Нижнего Колонтитула"
+
+#: inc/admin/customizer/option/footer/option-footer-builder.php:22
+msgid "There are 2 methods to build your footer."
+msgstr "Существует 2 способа создания нижнего колонтитула."
+
+#: inc/admin/customizer/option/footer/option-footer-builder.php:22
+#, php-format
+msgid ""
+"1. Complete your footer by drag and drop widgets to %1$sWidget Areas%2$s. "
+"(Classic Footer)"
+msgstr ""
+"1. завершите свой нижний колонтитул перетаскиванием виджетов в область "
+"%1$sWidget%2$s. (Классический Нижний Колонтитул)"
+
+#: inc/admin/customizer/option/footer/option-footer-builder.php:22
+#, php-format
+msgid ""
+"2. Create your footer with %1$sFooter Builder%2$s and show it in %3$sLayout "
+"Dashboard%4$s."
+msgstr ""
+"2. Создайте свой нижний колонтитул с помощью %1$sFooter Builder%2$s и "
+"покажите его в %3$sLayout Dashboard%4$s."
+
+#: inc/admin/customizer/option/footer/option-footer-builder.php:22
+msgid "Classic Footer"
+msgstr "Классический Нижний Колонтитул"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:10
+#: inc/admin/customizer/option/general/option-general.php:11
+msgid "General"
+msgstr "Общая информация"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:22
+#: inc/admin/customizer/option/footer/option-footer-general.php:33
+msgid "Footer Skin"
+msgstr "Кожа Нижнего Колонтитула"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:49
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:48
+msgid "Background"
+msgstr "Фон"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:61
+msgid "Link color"
+msgstr "Цвет ссылки"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:73
+msgid "Link Hover color"
+msgstr "Цвет наведения ссылки"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:85
+msgid "Divider color"
+msgstr "Цвет делителя"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:98
+msgid "Scroll To Top Button"
+msgstr "Прокрутка До Верхней Кнопки"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:109
+msgid "Button Size"
+msgstr "Размер Кнопки"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:127
+msgid "Button Position"
+msgstr "Положение Кнопки"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:131
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:150
+msgid "Left"
+msgstr "Слева"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:132
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:152
+msgid "Right"
+msgstr "Правильно"
+
+#: inc/admin/customizer/option/footer/option-footer-main.php:10
+#: inc/admin/customizer/option/footer/option-footer-main.php:33
+msgid "Footer Main"
+msgstr "Нижний Колонтитул Основной"
+
+#: inc/admin/customizer/option/footer/option-footer-main.php:74
+msgid "Footer Main Padding(px)"
+msgstr "Основная прокладка нижнего колонтитула(px)"
+
+#: inc/admin/customizer/option/footer/option-footer-main.php:86
+msgid "Add Divider to Footer Main"
+msgstr "Добавить разделитель к основному Нижнему Колонтитулу"
+
+#: inc/admin/customizer/option/footer/option-footer-top.php:10
+#: inc/admin/customizer/option/footer/option-footer-top.php:33
+msgid "Footer Top"
+msgstr "Нижний Колонтитул Сверху"
+
+#: inc/admin/customizer/option/footer/option-footer-top.php:74
+msgid "Footer Top Padding(px)"
+msgstr "Подкладка верхнего колонтитула(px)"
+
+#: inc/admin/customizer/option/footer/option-footer-top.php:86
+msgid "Add Divider to Footer Top"
+msgstr "Добавить разделитель в нижний колонтитул"
+
+#: inc/admin/customizer/option/footer/option-footer-typography.php:10
+#: inc/admin/customizer/option/style/option-style-typography.php:10
+msgid "Typography"
+msgstr "Типография"
+
+#: inc/admin/customizer/option/footer/option-footer-typography.php:22
+msgid "Footer Typography"
+msgstr "Типография Нижнего Колонтитула"
+
+#: inc/admin/customizer/option/footer/option-footer-typography.php:33
+msgid "Footer Base"
+msgstr "Основание Нижнего Колонтитула"
+
+#: inc/admin/customizer/option/footer/option-footer-typography.php:45
+msgid "Widget Title"
+msgstr "Название Виджета"
+
+#: inc/admin/customizer/option/footer/option-footer-typography.php:57
+msgid "Widget"
+msgstr "Виджет"
+
+#: inc/admin/customizer/option/general/option-general.php:23
+msgid "General Settings"
+msgstr "Общие Настройки"
+
+#: inc/admin/customizer/option/general/option-general.php:33
+msgid "Site Type"
+msgstr "Тип Сайта"
+
+#: inc/admin/customizer/option/general/option-general.php:38
+msgid "Boxed"
+msgstr "В коробке"
+
+#: inc/admin/customizer/option/general/option-general.php:39
+msgid "Framed"
+msgstr "Обрамленный"
+
+#: inc/admin/customizer/option/general/option-general.php:50
+msgid "Box/Frame Width (px)"
+msgstr "Ширина коробки/рамы (px)"
+
+#: inc/admin/customizer/option/general/option-general.php:69
+msgid "Box/Frame Gap (px)"
+msgstr "Зазор между коробкой и рамой (px)"
+
+#: inc/admin/customizer/option/general/option-general.php:88
+msgid "Screen Background"
+msgstr "Фон Экрана"
+
+#: inc/admin/customizer/option/general/option-general.php:89
+msgid "Change background of outside the frame."
+msgstr "Измените фон вне кадра."
+
+#: inc/admin/customizer/option/general/option-general.php:108
+msgid "Content Background"
+msgstr "Фон Контента"
+
+#: inc/admin/customizer/option/general/option-general.php:121
+msgid "Site Content"
+msgstr "Содержание Сайта"
+
+#: inc/admin/customizer/option/general/option-general.php:131
+msgid "Container Width (px)"
+msgstr "Ширина контейнера (px)"
+
+#: inc/admin/customizer/option/general/option-general.php:143
+msgid "Container Fluid Width (px)"
+msgstr "Ширина контейнера жидкая (px)"
+
+#: inc/admin/customizer/option/general/option-general.php:155
+msgid "Grid Gutter Size (px)"
+msgstr "Размер желоба сетки (px)"
+
+#: inc/admin/customizer/option/general/option-general.php:156
+msgid "This gutter is the space between columns."
+msgstr "Этот желоб-пространство между колоннами."
+
+#: inc/admin/customizer/option/general/option-general.php:168
+msgid "Grid Gutter Large Size (px)"
+msgstr "Решетчатый желоб большого размера (px)"
+
+#: inc/admin/customizer/option/general/option-general.php:180
+msgid "Grid Gutter Small Size (px)"
+msgstr "Решетчатый желоб малого размера (px)"
+
+#: inc/admin/customizer/option/header/option-header-builder.php:10
+#: inc/admin/customizer/option/header/option-header-builder.php:22
+msgid "Header Builder"
+msgstr "Строитель Заголовков"
+
+#: inc/admin/customizer/option/header/option-header-builder.php:22
+msgid "Create your header with Header Builder and show it in Layout Dashboard"
+msgstr ""
+"Создайте свой заголовок с помощью конструктора заголовков и покажите его на "
+"панели управления макетом"
+
+#: inc/admin/customizer/option/header/option-header-builder.php:22
+msgid "Layout Dashboard"
+msgstr "Панель Управления Макетом"
+
+#: inc/admin/customizer/option/header/option-header-typography.php:10
+msgid "Header Style"
+msgstr "Стиль Заголовка"
+
+#: inc/admin/customizer/option/header/option-header-typography.php:22
+#: inc/admin/customizer/option/header/option-header-typography.php:33
+msgid "Header Typography"
+msgstr "Типография Заголовков"
+
+#: inc/admin/customizer/option/header/option-header-typography.php:45
+msgid "Hover Color"
+msgstr "Цвет Наведения"
+
+#: inc/admin/customizer/option/header/option-header-typography.php:58
+msgid "Header Bakcground"
+msgstr "Заголовок Bakcground"
+
+#: inc/admin/customizer/option/header/option-header-typography.php:69
+msgid "Header Background"
+msgstr "Фон Заголовка"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:10
+#: inc/admin/customizer/option/menu/option-menu-labels.php:23
+#: inc/admin/customizer/option/menu/option-menu-labels.php:35
+#: inc/admin/customizer/option/menu/option-menu-labels.php:45
+msgid "Menu Labels"
+msgstr "Ярлыки Меню"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:24
+msgid ""
+"Please change or remove registered labels. You could select menu labels "
+"while you are editing menus."
+msgstr ""
+"Пожалуйста, измените или удалите зарегистрированные этикетки. Вы можете "
+"выбрать метки меню во время редактирования меню."
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:60
+msgid "Label Text to Change"
+msgstr "Текст метки для изменения"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:62
+msgid "Label Background Color to Change"
+msgstr "Цвет фона этикетки для изменения"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:66
+#: woocommerce/compare.php:138 woocommerce/wishlist-view.php:245
+msgid "Remove"
+msgstr "Удалять"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:92
+msgid "New Label"
+msgstr "Новая Этикетка"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:93
+msgid "Please input label text and color to register new one."
+msgstr ""
+"Пожалуйста, введите текст и цвет этикетки, чтобы зарегистрировать новую."
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:102
+msgid "Input Label Text"
+msgstr "Ввод Текста Метки"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:104
+msgid "Choose Label Background Color"
+msgstr "Выберите Цвет Фона Этикетки"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:107
+msgid "Add"
+msgstr "Добавить"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:10
+msgid "Mobile Sticky Icon Bar"
+msgstr "Мобильная Липкая Панель Значков"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:23
+msgid "Mobile Icon Bar"
+msgstr "Мобильная Панель Значков"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:34
+msgid "Mobile Bar Icons"
+msgstr "Значки Мобильных Панелей"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:37
+msgid "Select items to show in mobile sticky bottom bar."
+msgstr "Выберите элементы для отображения в нижней панели mobile sticky."
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:39
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:59
+msgid "Mobile Menu Toggle"
+msgstr "Переключение Мобильного Меню"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:41
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:131
+msgid "Shop"
+msgstr "Магазин"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:42
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:167
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:223
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:276
+#: inc/setup/theme-options.php:137
+#: template_parts/header/elements/element-wishlist.php:19
+msgid "Wishlist"
+msgstr "Список желаний"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:43
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:221
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:274
+#: inc/functions/woocommerce/product-loop.php:553
+#: inc/setup/theme-options.php:139
+msgid "Compare"
+msgstr "Сравнить"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:44
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:203
+#: inc/setup/theme-options.php:141
+msgid "Account"
+msgstr "Учетная запись"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:45
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:239
+#: inc/setup/theme-options.php:143
+msgid "Cart"
+msgstr "Корзина"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:46
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:275
+#: inc/setup/theme-options.php:145
+msgid "Search"
+msgstr "Поиск"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:47
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:311
+#: inc/setup/theme-options.php:147
+msgid "To Top"
+msgstr "Наверх"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:70
+msgid "Menu Label"
+msgstr "Метка Меню"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:82
+msgid "Menu Icon"
+msgstr "Значок Меню"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:106
+msgid "Home Label"
+msgstr "Главная Этикетка"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:118
+msgid "Home Icon"
+msgstr "Главная Иконка"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:142
+msgid "Shop Label"
+msgstr "Этикетка Магазина"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:154
+msgid "Shop Icon"
+msgstr "Значок Магазина"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:178
+msgid "Wishlist Label"
+msgstr "Ярлык Списка Желаний"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:190
+msgid "Wishlist Icon"
+msgstr "Значок Списка Желаний"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:214
+msgid "Account Label"
+msgstr "Метка Счета"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:226
+msgid "Account Icon"
+msgstr "Значок Учетной Записи"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:250
+msgid "Cart Label"
+msgstr "Ярлык Тележки"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:262
+msgid "Cart Icon"
+msgstr "Значок Корзины"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:286
+msgid "Search Label"
+msgstr "Поисковая Метка"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:298
+msgid "Search Icon"
+msgstr "Значок Поиска"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:322
+msgid "To Top Label"
+msgstr "К Верхней Этикетке"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:334
+msgid "To Top Icon"
+msgstr "К Верхнему Значку"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:10
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:23
+msgid "Mobile Menu"
+msgstr "Мобильное Меню"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:40
+msgid "Mobile Menus"
+msgstr "Мобильные Меню"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:43
+msgid "Select which menus you want show in mobile menu."
+msgstr "Выберите, какие меню вы хотите показать в мобильном меню."
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:54
+msgid "Mobile Menus Arrange"
+msgstr "Мобильные Меню Упорядочить"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:57
+msgid "How would you like to arrange several menus?"
+msgstr "Как бы вы хотели организовать несколько меню?"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:59
+msgid "Following"
+msgstr "Следующий"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:60
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:105
+msgid "Tab"
+msgstr "Табуляция"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:10
+#: inc/admin/customizer/option/menu/option-menu-skin.php:22
+msgid "Menu Skins"
+msgstr "Скины Меню"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:23
+msgid ""
+"Change styles of below 3 supported menu skins and assign to different menus."
+msgstr ""
+"Измените стили ниже 3 поддерживаемых скинов меню и назначьте их различным "
+"меню."
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:36
+#: inc/admin/customizer/option/menu/option-menu-skin.php:50
+msgid "Skin 1"
+msgstr "Кожа 1"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:37
+#: inc/admin/customizer/option/menu/option-menu-skin.php:481
+msgid "Skin 2"
+msgstr "Кожа 2"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:38
+#: inc/admin/customizer/option/menu/option-menu-skin.php:912
+msgid "Skin 3"
+msgstr "Кожа 3"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:70
+#: inc/admin/customizer/option/menu/option-menu-skin.php:501
+#: inc/admin/customizer/option/menu/option-menu-skin.php:932
+msgid "Ancestor"
+msgstr "Предок"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:71
+#: inc/admin/customizer/option/menu/option-menu-skin.php:502
+#: inc/admin/customizer/option/menu/option-menu-skin.php:933
+msgid "Content"
+msgstr "Содержание"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:72
+#: inc/admin/customizer/option/menu/option-menu-skin.php:503
+#: inc/admin/customizer/option/menu/option-menu-skin.php:934
+msgid "Toggle"
+msgstr "Тумблер"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:90
+#: inc/admin/customizer/option/menu/option-menu-skin.php:521
+#: inc/admin/customizer/option/menu/option-menu-skin.php:952
+msgid "Ancestor Typography"
+msgstr "Типография Предков"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:92
+#: inc/admin/customizer/option/menu/option-menu-skin.php:523
+#: inc/admin/customizer/option/menu/option-menu-skin.php:954
+msgid ""
+"Menu ancestors are top-level menu items, which can have submenus and "
+"megamenus."
+msgstr ""
+"Предки меню-это пункты меню верхнего уровня, которые могут иметь подменю и "
+"мегаменю."
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:115
+#: inc/admin/customizer/option/menu/option-menu-skin.php:546
+#: inc/admin/customizer/option/menu/option-menu-skin.php:977
+msgid "Ancestor Gap Space (px)"
+msgstr "Пространство зазора предка (px)"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:139
+#: inc/admin/customizer/option/menu/option-menu-skin.php:570
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1001
+msgid "Ancestor Padding(px)"
+msgstr "Прокладка предка(px)"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:163
+#: inc/admin/customizer/option/menu/option-menu-skin.php:594
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1025
+msgid "Ancestor Background"
+msgstr "Предок"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:190
+#: inc/admin/customizer/option/menu/option-menu-skin.php:621
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1052
+msgid "Ancestor Hover Background"
+msgstr "Предок Наведите Фон"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:217
+#: inc/admin/customizer/option/menu/option-menu-skin.php:648
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1079
+msgid "Ancestor Hover Color"
+msgstr "Цвет Наведения Предка"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:244
+#: inc/admin/customizer/option/menu/option-menu-skin.php:675
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1106
+msgid "Content Typography"
+msgstr "Типография Контента"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:246
+#: inc/admin/customizer/option/menu/option-menu-skin.php:677
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1108
+msgid "Please change style of submenus or megamenus"
+msgstr "Пожалуйста, измените стиль подменю или megamenus"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:269
+#: inc/admin/customizer/option/menu/option-menu-skin.php:700
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1131
+msgid "Menu Content Background"
+msgstr "Фон Содержимого Меню"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:296
+#: inc/admin/customizer/option/menu/option-menu-skin.php:727
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1158
+msgid "Menu Item Hover Background"
+msgstr "Пункт Меню Наведите Фон"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:323
+#: inc/admin/customizer/option/menu/option-menu-skin.php:754
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1185
+msgid "Menu Item Hover Color"
+msgstr "Пункт Меню Цвет Наведения"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:350
+#: inc/admin/customizer/option/menu/option-menu-skin.php:781
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1212
+msgid "Toggle Typography"
+msgstr "Переключение Типографии"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:351
+#: inc/admin/customizer/option/menu/option-menu-skin.php:782
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1213
+msgid "Please change menu toggle's style in toggle-type menus."
+msgstr ""
+"Пожалуйста, измените стиль переключателя меню в меню типа переключения."
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:375
+#: inc/admin/customizer/option/menu/option-menu-skin.php:806
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1237
+msgid "Toggle Padding(px)"
+msgstr "Переключение заполнения(px)"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:399
+#: inc/admin/customizer/option/menu/option-menu-skin.php:830
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1261
+msgid "Toggle Background"
+msgstr "Переключение Фона"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:426
+#: inc/admin/customizer/option/menu/option-menu-skin.php:857
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1288
+msgid "Toggle Hover Background"
+msgstr "Переключение Фона Наведения"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:453
+#: inc/admin/customizer/option/menu/option-menu-skin.php:884
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1315
+msgid "Toggle Hover Color"
+msgstr "Переключение Цвета Наведения Курсора"
+
+#: inc/admin/customizer/option/menu/option-menu.php:10
+msgid "Menus"
+msgstr "Меню"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-config.php:10
+msgid "PTB Config"
+msgstr "Конфигурация PTB"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-config.php:21
+msgid "PTB Type"
+msgstr "Тип PTB"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-config.php:39
+msgid "Show Page Title"
+msgstr "Показать Заголовок Страницы"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-config.php:51
+msgid "Show Page Subtitle"
+msgstr "Показать Подзаголовок Страницы"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-config.php:63
+msgid "Show Breadcrumb"
+msgstr "Показать Хлебную Крошку"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:10
+msgid "PTB Style"
+msgstr "Стиль PTB"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:22
+msgid "Title Bar Style"
+msgstr "Стиль Строки Заголовка"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:33
+msgid "Title Bar Height (px)"
+msgstr "Высота строки заголовка (px)"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:61
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:58
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:69
+msgid "Breadcrumb"
+msgstr "Панировочные сухари"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:72
+msgid "Show Home Icon"
+msgstr "Показать Домашний Значок"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:73
+msgid "Do you want to show home icon instead of home link?"
+msgstr "Вы хотите показать домашнюю иконку вместо домашней ссылки?"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:85
+msgid "Breadcrumb Delimiter"
+msgstr "Разделитель Хлебных Крошек"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:86
+msgid "Please input delimiter text between breadcrumb links"
+msgstr "Пожалуйста введите текст разделителя между ссылками хлебных крошек"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:98
+msgid "Use Icon for Delimiter"
+msgstr "Используйте значок для разделителя"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:110
+msgid "Delimiter Icon"
+msgstr "Значок Разделителя"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:111
+msgid "Please input icon class for delimiter symbol"
+msgstr "Пожалуйста введите класс значка для символа разделителя"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:10
+msgid "PTB Typography"
+msgstr "Типография PTB"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:33
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:233
+msgid "Page Title"
+msgstr "Название Страницы"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:45
+msgid "Page Subtitle"
+msgstr "Подзаголовок Страницы"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb.php:13
+msgid "Page Title Bar"
+msgstr "Строка Заголовка Страницы"
+
+#: inc/admin/customizer/option/share/option-share.php:15
+msgid "Share"
+msgstr "Поделиться"
+
+#: inc/admin/customizer/option/share/option-share.php:27
+#: inc/admin/customizer/option/share/option-share.php:105
+msgid "Share Icons"
+msgstr "Поделиться Значками"
+
+#: inc/admin/customizer/option/share/option-share.php:39
+#, php-format
+msgid ""
+"Please change options for %1$ssocial share buttons%2$s in single product and "
+"post page."
+msgstr ""
+"Пожалуйста, измените параметры кнопок %1$ssocial share buttons%2$s на "
+"странице single product и post."
+
+#: inc/admin/customizer/option/share/option-share.php:50
+msgid "Share Icon Type"
+msgstr "Тип Значка Общего Доступа"
+
+#: inc/admin/customizer/option/share/option-share.php:68
+msgid "Use Custom Color"
+msgstr "Используйте Пользовательский Цвет"
+
+#: inc/admin/customizer/option/share/option-share.php:80
+#: inc/admin/customizer/option/style/option-style-color.php:10
+msgid "Color"
+msgstr "Цвет"
+
+#: inc/admin/customizer/option/style/option-style-color.php:22
+msgid "Colors"
+msgstr "Цвет"
+
+#: inc/admin/customizer/option/style/option-style-color.php:32
+msgid "Primary Color"
+msgstr "Основной Цвет"
+
+#: inc/admin/customizer/option/style/option-style-color.php:47
+msgid "Secondary Color"
+msgstr "Вторичный Цвет"
+
+#: inc/admin/customizer/option/style/option-style-color.php:62
+msgid "Alert Color"
+msgstr "Тревожный Цвет"
+
+#: inc/admin/customizer/option/style/option-style-color.php:77
+msgid "Success Color"
+msgstr "Цвет Успеха"
+
+#: inc/admin/customizer/option/style/option-style-color.php:92
+msgid "Dark Color"
+msgstr "Темный Цвет"
+
+#: inc/admin/customizer/option/style/option-style-color.php:107
+msgid "Light Color"
+msgstr "Светлый Цвет"
+
+#: inc/admin/customizer/option/style/option-style-skin.php:10
+msgid "Skin"
+msgstr "Кожа"
+
+#: inc/admin/customizer/option/style/option-style-skin.php:21
+msgid "Enable Rounded Border"
+msgstr "Включить Закругленную Границу"
+
+#: inc/admin/customizer/option/style/option-style-skin.php:23
+msgid ""
+"All buttons, images and borders will have border-radius value by default. "
+"Product image is an exception."
+msgstr ""
+"По умолчанию все кнопки, изображения и границы будут иметь значение border-"
+"radius. Образ продукта-исключение."
+
+#: inc/admin/customizer/option/style/option-style-typography.php:21
+#, php-format
+msgid ""
+"You can set header and footer typography in %1$sHeader/Header "
+"General%2$sFooter/Typography%3$s Section"
+msgstr ""
+"Вы можете установить типографику верхнего и нижнего колонтитулов в разделе "
+"%1$sHeader/Header General%2$sFooter/Typography%3$s"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:31
+msgid "Default Typography"
+msgstr "Типография По Умолчанию"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:53
+msgid "Heading Typography"
+msgstr "Заголовок Типография"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:75
+msgid "Custom Google Fonts"
+msgstr "Пользовательские Шрифты Google"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:85
+msgid "Select other google fonts to download"
+msgstr "Выберите другие шрифты google для загрузки"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:98
+msgid "Custom 1"
+msgstr "Обычай 1"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:99
+msgid "Custom 2"
+msgstr "Обычай 2"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:100
+msgid "Custom 3"
+msgstr "Обычай 3"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:111
+msgid "Custom Font 1"
+msgstr "Пользовательский Шрифт 1"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:130
+msgid "Custom Font 2"
+msgstr "Пользовательский Шрифт 2"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:149
+msgid "Custom Font 3"
+msgstr "Пользовательский Шрифт 3"
+
+#: inc/admin/customizer/option/style/option-style.php:10
+msgid "Style"
+msgstr "Стиль"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:9
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:21
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:31
+msgid "Category Type"
+msgstr "Тип Категории"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:57
+msgid "You can refer category elements page"
+msgstr "Вы можете ссылаться на страницу элементов категории"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:57
+msgid "here"
+msgstr "здесь"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:67
+msgid "Content Width Auto"
+msgstr "Ширина Содержимого Авто"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:70
+msgid "Do you want to make content width auto for default type?"
+msgstr ""
+"Вы хотите сделать ширину контента автоматической для типа по умолчанию?"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:87
+msgid "Subcategory Count"
+msgstr "Подсчет Подкатегорий"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:90
+msgid "Current category type requires subcategories"
+msgstr "Текущий тип категории требует подкатегорий"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:107
+msgid "Imave Hover Effect"
+msgstr "Imave Hover Эффект"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:109
+msgid "Select hover effect of category image when mouse is over."
+msgstr ""
+"Выберите эффект наведения мыши на изображение категории при наведении мыши."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-checkout.php:10
+#: inc/admin/customizer/option/woocommerce/option-wc-checkout.php:22
+msgid "Checkout"
+msgstr "Оформить покупку"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-dokan.php:12
+#: inc/admin/customizer/option/woocommerce/option-wc-dokan.php:38
+msgid "Dokan"
+msgstr "Докан"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-dokan.php:24
+msgid "Vendor Dashboard"
+msgstr "Панель Мониторинга Поставщиков"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-dokan.php:34
+msgid "Vendor Dashboard Style"
+msgstr "Стиль Панели Мониторинга Поставщика"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-dokan.php:39
+msgid "Theme"
+msgstr "Тема"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:10
+msgid "Woo Features"
+msgstr "Особенности Woo"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:22
+msgid "Image Swatch"
+msgstr "Образец Изображения"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:32
+msgid "Enable Image Swatch"
+msgstr "Включить Образец Изображения"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:34
+msgid ""
+"Check this to use image swatches as well as color swatches and label "
+"swatches."
+msgstr ""
+"Проверьте это, чтобы использовать образцы изображений, а также образцы "
+"цветов и этикеток."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:47
+msgid "Notification"
+msgstr "Уведомление"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:57
+msgid "Auto remove alerts after (seconds)"
+msgstr "Автоматическое удаление оповещений через (секунды)"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:59
+msgid ""
+"Notifications from wishlist, checkout and other Woo pages will be removed "
+"automatically after below time."
+msgstr ""
+"Уведомления со страниц wishlist, checkout и других Woo будут автоматически "
+"удалены по истечении указанного времени."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:72
+msgid "Sales Popup"
+msgstr "Всплывающее Окно Продаж"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:73
+msgid ""
+"Sales popup shows some products to the visitors including recently sold "
+"products, best selling products, featured products."
+msgstr ""
+"Всплывающее окно продаж показывает посетителям некоторые продукты, включая "
+"недавно проданные продукты, самые продаваемые продукты, рекомендуемые "
+"продукты."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:83
+msgid "Popup Content"
+msgstr "Всплывающее Содержимое"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:86
+msgid "Select which products you want to show in sales popup."
+msgstr ""
+"Выберите, какие продукты вы хотите показать во всплывающем окне продаж."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:88
+msgid "Do not show"
+msgstr "Не показывай"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:89
+msgid "Popular products"
+msgstr "Популярные продукты"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:90
+msgid "Top rated products"
+msgstr "Лучшие по рейтингу продукты"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:91
+msgid "Sale products"
+msgstr "Продажа продуктов"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:92
+msgid "Featured products"
+msgstr "Рекомендуемые продукты"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:93
+msgid "Recent products"
+msgstr "Последние продукты"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:94
+msgid "Select a category"
+msgstr "Выберите категорию"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:95
+msgid "Select products"
+msgstr "Выберите продукты"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:121
+msgid "Sales Popup Category"
+msgstr "Всплывающая Категория Продаж"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:140
+msgid "Input Products Ids"
+msgstr "Входные Идентификаторы Продуктов"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:141
+msgid "Input comma seperated product ids for sales popup. e.g) 18, 21, 120"
+msgstr ""
+"Введите разделенные запятыми идентификаторы продуктов для всплывающего окна "
+"продаж. например) 18, 21, 120"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:161
+msgid "Products Count"
+msgstr "Количество Продуктов"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:189
+msgid "Popup Title"
+msgstr "Всплывающее Название"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:209
+msgid "Start Delay(seconds)"
+msgstr "Задержка запуска(секунды)"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:211
+msgid "Change delay time to show the first popup after page loading."
+msgstr ""
+"Измените время задержки, чтобы показать первое всплывающее окно после "
+"загрузки страницы."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:234
+msgid "Interval(seconds)"
+msgstr "Интервал(секунды)"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:236
+msgid ""
+"Change duration between popups. Each sales popup will be disappeared after 4 "
+"seconds."
+msgstr ""
+"Изменение продолжительности между всплывающими окнами. Каждое всплывающее "
+"окно продаж будет исчезать через 4 секунды."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:258
+msgid "Enable on Mobile"
+msgstr "Включить на мобильном телефоне"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:261
+msgid "Do you want to enable sales popup on mobile?"
+msgstr "Вы хотите включить всплывающее окно продаж на мобильном телефоне?"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product-images.php:10
+#: inc/admin/customizer/option/woocommerce/option-wc-product-images.php:22
+msgid "Product Images"
+msgstr "Изображения Продукта"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:10
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:22
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:32
+msgid "Product Type"
+msgstr "Тип Продукта"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:48
+msgid "Hover Effect"
+msgstr "Эффект Парения"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:54
+msgid "Slide Up"
+msgstr "Скольжение Вверх"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:72
+msgid "Add To Cart Position"
+msgstr "Добавить В Корзину Позицию"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:75
+msgid ""
+"Change add to cart button's position. Cart button will be placed in blue "
+"filled area."
+msgstr ""
+"Измените положение кнопки Добавить в корзину. Кнопка корзины будет помещена "
+"в синюю заполненную область."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:98
+msgid "Quickview Position"
+msgstr "Положение Быстрого Просмотра"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:101
+msgid ""
+"Change quickview button's position. Quickview button will be placed in blue "
+"filled area."
+msgstr ""
+"Измените положение кнопки быстрого просмотра. Кнопка быстрого просмотра "
+"будет помещена в синюю заполненную область."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:122
+msgid "Add To Wishlist Position"
+msgstr "Добавить В Список Желаний Позицию"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:125
+msgid ""
+"Change wishlist button's position. Wishlist button will be placed in blue "
+"filled area."
+msgstr ""
+"Измените положение кнопки списка желаний. Кнопка списка желаний будет "
+"помещена в синюю заполненную область."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:146
+msgid "Content Align"
+msgstr "Выравнивание Содержимого"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:151
+msgid "Center"
+msgstr "Центр"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:163
+msgid "Show In Box"
+msgstr "Показать В Коробке"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:164
+msgid ""
+"Products will be shown inside boxes. You can see each products have border "
+"around them."
+msgstr ""
+"Продукты будут показаны внутри коробок. Вы можете видеть, что каждый продукт "
+"имеет границу вокруг себя."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:176
+msgid "Show Review Text"
+msgstr "Показать Текст Обзора"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:178
+msgid "Review link will be shown like ( * reviews )."
+msgstr "Ссылка на отзыв будет показана следующим образом ( * отзывы )."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:189
+msgid "Show Split Line"
+msgstr "Показать Разделенную Линию"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:190
+msgid ""
+"Vertical and Horizontal dividers will be shown between products. If you set "
+"this option, gap option does not work in product layout."
+msgstr ""
+"Между продуктами будут показаны вертикальные и горизонтальные разделители. "
+"Если вы установите этот параметр, то этот параметр не будет работать в "
+"макете продукта."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:215
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:268
+msgid "Category"
+msgstr "Категория"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:216
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:269
+msgid "Label"
+msgstr "Этикетка"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:217
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:270
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:229
+#: woocommerce/cart/cart.php:34 woocommerce/cart/cart.php:85
+#: woocommerce/wishlist-view.php:73
+msgid "Price"
+msgstr "Цена"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:218
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:271
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:231
+msgid "Rating"
+msgstr "Оценка"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:219
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:272
+msgid "Attributes"
+msgstr "Атрибуты"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:220
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:273
+msgid "Add To Cart"
+msgstr "добавить в корзину"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:222
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:275
+msgid "Quickview"
+msgstr "Быстрый просмотр"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:240
+msgid "Showing Attributes"
+msgstr "Отображение Атрибутов"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:242
+msgid ""
+"This is efficient when you are going to show label, color and image swatches."
+" Please make sure that each attribute's type is list."
+msgstr ""
+"Это эффективно, когда вы собираетесь показывать образцы этикеток, цветов и "
+"изображений. Пожалуйста, убедитесь, что тип каждого атрибута-list."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:254
+msgid "Change different access roles for each items"
+msgstr "Измените различные роли доступа для каждого элемента"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:265
+#: inc/setup/theme-options.php:667
+msgid "Visitor"
+msgstr "Посетитель"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:307
+msgid "Quickview Popup"
+msgstr "Всплывающее Окно Quickview"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:317
+msgid "Quickview Loading Type"
+msgstr "Тип Загрузки Quickview"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:320
+msgid ""
+"Select appearance of quickview while your site is loading product details."
+msgstr ""
+"Выберите внешний вид quickview, когда ваш сайт загружает подробную "
+"информацию о продукте."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:322
+msgid "Skeleton"
+msgstr "Скелет"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:324
+msgid "Loading"
+msgstr "Загрузка"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:326
+#, php-format
+msgid ""
+"Skeleton type is available only if skeleton screen is enabled. You could "
+"enable skeleton screen in %1$sTheme Option > Advanced > Theme Features%2$s"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:336
+msgid "Hover Effects"
+msgstr "Эффекты Наведения"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:346
+msgid "Box shadow on Hover"
+msgstr "Тень коробки при наведении курсора"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:349
+msgid "Show shadow of product when mouse is over."
+msgstr "Показать тень продукта, когда мышь закончилась."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:366
+msgid "Media Shadow Effect on Hover"
+msgstr "Эффект медиа тени при наведении курсора мыши"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:367
+msgid "Show shadow of Product Image when mouse is over."
+msgstr "Показать тень изображения продукта, когда мышь закончилась."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:379
+msgid "Change Image on Hover"
+msgstr "Изменение изображения при наведении курсора"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:381
+msgid ""
+"Show second product image when mouse is over. You could change this option "
+"for individual products"
+msgstr ""
+"Покажите второе изображение продукта, когда мышь закончится. Вы можете "
+"изменить эту опцию для отдельных продуктов"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:10
+msgid "Shop Pages"
+msgstr "Страницы Магазинов"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:22
+msgid "Shop Configuration"
+msgstr "Конфигурация Магазина"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:32
+msgid "Shop page display"
+msgstr "Отображение страницы магазина"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:33
+msgid "Choose what to display on the main shop page."
+msgstr "Выберите, что будет отображаться на главной странице магазина."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:35
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:52
+msgid "Show products"
+msgstr "Показать продукты"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:36
+msgid "Show categories"
+msgstr "Показать категории"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:37
+msgid "Show categories &amp; products"
+msgstr "Показать категории и продукты"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:49
+msgid "Category display"
+msgstr "Отображение категорий"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:50
+msgid "Choose what to display on product category pages."
+msgstr "Выберите, что будет отображаться на страницах категорий товаров."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:53
+msgid "Show subcategories"
+msgstr "Показать подкатегории"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:54
+msgid "Show subcategories &amp; products"
+msgstr "Показать подкатегории и продукты"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:66
+msgid "Default product sorting"
+msgstr "Сортировка продуктов по умолчанию"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:67
+msgid "How should products be sorted in shop page by default?"
+msgstr "Как следует сортировать товары на странице магазина по умолчанию?"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:71
+msgid "Default sorting (custom ordering + name)"
+msgstr "Сортировка по умолчанию (пользовательский заказ + имя)"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:72
+msgid "Popularity (sales)"
+msgstr "Популярность (продажи)"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:73
+msgid "Average rating"
+msgstr "Средний рейтинг"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:74
+msgid "Sort by most recent"
+msgstr "Сортировка по самым последним"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:75
+msgid "Sort by price (asc)"
+msgstr "Сортировка по цене (asc)"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:76
+msgid "Sort by price (desc)"
+msgstr "Сортировка по цене (desc)"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:89
+msgid "Shop Grid"
+msgstr "Сетка Магазина"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:100
+msgid "Products per row"
+msgstr "Продукты в ряд"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:101
+msgid "How many products should be shown per row?"
+msgstr "Сколько продуктов должно быть показано в строке?"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:117
+msgid "List Type Products per row"
+msgstr "Тип списка продукты в строке"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:118
+msgid "How many products should be shown per row when it is list view mode."
+msgstr ""
+"Сколько продуктов должно быть показано в строке, когда это режим просмотра "
+"списка."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:134
+msgid "Products Gap"
+msgstr "Разрыв В Продуктах"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:135
+msgid "Change gap size between products"
+msgstr "Изменение размера зазора между продуктами"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:138
+msgid "XS"
+msgstr "XS"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:139
+#: inc/setup/theme-setup.php:85
+msgid "S"
+msgstr "С"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:140
+#: inc/setup/theme-setup.php:97
+msgid "M"
+msgstr "М"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:141
+#: inc/setup/theme-setup.php:103
+msgid "L"
+msgstr "Л"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:154
+msgid "Simple Shop"
+msgstr "Простой Магазин"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:155
+msgid ""
+"Show only basic information including image, name and price. The else will "
+"be hidden."
+msgstr ""
+"Показывать только основную информацию, включая изображение, название и цену. "
+"Остальное будет скрыто."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:167
+msgid "Enable Sticky Toolbox on Mobile."
+msgstr "Включите Sticky Toolbox на мобильном телефоне."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:168
+msgid "Show sticky toolbox on mobile."
+msgstr "Покажите sticky toolbox на мобильном телефоне."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:182
+msgid "Select method to load more products."
+msgstr "Выберите способ загрузки дополнительных продуктов."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:218
+msgid "Shop Top Toolbox"
+msgstr "Магазин Top Toolbox"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:229
+msgid "Top Toolbox Items"
+msgstr "Лучшие Элементы Набора Инструментов"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:230
+msgid "Check items to show in shop page's top toolbox bar"
+msgstr ""
+"Проверьте элементы для отображения в верхней панели инструментов страницы "
+"магазина"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:234
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:278
+msgid "Result Count of Products"
+msgstr "Результат подсчет продуктов"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:235
+msgid "Sort By Selectbox"
+msgstr "Сортировка По Selectbox"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:236
+msgid "View Type Select"
+msgstr "Вид Выбор Типа"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:237
+msgid "Per Page Select Box"
+msgstr "На Странице Выберите Поле"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:238
+msgid "Category Filter"
+msgstr "Фильтр Категорий"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:239
+msgid "Toggle Type Search"
+msgstr "Переключение Типа Поиска"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:251
+msgid "Per Page Select Options"
+msgstr "На Странице Выберите Параметры"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:252
+msgid ""
+"Please input comma separated integers. Every integers will be shown as "
+"option of select box in product archive page. Integer with prefix \"_\" will "
+"be default count. e.g: 9, _12, 24, 36"
+msgstr ""
+"Пожалуйста, введите целые числа, разделенные запятыми. Все целые числа будут "
+"показаны в поле выбора на странице архива продукта. Целое число с префиксом "
+"\"_\" будет считаться по умолчанию, например: 9, _12, 24, 36"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:263
+msgid "Shop Bottom Toolbox"
+msgstr "Магазин Bottom Toolbox"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:274
+msgid "Bottom Toolbox Items"
+msgstr "Нижние Элементы Панели Инструментов"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:275
+msgid "Check items to show in shop page's bottom toolbox bar"
+msgstr ""
+"Проверьте элементы для отображения в нижней панели инструментов страницы "
+"магазина"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:10
+msgid "Product Detail Page"
+msgstr "Страница Сведений О Продукте"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:22
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:32
+msgid "Single Product Type"
+msgstr "Один Тип Продукта"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:34
+msgid ""
+"Use supported single product preset or build your own. You can build your "
+"own product page with Riode Template Builder. Please visit products menu of "
+"Riode demos to get complete understanding of each presets."
+msgstr ""
+"Используйте поддерживаемые предустановки для одного продукта или создайте "
+"свой собственный. Вы можете создать свою собственную страницу продукта с "
+"помощью Riode Template Builder. Пожалуйста, посетите меню продуктов Riode "
+"demos, чтобы получить полное представление о каждом пресете."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:73
+#, php-format
+msgid "You could build your product layout with %1$sSingle Product Builder%2$s"
+msgstr ""
+"Вы можете построить макет продукта с помощью конструктора продуктов "
+"%1$sSingle%2$s"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:84
+msgid "Breadcrumb + Navigation Position"
+msgstr "Хлебные Крошки + Навигационная Позиция"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:85
+msgid ""
+"This option is for breadcrumb and navigation position in single product page."
+msgstr ""
+"Эта опция предназначена для хлебной крошки и навигационного положения на "
+"одной странице продукта."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:88
+msgid "On Top"
+msgstr "наверху"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:89
+msgid "Hide"
+msgstr "Скрыть"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:101
+msgid "Data Tab Type"
+msgstr "Тип Вкладки Данных"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:103
+msgid ""
+"You could select tab or accordion type of product data tab. Data tab "
+"includes description, additional information and reviews by default. However "
+"you could add some more."
+msgstr ""
+"Вы можете выбрать вкладку или тип аккордеона вкладки данных о продукте. "
+"Вкладка данные по умолчанию включает описание, дополнительную информацию и "
+"отзывы. Однако вы могли бы добавить еще несколько."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:106
+msgid "Accordion"
+msgstr "Аккордеон"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:118
+msgid "Cart Sticky"
+msgstr "Тележка Липкая"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:120
+msgid ""
+"Add to cart area will be sticky while scrolling to make visitors easy to buy."
+msgstr ""
+"Область добавления в корзину будет липкой во время прокрутки, чтобы "
+"посетителям было легко покупать."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:131
+msgid "Data Tab Inside"
+msgstr "Вкладка Данных Внутри"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:133
+msgid "Do you want place product data tab inside product information column?"
+msgstr ""
+"Вы хотите разместить вкладку \"Данные продукта\" внутри столбца \"информация "
+"о продукте\"?"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:144
+msgid "Global Additional Data Tab"
+msgstr "Глобальная Вкладка Дополнительные Данные"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:155
+msgid "This is global data tab and will be shown all product detail pages."
+msgstr ""
+"Это вкладка глобальные данные, и вам будут показаны все страницы с "
+"подробными сведениями о продукте."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:167
+msgid "Custom Tab Content Block"
+msgstr "Пользовательский Блок Содержимого Вкладки"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:168
+msgid "Please select global additional product data tab."
+msgstr ""
+"Пожалуйста, выберите вкладку глобальные дополнительные данные продукта."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:182
+msgid "Related Products"
+msgstr "сопутствующие товары"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:193
+msgid "Count of Related Products"
+msgstr "Количество сопутствующих товаров"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:205
+msgid "Related Products per Row"
+msgstr "Сопутствующие товары в строке"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:230
+msgid "Random"
+msgstr "Случайный"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:233
+msgid "Total Sales"
+msgstr "Общий Объем Продаж"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-store-notice.php:10
+#: inc/admin/customizer/option/woocommerce/option-wc-store-notice.php:22
+msgid "Store Notice"
+msgstr "Уведомление О Хранении"
+
+#: inc/admin/customizer/option/woocommerce/option-woocommerce.php:11
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/admin/customizer/option/wp/option-wp.php:10
+msgid "Site Identity"
+msgstr "Идентификация Сайта"
+
+#: inc/admin/customizer/option/wp/option-wp.php:18
+#: inc/admin/setup_wizard/views/demo.php:51
+msgid "Widgets"
+msgstr "Виджеты"
+
+#: inc/admin/customizer/option/wp/option-wp.php:26
+msgid "Homepage Settings"
+msgstr "Настройки Домашней Страницы"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:142
+msgid "Loading Failed"
+msgstr "Загрузка Не Удалась"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:143
+#: inc/admin/setup_wizard/setup_wizard.php:239
+msgid "Failed"
+msgstr "Неудачный"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:144
+#: inc/admin/setup_wizard/setup_wizard.php:240
+msgid "Ajax error"
+msgstr "Ошибка Ajax"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:328
+#: inc/admin/optimize_wizard/optimize_wizard.php:406
+#: inc/admin/setup_wizard/setup_wizard.php:445
+msgid "No Slug Found"
+msgstr "Пуля Не Найдена"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:348
+#: inc/admin/setup_wizard/setup_wizard.php:465
+msgid "Activating Plugin"
+msgstr "Активация Плагина"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:363
+#: inc/admin/setup_wizard/setup_wizard.php:480
+msgid "Updating Plugin"
+msgstr "Обновление Плагина"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:378
+#: inc/admin/setup_wizard/setup_wizard.php:495
+msgid "Installing Plugin"
+msgstr "Установка Плагина"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:392
+#: inc/admin/setup_wizard/setup_wizard.php:509
+msgid "Success"
+msgstr "Успех"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:414
+msgid "Sorry, you are not allowed to deactivate this plugin."
+msgstr "К сожалению, вы не имеете права деактивировать этот плагин."
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:436
+msgid "Resources"
+msgstr "Ресурсы"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:442
+#: inc/admin/optimize_wizard/views/lazyload.php:4
+msgid "Lazyload"
+msgstr "Lazyload"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:448
+msgid "Peformance"
+msgstr "Peformance"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:457
+#: inc/admin/optimize_wizard/views/plugins.php:4
+#: inc/admin/optimize_wizard/views/widgets.php:9
+#: inc/admin/setup_wizard/setup_wizard.php:175
+msgid "Plugins"
+msgstr "Плагины"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:465
+#: inc/admin/setup_wizard/setup_wizard.php:190
+msgid "Ready!"
+msgstr "- Готово!"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:489
+#: inc/admin/optimize_wizard/optimize_wizard.php:506
+#: inc/admin/optimize_wizard/optimize_wizard.php:545
+msgid "Nonce Error"
+msgstr "Ошибка Nonce"
+
+#: inc/admin/optimize_wizard/views/index.php:9
+#: inc/admin/setup_wizard/views/index.php:9
+msgid "Riode eCommerce"
+msgstr "Электронная коммерция Riode"
+
+#: inc/admin/optimize_wizard/views/index.php:9
+#: inc/admin/setup_wizard/views/index.php:9
+msgid "version"
+msgstr "версия"
+
+#: inc/admin/optimize_wizard/views/index.php:14
+msgid ""
+"Riode optimize wizard will help you configure proper website with optimum "
+"resources and peak efficiency."
+msgstr ""
+"Riode optimize wizard поможет вам правильно настроить веб-сайт с "
+"оптимальными ресурсами и максимальной эффективностью."
+
+#: inc/admin/optimize_wizard/views/index.php:15
+msgid ""
+"Note! Make sure that you have finished developing. Changes after running "
+"this wizard will not be affected. If you have such a problem, please rerun "
+"this wizard."
+msgstr ""
+"Обратите внимание! Убедитесь, что вы закончили разработку. Изменения после "
+"запуска этого мастера не будут затронуты. Если у вас возникла такая проблема,"
+" пожалуйста, повторно запустите этот мастер."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:6
+msgid ""
+"This will help you make your site faster by lazyloading images and contents."
+msgstr ""
+"Это поможет вам сделать ваш сайт быстрее, лениво загружая изображения и "
+"контент."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:9
+msgid "Lazyload Images"
+msgstr "Ленивая Загрузка Изображений"
+
+#: inc/admin/optimize_wizard/views/lazyload.php:11
+msgid ""
+"All image resources will be lazyloaded so that page's loading speed gets "
+"faster."
+msgstr ""
+"Все ресурсы изображений будут lazyloaded так, что скорость загрузки страницы "
+"становится быстрее."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:12
+msgid ""
+"Use with caution! Disable this option if you have any compability problems."
+msgstr ""
+"Используйте с осторожностью! Отключите эту опцию, если у вас есть какие-либо "
+"проблемы с совместимостью."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:15
+msgid "Lazyload Menus"
+msgstr "Lazyload Меню"
+
+#: inc/admin/optimize_wizard/views/lazyload.php:17
+msgid "Menus will be lazyloaded and cached in browsers for faster load."
+msgstr ""
+"Меню будут lazyloaded и кэшироваться в браузерах для более быстрой загрузки."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:18
+msgid ""
+"Cached menus will be updated after they have been changed or customizer "
+"panel has been saved."
+msgstr ""
+"Кэшированные меню будут обновлены после их изменения или сохранения панели "
+"настройки."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:23
+msgid ""
+"Instead of real content, skeleton is used to enhance speed of page loading "
+"and makes it more beautiful."
+msgstr ""
+"Вместо реального контента, скелет используется для повышения скорости "
+"загрузки страниц и делает его более красивым."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:26
+msgid "Enable Web Font Loader"
+msgstr "Включить Загрузчик Веб-Шрифтов"
+
+#: inc/admin/optimize_wizard/views/lazyload.php:32
+#, php-format
+msgid ""
+"Using %1$sWeb Font Loader%2$s, you can enhance page loading speed by about 4 "
+"percent in %3$sGoogle PageSpeed Insights%4$s for both mobile and desktop."
+msgstr ""
+"Используя %1$sWeb Font Loader%2$s, вы можете увеличить скорость загрузки "
+"страницы примерно на 4% в%3$sGoogle PageSpeed Insights % 4$s как для "
+"мобильных устройств, так и для настольных компьютеров."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:42
+#: inc/admin/optimize_wizard/views/resources.php:65
+#: inc/admin/optimize_wizard/views/widgets.php:53
+#: inc/admin/setup_wizard/views/customize.php:30
+#: inc/admin/setup_wizard/views/demo.php:218
+msgid "Skip this step"
+msgstr "Пропустите этот шаг"
+
+#: inc/admin/optimize_wizard/views/lazyload.php:43
+#: inc/admin/optimize_wizard/views/resources.php:66
+msgid "Save & Continue"
+msgstr "Сохранить И Продолжить"
+
+#: inc/admin/optimize_wizard/views/plugins.php:6
+msgid "1. Recommended Plugins"
+msgstr "1. Рекомендуемые Плагины"
+
+#: inc/admin/optimize_wizard/views/plugins.php:11
+msgid "This will install the plugins which can acclerate your site."
+msgstr "Это позволит установить плагины, которые могут увеличить ваш сайт."
+
+#: inc/admin/optimize_wizard/views/plugins.php:12
+msgid ""
+"You should disable below plugins while in development. Changes may not be "
+"applied because of them."
+msgstr ""
+"Вы должны отключить нижеприведенные Плагины во время разработки. Изменения "
+"не могут быть применены из-за них."
+
+#: inc/admin/optimize_wizard/views/plugins.php:37
+msgid "How to enable leverage browser  caching."
+msgstr "Как включить кэширование браузера leverage."
+
+#: inc/admin/optimize_wizard/views/plugins.php:38
+msgid ""
+"Page loading duration can be significantly improved by asking visitors to "
+"save and reuse the files included in your website."
+msgstr ""
+"Продолжительность загрузки страницы можно значительно увеличить, попросив "
+"посетителей сохранять и повторно использовать файлы, включенные в ваш сайт."
+
+#: inc/admin/optimize_wizard/views/plugins.php:43
+msgid "Good News! All recommended plugins are already installed up-to-date."
+msgstr ""
+"Хорошие Новости! Все рекомендуемые плагины уже установлены в актуальном "
+"состоянии."
+
+#: inc/admin/optimize_wizard/views/plugins.php:49
+msgid "2. Installed Plugins"
+msgstr "2. Установленные Плагины"
+
+#: inc/admin/optimize_wizard/views/plugins.php:50
+msgid "Please check active plugins. You can deactivate unnecessary plugins."
+msgstr ""
+"Пожалуйста, проверьте активные Плагины. Вы можете отключить ненужные плагины."
+
+#: inc/admin/optimize_wizard/views/plugins.php:54
+msgid "Plugin Name"
+msgstr "Название Плагина"
+
+#: inc/admin/optimize_wizard/views/plugins.php:55
+#: inc/admin/optimize_wizard/views/templates_load.php:28
+#: inc/admin/optimize_wizard/views/templates_load.php:56
+msgid "Action"
+msgstr "Экшен"
+
+#: inc/admin/optimize_wizard/views/plugins.php:63
+#: inc/admin/panel/views/activate.php:62
+msgid "Deactivate"
+msgstr "Деактивировать"
+
+#: inc/admin/optimize_wizard/views/plugins.php:74
+msgid "Network Activate"
+msgstr "Активация Сети"
+
+#: inc/admin/optimize_wizard/views/plugins.php:83
+msgid "Share Plugins Information"
+msgstr "Поделитесь Информацией О Плагинах"
+
+#: inc/admin/optimize_wizard/views/plugins.php:84
+msgid ""
+"Please contribute to upgrade theme and your site to the best one! Your "
+"cooperation would be highly appreciated."
+msgstr ""
+"Пожалуйста, внесите свой вклад в обновление темы и вашего сайта до лучшего! "
+"Ваше сотрудничество будет высоко оценено."
+
+#: inc/admin/optimize_wizard/views/plugins.php:85
+msgid ""
+"We will never collect any sensivite or private data such as IP addresses, "
+"email, usernames, or passwords."
+msgstr ""
+"Мы никогда не будем собирать какие-либо конфиденциальные или личные данные, "
+"такие как IP-адреса, электронная почта, имена пользователей или пароли."
+
+#: inc/admin/optimize_wizard/views/plugins.php:89
+#: inc/admin/setup_wizard/views/customize.php:37
+#: inc/admin/setup_wizard/views/demo.php:219
+#: inc/admin/setup_wizard/views/plugins.php:75
+#: inc/admin/setup_wizard/views/status.php:178
+msgid "Continue"
+msgstr "Продолжать"
+
+#: inc/admin/optimize_wizard/views/ready.php:5
+msgid "Your Website is now optimized much better than before!"
+msgstr "Ваш сайт теперь оптимизирован гораздо лучше, чем раньше!"
+
+#: inc/admin/optimize_wizard/views/ready.php:7
+msgid ""
+"Congratulations! The Site is now much faster, better and fully optimized. "
+"Please visit your new site to notice how its performance changed."
+msgstr ""
+"Поздравляю! Сайт теперь намного быстрее, лучше и полностью оптимизирован. "
+"Пожалуйста, посетите ваш новый сайт, чтобы заметить, как изменилась его "
+"производительность."
+
+#: inc/admin/optimize_wizard/views/ready.php:7
+#: inc/admin/setup_wizard/views/ready.php:48
+msgid "View your new website!"
+msgstr "Посмотрите ваш новый сайт!"
+
+#: inc/admin/optimize_wizard/views/ready.php:13
+msgid "Leave a Comment"
+msgstr "Оставить комментарий"
+
+#: inc/admin/optimize_wizard/views/ready.php:18
+#, php-format
+msgid ""
+"Are you satisfied by Riode Optimize Wizard? If you find any bugs or any new "
+"suggestions, please %1$sleave a comment %2$s. Thank you."
+msgstr ""
+"Вы удовлетворены мастер оптимизации Riode? Если вы обнаружите какие-либо "
+"ошибки или какие-либо новые предложения, пожалуйста, %1$sleave комментарий "
+"%2$s. Спасибо."
+
+#: inc/admin/optimize_wizard/views/ready.php:27
+#, php-format
+msgid ""
+"Please leave a %1$s5-star rating%2$s if you are satisfied with this theme. "
+"Thanks!"
+msgstr ""
+"Пожалуйста, оставьте %1$s5-star рейтинг%2$s, Если вы удовлетворены этой "
+"темой. Спасибо!"
+
+#: inc/admin/optimize_wizard/views/resources.php:4
+msgid "Performance"
+msgstr "Производительность"
+
+#: inc/admin/optimize_wizard/views/resources.php:9
+msgid "Disable animations in mobile"
+msgstr "Отключить анимацию в мобильном"
+
+#: inc/admin/optimize_wizard/views/resources.php:12
+msgid "Preload Fonts"
+msgstr "Предварительная Загрузка Шрифтов"
+
+#: inc/admin/optimize_wizard/views/resources.php:15
+#, php-format
+msgid ""
+"This improves page load time as the browser caches preloaded resources so "
+"they are available immediately when needed. By using this option, you can "
+"increase page speed about 1 ~ 4 percent in %1$sGoogle PageSpeed Insights%2$s "
+"for both of mobile and desktop."
+msgstr ""
+"Это улучшает время загрузки страницы, так как браузер кэширует "
+"предварительно загруженные ресурсы, чтобы они были доступны сразу же, когда "
+"это необходимо. Используя этот параметр, вы можете увеличить скорость "
+"страницы примерно на 1 ~ 4% в%1$sGoogle PageSpeed Insights % 2$s как для "
+"мобильных устройств, так и для настольных компьютеров."
+
+#: inc/admin/optimize_wizard/views/resources.php:25
+msgid "Riode Icons"
+msgstr "Значки Риодов"
+
+#: inc/admin/optimize_wizard/views/resources.php:28
+msgid "Font Awesome 5 Solid"
+msgstr "Шрифт Awesome 5 Solid"
+
+#: inc/admin/optimize_wizard/views/resources.php:31
+msgid "Font Awesome 5 Regular"
+msgstr "Шрифт Awesome 5 Обычный"
+
+#: inc/admin/optimize_wizard/views/resources.php:34
+msgid "Font Awesome 5 Brands"
+msgstr "Шрифт Awesome 5 Брендов"
+
+#: inc/admin/optimize_wizard/views/resources.php:38
+msgid ""
+"Please input other resources that will be pre loaded. Ex. https://d-themes."
+"com/wordpress/riode/wp-content/themes/riode-child/fonts/custom.woff2."
+msgstr ""
+
+#: inc/admin/optimize_wizard/views/resources.php:42
+msgid "Asynchronous Scripts"
+msgstr "Асинхронные Скрипты"
+
+#: inc/admin/optimize_wizard/views/resources.php:45
+msgid "Asynchronous load"
+msgstr "Асинхронная нагрузка"
+
+#: inc/admin/optimize_wizard/views/resources.php:47
+msgid ""
+"Some javascript libraries does not affect first paint. And you can increase "
+"page loading speed by loading them asynchronously."
+msgstr ""
+"Некоторые библиотеки javascript не влияют на first paint. И вы можете "
+"увеличить скорость загрузки страниц, загружая их асинхронно."
+
+#: inc/admin/optimize_wizard/views/resources.php:50
+msgid "Split tasks"
+msgstr "Разделение задач"
+
+#: inc/admin/optimize_wizard/views/resources.php:52
+msgid ""
+"Long time tasks may cause unintentional rendering suspension or affect to "
+"its performance. To make pages faster, please check split task option."
+msgstr ""
+"Длительные задачи могут привести к непреднамеренной приостановке рендеринга "
+"или повлиять на его производительность. Чтобы сделать страницы быстрее, "
+"пожалуйста, установите флажок разделить задачу."
+
+#: inc/admin/optimize_wizard/views/resources.php:55
+msgid "Only necessary JS at loading"
+msgstr "Только необходимый JS при загрузке"
+
+#: inc/admin/optimize_wizard/views/resources.php:57
+msgid ""
+"While page is loaded, there exists a lot of unnecessary javascripts running "
+"during initialization. If they works in idle time and only necessary ones "
+"runs while loading time, page speed will be faster."
+msgstr ""
+"Во время загрузки страницы существует множество ненужных javascripts, "
+"запущенных во время инициализации. Если они работают в режиме ожидания, а во "
+"время загрузки работают только необходимые, то скорость страницы будет выше."
+
+#: inc/admin/optimize_wizard/views/resources.php:60
+msgid "Process after load event"
+msgstr "Процесс после события загрузки"
+
+#: inc/admin/optimize_wizard/views/resources.php:62
+msgid ""
+"This will accelerate page's load time. But this may cause compatibility "
+"issue since page still not be ready. It will be in ready state after "
+"document or window load event is ready. To fix this problem, Please add "
+"event handlers to window's \"riode_complete\" event."
+msgstr ""
+"Это ускорит время загрузки страницы. Но это может вызвать проблему "
+"совместимости, так как страница все еще не готова. Он будет находиться в "
+"состоянии готовности после того, как будет готово событие загрузки документа "
+"или окна. Чтобы устранить эту проблему, пожалуйста, добавьте обработчики "
+"событий в событие окна \"riode_complete\"."
+
+#: inc/admin/optimize_wizard/views/templates_load.php:16
+msgid "Through this step, you can remove unused layouts and sidebars."
+msgstr ""
+"На этом этапе вы можете удалить неиспользуемые макеты и боковые панели."
+
+#: inc/admin/optimize_wizard/views/templates_load.php:18
+msgid ""
+"Selected items will be saved for next use and the others will be "
+"automatically removed."
+msgstr ""
+"Выбранные элементы будут сохранены для следующего использования, а остальные "
+"будут автоматически удалены."
+
+#: inc/admin/optimize_wizard/views/templates_load.php:21
+msgid "Please check used layouts and sidebars!"
+msgstr "Пожалуйста, проверьте использованные макеты и боковые панели!"
+
+#: inc/admin/optimize_wizard/views/templates_load.php:23
+msgid "1. Layouts"
+msgstr "1. макеты"
+
+#: inc/admin/optimize_wizard/views/templates_load.php:52
+msgid "2. Sidebars"
+msgstr "2. боковые панели"
+
+#: inc/admin/optimize_wizard/views/welcome.php:5
+#, php-format
+msgid "Welcome to the optimize wizard for %s."
+msgstr "Добро пожаловать в мастер оптимизации для %s."
+
+#: inc/admin/optimize_wizard/views/welcome.php:10
+msgid "It looks like you have already optimized your site."
+msgstr "Похоже, вы уже оптимизировали свой сайт."
+
+#: inc/admin/optimize_wizard/views/welcome.php:13
+msgid "Run Optimize Wizard Again"
+msgstr "Снова Запустите Мастер Оптимизации"
+
+#: inc/admin/optimize_wizard/views/welcome.php:14
+msgid "Exit to Riode Panel"
+msgstr "Выход на панель Riode"
+
+#: inc/admin/optimize_wizard/views/welcome.php:20
+msgid ""
+"This Optimize Wizard is introduced to optimize all resources that are "
+"unnecessary for your site. Every step has enough description about how it "
+"works. Some options may produce some conflicts if your site is still in "
+"development progress, so we advise you to enable all options once site "
+"development is completed."
+msgstr ""
+"Этот мастер оптимизации предназначен для оптимизации всех ресурсов, которые "
+"не нужны вашему сайту. Каждый шаг содержит достаточное описание того, как он "
+"работает. Некоторые опции могут привести к некоторым конфликтам, если ваш "
+"сайт все еще находится в стадии разработки, поэтому мы рекомендуем вам "
+"включить все опции после завершения разработки сайта."
+
+#: inc/admin/optimize_wizard/views/welcome.php:21
+msgid "No time right now? "
+msgstr "Сейчас нет времени? "
+
+#: inc/admin/optimize_wizard/views/welcome.php:21
+msgid ""
+"If you don't want to go through the wizard, you can skip and return to the "
+"WordPress dashboard. Come back anytime you want!"
+msgstr ""
+"Если вы не хотите проходить через Мастер, Вы можете пропустить его и "
+"вернуться к панели управления WordPress. Приходи в любое время, когда "
+"захочешь!"
+
+#: inc/admin/optimize_wizard/views/welcome.php:23
+msgid "Not right now"
+msgstr "Но не сейчас"
+
+#: inc/admin/optimize_wizard/views/welcome.php:24
+msgid "Let's Go"
+msgstr "пойдем"
+
+#: inc/admin/optimize_wizard/views/widgets.php:4
+msgid "Optimize Resources"
+msgstr "Оптимизация Ресурсов"
+
+#: inc/admin/optimize_wizard/views/widgets.php:7
+msgid "Styles"
+msgstr "Стили"
+
+#: inc/admin/optimize_wizard/views/widgets.php:8
+msgid "Templates"
+msgstr "Шаблоны"
+
+#: inc/admin/optimize_wizard/views/widgets.php:13
+msgid "This will help you to optimize theme styles."
+msgstr "Это поможет вам оптимизировать стили тем."
+
+#: inc/admin/optimize_wizard/views/widgets.php:15
+msgid ""
+"Riode comes with powerful optimization wizard for theme styles. Detailed "
+"options for used components and helper classes will optimize your site "
+"perfectly."
+msgstr ""
+"Riode поставляется с мощным мастером оптимизации для тематических стилей. "
+"Подробные параметры используемых компонентов и вспомогательных классов "
+"отлично оптимизируют ваш сайт."
+
+#: inc/admin/optimize_wizard/views/widgets.php:17
+msgid ""
+"All options you have been checked will be saved for next use. After you have "
+"finished development, please run this wizard."
+msgstr ""
+"Все параметры, которые вы проверили, будут сохранены для следующего "
+"использования. После завершения разработки, пожалуйста, запустите этот "
+"мастер."
+
+#: inc/admin/optimize_wizard/views/widgets.php:19
+msgid "Please check used resources."
+msgstr "Пожалуйста, проверьте используемые ресурсы."
+
+#: inc/admin/optimize_wizard/views/widgets.php:22
+#: inc/admin/optimize_wizard/views/widgets.php:29
+msgid "Prev Step"
+msgstr "Предыдущий Шаг"
+
+#: inc/admin/optimize_wizard/views/widgets.php:23
+#: inc/admin/optimize_wizard/views/widgets.php:30
+msgid "Next Step"
+msgstr "следующий шаг"
+
+#: inc/admin/optimize_wizard/views/widgets.php:35
+msgid ""
+"This is the last step of resource optimize. You can remove unnecessary "
+"plugin styles & scripts."
+msgstr ""
+"Это последний шаг оптимизации ресурсов. Вы можете удалить ненужные стили "
+"плагинов и скрипты."
+
+#: inc/admin/optimize_wizard/views/widgets.php:38
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#: inc/admin/optimize_wizard/views/widgets.php:40
+msgid "If any gutenberg block isn't used in site, check me."
+msgstr ""
+"Если какой-либо блок Гутенберга не используется на сайте, проверьте меня."
+
+#: inc/admin/optimize_wizard/views/widgets.php:43
+msgid "WooCommerce blocks for Gutenberg"
+msgstr "Блоки WooCommerce для Gutenberg"
+
+#: inc/admin/optimize_wizard/views/widgets.php:45
+msgid "If any WooCommerce blocks for Gutenberg isn't used in sites, check me."
+msgstr ""
+"Если какие-либо блоки WooCommerce для Gutenberg не используются на сайтах, "
+"проверьте меня."
+
+#: inc/admin/optimize_wizard/views/widgets.php:48
+msgid "Elementor's Resources"
+msgstr "Ресурсы Elementor"
+
+#: inc/admin/optimize_wizard/views/widgets.php:50
+msgid "If some elementor resources such as swiper.js are never used, check me."
+msgstr ""
+"Если некоторые ресурсы элемента, такие как swiper.js никогда не используются,"
+" проверьте меня."
+
+#: inc/admin/optimize_wizard/views/widgets.php:54
+msgid "Compile & Continue"
+msgstr "Компиляция И Продолжение"
+
+#: inc/admin/optimize_wizard/views/widgets_load.php:7
+msgid "Theme Resources"
+msgstr "Тематические Ресурсы"
+
+#: inc/admin/optimize_wizard/views/widgets_load.php:11
+msgid "WPBakery Shortcodes"
+msgstr "Шорткоды WPBakery"
+
+#: inc/admin/optimize_wizard/views/widgets_load.php:53
+#: inc/admin/optimize_wizard/views/widgets_load.php:82
+msgid "Toggle All"
+msgstr "Переключить Все"
+
+#: inc/admin/panel/panel.php:26 inc/admin/panel/views/header.php:15
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#: inc/admin/panel/views/activate.php:5
+msgid "Welcome to Riode"
+msgstr "Добро пожаловать в риод"
+
+#: inc/admin/panel/views/activate.php:7
+msgid "Congratulations! Your product is registered now."
+msgstr "Поздравляю! Теперь ваш продукт зарегистрирован."
+
+#: inc/admin/panel/views/activate.php:9
+msgid ""
+"Thank you for choosing Riode theme from ThemeForest. Please register your "
+"purchase and make sure that you have fulfilled all of the requirements."
+msgstr ""
+"Спасибо, что выбрали тему Riode из ThemeForest. Пожалуйста, зарегистрируйте "
+"покупку и убедитесь, что вы выполнили все требования."
+
+#: inc/admin/panel/views/activate.php:16
+msgid "Please enter your Purchase Code to complete registration."
+msgstr "Пожалуйста, введите свой код покупки, чтобы завершить регистрацию."
+
+#: inc/admin/panel/views/activate.php:19
+msgid "Where can I find my purchase code?"
+msgstr "Где я могу найти свой код покупки?"
+
+#: inc/admin/panel/views/activate.php:22
+#, php-format
+msgid "Please go to %1$sThemeForest.net/downloads%2$s"
+msgstr "Пожалуйста, перейдите к %1$sThemeForest.net/downloads%2$s"
+
+#: inc/admin/panel/views/activate.php:23
+msgid "Click the Download button in Riode row"
+msgstr "Нажмите кнопку Загрузить в строке Riode"
+
+#: inc/admin/panel/views/activate.php:24
+msgid "Select License Certificate & Purchase code"
+msgstr "Выберите лицензионный сертификат и код покупки"
+
+#: inc/admin/panel/views/activate.php:25
+msgid "Copy Item Purchase Code"
+msgstr "Копировать Код Покупки Товара"
+
+#: inc/admin/panel/views/activate.php:39
+msgid "Purchase code not updated. We will keep the existing one."
+msgstr "Код покупки не обновляется. Мы сохраним существующий."
+
+#: inc/admin/panel/views/activate.php:42
+#, php-format
+msgid ""
+"Your %1$spurchase code is valid%2$s. Thank you! Enjoy Riode Theme and "
+"automatic updates."
+msgstr ""
+"Ваш код %1$spurchase действителен%2$s. Спасибо! Наслаждайтесь темой Riode и "
+"автоматическими обновлениями."
+
+#: inc/admin/panel/views/activate.php:56
+msgid ""
+"You are using Envato Hosted, this subscription code can not be deregistered."
+msgstr ""
+"Вы используете Envato Hosted, этот код подписки не может быть снят с учета."
+
+#: inc/admin/panel/views/activate.php:59
+msgid "Purchase Code"
+msgstr "Код Покупки"
+
+#: inc/admin/panel/views/activate.php:65
+msgid "Activate"
+msgstr "Активировать"
+
+#: inc/admin/panel/views/activate.php:74
+#, php-format
+msgid ""
+"Before you get started, please be sure to always check out %1$sthis "
+"documentation%2$s. We outline all kinds of good information, and provide you "
+"with all the details you need to use Riode."
+msgstr ""
+"Перед началом работы обязательно ознакомьтесь с документацией %1$sthis%2$s. "
+"Мы обрисовываем все виды хорошей информации и предоставляем вам все детали, "
+"необходимые для использования Riode."
+
+#: inc/admin/panel/views/activate.php:78
+#, php-format
+msgid ""
+"If you are unable to find your answer in our documentation, we encourage you "
+"to contact us through %1$ssupport page%2$s with your site CPanel (or FTP) "
+"and WordPress admin details. We are very happy to help you and you will get "
+"reply from us more faster than you expected."
+msgstr ""
+"Если вы не можете найти ответ в нашей документации, мы рекомендуем вам "
+"связаться с нами через %1$ssupport page%2$s с помощью CPanel вашего сайта "
+"(или FTP) и администраторских данных WordPress. Мы очень рады помочь вам, и "
+"вы получите ответ от нас быстрее, чем ожидали."
+
+#: inc/admin/setup_wizard/setup_wizard.php:160
+msgid "Status"
+msgstr "Статус"
+
+#: inc/admin/setup_wizard/setup_wizard.php:167
+#: inc/admin/setup_wizard/views/customize.php:7
+msgid "Child Theme"
+msgstr "Детская Тема"
+
+#: inc/admin/setup_wizard/setup_wizard.php:183
+#: inc/admin/setup_wizard/views/demo.php:85
+msgid "Demo Import"
+msgstr "Демонстрационный Импорт"
+
+#: inc/admin/setup_wizard/setup_wizard.php:231
+msgid "Are you sure you want to leave?"
+msgstr "Вы уверены, что хотите уйти?"
+
+#: inc/admin/setup_wizard/setup_wizard.php:232
+msgid "Are you sure to import demo contents and override old one?"
+msgstr ""
+"Вы уверены, что импортируете демонстрационное содержимое и переопределяете "
+"старое?"
+
+#: inc/admin/setup_wizard/setup_wizard.php:234
+#, php-format
+msgid ""
+"Failed importing! Please check the %1$s\"System Status\"%2$s tab to ensure "
+"your server meets all requirements for a successful import. Settings that "
+"need attention will be listed in red. If your server provider does not allow "
+"to update settings, please try using alternative import mode."
+msgstr ""
+"Неудачный импорт! Пожалуйста, проверьте вкладку %1$s\"состояние "
+"системы\"%2$s, чтобы убедиться, что ваш сервер отвечает всем требованиям для "
+"успешного импорта. Настройки, требующие внимания, будут перечислены красным "
+"цветом. Если поставщик сервера не позволяет обновить настройки, попробуйте "
+"использовать альтернативный режим импорта."
+
+#: inc/admin/setup_wizard/setup_wizard.php:235
+msgid " installation is failed!"
+msgstr " установка не удалась!"
+
+#: inc/admin/setup_wizard/setup_wizard.php:236
+msgid " installation is finished!"
+msgstr " установка закончена!"
+
+#: inc/admin/setup_wizard/setup_wizard.php:237
+msgid "Installing"
+msgstr "Установка"
+
+#: inc/admin/setup_wizard/setup_wizard.php:238
+msgid "Visit your site."
+msgstr "Посетите ваш сайт."
+
+#: inc/admin/setup_wizard/setup_wizard.php:281
+msgid "Failed to find TGM"
+msgstr "Не удалось найти TGM"
+
+#: inc/admin/setup_wizard/setup_wizard.php:375
+#, php-format
+msgid "Directory permission required for %s"
+msgstr "Разрешение каталога требуется для %s"
+
+#: inc/admin/setup_wizard/setup_wizard.php:395
+#, php-format
+msgid ""
+"Child Theme %1$s has been created and activated!%2$s Folder is located in "
+"%3$s"
+msgstr "Создана и активирована дочерняя тема %1$s!%2$s папка находится в %3$s"
+
+#: inc/admin/setup_wizard/setup_wizard.php:551
+msgid "Remote API error."
+msgstr "Удаленная ошибка API."
+
+#: inc/admin/setup_wizard/setup_wizard.php:626
+msgid "Successfully reset menus!"
+msgstr "Успешно сбросить меню!"
+
+#: inc/admin/setup_wizard/setup_wizard.php:655
+msgid "Successfully reset widgets!"
+msgstr "Успешно сбросить виджеты!"
+
+#: inc/admin/setup_wizard/setup_wizard.php:872
+msgid "Successfully imported widgets!"
+msgstr "Успешно импортированные виджеты!"
+
+#: inc/admin/setup_wizard/setup_wizard.php:1110
+msgid ""
+"Please compile default css files by publishing options in customize panel."
+msgstr ""
+"Пожалуйста, скомпилируйте css-файлы по умолчанию, опубликовав параметры в "
+"панели настройки."
+
+#: inc/admin/setup_wizard/views/customize.php:4
+msgid "Setup Riode Child Theme (Optional)"
+msgstr "Настройка Дочерней Темы Riode (Необязательно)"
+
+#: inc/admin/setup_wizard/views/customize.php:7
+#, php-format
+msgid ""
+"If you are going to make changes to the theme source code please use a %1$s "
+"rather than modifying the main theme HTML/CSS/PHP code. %2$s This allows the "
+"parent theme to receive updates without overwriting your source code changes."
+" Use the form below to create and activate the Child Theme."
+msgstr ""
+"Если вы собираетесь внести изменения в исходный код темы, пожалуйста, "
+"используйте %1$s вместо изменения основного кода HTML/CSS/PHP темы. %2$s это "
+"позволяет родительской теме получать обновления без перезаписи изменений "
+"исходного кода. Используйте форму ниже, чтобы создать и активировать "
+"дочернюю тему."
+
+#: inc/admin/setup_wizard/views/customize.php:23
+msgid "Child Theme Title:"
+msgstr "Название Дочерней Темы:"
+
+#: inc/admin/setup_wizard/views/customize.php:27
+msgid ""
+"If you're not sure what a Child Theme is just click the \"Skip this step\" "
+"button."
+msgstr ""
+"Если вы не уверены, что такое дочерняя тема, просто нажмите кнопку "
+"\"пропустить этот шаг\"."
+
+#: inc/admin/setup_wizard/views/customize.php:31
+msgid "Create and Use Child Theme"
+msgstr "Создание и использование дочерней темы"
+
+#: inc/admin/setup_wizard/views/demo.php:6
+msgid "Demo Content Installation"
+msgstr "Установка Демонстрационного Контента"
+
+#: inc/admin/setup_wizard/views/demo.php:7
+msgid "In this step you can upload your logo and select a demo from the list."
+msgstr ""
+"На этом этапе вы можете загрузить свой логотип и выбрать демо-версию из "
+"списка."
+
+#: inc/admin/setup_wizard/views/demo.php:12
+msgid "Your Logo:"
+msgstr "Ваш Логотип:"
+
+#: inc/admin/setup_wizard/views/demo.php:35
+msgid "Remove all installed demo contents"
+msgstr "Удалить все установленное демо-содержимое"
+
+#: inc/admin/setup_wizard/views/demo.php:36
+msgid "Remove Content"
+msgstr "Удалить Содержимое"
+
+#: inc/admin/setup_wizard/views/demo.php:41
+msgid "Demo Contents Remove"
+msgstr "Демо-Содержимое Удалить"
+
+#: inc/admin/setup_wizard/views/demo.php:46
+msgid "Pages"
+msgstr "Страницы"
+
+#: inc/admin/setup_wizard/views/demo.php:48
+msgid "Attachments"
+msgstr "Вложения"
+
+#: inc/admin/setup_wizard/views/demo.php:50
+msgid "Builders"
+msgstr "Строители"
+
+#: inc/admin/setup_wizard/views/demo.php:55
+msgid ""
+"Please backup your site before uninstalling. All imported and overriden "
+"contents from Riode demos would be removed."
+msgstr ""
+"Пожалуйста, сделайте резервную копию вашего сайта перед удалением. Все "
+"импортированное и переопределенное содержимое демо-версий Riode будет "
+"удалено."
+
+#: inc/admin/setup_wizard/views/demo.php:57
+msgid "Uninstall"
+msgstr "Удалить"
+
+#: inc/admin/setup_wizard/views/demo.php:98
+#: inc/admin/setup_wizard/views/demo.php:126
+msgid "Import theme options"
+msgstr "Импорт параметров темы"
+
+#: inc/admin/setup_wizard/views/demo.php:99
+#: inc/admin/setup_wizard/views/demo.php:128
+msgid "Reset menus"
+msgstr "Сброс меню"
+
+#: inc/admin/setup_wizard/views/demo.php:100
+#: inc/admin/setup_wizard/views/demo.php:129
+msgid "Reset widgets"
+msgstr "Сброс виджетов"
+
+#: inc/admin/setup_wizard/views/demo.php:101
+#: inc/admin/setup_wizard/views/demo.php:130
+msgid "Import dummy content"
+msgstr "Импорт фиктивного контента"
+
+#: inc/admin/setup_wizard/views/demo.php:102
+#: inc/admin/setup_wizard/views/demo.php:131
+msgid "Import widgets"
+msgstr "Импорт виджетов"
+
+#: inc/admin/setup_wizard/views/demo.php:103
+#: inc/admin/setup_wizard/views/demo.php:133
+msgid "Import subpages"
+msgstr "Импорт подстраниц"
+
+#: inc/admin/setup_wizard/views/demo.php:125
+msgid "Select Content to Import"
+msgstr "Выберите контент для импорта"
+
+#: inc/admin/setup_wizard/views/demo.php:132
+msgid "Override existing contents"
+msgstr "Переопределение существующего содержимого"
+
+#: inc/admin/setup_wizard/views/demo.php:136
+msgid "Do you want to install demo? It can also take a minute to complete."
+msgstr ""
+"Вы хотите установить демо-версию? Это также может занять минуту, чтобы "
+"закончить."
+
+#: inc/admin/setup_wizard/views/demo.php:137
+msgid "Standard Import"
+msgstr "Стандартный Импорт"
+
+#: inc/admin/setup_wizard/views/demo.php:139
+msgid ""
+"Your server performance does not satisfy Riode demo importer engine's "
+"requirement. We recommend you to use alternative method to perform demo "
+"import without any issues but it may take much time than standard import."
+msgstr ""
+"Производительность вашего сервера не удовлетворяет требованиям Riode demo "
+"importer engine. Мы рекомендуем вам использовать альтернативный метод для "
+"выполнения демо-импорта без каких-либо проблем, но это может занять гораздо "
+"больше времени, чем стандартный импорт."
+
+#: inc/admin/setup_wizard/views/demo.php:141
+msgid ""
+"If you have any issues with standard import, please use Alternative mode. "
+"But it may take much time than standard import."
+msgstr ""
+"Если у вас есть какие-либо проблемы со стандартным импортом, пожалуйста, "
+"используйте альтернативный режим. Но это может занять гораздо больше времени,"
+" чем стандартный импорт."
+
+#: inc/admin/setup_wizard/views/demo.php:143
+msgid "Alternative Mode"
+msgstr "Альтернативный Режим"
+
+#: inc/admin/setup_wizard/views/demo.php:184
+#: inc/admin/setup_wizard/views/demo.php:199
+msgid "Install"
+msgstr "Устанавливать"
+
+#: inc/admin/setup_wizard/views/demo.php:210
+msgid ""
+"Installing a demo provides pages, posts, menus, images, theme options, "
+"widgets and more."
+msgstr ""
+"Установка демо - версии предоставляет страницы, сообщения, меню, Изображения,"
+" параметры темы, виджеты и многое другое."
+
+#: inc/admin/setup_wizard/views/demo.php:211
+msgid "IMPORTANT: "
+msgstr "ВАЖНЫЙ: "
+
+#: inc/admin/setup_wizard/views/demo.php:211
+msgid ""
+"The included plugins need to be installed and activated before you install a "
+"demo."
+msgstr ""
+"Включенные Плагины должны быть установлены и активированы перед установкой "
+"демо-версии."
+
+#: inc/admin/setup_wizard/views/demo.php:213
+#, php-format
+msgid ""
+"Please check the %1$sStatus%2$s step to ensure your server meets all "
+"requirements for a successful import. Settings that need attention will be "
+"listed in red."
+msgstr ""
+"Пожалуйста, проверьте Шаг %1$sStatus%2$s, чтобы убедиться, что ваш сервер "
+"отвечает всем требованиям для успешного импорта. Настройки, требующие "
+"внимания, будут перечислены красным цветом."
+
+#: inc/admin/setup_wizard/views/index.php:14
+msgid ""
+"This quick setup wizard will help you configure your new website. This "
+"wizard will install the required WordPress plugins, import demo."
+msgstr ""
+"Этот мастер быстрой настройки поможет вам настроить ваш новый веб-сайт. Этот "
+"мастер установит необходимые плагины WordPress, импортирует демо-версию."
+
+#: inc/admin/setup_wizard/views/plugins.php:4
+msgid "Default Plugins"
+msgstr "Плагины По Умолчанию"
+
+#: inc/admin/setup_wizard/views/plugins.php:11
+msgid "This will install the default plugins which are used in Riode."
+msgstr ""
+"Это позволит установить плагины по умолчанию, которые используются в Riode."
+
+#: inc/admin/setup_wizard/views/plugins.php:26
+msgid "Load more"
+msgstr "Загрузить больше"
+
+#: inc/admin/setup_wizard/views/plugins.php:40
+msgid "Installation"
+msgstr "Установка"
+
+#: inc/admin/setup_wizard/views/plugins.php:42
+msgid "Update"
+msgstr "Обновить"
+
+#: inc/admin/setup_wizard/views/plugins.php:44
+msgid "Activation"
+msgstr "Активация"
+
+#: inc/admin/setup_wizard/views/plugins.php:49
+#, php-format
+msgid "%s required"
+msgstr "%s требуется"
+
+#: inc/admin/setup_wizard/views/plugins.php:52
+#, php-format
+msgid "%s recommended for certain demos"
+msgstr "%s рекомендуется для определенных демонстраций"
+
+#: inc/admin/setup_wizard/views/plugins.php:66
+#, php-format
+msgid ""
+"Using %1$sseveral page builders%2$s togther affects your site performance."
+msgstr ""
+"Использование %1$sseveral page builders%2$s togther влияет на "
+"производительность вашего сайта."
+
+#: inc/admin/setup_wizard/views/plugins.php:70
+msgid ""
+"Good news! All plugins are already installed and up to date. Please continue."
+msgstr ""
+"Хорошие новости! Все плагины уже установлены и актуальны. Пожалуйста, "
+"продолжайте."
+
+#: inc/admin/setup_wizard/views/ready.php:5
+msgid "Your Website is Ready!"
+msgstr "Ваш сайт готов!"
+
+#: inc/admin/setup_wizard/views/ready.php:7
+msgid ""
+"Congratulations! The theme has been activated and your website is ready. "
+"Please go to your WordPress dashboard to make changes and modify the content "
+"for your needs."
+msgstr ""
+"Поздравляю! Тема активирована, и ваш сайт готов. Пожалуйста, зайдите на свою "
+"панель мониторинга WordPress, чтобы внести изменения и изменить контент в "
+"соответствии с вашими потребностями."
+
+#: inc/admin/setup_wizard/views/ready.php:9
+msgid ""
+"This theme comes with 6 months item support from purchase date (with the "
+"option to extend this period). This license allows you to use this theme on "
+"a single website. Please purchase an additional license to use this theme on "
+"another website."
+msgstr ""
+"Эта тема поставляется с 6-месячной поддержкой товара с момента покупки (с "
+"возможностью продления этого периода). Эта лицензия позволяет вам "
+"использовать эту тему на одном веб-сайте. Пожалуйста, приобретите "
+"дополнительную лицензию на использование этой темы на другом веб-сайте."
+
+#: inc/admin/setup_wizard/views/ready.php:13
+#, php-format
+msgid "Item Support %1$sDOES%2$s Include:"
+msgstr "Поддержка элементов %1$sDOES%2$s включает в себя:"
+
+#: inc/admin/setup_wizard/views/ready.php:16
+msgid "Availability of the author to answer questions"
+msgstr "Доступность автора для ответов на вопросы"
+
+#: inc/admin/setup_wizard/views/ready.php:17
+msgid "Answering technical questions about item features"
+msgstr "Ответы на технические вопросы о функциях изделия"
+
+#: inc/admin/setup_wizard/views/ready.php:18
+msgid "Assistance with reported bugs and issues"
+msgstr "Помощь с сообщенными ошибками и проблемами"
+
+#: inc/admin/setup_wizard/views/ready.php:19
+msgid "Help with bundled 3rd party plugins"
+msgstr "Помощь в комплекте сторонних плагинов"
+
+#: inc/admin/setup_wizard/views/ready.php:24
+#, php-format
+msgid "Item Support %1$sDOES NOT%2$s Include:"
+msgstr "Item Support %1$sDOES NOT%2$s Include:"
+
+#: inc/admin/setup_wizard/views/ready.php:26
+#, php-format
+msgid ""
+"Customization services (this is available through %1$sptheme.customize@gmail."
+"com%2$s)"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:27
+#, php-format
+msgid ""
+"Installation services (this is available through %1$sptheme.customize@gmail."
+"com%2$s)"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:28
+msgid ""
+"Help and Support for non-bundled 3rd party plugins (i.e. plugins you install "
+"yourself later on)"
+msgstr ""
+"Помощь и поддержка не входящих в комплект сторонних плагинов (т. е. плагинов,"
+" которые вы устанавливаете самостоятельно позже)"
+
+#: inc/admin/setup_wizard/views/ready.php:33
+#, php-format
+msgid ""
+"More details about item support can be found in the ThemeForest %1$sItem "
+"Support Policy%2$s."
+msgstr ""
+"Более подробную информацию о поддержке элементов можно найти в политике "
+"поддержки ThemeForest %1$sItem%2$s."
+
+#: inc/admin/setup_wizard/views/ready.php:37
+msgid "More Resources"
+msgstr "Больше Ресурсов"
+
+#: inc/admin/setup_wizard/views/ready.php:39
+msgid "Riode Documentation"
+msgstr "Документация Riode"
+
+#: inc/admin/setup_wizard/views/ready.php:40
+msgid "Learn how to use WooCommerce"
+msgstr "Узнайте, как использовать WooCommerce"
+
+#: inc/admin/setup_wizard/views/ready.php:41
+msgid "Learn how to use WordPress"
+msgstr "Узнайте, как использовать WordPress"
+
+#: inc/admin/setup_wizard/views/ready.php:42
+msgid "Leave an Item Rating"
+msgstr "Оставьте Рейтинг товара"
+
+#: inc/admin/setup_wizard/views/ready.php:45
+#, php-format
+msgid ""
+"Please come back and leave a %1$s5-star rating%2$s if you are happy with "
+"this theme. Thanks!"
+msgstr ""
+"Пожалуйста, вернитесь и оставьте рейтинг %1$s5-star%2$s, Если вы довольны "
+"этой темой. Спасибо!"
+
+#: inc/admin/setup_wizard/views/status.php:30
+msgid "System Status"
+msgstr "Состояние Системы"
+
+#: inc/admin/setup_wizard/views/status.php:31
+msgid "Check your current server performance."
+msgstr "Проверьте текущую производительность вашего сервера."
+
+#: inc/admin/setup_wizard/views/status.php:42
+msgid "Uploads folder writable"
+msgstr "Загружает папку с возможностью записи"
+
+#: inc/admin/setup_wizard/views/status.php:45
+msgid ""
+"Uploads folder must be writable. Please set write permission to your wp-"
+"content/uploads folder."
+msgstr ""
+"Папка Uploads должна быть доступна для записи. Пожалуйста, установите "
+"разрешение на запись в папку wp-content/uploads."
+
+#: inc/admin/setup_wizard/views/status.php:56
+msgid "WP File System"
+msgstr "Файловая система WP"
+
+#: inc/admin/setup_wizard/views/status.php:59
+msgid ""
+"File System access is required for pre-built websites and plugins "
+"installation. Please contact your hosting provider."
+msgstr ""
+"Доступ к файловой системе необходим для установки готовых веб-сайтов и "
+"плагинов. Пожалуйста, свяжитесь с вашим хостинг-провайдером."
+
+#: inc/admin/setup_wizard/views/status.php:71
+msgid "ZipArchive"
+msgstr "ZipArchive"
+
+#: inc/admin/setup_wizard/views/status.php:74
+msgid ""
+"ZipArchive is required for pre-built websites and plugins installation. "
+"Please contact your hosting provider."
+msgstr ""
+"ZipArchive требуется для установки готовых веб-сайтов и плагинов. Пожалуйста,"
+" свяжитесь с вашим хостинг-провайдером."
+
+#: inc/admin/setup_wizard/views/status.php:82
+msgid "SUHOSIN Installed"
+msgstr "СУХОСИН установлен"
+
+#: inc/admin/setup_wizard/views/status.php:83
+msgid ""
+"Suhosin may need to be configured to increase its data submission limits."
+msgstr ""
+"Suhosin, возможно, потребуется настроить, чтобы увеличить свои ограничения "
+"на передачу данных."
+
+#: inc/admin/setup_wizard/views/status.php:99
+msgid "PHP Memory Limit"
+msgstr "Ограничение памяти PHP"
+
+#: inc/admin/setup_wizard/views/status.php:107
+#, php-format
+msgid "Minimum %1$s128 MB%2$s is required, %1$s256 MB%2$s is recommended."
+msgstr "Минимум %1$s128 MB%2$s требуется, %1$s256 MB%2$s рекомендуется."
+
+#: inc/admin/setup_wizard/views/status.php:111
+#, php-format
+msgid "Current memory limit is OK, however %1$s256 MB%2$s is recommended."
+msgstr ""
+"Текущий лимит памяти в порядке, однако рекомендуется использовать %1$s256 "
+"МБ%2$s."
+
+#: inc/admin/setup_wizard/views/status.php:128
+msgid "PHP max_execution_time"
+msgstr "PHP max_execution_time"
+
+#: inc/admin/setup_wizard/views/status.php:136
+#, php-format
+msgid "Minimum %1$s300%2$s is required, %1$s600%2$s is recommended."
+msgstr "Минимум требуется %1$s300%2$s, рекомендуется %1$s600%2$s."
+
+#: inc/admin/setup_wizard/views/status.php:140
+#, php-format
+msgid "Current time limit is OK, however %1$s600%2$s is recommended."
+msgstr ""
+"Текущий лимит времени в порядке вещей, однако рекомендуется использовать "
+"%1$s600%2$s."
+
+#: inc/admin/setup_wizard/views/status.php:153
+msgid "PHP max_input_vars"
+msgstr "PHP max_input_vars"
+
+#: inc/admin/setup_wizard/views/status.php:159
+msgid "Minimum 2000 is required"
+msgstr "Минимум 2000 требуется"
+
+#: inc/admin/setup_wizard/views/status.php:163
+msgid ""
+"Do not worry if you are unable to update your server configuration due to "
+"hosting limit, you can use \"Alternative Import\" method in Demo Content "
+"import page."
+msgstr ""
+"Не волнуйтесь, если вы не можете обновить конфигурацию сервера из-за "
+"ограничения хостинга, Вы можете использовать метод \"альтернативный импорт\" "
+"на странице импорта демо-контента."
+
+#: inc/admin/setup_wizard/views/status.php:167
+msgid ""
+"php.ini values are shown above. Real values may vary, please check your "
+"limits using"
+msgstr ""
+"значения php.ini приведены выше. Реальные значения могут варьироваться, "
+"пожалуйста, проверьте свои лимиты с помощью"
+
+#: inc/functions/woocommerce/product-archive.php:77
+msgid "Show :"
+msgstr "Показать :"
+
+#: inc/functions/woocommerce/product-category.php:199
+msgid "Shop Now"
+msgstr "ПЕРЕЙТИ В МАГАЗИН"
+
+#: inc/functions/woocommerce/product-category.php:217
+#, php-format
+msgid "Subcategory %d"
+msgstr "Подкатегория %d"
+
+#: inc/functions/woocommerce/product-loop.php:168
+#: inc/functions/woocommerce/product-loop.php:212
+#: inc/functions/woocommerce/product-loop.php:302
+msgid "Quick View"
+msgstr "Быстрый просмотр"
+
+#: inc/functions/woocommerce/product-loop.php:489
+#: inc/functions/woocommerce/product-single.php:721
+msgid "Add to Cart"
+msgstr "добавить в корзину"
+
+#: inc/functions/woocommerce/product-loop.php:489
+msgid "Select Options"
+msgstr "Выберите Параметры"
+
+#: inc/functions/woocommerce/product-loop.php:489
+msgid "Read more"
+msgstr "Подробнее"
+
+#: inc/functions/woocommerce/product-loop.php:550
+#: inc/functions/woocommerce/product-single.php:842
+msgid "Added"
+msgstr "Добавлен"
+
+#: inc/functions/woocommerce/product-single.php:299
+#: inc/functions/woocommerce/product-single.php:491
+msgid "Awaiting product image"
+msgstr "Ожидание изображения продукта"
+
+#: inc/functions/woocommerce/product-single.php:339
+#: inc/general_function.php:478 inc/general_function.php:545
+#: inc/general_function.php:547
+msgid "Prev"
+msgstr "Пред."
+
+#: inc/functions/woocommerce/product-single.php:348
+#: inc/general_function.php:479 inc/general_function.php:550
+#: inc/general_function.php:552
+msgid "Next"
+msgstr "Далее"
+
+#: inc/functions/woocommerce/product-single.php:613
+msgid "Off Ends In:"
+msgstr "Кончается В:"
+
+#: inc/functions/woocommerce/product-single.php:626
+msgid "days"
+msgstr "дни"
+
+#: inc/functions/woocommerce/product-single.php:845
+msgid "Add To Compare"
+msgstr "Добавить к сравнению"
+
+#: inc/functions/woocommerce/woocommerce.php:89 inc/setup/theme-assets.php:298
+msgid "View Cart"
+msgstr "Просмотр Корзины"
+
+#: inc/functions/woocommerce/woocommerce.php:95
+msgid "Go To Checkout"
+msgstr "Перейти К Оформлению Заказа"
+
+#: inc/functions/woocommerce/woocommerce.php:232
+msgid "Product added to cart successfully"
+msgstr "Товар успешно добавлен в корзину"
+
+#: inc/functions/woocommerce/woocommerce.php:295
+msgid "Default sorting"
+msgstr "Сортировка по умолчанию"
+
+#: inc/functions/woocommerce/woocommerce.php:296
+msgid "Sort by popularity"
+msgstr "Сортировка по популярности"
+
+#: inc/functions/woocommerce/woocommerce.php:297
+msgid "Sort by average rating"
+msgstr "Сортировка по среднему рейтингу"
+
+#: inc/functions/woocommerce/woocommerce.php:298
+msgid "Sort by latest"
+msgstr "Сортировка по последним данным"
+
+#: inc/functions/woocommerce/woocommerce.php:299
+msgid "Sort by price: low to high"
+msgstr "Сортировка по цене: от низкой к высокой"
+
+#: inc/functions/woocommerce/woocommerce.php:300
+msgid "Sort by price: high to low"
+msgstr "Сортировка по цене: от высокой до низкой"
+
+#: inc/functions/woocommerce/woocommerce.php:310
+msgid "Relevance"
+msgstr "Актуальность"
+
+#: inc/general_function.php:457
+msgid "Load More"
+msgstr "Загрузить Больше"
+
+#: inc/general_function.php:613
+msgid "Pingback:"
+msgstr "Пингбэк:"
+
+#: inc/general_function.php:613
+msgid "(Edit)"
+msgstr "(Править)"
+
+#: inc/general_function.php:623
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: inc/general_function.php:628
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
+
+#: inc/general_function.php:683
+#, php-format
+msgid "%s ago"
+msgstr "%s назад"
+
+#: inc/general_function.php:1115 inc/general_function.php:1117
+msgid "Our Blog"
+msgstr "Наш Блог"
+
+#: inc/init.php:115 inc/init.php:166
+msgid "Default Animation"
+msgstr "Анимация По Умолчанию"
+
+#: inc/init.php:116
+msgid "Bounce"
+msgstr "Подпрыгивать"
+
+#: inc/init.php:117
+msgid "Flash"
+msgstr "Показывает"
+
+#: inc/init.php:118
+msgid "Pulse"
+msgstr "Пульс"
+
+#: inc/init.php:119
+msgid "RubberBand"
+msgstr "Резиновая лента"
+
+#: inc/init.php:120
+msgid "Shake"
+msgstr "Трясти"
+
+#: inc/init.php:121
+msgid "HeadShake"
+msgstr "Покачивание головой"
+
+#: inc/init.php:122
+msgid "Swing"
+msgstr "Качать"
+
+#: inc/init.php:123
+msgid "Tada"
+msgstr "Tada"
+
+#: inc/init.php:124
+msgid "Wobble"
+msgstr "Колебаться"
+
+#: inc/init.php:125
+msgid "Jello"
+msgstr "Желе"
+
+#: inc/init.php:126
+msgid "HearBeat"
+msgstr "Сердцебиение сердца"
+
+#: inc/init.php:127 inc/init.php:209
+msgid "BlurIn"
+msgstr "Блурин"
+
+#: inc/init.php:128
+msgid "BounceIn"
+msgstr "Вышибала"
+
+#: inc/init.php:129
+msgid "BounceInUp"
+msgstr "BounceInUp"
+
+#: inc/init.php:130
+msgid "BounceInDown"
+msgstr "BounceInDown"
+
+#: inc/init.php:131
+msgid "BounceInLeft"
+msgstr "BounceInLeft"
+
+#: inc/init.php:132
+msgid "BounceInRight"
+msgstr "BounceInRight"
+
+#: inc/init.php:133
+msgid "FadeIn"
+msgstr "Фадеин"
+
+#: inc/init.php:134
+msgid "FadeInUp"
+msgstr "FadeInUp"
+
+#: inc/init.php:135
+msgid "FadeInUpBig"
+msgstr "FadeInUpBig"
+
+#: inc/init.php:136
+msgid "FadeInDown"
+msgstr "FadeInDown"
+
+#: inc/init.php:137
+msgid "FadeInDownBig"
+msgstr "FadeInDownBig"
+
+#: inc/init.php:138
+msgid "FadeInLeft"
+msgstr "FadeInLeft"
+
+#: inc/init.php:139
+msgid "FadeInLeftBig"
+msgstr "FadeInLeftBig"
+
+#: inc/init.php:140
+msgid "FadeInRight"
+msgstr "FadeInRight"
+
+#: inc/init.php:141
+msgid "FadeInRightBig"
+msgstr "FadeInRightBig"
+
+#: inc/init.php:142
+msgid "Flip"
+msgstr "Сальто"
+
+#: inc/init.php:143
+msgid "FlipInX"
+msgstr "FlipInX"
+
+#: inc/init.php:144
+msgid "FlipInY"
+msgstr "Флип"
+
+#: inc/init.php:145
+msgid "LightSpeedIn"
+msgstr "Скорость света"
+
+#: inc/init.php:146
+msgid "RotateIn"
+msgstr "Ротатин"
+
+#: inc/init.php:147
+msgid "RotateInUpLeft"
+msgstr "RotateInUpLeft"
+
+#: inc/init.php:148
+msgid "RotateInUpRight"
+msgstr "RotateInUpRight"
+
+#: inc/init.php:149
+msgid "RotateInDownLeft"
+msgstr "RotateInDownLeft"
+
+#: inc/init.php:150
+msgid "RotateInDownRight"
+msgstr "RotateInDownRight"
+
+#: inc/init.php:151
+msgid "Hinge"
+msgstr "Шарнир"
+
+#: inc/init.php:152
+msgid "JackInTheBox"
+msgstr "JackInTheBox"
+
+#: inc/init.php:153
+msgid "RollIn"
+msgstr "Роллин"
+
+#: inc/init.php:154
+msgid "ZoomIn"
+msgstr "ZoomIn"
+
+#: inc/init.php:155
+msgid "ZoomInUp"
+msgstr "Увеличение масштаба"
+
+#: inc/init.php:156
+msgid "ZoomInDown"
+msgstr "ZoomInDown"
+
+#: inc/init.php:157
+msgid "ZoomInLeft"
+msgstr "ZoomInLeft"
+
+#: inc/init.php:158
+msgid "ZoomInRight"
+msgstr "Зуминрайт"
+
+#: inc/init.php:159
+msgid "SlideInUp"
+msgstr "Скольжение вверх"
+
+#: inc/init.php:160
+msgid "SlideInDown"
+msgstr "Скользящее окно"
+
+#: inc/init.php:161
+msgid "SlideInLeft"
+msgstr "SlideInLeft"
+
+#: inc/init.php:162
+msgid "SlideInRight"
+msgstr "Слайдинрайт"
+
+#: inc/init.php:167
+msgid "BlurOut"
+msgstr "Размолвка"
+
+#: inc/init.php:168
+msgid "BounceOut"
+msgstr "Отскок"
+
+#: inc/init.php:169
+msgid "BounceOutUp"
+msgstr "BounceOutUp"
+
+#: inc/init.php:170
+msgid "BounceOutDown"
+msgstr "BounceOutDown"
+
+#: inc/init.php:171
+msgid "BounceOutLeft"
+msgstr "BounceOutLeft"
+
+#: inc/init.php:172
+msgid "BounceOutRight"
+msgstr "BounceOutRight"
+
+#: inc/init.php:173
+msgid "FadeOut"
+msgstr "Затухание"
+
+#: inc/init.php:174
+msgid "FadeOutUp"
+msgstr "FadeOutUp"
+
+#: inc/init.php:175
+msgid "FadeOutUpBig"
+msgstr "FadeOutUpBig"
+
+#: inc/init.php:176
+msgid "FadeOutDown"
+msgstr "FadeOutDown"
+
+#: inc/init.php:177
+msgid "FadeOutDownBig"
+msgstr "FadeOutDownBig"
+
+#: inc/init.php:178
+msgid "FadeOutLeft"
+msgstr "FadeOutLeft"
+
+#: inc/init.php:179
+msgid "FadeOutLeftBig"
+msgstr "FadeOutLeftBig"
+
+#: inc/init.php:180
+msgid "FadeOutRight"
+msgstr "FadeOutRight"
+
+#: inc/init.php:181
+msgid "FadeOutRightBig"
+msgstr "FadeOutRightBig"
+
+#: inc/init.php:182
+msgid "FlipOutX"
+msgstr "FlipOutX"
+
+#: inc/init.php:183
+msgid "FlipOutY"
+msgstr "Флипути"
+
+#: inc/init.php:184
+msgid "LightSpeedOut"
+msgstr "Скорость света"
+
+#: inc/init.php:185
+msgid "RotateOutUpLeft"
+msgstr "RotateOutUpLeft"
+
+#: inc/init.php:186
+msgid "RotateOutUpRight"
+msgstr "RotateOutUpRight"
+
+#: inc/init.php:187
+msgid "RotateOutDownLeft"
+msgstr "RotateOutDownLeft"
+
+#: inc/init.php:188
+msgid "RotateOutDownRight"
+msgstr "RotateOutDownRight"
+
+#: inc/init.php:189
+msgid "RollOut"
+msgstr "выкатка"
+
+#: inc/init.php:190
+msgid "ZoomOut"
+msgstr "Масштабирование"
+
+#: inc/init.php:191
+msgid "ZoomOutUp"
+msgstr "ZoomOutUp"
+
+#: inc/init.php:192
+msgid "ZoomOutDown"
+msgstr "Масштабирование"
+
+#: inc/init.php:193
+msgid "ZoomOutLeft"
+msgstr "ZoomOutLeft"
+
+#: inc/init.php:194
+msgid "ZoomOutRight"
+msgstr "ZoomOutRight"
+
+#: inc/init.php:195
+msgid "SlideOutUp"
+msgstr "SlideOutUp"
+
+#: inc/init.php:196
+msgid "SlideOutDown"
+msgstr "SlideOutDown"
+
+#: inc/init.php:197
+msgid "SlideOutLeft"
+msgstr "SlideOutLeft"
+
+#: inc/init.php:198
+msgid "SlideOutRight"
+msgstr "SlideOutRight"
+
+#: inc/init.php:203
+msgid "Fade In Down Shorter"
+msgstr "Затухание Вниз Короче"
+
+#: inc/init.php:204
+msgid "Fade In Left Shorter"
+msgstr "Fade In Left Короче"
+
+#: inc/init.php:205
+msgid "Fade In Right Shorter"
+msgstr "Затухание Справа Короче"
+
+#: inc/init.php:206
+msgid "Fade In Up Shorter"
+msgstr "Затухание Вверх Короче"
+
+#: inc/plugins/importer/importer-api.php:180
+msgid "The package could not be downloaded."
+msgstr "Пакет не удалось загрузить."
+
+#: inc/plugins/importer/importer-api.php:201
+msgid "WordPress filesystem error."
+msgstr "Ошибка файловой системы WordPress."
+
+#: inc/plugins/importer/importer-api.php:206
+msgid "The package could not be unziped."
+msgstr "Пакет нельзя было расстегнуть."
+
+#: inc/plugins/importer/importer-api.php:211
+#, php-format
+msgid "Demo data directory does not exist (%s)."
+msgstr "Каталог демо-данных не существует (%s)."
+
+#: inc/plugins/importer/parsers.php:45 inc/plugins/importer/parsers.php:93
+#: inc/plugins/importer/parsers.php:101
+#: inc/plugins/importer/riode-parsers.php:46
+#: inc/plugins/importer/riode-parsers.php:96
+#: inc/plugins/importer/riode-parsers.php:104
+msgid "There was an error when reading this WXR file"
+msgstr "При чтении этого файла WXR произошла ошибка"
+
+#: inc/plugins/importer/parsers.php:46
+#: inc/plugins/importer/riode-parsers.php:47
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+"Подробности приведены выше. Теперь импортер повторит попытку с другим "
+"синтаксическим анализатором..."
+
+#: inc/plugins/importer/parsers.php:106 inc/plugins/importer/parsers.php:112
+#: inc/plugins/importer/parsers.php:403 inc/plugins/importer/parsers.php:620
+#: inc/plugins/importer/riode-parsers.php:109
+#: inc/plugins/importer/riode-parsers.php:115
+#: inc/plugins/importer/riode-parsers.php:408
+#: inc/plugins/importer/riode-parsers.php:630
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "Это не похоже на WXR-файл, отсутствующий/недопустимый номер версии WXR"
+
+#: inc/plugins/importer/parsers.php:561
+#: inc/plugins/importer/riode-parsers.php:569
+msgid "GZ Not Enabled"
+msgstr "GZ не включен"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:210
+msgid "Imported categories"
+msgstr "Импортированные категории"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:215
+msgid "Imported tags"
+msgstr "Импортированные теги"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:220
+msgid "Imported terms"
+msgstr "Импортированные термины"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:226
+msgid "Imported posts"
+msgstr "Импортированные сообщения"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:232
+msgid "Importing posts"
+msgstr "Импорт сообщений"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:241
+msgid "Importing menus"
+msgstr "Импорт меню"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:247
+#: inc/plugins/importer/riode-wordpress-importer.php:255
+#: inc/plugins/importer/riode-wordpress-importer.php:260
+msgid "Processing menus"
+msgstr "Обработка меню"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:267
+msgid "Successfully imported dummy content!"
+msgstr "Успешно импортированный фиктивный контент!"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:314
+#: inc/plugins/importer/riode-wordpress-importer.php:323
+#: inc/plugins/importer/riode-wordpress-importer.php:380
+#: inc/plugins/importer/riode-wordpress-importer.php:384
+#: inc/plugins/importer/riode-wordpress-importer.php:394
+#: inc/plugins/importer/wordpress-importer.php:207
+#: inc/plugins/importer/wordpress-importer.php:216
+#: inc/plugins/importer/wordpress-importer.php:278
+#: inc/plugins/importer/wordpress-importer.php:282
+#: inc/plugins/importer/wordpress-importer.php:292
+msgid "Sorry, there has been an error."
+msgstr "Извините, произошла ошибка."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:315
+#: inc/plugins/importer/wordpress-importer.php:208
+msgid "The file does not exist, please try again."
+msgstr "Файл не существует, пожалуйста, попробуйте еще раз."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:386
+#: inc/plugins/importer/wordpress-importer.php:284
+#, php-format
+msgid ""
+"The export file could not be found at %s. It is likely that this was caused "
+"by a permissions problem."
+msgstr ""
+"Файл экспорта не удалось найти в %s. Вполне вероятно, что это было вызвано "
+"проблемой разрешений."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:403
+#: inc/plugins/importer/wordpress-importer.php:301
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+"Этот файл WXR (версия %s) может не поддерживаться данной версией импортера. "
+"Пожалуйста, подумайте об обновлении."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:429
+#: inc/plugins/importer/wordpress-importer.php:327
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+"Не удалось импортировать автора %s. Их посты будут приписаны текущему "
+"пользователю."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:456
+#: inc/plugins/importer/wordpress-importer.php:354
+msgid "Assign Authors"
+msgstr "Назначить Авторов"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:458
+#: inc/plugins/importer/wordpress-importer.php:356
+#, php-format
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as %1$sadmin%2$ss "
+"entries."
+msgstr ""
+"Чтобы упростить редактирование и сохранение импортированного контента, вы "
+"можете переназначить автора импортированного элемента существующему "
+"пользователю этого сайта. Например, вы можете импортировать все записи как "
+"%1$sadmin%2$ss."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:461
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user's role will be set as %s. Manually changing the "
+"new user&#8217;s details will be necessary."
+msgstr ""
+"Если новый пользователь создан WordPress, новый пароль будет сгенерирован "
+"случайным образом, а роль нового пользователя будет установлена как %s. "
+"Необходимо будет вручную изменить данные нового пользователя."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:471
+#: inc/plugins/importer/wordpress-importer.php:369
+msgid "Import Attachments"
+msgstr "Импорт Вложений"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:474
+#: inc/plugins/importer/wordpress-importer.php:372
+msgid "Download and import file attachments"
+msgstr "Загрузка и импорт вложенных файлов"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:491
+#: inc/plugins/importer/wordpress-importer.php:389
+msgid "Import author:"
+msgstr "Импорт автора:"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:505
+#: inc/plugins/importer/wordpress-importer.php:403
+msgid "or create new user with login name:"
+msgstr "или создайте нового пользователя с именем входа:"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:508
+#: inc/plugins/importer/wordpress-importer.php:406
+msgid "as a new user:"
+msgstr "как новый пользователь:"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:516
+#: inc/plugins/importer/wordpress-importer.php:414
+msgid "assign posts to an existing user:"
+msgstr "назначение записей существующему пользователю:"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:518
+#: inc/plugins/importer/wordpress-importer.php:416
+msgid "or assign posts to an existing user:"
+msgstr "или назначьте сообщения существующему пользователю:"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:525
+#: inc/plugins/importer/wordpress-importer.php:423
+msgid "- Select -"
+msgstr "- Выберите -"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:584
+#: inc/plugins/importer/wordpress-importer.php:482
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+"Не удалось создать нового пользователя для %s. Их посты будут приписаны "
+"текущему пользователю."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:669
+#: inc/plugins/importer/wordpress-importer.php:565
+#, php-format
+msgid "Failed to import category %s"
+msgstr "Не удалось импортировать категорию %s"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:724
+#: inc/plugins/importer/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr "Не удалось импортировать тег post %s"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:806
+#: inc/plugins/importer/riode-wordpress-importer.php:1146
+#: inc/plugins/importer/wordpress-importer.php:698
+#: inc/plugins/importer/wordpress-importer.php:1038
+#, php-format
+msgid "Failed to import %1$s %2$s"
+msgstr "Не удалось импортировать %1$s %2$s"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:912
+#: inc/plugins/importer/wordpress-importer.php:795
+#, php-format
+msgid "Failed to import &#8220;%1$s&#8221;: Invalid post type %2$s"
+msgstr ""
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1003
+#: inc/plugins/importer/riode-wordpress-importer.php:1105
+#: inc/plugins/importer/wordpress-importer.php:895
+#: inc/plugins/importer/wordpress-importer.php:999
+#, php-format
+msgid "Failed to import %1$s &#8220;%2$s&#8221;"
+msgstr ""
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1366
+#: inc/plugins/importer/wordpress-importer.php:1261
+msgid "Menu item skipped due to missing menu slug"
+msgstr "Пункт меню пропущен из-за отсутствия пули меню"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1373
+#: inc/plugins/importer/wordpress-importer.php:1268
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "Пункт меню пропущен из-за недопустимого слизня меню: %s"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1456
+#: inc/plugins/importer/wordpress-importer.php:1351
+msgid "Fetching attachments is not enabled"
+msgstr "Извлечение вложений не включено"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1473
+#: inc/plugins/importer/wordpress-importer.php:1368
+msgid "Invalid file type"
+msgstr "Недопустимый тип файла"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1542
+#: inc/plugins/importer/wordpress-importer.php:1437
+msgid "Remote server did not respond"
+msgstr "Удаленный сервер не ответил"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1549
+#: inc/plugins/importer/wordpress-importer.php:1444
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr "Удаленный сервер вернул ответ об ошибке %1$d %2$s"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1558
+#: inc/plugins/importer/wordpress-importer.php:1453
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr "Удаленный файл слишком велик, предел - %s"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1671
+#: inc/plugins/importer/wordpress-importer.php:1560
+msgid "Import WordPress"
+msgstr "Импорт WordPress"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1679
+#: inc/plugins/importer/wordpress-importer.php:1568
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+"Доступна новая версия этого импортера. Пожалуйста, обновитесь до версии %s, "
+"чтобы обеспечить совместимость с новыми файлами экспорта."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1694
+#: inc/plugins/importer/wordpress-importer.php:1583
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1695
+#: inc/plugins/importer/wordpress-importer.php:1584
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+"Выберите файл WXR (.xml) для загрузки, затем нажмите кнопку Загрузить файл и "
+"импортировать."
+
+#: inc/plugins/importer/wordpress-importer.php:262
+msgid "All done."
+msgstr "Все сделано."
+
+#: inc/plugins/importer/wordpress-importer.php:262
+msgid "Have fun!"
+msgstr "Получайте удовольствие!"
+
+#: inc/plugins/importer/wordpress-importer.php:263
+msgid "Remember to update the passwords and roles of imported users."
+msgstr "Не забудьте обновить пароли и роли импортированных пользователей."
+
+#: inc/plugins/importer/wordpress-importer.php:359
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+"Если новый пользователь создан WordPress, новый пароль будет сгенерирован "
+"случайным образом и роль нового пользователя будет установлена как %s. "
+"Необходимо будет вручную изменить данные нового пользователя."
+
+#: inc/plugins/importer/wordpress-importer.php:845
+#, php-format
+msgid "%1$s &#8220;%2$s&#8221; already exists."
+msgstr ""
+
+#: inc/setup/theme-assets.php:257
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: inc/setup/theme-assets.php:258
+msgid "Loading failed"
+msgstr "Ошибка загрузки"
+
+#: inc/setup/theme-assets.php:259
+msgid "The content could not be loaded."
+msgstr "Содержимое не удалось загрузить."
+
+#: inc/setup/theme-assets.php:260
+#, php-format
+msgid "all %d"
+msgstr "все %d"
+
+#: inc/setup/theme-assets.php:296
+msgid "Successfully Added"
+msgstr "Успешно Добавлено"
+
+#: inc/setup/theme-assets.php:297
+msgid "Add to wishlist"
+msgstr "Добавить в пожелания"
+
+#: inc/setup/theme-assets.php:299
+msgid "Check Out"
+msgstr "проверять"
+
+#: inc/setup/theme-options.php:13
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/setup/theme-options.php:14
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/setup/theme-options.php:15
+msgid "Linkedin"
+msgstr "LinkedIn"
+
+#: inc/setup/theme-options.php:17
+msgid "Google +"
+msgstr "Google+"
+
+#: inc/setup/theme-options.php:18
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/setup/theme-options.php:19
+msgid "Reddit"
+msgstr "Reddit"
+
+#: inc/setup/theme-options.php:20
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: inc/setup/theme-options.php:21
+msgid "VK"
+msgstr "ВК"
+
+#: inc/setup/theme-options.php:22
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: inc/setup/theme-options.php:23
+msgid "Xing"
+msgstr "Xing"
+
+#: inc/setup/theme-options.php:24
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/setup/theme-options.php:131
+msgid "Menu"
+msgstr "Меню"
+
+#: inc/setup/theme-options.php:135
+msgid "Categories"
+msgstr "Категории"
+
+#: inc/setup/theme-setup.php:22
+msgid "Account Menu"
+msgstr "Меню Учетной Записи"
+
+#: inc/setup/theme-setup.php:38
+msgid "Currency Switcher"
+msgstr "Переключатель Валют"
+
+#: inc/setup/theme-setup.php:39
+msgid "Language Switcher"
+msgstr "Переключатель Языков"
+
+#: inc/setup/theme-setup.php:40
+msgid "Main Menu"
+msgstr "главное меню"
+
+#: inc/setup/theme-setup.php:84
+msgid "Small"
+msgstr "Маленький"
+
+#: inc/setup/theme-setup.php:90
+msgid "Normal"
+msgstr "Нормальный"
+
+#: inc/setup/theme-setup.php:91
+msgid "N"
+msgstr "Н"
+
+#: inc/setup/theme-setup.php:96
+msgid "Medium"
+msgstr "Средний"
+
+#: inc/setup/theme-setup.php:102
+msgid "Large"
+msgstr "Большой"
+
+#: inc/setup/theme-setup.php:108
+msgid "Huge"
+msgstr "Огромный"
+
+#: inc/setup/theme-setup.php:109
+msgid "huge"
+msgstr "Огромный"
+
+#: inc/setup/theme-setup.php:121
+msgid "Primary"
+msgstr "Первичный"
+
+#: inc/setup/theme-setup.php:126
+msgid "Secondary"
+msgstr "Вторичный"
+
+#: inc/setup/theme-setup.php:131
+msgid "Alert"
+msgstr "Тревога"
+
+#: inc/setup/theme-setup.php:141
+msgid "White"
+msgstr "Белый"
+
+#: inc/setup/theme-setup.php:146
+msgid "Default Font Color"
+msgstr "Цвет Шрифта По Умолчанию"
+
+#: inc/setup/theme-setup.php:151
+msgid "Transparent"
+msgstr "Прозрачный"
+
+#: inc/walker/walker-init.php:67
+msgid "Riode Custom Fields"
+msgstr "Настраиваемые Поля Riode"
+
+#: inc/walker/walker-init.php:72
+msgid "No Link"
+msgstr "Никакой Связи"
+
+#: inc/walker/walker-init.php:79
+msgid "Megamenu"
+msgstr "Мегамену"
+
+#: inc/walker/walker-init.php:85
+msgid "Megamenu Width (px)"
+msgstr "Ширина мегаменю (px)"
+
+#: inc/walker/walker-init.php:92
+msgid "Megamenu Position"
+msgstr "Положение Мегамену"
+
+#: inc/walker/walker-init.php:122
+msgid "Select A Block"
+msgstr "Выберите Блок"
+
+#: inc/walker/walker-init.php:133
+msgid "This option only works in megamenu."
+msgstr "Эта опция работает только в мегаменю."
+
+#: inc/walker/walker-init.php:141
+msgid "Prefix Icon Class"
+msgstr "Класс Префиксных Значков"
+
+#: inc/walker/walker-init.php:143
+msgid "Riode Icon Store might be useful for you to select icons."
+msgstr "Riode Icon Store может быть полезен вам для выбора иконок."
+
+#: inc/walker/walker-init.php:149
+msgid "Add Label"
+msgstr "Добавить Метку"
+
+#: inc/walker/walker-init.php:151
+msgid "Select A Label"
+msgstr "Выберите Метку"
+
+#: inc/widget-area/widget-init.php:26
+#, php-format
+msgid "Footer %1$s Widget %2$s"
+msgstr "Нижний колонтитул %1$s виджет %2$s"
+
+#: inc/widget-area/widget-init.php:39
+msgid "Blog Sidebar"
+msgstr "Боковая Панель Блога"
+
+#: inc/widget-area/widget-init.php:50
+msgid "Shop Sidebar"
+msgstr "Боковая Панель Магазина"
+
+#: inc/widget-area/widget-init.php:66
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: page.php:27 template_parts/posts/archive.php:125
+msgid "Nothing Found"
+msgstr "Ничего Не Найдено"
+
+#: searchform.php:17
+msgid "Search your keyword..."
+msgstr "Поиск по ключевому слову..."
+
+#: searchform.php:53
+msgid "All Categories"
+msgstr "Все категории"
+
+#: template_parts/header/elements/element-cart.php:77
+msgid "Shopping Cart"
+msgstr "Корзина"
+
+#: template_parts/header/elements/element-cart.php:77
+msgid "close"
+msgstr "Закрыть"
+
+#: template_parts/header/elements/element-compare.php:38
+#, php-format
+msgid "%1$sYith Compare Plugin%2$s is not installed."
+msgstr "Плагин %1$sYith Compare%2$s не установлен."
+
+#: template_parts/header/elements/element-currency-switcher.php:102
+#: template_parts/header/elements/element-currency-switcher.php:105
+msgid "USD"
+msgstr "ДОЛЛ. США"
+
+#: template_parts/header/elements/element-currency-switcher.php:104
+msgid "EUR"
+msgstr "ЕВРО"
+
+#: template_parts/header/elements/element-language-switcher.php:100
+#: template_parts/header/elements/element-language-switcher.php:102
+msgid "ENG"
+msgstr "АНГ"
+
+#: template_parts/header/elements/element-language-switcher.php:103
+msgid "FRA"
+msgstr "FRA"
+
+#: template_parts/header/elements/element-menu.php:93
+msgid "Select Menu"
+msgstr "Выберите Меню"
+
+#: template_parts/header/elements/element-wishlist.php:36
+#, php-format
+msgid "%1$sYith Wishlist Plugin%2$s is not installed."
+msgstr "Плагин %1$sYith Wishlist%2$s не установлен."
+
+#: template_parts/header/header.php:62
+msgid "Welcome to Riode Store Message or Remove it!"
+msgstr "Добро пожаловать в сообщение Riode Store или удалите его!"
+
+#: template_parts/posts/archive.php:126
+msgid ""
+"Sorry, I am afraid you do not have any matches. Please try again with other "
+"keywords."
+msgstr ""
+"Извините, боюсь, у вас нет спичек. Пожалуйста, попробуйте еще раз с другими "
+"ключевыми словами."
+
+#: template_parts/posts/elements/post-author.php:16
+#, php-format
+msgid "View all posts by %s"
+msgstr "Просмотр всех сообщений по %s"
+
+#: template_parts/posts/elements/post-meta.php:26
+#, php-format
+msgid "%1$s0%2$s Comments"
+msgstr "%1$s0%2$s комментарии"
+
+#: template_parts/posts/elements/post-meta.php:27
+#, php-format
+msgid "%1$s1%2$s Comment"
+msgstr "%1$s1%2$s комментарий"
+
+#: template_parts/posts/elements/post-meta.php:28
+#, php-format
+msgid "%1$s%2$s%3$s Comment"
+msgstr "%1$s%2$s%3$s комментарий"
+
+#: template_parts/posts/elements/post-navigation.php:5
+msgid "Previous Post"
+msgstr "Предыдущее Сообщение"
+
+#: template_parts/posts/elements/post-navigation.php:6
+msgid "Next Post"
+msgstr "Следующий Пост"
+
+#: template_parts/posts/post.php:137
+msgid "Read More"
+msgstr "Читать дальше"
+
+#: template_parts/sidebar.php:74 woocommerce/loop/orderby.php:218
+#: woocommerce/single-product/add-to-cart/variable.php:71
+msgid "Clean All"
+msgstr "Уберите Все"
+
+#: woocommerce/cart/cart-shipping.php:31
+msgid "Calculate Shipping"
+msgstr "Рассчитать Доставку"
+
+#: woocommerce/cart/cart-shipping.php:52
+#, php-format
+msgid "Shipping to %s."
+msgstr "Доставка в %s."
+
+#: woocommerce/cart/cart-shipping.php:53
+msgid "Change address"
+msgstr "Изменить адрес"
+
+#: woocommerce/cart/cart-shipping.php:55
+msgid "Shipping options will be updated during checkout."
+msgstr "Варианты доставки будут обновлены во время оформления заказа."
+
+#: woocommerce/cart/cart-shipping.php:63
+msgid "Shipping costs are calculated during checkout."
+msgstr "Стоимость доставки рассчитывается при оформлении заказа."
+
+#: woocommerce/cart/cart-shipping.php:65
+msgid "Enter your address to view shipping options."
+msgstr "Введите свой адрес для просмотра вариантов доставки."
+
+#: woocommerce/cart/cart-shipping.php:68
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+"Там нет доступных вариантов доставки. Пожалуйста, убедитесь, что ваш адрес "
+"был введен правильно, или свяжитесь с нами, если вам нужна какая-либо помощь."
+
+#: woocommerce/cart/cart-shipping.php:71
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr "Для %s не было найдено никаких вариантов доставки."
+
+#: woocommerce/cart/cart-shipping.php:72
+msgid "Enter a different address"
+msgstr "Введите другой адрес"
+
+#: woocommerce/cart/cart-totals.php:26
+msgid "Cart Totals"
+msgstr "Итоги Тележки"
+
+#: woocommerce/cart/cart-totals.php:38 woocommerce/cart/cart-totals.php:39
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:113
+msgid "Subtotal"
+msgstr "Промежуточный итог"
+
+#: woocommerce/cart/cart-totals.php:54 woocommerce/cart/cart-totals.php:55
+msgid "Shipping"
+msgstr "Доставка"
+
+#: woocommerce/cart/cart-totals.php:74
+#, php-format
+msgid "(estimated for %s)"
+msgstr "(оценено для %s)"
+
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:65
+#: woocommerce/wishlist-view.php:63
+msgid "Product"
+msgstr "Продукт"
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:91
+#: woocommerce/wishlist-view.php:84
+msgid "Quantity"
+msgstr "Количество"
+
+#: woocommerce/cart/cart.php:80
+msgid "Available on backorder"
+msgstr "Доступно по бэкордеру"
+
+#: woocommerce/cart/cart.php:125 woocommerce/cart/mini-cart.php:67
+msgid "Remove this item"
+msgstr "Удалить этот элемент"
+
+#: woocommerce/cart/cart.php:144
+msgid "Continue Shopping"
+msgstr "Продолжайте Делать Покупки"
+
+#: woocommerce/cart/cart.php:145
+msgid "Update cart"
+msgstr "Обновление корзины"
+
+#: woocommerce/cart/cart.php:149
+msgid "Coupon Discount"
+msgstr "Скидка По Купону"
+
+#: woocommerce/cart/cart.php:151
+msgid "Enter coupon code here..."
+msgstr "Введите код купона здесь..."
+
+#: woocommerce/cart/cart.php:152
+msgid "Apply coupon"
+msgstr "Применить купон"
+
+#: woocommerce/cart/mini-cart.php:103
+msgid "No products in the cart."
+msgstr "Никаких продуктов в корзине."
+
+#: woocommerce/cart/shipping-calculator.php:29
+msgid "Select a country / region&hellip;"
+msgstr "Выберите страну / регион…"
+
+#: woocommerce/cart/shipping-calculator.php:48
+#: woocommerce/cart/shipping-calculator.php:53
+#: woocommerce/cart/shipping-calculator.php:65
+msgid "State / County"
+msgstr "Штат / Округ"
+
+#: woocommerce/cart/shipping-calculator.php:54
+msgid "Select an option&hellip;"
+msgstr "Выберите опцию…"
+
+#: woocommerce/cart/shipping-calculator.php:74
+msgid "City"
+msgstr "Город"
+
+#: woocommerce/cart/shipping-calculator.php:80
+msgid "Postcode / ZIP"
+msgstr "Почтовый индекс / почтовый индекс"
+
+#: woocommerce/cart/shipping-calculator.php:84
+msgid "Update Totals"
+msgstr "Обновление Итогов"
+
+#: woocommerce/checkout/payment.php:25
+msgid "Payment Methods"
+msgstr "Способы Оплаты"
+
+#: woocommerce/checkout/payment.php:35
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"К сожалению, похоже, что для вашего штата нет доступных способов оплаты. "
+"Пожалуйста, свяжитесь с нами, если вам нужна помощь или вы хотите принять "
+"альтернативные меры."
+
+#: woocommerce/checkout/payment.php:35
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+"Пожалуйста, заполните свои данные выше, чтобы увидеть доступные способы "
+"оплаты."
+
+#: woocommerce/checkout/payment.php:44
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+"Поскольку Ваш браузер не поддерживает JavaScript или он отключен, пожалуйста,"
+" убедитесь, что вы нажали кнопку %1$sUpdate Totals%2$s перед размещением "
+"заказа. Если вы этого не сделаете, с вас может быть снята сумма, превышающая "
+"указанную выше."
+
+#: woocommerce/checkout/payment.php:46
+msgid "Update totals"
+msgstr "Обновление итогов"
+
+#: woocommerce/checkout/thankyou.php:31
+msgid ""
+"Unfortunately your order cannot be processed as the originating "
+"bank/merchant has declined your transaction. Please attempt your purchase "
+"again."
+msgstr ""
+"К сожалению, Ваш заказ не может быть обработан, так как банк-"
+"отправитель/продавец отклонил вашу транзакцию. Пожалуйста, повторите попытку "
+"покупки."
+
+#: woocommerce/checkout/thankyou.php:34
+msgid "Pay"
+msgstr "Оплатить"
+
+#: woocommerce/checkout/thankyou.php:36
+msgid "My account"
+msgstr "Мой аккаунт"
+
+#: woocommerce/checkout/thankyou.php:54
+msgid "Thank you!"
+msgstr "Спасибо!"
+
+#: woocommerce/checkout/thankyou.php:55
+msgid "Your order has been received"
+msgstr "Ваш заказ получен"
+
+#: woocommerce/checkout/thankyou.php:63
+msgid "Order number:"
+msgstr "Номер заказа:"
+
+#: woocommerce/checkout/thankyou.php:68
+msgid "Status:"
+msgstr "Статус:"
+
+#: woocommerce/checkout/thankyou.php:73
+msgid "Date:"
+msgstr "Дата:"
+
+#: woocommerce/checkout/thankyou.php:78
+msgid "Email:"
+msgstr "Электронная почта:"
+
+#: woocommerce/checkout/thankyou.php:83
+msgid "Total:"
+msgstr "Весь:"
+
+#: woocommerce/checkout/thankyou.php:89
+msgid "Payment method:"
+msgstr "Способ оплаты:"
+
+#: woocommerce/checkout/thankyou.php:103
+msgid "Thank you. Your order has been received."
+msgstr "Спасибо. Ваш заказ получен."
+
+#: woocommerce/compare.php:92
+msgid "Close window [X]"
+msgstr ""
+
+#: woocommerce/compare.php:126
+msgid "No products added in the compare table."
+msgstr "В таблице сравнения не было добавлено никаких продуктов."
+
+#: woocommerce/loop/orderby.php:114 woocommerce/loop/orderby.php:144
+msgid "Sort By"
+msgstr "Сортировать по"
+
+#: woocommerce/loop/orderby.php:117 woocommerce/loop/orderby.php:146
+msgid "Shop order"
+msgstr "Заказ магазина"
+
+#: woocommerce/loop/rating.php:50
+msgid "reviews"
+msgstr "Отзывы"
+
+#: woocommerce/loop/result-count.php:31
+msgid "Showing the single result"
+msgstr "Отображение одного результата"
+
+#: woocommerce/loop/result-count.php:36
+#, php-format
+msgid "Showing %1$sall %2$d%3$s Product"
+msgid_plural "Showing %1$sall %2$d%3$s Products"
+msgstr[0] "Показ %1$sall %2$d%3$s продукта"
+msgstr[1] "Показ %1$sall %2$d%3$s продуктов"
+msgstr[2] ""
+
+#: woocommerce/loop/result-count.php:43
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing %4$s%1$d&ndash;%2$d of %3$d%5$s Product"
+msgid_plural "Showing %4$s%1$d&ndash;%2$d of %3$d%5$s Products"
+msgstr[0] "Показ %4$s%1$d–%2$d %3$d%5$s продукта"
+msgstr[1] "Показ %4$s%1$d–%2$d %3$d%5$s продуктов"
+msgstr[2] ""
+
+#: woocommerce/loop/sale-flash.php:43
+msgid "Top"
+msgstr "Наверх"
+
+#: woocommerce/loop/sale-flash.php:56
+msgid "off"
+msgstr "ВЫКЛ"
+
+#: woocommerce/loop/sale-flash.php:62
+msgid "Out of Stock"
+msgstr "нет в наличии"
+
+#: woocommerce/myaccount/form-login.php:29
+msgid "Login"
+msgstr "Вход"
+
+#: woocommerce/myaccount/form-login.php:32
+msgid "or"
+msgstr "или"
+
+#: woocommerce/myaccount/form-login.php:34
+#: woocommerce/myaccount/form-login.php:112
+msgid "Register"
+msgstr "Регистрация"
+
+#: woocommerce/myaccount/form-login.php:46
+msgid "Username or Email Address"
+msgstr "Имя пользователя или адрес электронной почты"
+
+#: woocommerce/myaccount/form-login.php:49
+#: woocommerce/myaccount/form-login.php:94
+msgid "Password"
+msgstr "Пароль"
+
+#: woocommerce/myaccount/form-login.php:56
+msgid "Remember me"
+msgstr "Запомнить меня"
+
+#: woocommerce/myaccount/form-login.php:59
+msgid "Lost your password?"
+msgstr "Вы потеряли пароль?"
+
+#: woocommerce/myaccount/form-login.php:64
+msgid "LogIn"
+msgstr "войти"
+
+#: woocommerce/myaccount/form-login.php:82
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: woocommerce/myaccount/form-login.php:88
+msgid "Your Email address"
+msgstr "Ваш адрес электронной почты"
+
+#: woocommerce/myaccount/form-login.php:99
+msgid "A password will be sent to your email address."
+msgstr "Пароль будет отправлен на ваш адрес электронной почты."
+
+#: woocommerce/myaccount/form-login.php:107
+#, php-format
+msgid "%1$sI agree to the %2$s"
+msgstr "%1$sI согласен на %2$s"
+
+#: woocommerce/order/order-details-customer.php:32
+msgid "Billing address"
+msgstr "Платежный адрес"
+
+#: woocommerce/order/order-details-customer.php:35
+#: woocommerce/order/order-details-customer.php:55
+msgid "N/A"
+msgstr "N/A"
+
+#: woocommerce/order/order-details-customer.php:53
+msgid "Shipping address"
+msgstr "Адрес доставки"
+
+#: woocommerce/order/order-details-customer.php:66
+msgid "Back To List"
+msgstr "Вернуться К Списку"
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr "В настоящее время этот продукт отсутствует на складе и недоступен."
+
+#: woocommerce/wishlist-view.php:95
+msgid "Stock status"
+msgstr "Состояние запасов"
+
+#: woocommerce/wishlist-view.php:113
+msgid "Arrange"
+msgstr "Организовать"
+
+#: woocommerce/wishlist-view.php:197
+msgid "Out of stock"
+msgstr "Нет в наличии"
+
+#: woocommerce/wishlist-view.php:197
+msgid "In Stock"
+msgstr "В наличии"
+
+#: woocommerce/wishlist-view.php:206
+#, php-format
+msgid "Added on: %s"
+msgstr "Добавлено: %s"
+
+#: woocommerce/wishlist-view.php:219
+msgid "Move"
+msgstr "Подвиньте"
+
+#: woocommerce/wishlist-view.php:238
+msgid "Move to another list &rsaquo;"
+msgstr "Перейти к другому списку ›"
+
+#: woocommerce/wishlist-view.php:245 woocommerce/wishlist-view.php:259
+msgid "Remove this product"
+msgstr "Удалите этот продукт"
+
+#: woocommerce/wishlist-view.php:272
+msgid "No products added to the wishlist"
+msgstr "Никаких продуктов, добавленных в список желаний"
+
+#: woocommerce/wishlist-view.php:277
+msgid "GO SHOP"
+msgstr "ИДИ В МАГАЗИН"

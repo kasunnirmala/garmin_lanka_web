@@ -1,0 +1,531 @@
+/* -------------------------------------------
+    Buttons
+        - Button
+            - Default
+            - Solid
+        - Outline Button
+        - Icon Button
+            - Icon Button
+            - Reveal Button
+            - Slide Button
+        - Shadow Button
+        - Underline Button
+        - Link Button
+        - Other Button Styles
+        - Button Color Styles
+        - Gradient Button
+---------------------------------------------- */
+
+// Button
+
+@if use(button) {
+    button {
+        font-family: $font-family;
+    }
+
+    .btn {
+        display: inline-block;
+        border: 2px solid #e4eaec;
+        background-color: #e4eaec;
+        color: #222;
+        outline: 0;
+        border-radius: 0;
+        padding: 1.22em 2.78em;
+        font-family: $font-family;
+        font-weight: 700;
+        font-size: 1.4rem;
+        line-height: 1.2;
+        letter-spacing: -0.025em;
+        text-transform: uppercase;
+        text-align: center;
+        transition: color .3s, border-color .3s, background-color .3s, box-shadow .3s;
+        white-space: nowrap;
+        cursor: pointer;
+
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: #222;
+            border-color:   darken( #e4eaec , 7% );
+            background-color: darken( #e4eaec , 7% );
+        }
+
+        i {
+            display: inline-block;
+            margin-#{$left}: .4rem;
+            line-height: 0;
+            vertical-align: middle;
+        }
+    }
+    .btn-solid {
+        background-color: #fff;
+        border-color: #fff;
+        color: #222;
+        &:hover,
+        &:active,
+        &:focus {
+            border-color:   #222;
+            background-color: #222;
+            color: #fff;
+        }
+    }
+    // Outline Button
+    .btn-outline {
+        border: 2px solid #e4eaec;
+        color: #666;
+        background-color: transparent;
+
+        &:hover,
+        &:active,
+        &:focus {
+            border-color: #666;
+            background-color: #666;
+            color: #fff;
+        }
+       
+        &.btn-outline-light {
+            padding: 1.07em 2.21em; 
+            border-width: 1px;
+        }
+
+        &.btn-bg {
+            color: #fff;
+        }
+    }
+
+    // Button Icon
+    .btn-icon-right,
+    .btn.icon-after,
+    .btn-icon-left,
+    .btn.icon-before {
+        > i {
+            font-size: 19px;
+        }
+    }
+
+    .btn-icon-right > i {
+        margin-left: .7rem;
+    }
+    .btn-icon-left > i {
+        margin-left: 0;
+        margin-right: .7rem;
+    }
+
+    .btn-icon-after > i {
+        margin-#{$left}: .7rem;
+    }
+    .btn-icon-before > i {
+        margin-#{$right}: .7rem;
+    }
+
+    .btn-icon {
+        > i {
+            margin: 0;
+            line-height: 1;
+        }
+    }
+
+    // Reveal Button
+    .btn-reveal-left {
+        i {
+            opacity: 0;
+            margin-#{$left}: -1em;
+            transform: translateX(if-ltr(.5em, -.5em));
+            margin-#{$right}: 0;
+            transition: transform .3s, opacity .3s, margin .3s;
+        }
+        &:hover,
+        &:active,
+        &:focus {
+            i {
+                opacity: 1;
+                margin-#{$left}: 0;
+                transform: translateX(0);
+                margin-#{$right}: .7rem;
+            }
+        }
+    }
+    .btn-reveal-right {
+        i {
+            opacity: 0;
+            margin-#{$right}: -1em;
+            transform: translateX(if-ltr(-.5em, .5em));
+            margin-#{$left}: 0;
+            transition: transform .3s, opacity .3s, margin .3s;
+        }
+        
+        &:hover,
+        &:active,
+        &:focus {
+            i {
+                opacity: 1;
+                margin-#{$left}: .7rem;
+                transform: translateX(0);
+                margin-#{$right}: 0;
+            }
+        }
+    }
+    // Slide Button
+    @keyframes slideLeft {
+        0% {
+            transform: translateX(0);
+        }
+        50% {
+            transform: translateX(if-ltr(-.5em, .5em));
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+    .btn-slide-left {
+        &:hover,
+        &:active,
+        &:focus {
+            i {
+                animation: .5s ease slideLeft;
+            }
+        }
+    }
+    @keyframes slideRight {
+        0% {
+            transform: translateX(0);
+        }
+        50% {
+            transform: translateX(if-ltr(.5em, -.5em));
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+    .btn-slide-right {
+        &:hover,
+        &:active,
+        &:focus {
+            i {
+                animation: .5s ease slideRight;
+            }
+        }
+    }
+    @keyframes slideUp {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-.5em);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+    .btn-slide-up {
+        &:hover,
+        &:active,
+        &:focus {
+            i {
+                animation: .5s ease slideUp;
+            }
+        }
+    }
+    @keyframes slideDown {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(.5em);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+    .btn-slide-down {
+        &:hover,
+        &:active,
+        &:focus {
+            i {
+                animation: .5s ease slideDown;
+            }
+        }
+    }
+
+    .btn-infinite {
+        &:hover {
+            i {
+                animation-iteration-count: infinite;
+            }
+        }
+    }
+
+
+    // Shadow Button
+    .btn.btn-shadow-lg {
+        box-shadow: 0 13px 20px -10px rgba(0,0,0,.15);
+        &:hover,
+        &:active,
+        &:focus {
+            box-shadow: 0 13px 20px -10px rgba(0,0,0,.2);
+        }
+    }
+
+    .btn.btn-shadow {
+        box-shadow: 0 15px 20px -15px rgba(0,0,0,.15);
+        &:hover,
+        &:active,
+        &:focus {
+            box-shadow: 0 15px 20px -15px rgba(0,0,0,.2);
+        }
+    }
+
+    .btn.btn-shadow-sm {
+        box-shadow: 0 17px 20px -20px rgba(0,0,0,.15);
+        &:hover,
+        &:active,
+        &:focus {
+            box-shadow: 0 17px 20px -20px rgba(0,0,0,.2);
+        }
+    }
+
+    // Underline Button
+    .btn-underline {
+        &:hover,
+        &:active,
+        &:focus {
+            &::after {
+                transform: scaleX(1);
+            }
+        }
+        &::after {
+            display: block;
+            margin-top: 1px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            height: 2px;
+            border-top: 2px solid;
+            transform: scaleX(0);
+            transition: transform .3s;
+            content: '';
+        }
+        i {
+            margin-bottom: .1em;
+        }
+    }
+        .btn-underline.sm::after { width: 46%; }
+        .btn-underline.lg::after { 
+            margin-left: -16.5%;
+            margin-right: -16.5%;
+            width: 133%;
+        }
+
+    // Link Button
+    .btn-link {
+        padding: 0;
+        color: #222;
+        border: 0;
+        &,
+        &:hover,
+        &:active,
+        &:focus {
+            background-color: transparent;
+        }
+    }
+
+    // Load Button - Aligns Center
+    .btn-load {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 2rem;
+    }
+
+    // Other Button Styles
+    .btn.disabled, .button.disabled {
+        background-color: #e4eaec;
+        color: #999;
+        border-color: #e4eaec;
+        box-shadow: none;
+        cursor: not-allowed;
+    }
+    .btn {
+        &.btn-square {
+            &,
+            &::before,
+            &::after {
+                border-radius: 0;
+            }
+        }
+
+        &.btn-rounded {
+            &,
+            &::before,
+            &::after {
+                border-radius: 3px;
+            }
+        }
+
+        &.btn-ellipse {
+            &,
+            &::before,
+            &::after {
+                border-radius: 100px;
+            }
+        }
+    }
+
+    .btn {
+        &.btn-block {
+            display: block;
+            padding-left: 0;
+            padding-right: 0;
+            width: 100%;
+        }
+        &.btn-lg {
+            padding: 1.5em 3.42em;
+        }
+        &.btn-md {
+            padding: 1.07em 2.15em;
+            font-size: 1.3rem;
+        }
+        &.btn-sm {
+            padding: 0.92em 1.61em;
+            font-size: 1.3rem;
+        }
+        &.btn-link {
+            padding: 0;
+        }
+    }
+
+
+    // 8. Button Color Styles
+    .btn-primary {
+        @include button-variant(var(--rio-primary-color, #27c), var(--rio-primary-color-hover, #3478dd));
+    }
+    .btn-secondary {
+        @include button-variant(var(--rio-secondary-color, #d26e4b), var(--rio-secondary-color-hover, #d98568));
+    }
+    .btn-alert { 
+        @include button-variant(var(--rio-alert-color, #b10001), var(--rio-alert-color-hover, #d50001));
+    }
+    .btn-success  {
+        @include button-variant(var(--rio-success-color, #a8c26e), var(--rio-success-color-hover, #b7cd87));
+    }
+    .btn-dark {
+        @include button-variant(var(--rio-dark-color, #222), var(--rio-dark-color-hover, #343434));
+    }
+    .btn-white {
+        color: #666;
+        background-color: #fff;
+        border-color: #fff;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: #fff;
+            border-color: var(--rio-primary-color, #27c);
+            background-color: var(--rio-primary-color, #27c);
+        }
+
+        &.btn-outline {
+            color: #fff;
+            background-color: transparent;
+            border-color: #fff;
+            &:hover,
+            &:active,
+            &:focus {
+                color: var(--rio-primary-color, #27c);
+                background-color: #fff;
+            }
+        }
+        &.btn-link {
+            color: #fff;
+            background-color: transparent;
+            &:hover,
+            &:active,
+            &:focus {
+                color: #fff;
+                background-color: transparent;
+            }
+        }
+    }
+    .video-popup .btn-video-iframe,
+    .btn-video-player {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    // 9. Gradient Button
+    .btn-gradient {
+        position: relative;
+        color: #fff;
+        background: linear-gradient(135deg, #edf7fa, #cee3ea);
+        border: none;
+        transition: background .25s, color .25s, border .25s;
+
+        &:hover {
+            color: #fff;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: -50%;
+            left: 0%;
+            right: 0%;
+            bottom: -50%;
+            background-image: linear-gradient(90deg,rgba(255,255,255,0) 20%,rgba(255,255,255,0.4) 50%,rgba(255,255,255,0) 80%);
+            transform: skewX(-45deg) translateX(-100%);
+            transition: transform 0.8s;
+        }
+
+        &:hover::after {
+            transform: skewX(-45deg) translateX(100%);
+        }
+    }
+    .btn-gra-default {
+        color: #222;
+
+        &:hover{
+            color: #222;
+        }
+    }
+    .btn-gra-blue {
+        background: linear-gradient(135deg, #3b8df1, #5449ff);
+    }
+    .btn-gra-orange {
+        background: linear-gradient(135deg, #ffa35f, #e95454);
+    }
+    .btn-gra-pink {
+        background: linear-gradient(135deg, #f85283, #b33c9e);
+    }
+    .btn-gra-green {
+        background: linear-gradient(135deg, #a0ec69, #87cf47);
+    }
+    .btn-gra-dark {
+        background: linear-gradient(135deg, #555555, #222222);
+    }
+
+    .dismiss-widget {
+        position: relative;
+    }
+
+    .dismiss-button {
+        .dismiss-widget & {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            z-index: 2;
+        }
+
+        &::before {
+            content: "\e958";
+            font-family: "riode";
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+}

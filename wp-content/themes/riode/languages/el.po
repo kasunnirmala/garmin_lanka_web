@@ -1,0 +1,5634 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Riode 1.0\n"
+"POT-Creation-Date: 2021-04-05 15:47-0700\n"
+"PO-Revision-Date: 2021-04-09 16:16+0000\n"
+"Last-Translator: \n"
+"Language-Team: Greek\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: woocommerce/cart/cart-empty.php\n"
+"X-Poedit-SearchPathExcluded-1: woocommerce/checkout/form-billing.php\n"
+"X-Poedit-SearchPathExcluded-2: woocommerce/checkout/form-checkout.php\n"
+"X-Poedit-SearchPathExcluded-3: woocommerce/checkout/form-coupon.php\n"
+"X-Poedit-SearchPathExcluded-4: woocommerce/checkout/form-pay.php\n"
+"X-Poedit-SearchPathExcluded-5: woocommerce/checkout/form-shipping.php\n"
+"X-Poedit-SearchPathExcluded-6: woocommerce/global/form-login.php\n"
+"X-Poedit-SearchPathExcluded-7: woocommerce/global/wrapper-end.php\n"
+"X-Poedit-SearchPathExcluded-8: woocommerce/global/wrapper-start.php\n"
+"X-Poedit-SearchPathExcluded-9: woocommerce/loop/add-to-cart.php\n"
+"X-Poedit-SearchPathExcluded-10: woocommerce/loop/loop-end.php\n"
+"X-Poedit-SearchPathExcluded-11: woocommerce/loop/loop-start.php\n"
+"X-Poedit-SearchPathExcluded-12: woocommerce/loop/pagination.php\n"
+"X-Poedit-SearchPathExcluded-13: woocommerce/loop/price.php\n"
+"X-Poedit-SearchPathExcluded-14: woocommerce/myaccount/dashboard.php\n"
+"X-Poedit-SearchPathExcluded-15: woocommerce/myaccount/downloads.php\n"
+"X-Poedit-SearchPathExcluded-16: woocommerce/myaccount/form-edit-account.php\n"
+"X-Poedit-SearchPathExcluded-17: woocommerce/myaccount/form-edit-address.php\n"
+"X-Poedit-SearchPathExcluded-18: woocommerce/myaccount/my-account.php\n"
+"X-Poedit-SearchPathExcluded-19: woocommerce/myaccount/my-address.php\n"
+"X-Poedit-SearchPathExcluded-20: woocommerce/myaccount/navigation.php\n"
+"X-Poedit-SearchPathExcluded-21: woocommerce/myaccount/orders.php\n"
+"X-Poedit-SearchPathExcluded-22: woocommerce/notices\n"
+"X-Poedit-SearchPathExcluded-23: woocommerce/order/order-downloads.php\n"
+"X-Poedit-SearchPathExcluded-24: woocommerce/single-product/meta.php\n"
+"X-Poedit-SearchPathExcluded-25: woocommerce/single-product/product-image."
+"php\n"
+"X-Poedit-SearchPathExcluded-26: woocommerce/single-product/product-"
+"thumbnails.php\n"
+"X-Poedit-SearchPathExcluded-27: woocommerce/single-product/rating.php\n"
+"X-Poedit-SearchPathExcluded-28: woocommerce/single-product/related.php\n"
+"X-Poedit-SearchPathExcluded-29: woocommerce/single-product/review-meta.php\n"
+"X-Poedit-SearchPathExcluded-30: woocommerce/single-product/sale-flash.php\n"
+"X-Poedit-SearchPathExcluded-31: woocommerce/single-product/title.php\n"
+"X-Poedit-SearchPathExcluded-32: woocommerce/single-product/up-sells.php\n"
+"X-Poedit-SearchPathExcluded-33: woocommerce/single-product/tabs\n"
+"X-Poedit-SearchPathExcluded-34: woocommerce/add-to-wishlist-added.php\n"
+"X-Poedit-SearchPathExcluded-35: woocommerce/add-to-wishlist-browse.php\n"
+"X-Poedit-SearchPathExcluded-36: woocommerce/add-to-wishlist-button.php\n"
+"X-Poedit-SearchPathExcluded-37: woocommerce/archive-product.php\n"
+"X-Poedit-SearchPathExcluded-38: woocommerce/content-product.php\n"
+"X-Poedit-SearchPathExcluded-39: woocommerce/content-product_cat.php\n"
+"X-Poedit-SearchPathExcluded-40: woocommerce/content-single-product.php\n"
+"X-Poedit-SearchPathExcluded-41: woocommerce/share.php\n"
+"X-Poedit-SearchPathExcluded-42: woocommerce/single-product.php\n"
+"X-Poedit-SearchPathExcluded-43: woocommerce/wishlist-view-header.php\n"
+"X-Poedit-SearchPathExcluded-44: woocommerce/wishlist-view-mobile.php\n"
+"X-Poedit-SearchPathExcluded-45: inc/plugins/tgm-plugin-activation\n"
+"X-Poedit-SearchPathExcluded-46: inc/plugins/scssphp\n"
+"X-Poedit-SearchPathExcluded-47: assets\n"
+"X-Poedit-SearchPathExcluded-48: dokan/store-sidebar.php\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.5.2; wp-5.7"
+
+#: 404.php:24 inc/add-on/studio/studio.php:55
+#: inc/admin/customizer/option/404/option-404.php:10
+msgid "Error 404"
+msgstr "Σφάλμα 404"
+
+#: 404.php:26
+msgid "OOOPPS.! THAT PAGE CAN’T BE FOUND."
+msgstr "OOOPPS.! ΑΥΤΉ Η ΣΕΛΊΔΑ ΔΕΝ ΜΠΟΡΕΊ ΝΑ ΒΡΕΘΕΊ."
+
+#: 404.php:27
+msgid "It looks like nothing was found at this location."
+msgstr "Φαίνεται ότι τίποτα δεν βρέθηκε σε αυτή τη θέση."
+
+#: 404.php:28
+msgid "Go Home"
+msgstr "Πάω Σπίτι"
+
+#: comments.php:19 inc/admin/customizer/option/blog/option-blog-post.php:54
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:112
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:137
+msgid "No"
+msgstr "Όχι"
+
+#: comments.php:19 inc/action_filter/calls.php:855
+msgid "Comment"
+msgstr "Σχόλιο"
+
+#: comments.php:19 inc/admin/customizer/option/blog/option-blog-single.php:44
+msgid "Comments"
+msgstr "Σχόλια"
+
+#: comments.php:54
+msgid "Comments are closed."
+msgstr "Τα σχόλια είναι κλειστά."
+
+#: dokan/dashboard/orders-widget.php:22
+msgid "Orders"
+msgstr "Παραγγελίες"
+
+#: dokan/dashboard/orders-widget.php:28 dokan/dashboard/products-widget.php:26
+#: woocommerce/cart/cart-totals.php:100 woocommerce/cart/cart-totals.php:101
+msgid "Total"
+msgstr "Συνολικά"
+
+#: dokan/dashboard/orders-widget.php:33
+msgid "Completed"
+msgstr "Ολοκληρώθηκε"
+
+#: dokan/dashboard/orders-widget.php:38
+msgid "Pending"
+msgstr "Εν αναμονή"
+
+#: dokan/dashboard/orders-widget.php:43
+msgid "Processing"
+msgstr "Επεξεργασία"
+
+#: dokan/dashboard/orders-widget.php:48
+msgid "Cancelled"
+msgstr "Ακυρώθηκε"
+
+#: dokan/dashboard/orders-widget.php:53
+msgid "Refunded"
+msgstr "Επιστροφή"
+
+#: dokan/dashboard/orders-widget.php:58
+msgid "On hold"
+msgstr "Σε αναμονή"
+
+#: dokan/dashboard/products-widget.php:16 inc/add-on/studio/studio.php:39
+#: inc/admin/setup_wizard/views/demo.php:49
+#: inc/functions/woocommerce/product-category.php:186
+msgid "Products"
+msgstr "Προϊόντα"
+
+#: dokan/dashboard/products-widget.php:19
+msgid "+ Add new product"
+msgstr "+ Προσθήκη νέου προϊόντος"
+
+#: dokan/dashboard/products-widget.php:31
+msgid "Live"
+msgstr "Live"
+
+#: dokan/dashboard/products-widget.php:36
+msgid "Offline"
+msgstr "Offline"
+
+#: dokan/dashboard/products-widget.php:41
+msgid "Pending Review"
+msgstr "Εν Αναμονή Της Αναθεώρησης"
+
+#: dokan/global/product-tab.php:15
+msgid "Store Name:"
+msgstr "Το Όνομα Του Μαγαζιού:"
+
+#: dokan/global/product-tab.php:24
+msgid "Vendor:"
+msgstr "Πωλητής:"
+
+#: dokan/global/product-tab.php:33
+msgid "Address:"
+msgstr "Διεύθυνση:"
+
+#: dokan/global/seller-registration-form.php:15
+msgid "First Name"
+msgstr "Πρώτο Όνομα"
+
+#: dokan/global/seller-registration-form.php:25
+msgid "Last Name"
+msgstr "Το Τελευταίο Όνομα"
+
+#: dokan/global/seller-registration-form.php:36
+msgid "Shop Name"
+msgstr "Το Όνομα Του Καταστήματος"
+
+#: dokan/global/seller-registration-form.php:46
+msgid "Shop URL"
+msgstr "Κατάστημα URL"
+
+#: dokan/global/seller-registration-form.php:58
+msgid "Phone Number"
+msgstr "Αριθμός Τηλεφώνου"
+
+#: dokan/global/seller-registration-form.php:79
+#, php-format
+msgid ""
+"I have read and agree to the <a target=\"_blank\" href=\"%s\">Terms &amp; "
+"Conditions</a>."
+msgstr ""
+
+#: dokan/global/seller-registration-form.php:101
+msgid "I am a customer"
+msgstr "Είμαι πελάτης"
+
+#: dokan/global/seller-registration-form.php:104
+msgid "I am a vendor"
+msgstr "Είμαι πωλητής"
+
+#: dokan/store-lists-filter.php:27 inc/add-on/studio/blocks-wrapper.php:113
+#: template_parts/sidebar.php:73 woocommerce/loop/orderby.php:76
+#: woocommerce/loop/orderby.php:96 woocommerce/loop/orderby.php:128
+#: woocommerce/loop/orderby.php:183
+msgid "Filter"
+msgstr "Φίλτρο"
+
+#: dokan/store-lists-filter.php:31
+msgid "Total store showing"
+msgstr "Συνολικά κατάστημα που δείχνει"
+
+#: dokan/store-lists-filter.php:38 dokan/store-lists-filter.php:40
+msgid "Sort by"
+msgstr "Ταξινόμηση κατά"
+
+#: dokan/store-lists-filter.php:67
+msgid "Search Vendors"
+msgstr "Αναζητήστε Τους Πωλητές"
+
+#: dokan/store-lists-filter.php:76
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: dokan/store-lists-filter.php:77
+msgid "Apply"
+msgstr "Ισχύουν"
+
+#: dokan/store-lists-loop.php:36
+msgid "Featured"
+msgstr "Χαρακτήρισε"
+
+#: dokan/store-lists-loop.php:43 inc/functions/woocommerce/product-loop.php:454
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Εκτιμημένη %s out of 5"
+
+#: dokan/store-lists-loop.php:46
+#, php-format
+msgid "%s out of 5"
+msgstr "%s out of 5"
+
+#: dokan/store-lists-loop.php:78
+msgid "Visit Store"
+msgstr "Επισκεφτείτε Το Κατάστημα"
+
+#: dokan/store-lists-loop.php:100
+msgid "&larr; Previous"
+msgstr "← Προηγούμενο"
+
+#: dokan/store-lists-loop.php:101
+msgid "Next &rarr;"
+msgstr "Το επόμενο →"
+
+#: dokan/store-lists-loop.php:127
+msgid "No vendor found!"
+msgstr "Δεν προμηθευτή βρήκα!"
+
+#: dokan/store.php:68
+msgid "No products were found of this vendor!"
+msgstr "Δεν εντοπίστηκαν προϊόντα αυτού του προμηθευτή!"
+
+#: dokan/widgets/widget-content-product.php:41
+msgid "No products found"
+msgstr "Δεν υπάρχουν προϊόντα που βρέθηκαν"
+
+#: footer.php:126
+#, php-format
+msgid "Riode eCommerce &copy; %s. All Rights Reserved"
+msgstr "Riode το ηλεκτρονικό εμπόριο © %s. Όλα Τα Δικαιώματα Διατηρούνται"
+
+#: inc/action_filter/calls.php:86
+msgid "1. Shopping Cart"
+msgstr "1. Καλάθι Αγορών"
+
+#: inc/action_filter/calls.php:90
+msgid "2. Checkout"
+msgstr "2. Checkout"
+
+#: inc/action_filter/calls.php:94
+msgid "3. Order Complete"
+msgstr "3. Προκειμένου Να Ολοκληρώσει"
+
+#: inc/action_filter/calls.php:505 inc/action_filter/calls.php:518
+msgid "Error:"
+msgstr "Σφάλμα:"
+
+#: inc/action_filter/calls.php:521
+msgid "Username is required."
+msgstr "Το όνομα χρήστη απαιτείται."
+
+#: inc/action_filter/calls.php:551
+msgid "Login successful, redirecting..."
+msgstr "Είσοδος επιτυχής, ανακατεύθυνση..."
+
+#: inc/action_filter/calls.php:561
+msgid "Wrong username or password."
+msgstr "Λάθος όνομα χρήστη ή τον κωδικό πρόσβασης."
+
+#: inc/action_filter/calls.php:620
+msgid "Register successful, redirecting..."
+msgstr "Εγγραφείτε επιτυχής, ανακατεύθυνση..."
+
+#: inc/action_filter/calls.php:630
+msgid "Register failed."
+msgstr "Εγγραφή απέτυχε."
+
+#: inc/action_filter/calls.php:649 inc/general_function.php:1393
+msgid "Search your keywords..."
+msgstr "Αναζητήστε τις λέξεις-κλειδιά σας..."
+
+#: inc/action_filter/calls.php:756
+msgid "Send"
+msgstr "Στείλτε"
+
+#: inc/action_filter/calls.php:850
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:226
+#: inc/admin/optimize_wizard/views/templates_load.php:27
+#: inc/admin/optimize_wizard/views/templates_load.php:55
+msgid "Name"
+msgstr "Όνομα"
+
+#: inc/action_filter/calls.php:851 inc/setup/theme-options.php:16
+msgid "Email"
+msgstr "E-mail"
+
+#: inc/action_filter/calls.php:857
+#: inc/plugins/importer/riode-wordpress-importer.php:478
+#: inc/plugins/importer/wordpress-importer.php:376
+msgid "Submit"
+msgstr "Υποβολή"
+
+#: inc/action_filter/calls.php:857
+msgid "Post Comment"
+msgstr "Δημοσίευση Σχολίου"
+
+#: inc/add-on/breadcrumb/breadcrumb.php:119
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:40
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:95
+#: inc/setup/theme-options.php:133
+msgid "Home"
+msgstr "Το σπίτι"
+
+#: inc/add-on/breadcrumb/breadcrumb.php:184
+#, php-format
+msgid "Tag - %s"
+msgstr "Tag - %s"
+
+#: inc/add-on/breadcrumb/breadcrumb.php:187
+#, php-format
+msgid "Product Tag - %s"
+msgstr "Το προϊόν Ετικέτα %s"
+
+#: inc/add-on/breadcrumb/breadcrumb.php:475
+#, php-format
+msgid "Search - %s"
+msgstr "Αναζήτηση - %s"
+
+#: inc/add-on/breadcrumb/breadcrumb.php:478
+msgid "404"
+msgstr "404"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:23
+msgid "Riode Image Change & Swatch"
+msgstr "Riode Την Αλλαγή Της Εικόνας & Swatch"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:52
+#, php-format
+msgid ""
+"Before you can add image swatch you need to add some %1$slist%2$s variation "
+"attributes on the %1$sAttributes%2$s tab."
+msgstr ""
+"Για να μπορέσετε να προσθέσετε την εικόνα δείγμα θα πρέπει να προσθέσετε "
+"μερικά %1$slist%2$s παραλλαγή χαρακτηριστικά του %1$sAttributes%2$s καρτέλα."
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:53
+msgid "Learn more"
+msgstr "Μάθετε περισσότερα"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:59
+msgid ""
+"This will replace product image with following uploaded image when attribute "
+"button is clicked."
+msgstr ""
+"Αυτό θα αντικαταστήσει την εικόνα του προϊόντος με τα παρακάτω εικόνα "
+"φορτώθηκε όταν το χαρακτηριστικό κουμπί έχει πατηθεί."
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:80
+msgid "Button Type"
+msgstr "Τύπος Κουμπιών"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:82
+#: inc/admin/customizer/option/blog/option-blog-single.php:97
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:52
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:87
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:224
+msgid "Default"
+msgstr "Προεπιλογή"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:83
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:90
+msgid "Image"
+msgstr "Εικόνα"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:85
+msgid "Select button type as image to show image on button."
+msgstr ""
+"Επιλέξτε το κουμπί τύπος της εικόνας για να δείξει την εικόνα στο κουμπί."
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:89
+msgid "Attribute"
+msgstr "Χαρακτηριστικό"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:112
+msgid "Thumbnail Preview"
+msgstr "Προεπισκόπηση Μικρογραφίας"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:114
+msgid "Upload/Add image"
+msgstr "Ανεβάστε/Προσθήκη εικόνας"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:115
+msgid "Remove image"
+msgstr "Αφαίρεση εικόνας"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:129
+msgid "Expand"
+msgstr "Αναπτύξτε το στοιχείο"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:129
+msgid "Close"
+msgstr "Κοντά"
+
+#: inc/add-on/image-swatch/admin-image-swatch-tab.php:130
+#: inc/add-on/product-custom-tab/product-custom-tab-admin.php:63
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:78
+msgid "Save changes"
+msgstr "Αποθηκεύστε τις αλλαγές"
+
+#: inc/add-on/live-search/live-search.php:66
+#: inc/add-on/live-search/live-search.php:77
+msgid "(no title)"
+msgstr "(χωρίς τίτλο)"
+
+#: inc/add-on/product-custom-tab/product-custom-tab-admin.php:26
+msgid "Riode Custom Description Tab "
+msgstr "Riode Συνήθειας Περιγραφή Καρτέλα "
+
+#: inc/add-on/product-custom-tab/product-custom-tab-admin.php:42
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:154
+msgid "Custom Tab Title"
+msgstr "Προσαρμοσμένη Καρτέλα Τίτλο"
+
+#: inc/add-on/product-custom-tab/product-custom-tab-admin.php:47
+msgid "Custom Tab Content"
+msgstr "Προσαρμοσμένη Καρτέλα Περιεχόμενο"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:26
+msgid "Riode Extra Options"
+msgstr "Riode Επιπλέον Επιλογές"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:45
+msgid "Image Change on Hover"
+msgstr "Την Αλλαγή της εικόνας από το ποντίκι"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:47
+msgid "Theme Option"
+msgstr "Επιλογή Θέματος"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:48
+#: inc/admin/customizer/option/menu/option-menu-labels.php:65
+msgid "Change"
+msgstr "Αλλαγή"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:49
+msgid "Do not change"
+msgstr "Δεν αλλάζουν"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:51
+msgid ""
+"This option determines whether second featured image is changed or not on "
+"hover event."
+msgstr ""
+"Αυτή η επιλογή καθορίζει εάν το δεύτερο προτεινόμενα εικόνας αλλάξει ή όχι "
+"στο hover εκδήλωση."
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:61
+msgid "Virtual Buy Time"
+msgstr "Εικονική Αγορά Φορά"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:63
+msgid ""
+"This is Virtual Buy Time for this product. This time will be shown in sales "
+"popup until this product is really sold. Track for boost sale for unsold "
+"products."
+msgstr ""
+"Αυτό είναι το Virtual Αγοράσει Χρόνο για αυτό το προϊόν. Αυτή τη φορά θα "
+"εμφανιστεί σε πωλήσεις popup μέχρι αυτό το προϊόν είναι πραγματικά πωλούνται."
+" Το κομμάτι για να ενισχύσει την πώληση για τα απούλητα προϊόντα."
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:71
+msgid "Virtual Buy Time Text"
+msgstr "Εικονική Αγορά Φορά Κειμένου"
+
+#: inc/add-on/product-data-addons/product-data-addons-admin.php:73
+msgid ""
+"This virtual buy time text will always be shown in sales popup. Track for "
+"boost sale for this product."
+msgstr ""
+"Αυτό το εικονικό αγοράσει χρόνο κειμένου θα εμφανίζονται πάντα σε πωλήσεις "
+"popup. Το κομμάτι για να ενισχύσει την πώληση αυτού του προϊόντος."
+
+#: inc/add-on/sales-popup/sales-popup.php:46
+msgid "A While Ago"
+msgstr "Πριν Από Λίγο Καιρό"
+
+#: inc/add-on/studio/blocks-wrapper.php:12
+msgid "Template Library"
+msgstr "Πρότυπο Βιβλιοθήκης"
+
+#: inc/add-on/studio/blocks-wrapper.php:13
+msgid "Close (Esc)"
+msgstr "Κοντά (Esc)"
+
+#: inc/add-on/studio/blocks-wrapper.php:16 inc/add-on/studio/studio.php:104
+#: inc/add-on/studio/studio.php:118
+msgid "Riode Studio"
+msgstr "Riode Στούντιο"
+
+#: inc/add-on/studio/blocks-wrapper.php:22
+#: inc/admin/setup_wizard/views/demo.php:45
+#: inc/functions/woocommerce/product-archive.php:135
+#: template_parts/posts/archive.php:54
+msgid "All"
+msgstr "Όλα"
+
+#: inc/add-on/studio/blocks-wrapper.php:29
+#: inc/add-on/studio/blocks-wrapper.php:119
+msgid "Blocks"
+msgstr "Μπλοκ"
+
+#: inc/add-on/studio/blocks-wrapper.php:87
+msgid "All in One Library"
+msgstr "Όλα σε Μια Βιβλιοθήκη"
+
+#: inc/add-on/studio/blocks-wrapper.php:88
+msgid "Choose any type of template from our library."
+msgstr "Επιλέξτε οποιοδήποτε είδος του προτύπου από τη βιβλιοθήκη μας."
+
+#: inc/add-on/studio/blocks-wrapper.php:100
+#: inc/admin/setup_wizard/views/demo.php:62
+msgid "Select Demo"
+msgstr "Επιλέξτε Demo"
+
+#: inc/add-on/studio/blocks.php:14 inc/add-on/studio/blocks.php:40
+msgid "Select"
+msgstr "Επιλέξτε"
+
+#: inc/add-on/studio/blocks.php:14 inc/add-on/studio/blocks.php:40
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:46
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: inc/add-on/studio/blocks.php:36
+msgid "Favourite"
+msgstr "Τα αγαπημένα"
+
+#: inc/add-on/studio/studio.php:33
+msgid "Demo"
+msgstr "Demo"
+
+#: inc/add-on/studio/studio.php:35
+msgid "Banner"
+msgstr "Banner"
+
+#: inc/add-on/studio/studio.php:37
+msgid "Call To Action"
+msgstr "Πρόσκληση Για Δράση"
+
+#: inc/add-on/studio/studio.php:41 inc/admin/setup_wizard/views/demo.php:47
+msgid "Posts"
+msgstr "Θέσεις"
+
+#: inc/add-on/studio/studio.php:43
+msgid "Testimonial"
+msgstr "Μαρτυρία"
+
+#: inc/add-on/studio/studio.php:45
+msgid "Other"
+msgstr "Άλλα"
+
+#: inc/add-on/studio/studio.php:47
+#: inc/admin/customizer/option/header/option-header.php:10
+msgid "Header"
+msgstr "Κεφαλίδα"
+
+#: inc/add-on/studio/studio.php:49
+#: inc/admin/customizer/option/footer/option-footer.php:13
+msgid "Footer"
+msgstr "Υποσέλιδο"
+
+#: inc/add-on/studio/studio.php:51
+msgid "Single Product"
+msgstr "Ενιαίο Προϊόν"
+
+#: inc/add-on/studio/studio.php:53
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:53
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:323
+msgid "Popup"
+msgstr "Popup"
+
+#: inc/add-on/studio/studio.php:57
+msgid "Favourites"
+msgstr "Αγαπημένα"
+
+#: inc/add-on/studio/studio.php:59
+msgid "My Templates"
+msgstr "Τα Πρότυπα Μου"
+
+#: inc/add-on/studio/studio.php:164
+msgid "Loading failed!"
+msgstr "Φόρτωση απέτυχε!"
+
+#: inc/add-on/studio/studio.php:165
+msgid "There was an error when importing block. Please try again later!"
+msgstr ""
+"Υπήρχε ένα σφάλμα κατά την εισαγωγή του μπλοκ. Παρακαλώ δοκιμάστε ξανά "
+"αργότερα!"
+
+#: inc/add-on/studio/studio.php:166
+msgid "Coming Soon..."
+msgstr "Έρχονται Σύντομα..."
+
+#: inc/add-on/studio/studio.php:330
+msgid "Security issue found! Please try again later."
+msgstr "Ζήτημα ασφαλείας, το βρήκα! Παρακαλώ προσπαθήστε ξανά αργότερα."
+
+#: inc/add-on/studio/studio.php:789 inc/add-on/studio/studio.php:847
+msgid "Could not connect to the API Server! Please try again later."
+msgstr ""
+"Δεν θα μπορούσε να συνδεθεί με το Διακομιστή API! Παρακαλώ προσπαθήστε ξανά "
+"αργότερα."
+
+#: inc/admin/admin.php:47
+msgid "Theme License"
+msgstr "Το Θέμα Άδειας"
+
+#: inc/admin/admin.php:50 inc/admin/panel/panel.php:30
+#: inc/admin/panel/panel.php:31 inc/admin/panel/views/header.php:25
+#: inc/admin/panel/views/header.php:34
+#: inc/admin/setup_wizard/views/index.php:13
+msgid "Setup Wizard"
+msgstr "Οδηγός Εγκατάστασης"
+
+#: inc/admin/admin.php:53 inc/admin/panel/panel.php:37
+#: inc/admin/panel/views/header.php:18 inc/admin/setup_wizard/views/demo.php:52
+msgid "Theme Options"
+msgstr "Επιλογές Θέμα"
+
+#: inc/admin/admin.php:56 inc/admin/optimize_wizard/views/index.php:13
+#: inc/admin/panel/panel.php:41 inc/admin/panel/panel.php:42
+#: inc/admin/panel/views/header.php:31 inc/admin/panel/views/header.php:35
+msgid "Optimize Wizard"
+msgstr "Βελτιστοποίηση Του Οδηγού"
+
+#: inc/admin/admin.php:59 inc/admin/panel/panel.php:51
+#: inc/admin/panel/panel.php:52 inc/admin/panel/views/header.php:45
+msgid "Page Layouts"
+msgstr "Διατάξεις Σελίδας"
+
+#: inc/admin/admin.php:62 inc/admin/panel/panel.php:59
+#: inc/admin/panel/views/header.php:51
+msgid "Templates Builder"
+msgstr "Πρότυπα Builder"
+
+#: inc/admin/admin.php:63 inc/admin/panel/panel.php:62
+#: inc/admin/panel/views/header.php:57
+msgid "Sidebar Manage"
+msgstr "Sidebar Διαχείριση"
+
+#: inc/admin/admin.php:67 inc/admin/setup_wizard/views/demo.php:147
+msgid "Activate Theme"
+msgstr "Να Ενεργοποιήσετε Το Θέμα"
+
+#: inc/admin/admin.php:174
+msgid "Your ip address is blocked as spam!!!"
+msgstr "Η διεύθυνση ip σας είναι αποκλεισμένη, όπως το spam!!!"
+
+#: inc/admin/admin.php:176
+msgid "Purchase Code is not valid!!!"
+msgstr "Κωδικός αγορά δεν είναι έγκυρη!!!"
+
+#: inc/admin/admin.php:178
+#, php-format
+msgid "This code was already used in %s"
+msgstr "Αυτός ο κωδικός είχε ήδη χρησιμοποιηθεί σε %s"
+
+#: inc/admin/admin.php:180
+msgid "Please re-activate the theme."
+msgstr "Παρακαλούμε να ενεργοποιήσετε το θέμα."
+
+#: inc/admin/admin.php:182
+msgid "Riode Theme is unregistered!"
+msgstr "Riode το Θέμα είναι unregistered!"
+
+#: inc/admin/admin.php:184
+msgid "Riode Theme is activated!"
+msgstr "Riode Θέμα είναι ενεργοποιημένη!"
+
+#: inc/admin/admin.php:273
+#, php-format
+msgid ""
+"Please %s Riode theme to get access to pre-built demo websites and auto "
+"updates."
+msgstr ""
+"Παρακαλώ %s Riode το θέμα για να πάρετε την πρόσβαση σε προ-χτισμένο demo "
+"ιστοσελίδες και τις αυτόματες ενημερώσεις."
+
+#: inc/admin/admin.php:273
+msgid "register"
+msgstr "μητρώο"
+
+#: inc/admin/admin.php:280
+msgid "Purchase Code is not valid or could not connect to the API server!"
+msgstr ""
+"Κωδικός αγορά δεν είναι έγκυρη ή δεν ήταν δυνατή η σύνδεση με το API server!"
+
+#: inc/admin/admin.php:298
+msgid "View Details"
+msgstr "Δείτε Λεπτομέρειες"
+
+#: inc/admin/admin.php:320
+#, php-format
+msgid ""
+"Please %1$sregister%2$s riode theme to get access to pre-built demo websites "
+"and auto updates."
+msgstr ""
+"Παρακαλώ %1$sregister%2$s riode το θέμα για να πάρετε την πρόσβαση σε προ-"
+"χτισμένο demo ιστοσελίδες και τις αυτόματες ενημερώσεις."
+
+#: inc/admin/admin.php:322
+#, php-format
+msgid ""
+"%1$s Important! %2$s One %3$s standard license %4$s is valid for only %1$s1 "
+"website%2$s. Running multiple websites on a single license is a copyright "
+"violation."
+msgstr ""
+"%1$s Σημαντικό! %2$s %3$s πρότυπο άδειας %4$s ισχύει μόνο για %1$s1 "
+"ιστοσελίδα%2$s. Εκτελεί πολλαπλές ιστοσελίδες σε μια ενιαία άδεια αποτελεί "
+"παραβίαση πνευματικών δικαιωμάτων."
+
+#: inc/admin/admin.php:323
+msgid "Dismiss this notice."
+msgstr "Να απορρίψει αυτή την προειδοποίηση."
+
+#: inc/admin/admin.php:354
+#, php-format
+msgid "Please %1$sverify purchase%2$s to get updates!"
+msgstr "Παρακαλώ %1$sverify αγοράσετε%2$s για να λαμβάνετε ενημερώσεις!"
+
+#: inc/admin/admin.php:373
+msgid ""
+"There is a problem contacting to the Riode API server. Please try again "
+"later."
+msgstr ""
+"Υπάρχει πρόβλημα στην επικοινωνία με το Riode API server. Παρακαλώ "
+"προσπαθήστε ξανά αργότερα."
+
+#: inc/admin/customizer/customizer.php:415
+msgid "Navigator"
+msgstr "Navigator"
+
+#: inc/admin/customizer/option/404/option-404.php:22
+msgid "Eror 404 Page"
+msgstr "Eror Σελίδα 404"
+
+#: inc/admin/customizer/option/404/option-404.php:28
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:171
+msgid "Select Block"
+msgstr "Επιλέξτε Φραγή"
+
+#: inc/admin/customizer/option/404/option-404.php:37
+msgid "404 Block"
+msgstr "404 Block"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:10
+msgid "Theme Features"
+msgstr "Χαρακτηριστικά Θέμα"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:22
+msgid "Riode Features"
+msgstr "Riode Χαρακτηριστικά"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:33
+msgid "Image LazyLoad"
+msgstr "Εικόνα LazyLoad"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:35
+msgid "All images will be lazyloaded."
+msgstr "Όλες οι εικόνες θα είναι lazyloaded."
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:46
+msgid "Lazyload Image Initial Color"
+msgstr "Lazyload Εικόνας Αρχικό Χρώμα"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:68
+msgid "Menu Lazyload"
+msgstr "Μενού Lazyload"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:70
+msgid ""
+"Menus will be lazyloaded. They will be saved in clients' local storages for "
+"faster performance, and they will be updated when menu has been changed."
+msgstr ""
+"Τα μενού θα είναι lazyloaded. Αυτές θα αποθηκεύονται στη πελατών τοπικές "
+"αποθήκες για ταχύτερη απόδοση, και θα πρέπει να ενημερώνεται όταν το μενού "
+"έχει αλλάξει."
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:81
+msgid "Live Search"
+msgstr "Ζωντανή Αναζήτηση"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:82
+msgid ""
+"Search boxes will show instant, quick and live search results in below "
+"dropdown."
+msgstr ""
+"Κουτιά αναζήτησης θα σας δείξει άμεση, γρήγορη και live αποτελέσματα "
+"αναζήτησης κάτω από το αναπτυσσόμενο μενού."
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:94
+#: inc/admin/optimize_wizard/views/lazyload.php:21
+msgid "Skeleton Screen"
+msgstr "Σκελετός Οθόνη"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:95
+msgid ""
+"Beautiful skeleton screen will appear instead of preloading icon in all "
+"archive pages, single pages, quickview popup and any other ajax loading."
+msgstr ""
+"Όμορφο σκελετό οθόνη θα εμφανιστεί αντί της προφόρτισης εικονίδιο σε όλες "
+"τις σελίδες των αρχείων, μόνο σελίδες, quickview popup και άλλες ajax "
+"φόρτωσης."
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:96
+msgid ""
+"NOTE: If you face into js compatibility problems with some plugins like "
+"dokan pro, please disable this feature."
+msgstr ""
+"ΣΗΜΕΊΩΣΗ: Εάν το πρόσωπο στο js προβλήματα συμβατότητας με κάποια plugins "
+"όπως dokan pro, παρακαλούμε να απενεργοποιήσετε αυτό το χαρακτηριστικό."
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:108
+msgid "Social Login"
+msgstr "Social Login"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:109
+msgid "Please activate Nextend Social Login plugin and enable social links."
+msgstr ""
+"Παρακαλώ ενεργοποιήστε Nextend Social Login plugin και να το ενεργοποιήσετε "
+"κοινωνικών δεσμών."
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:122
+msgid "Riode Starter Guides"
+msgstr "Riode Εκκινητών Οδηγούς"
+
+#: inc/admin/customizer/option/advanced/option-advanced-feature.php:133
+msgid "Show Elementor Guide"
+msgstr "Εμφάνιση Elementor Οδηγός"
+
+#: inc/admin/customizer/option/advanced/option-advanced-image.php:10
+#: inc/admin/customizer/option/advanced/option-advanced-image.php:22
+msgid "Image Size"
+msgstr "Το Μέγεθος Της Εικόνας"
+
+#: inc/admin/customizer/option/advanced/option-advanced-image.php:36
+msgid ""
+"Do you need a custom image size? Please input width and height to register "
+"new size. Do not forget to regenerate previously uploaded images."
+msgstr ""
+"Χρειάζεστε μια προσαρμοσμένη εικόνα για το μέγεθος; Παρακαλώ εισάγετε το "
+"πλάτος και το ύψος για να καταχωρήσετε το νέο μέγεθος. Μην ξεχάσετε να "
+"αναπαραγάγει προηγουμένως ανεβάσει εικόνες."
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:10
+msgid "Import/Export/Reset"
+msgstr "Εισαγωγή/Εξαγωγή/Επαναφορά"
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:22
+msgid "Import/Export Options"
+msgstr "Εισαγωγής/Εξαγωγής Επιλογές"
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:33
+msgid "Please select source option file to import"
+msgstr "Παρακαλώ επιλέξτε επιλογή πηγής αρχείο για εισαγωγή"
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:57
+msgid "Export theme options"
+msgstr "Εξαγωγή επιλογές θέμα"
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:57
+msgid "Download Theme Options"
+msgstr "Κατεβάστε Επιλογές Θέμα"
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:68
+msgid "Reset Options"
+msgstr "Επιλογές Επαναφοράς"
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:80
+msgid "Please click below button to reset options."
+msgstr ""
+"Παρακαλώ κάντε κλικ στο παρακάτω κουμπί για να επαναφέρετε τις επιλογές."
+
+#: inc/admin/customizer/option/advanced/option-advanced-options.php:80
+msgid "Reset Theme Options"
+msgstr "Επαναφέρετε Τις Επιλογές Θέμα"
+
+#: inc/admin/customizer/option/advanced/option-advanced.php:10
+msgid "Advanced"
+msgstr "Για προχωρημένους"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:10
+msgid "Blog Page"
+msgstr "Το Blog Της Σελίδας"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:22
+msgid "Blog Archive"
+msgstr "Blog Archive"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:32
+msgid "Posts Grid"
+msgstr "Θέσεις Δικτύου"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:35
+msgid "Grid"
+msgstr "Πλέγμα"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:36
+msgid "Masonry"
+msgstr "Τοιχοποιία"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:49
+msgid "Posts per row"
+msgstr "Θέσεις ανά σειρά"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:50
+msgid "How many posts should be shown per row?"
+msgstr "Πόσες θέσεις θα πρέπει να εμφανίζονται ανά σειρά;"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:66
+msgid "Show Category Filter"
+msgstr "Show Κατηγορία Φίλτρου"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:67
+msgid "Show post category filter on top of post archive page."
+msgstr ""
+"Δείτε μετά το φίλτρο κατηγορίας στην κορυφή του post αρχείο της σελίδας."
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:79
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:181
+msgid "Load More Type"
+msgstr "Φορτίο Τύπος Περισσότερα"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:80
+msgid "Select method to load more posts."
+msgstr "Επιλέξτε τη μέθοδο για να φορτώσετε περισσότερες θέσεις."
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:97
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:199
+msgid "Loadmore Button Text"
+msgstr "Κουμπί Loadmore Κείμενο"
+
+#: inc/admin/customizer/option/blog/option-blog-archive.php:98
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:200
+msgid "Input loadmore button label."
+msgstr "Εισαγωγή κουμπί loadmore ετικέτα."
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:10
+#: inc/admin/customizer/option/blog/option-blog-post.php:21
+#: inc/admin/customizer/option/blog/option-blog-post.php:31
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:54
+msgid "Post Type"
+msgstr "Τύπος Δημοσίευση"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:50
+msgid "Post Overlay"
+msgstr "Μετά Την Επικάλυψη"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:52
+msgid "Select image overlay effect when mouse is over."
+msgstr ""
+"Επιλέξτε την εικόνα επικάλυψης επίδραση όταν το ποντίκι είναι πάνω από."
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:55
+#: inc/admin/customizer/option/footer/option-footer-general.php:38
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:113
+msgid "Light"
+msgstr "Το φως"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:56
+#: inc/admin/customizer/option/footer/option-footer-general.php:37
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:114
+#: inc/setup/theme-setup.php:136
+msgid "Dark"
+msgstr "Σκούρο"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:57
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:115
+msgid "Zoom"
+msgstr "Ζουμ"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:58
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:116
+msgid "Zoom and Light"
+msgstr "Ζουμ και το Φως"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:59
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:117
+msgid "Zoom and Dark"
+msgstr "Ζουμ και το Σκοτάδι"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:71
+msgid "Show Date-Box on Image"
+msgstr "Εμφάν. ημ / νίας-Πλαίσιο στην Εικόνα"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:83
+msgid "Excerpt Limit By"
+msgstr "Απόσπασμα Από Το Όριο"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:86
+msgid "Word"
+msgstr "Λέξη"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:87
+msgid "Letter"
+msgstr "Επιστολή"
+
+#: inc/admin/customizer/option/blog/option-blog-post.php:99
+msgid "Excerpt Limit"
+msgstr "Απόσπασμα Όριο"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:10
+msgid "Post Detail Page"
+msgstr "Μετά Λεπτομέρεια Σελίδα"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:21
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:202
+msgid "Showing Information"
+msgstr "Εμφανίζει Πληροφορίες"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:32
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:212
+msgid "Items to show"
+msgstr "Στοιχεία για να δείξει"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:33
+msgid "Check items to show in single post page"
+msgstr "Ελέγξτε στοιχεία προς εμφάνιση σε ενιαία θέση της σελίδας"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:36
+msgid "Media"
+msgstr "Media"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:37
+msgid "Meta Information"
+msgstr "Meta Πληροφορίες"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:38
+msgid "Post Content"
+msgstr "Δημοσίευση Περιεχομένου"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:39
+msgid "Author Box"
+msgstr "Συγγραφέας Box"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:40
+msgid "Tag List"
+msgstr "Λίστα Ετικετών"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:41
+msgid "Share Options"
+msgstr "Μοιραστείτε Επιλογές"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:42
+msgid "Prev and Next Navigation"
+msgstr "Προηγούμενο και Επόμενο Πλοήγησης"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:43
+#: inc/admin/customizer/option/blog/option-blog-single.php:55
+#: template_parts/posts/elements/post-related.php:28
+msgid "Related Posts"
+msgstr "Σχετικές Θέσεις"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:66
+msgid "Count of Related Posts"
+msgstr "Αρίθμηση των Θέσεων που Σχετίζονται"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:78
+msgid "Related Posts per Row"
+msgstr "Σχετικές Θέσεις ανά Σειρά"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:93
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:220
+msgid "Order By"
+msgstr "Σειρά Από"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:98
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:225
+msgid "ID"
+msgstr "ID"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:99
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:22
+msgid "Title"
+msgstr "Τίτλος"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:100
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:227
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:101
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:228
+msgid "Modified"
+msgstr "Τροποποιημένο"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:102
+msgid "Author"
+msgstr "Συγγραφέας"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:103
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:232
+msgid "Comment count"
+msgstr "Σχόλιο καταμέτρηση"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:114
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:245
+msgid "Order Way"
+msgstr "Σειρά Τρόπο"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:118
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:249
+msgid "Descending"
+msgstr "Φθίνουσα"
+
+#: inc/admin/customizer/option/blog/option-blog-single.php:119
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:250
+msgid "Ascending"
+msgstr "Αύξουσα"
+
+#: inc/admin/customizer/option/blog/option-blog.php:10
+msgid "Blog"
+msgstr "Blog"
+
+#: inc/admin/customizer/option/custom/option-custom.php:10
+msgid "Custom CSS & JS"
+msgstr "Προσαρμοσμένη CSS και JS"
+
+#: inc/admin/customizer/option/custom/option-custom.php:21
+msgid "CSS code"
+msgstr "CSS κώδικα"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:10
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:33
+msgid "Footer Bottom"
+msgstr "Κάτω Υποσέλιδο"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:22
+#: inc/admin/customizer/option/footer/option-footer-main.php:22
+#: inc/admin/customizer/option/footer/option-footer-top.php:22
+#, php-format
+msgid "Below options will %1$snot%2$s be applied to %1$sfooter builders%2$s."
+msgstr ""
+"Παρακάτω επιλογές θα σας %1$μύξα%2$s να εφαρμοστεί σε %1$sfooter "
+"οικοδόμοι%2$s."
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:44
+#: inc/admin/customizer/option/footer/option-footer-main.php:44
+#: inc/admin/customizer/option/footer/option-footer-top.php:44
+msgid "Wrap"
+msgstr "Τυλίξτε"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:48
+#: inc/admin/customizer/option/footer/option-footer-main.php:48
+#: inc/admin/customizer/option/footer/option-footer-top.php:48
+msgid "Container"
+msgstr "Εμπορευματοκιβώτιο"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:49
+#: inc/admin/customizer/option/footer/option-footer-main.php:49
+#: inc/admin/customizer/option/footer/option-footer-top.php:49
+msgid "Container Fluid"
+msgstr "Δοχείο Υγρού"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:50
+#: inc/admin/customizer/option/footer/option-footer-main.php:50
+#: inc/admin/customizer/option/footer/option-footer-top.php:50
+#: inc/admin/customizer/option/general/option-general.php:37
+msgid "Full"
+msgstr "Πλήρης"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:61
+#: inc/admin/customizer/option/footer/option-footer-main.php:61
+#: inc/admin/customizer/option/footer/option-footer-top.php:61
+msgid "Widget Layout"
+msgstr "Widget Διάταξης"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:62
+#: inc/admin/customizer/option/footer/option-footer-main.php:62
+#: inc/admin/customizer/option/footer/option-footer-top.php:62
+msgid ""
+"Input \"+\" separated grid items ( e.g. 1/4 + 3/4 ). Empty Value will "
+"justify widgets with \"space-between\" property."
+msgstr ""
+"Εισαγωγή \"+\" χωρίζονται πλέγμα στοιχείων ( π. χ. 1/4 + 3/4 ). Κενή Τιμή θα "
+"δικαιολογήσει widgets με το \"χώρο \" ανάμεσα\" τοποθεσία."
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:74
+msgid "Footer Bottom Padding(px)"
+msgstr "Κάτω υποσέλιδο Padding(px)"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:86
+msgid "Add Divider to Footer Bottom"
+msgstr "Προσθέστε Διαχωριστικό στο Κάτω Υποσέλιδο"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:98
+#: inc/admin/customizer/option/footer/option-footer-main.php:98
+#: inc/admin/customizer/option/footer/option-footer-top.php:98
+msgid "You can change divider color in"
+msgstr "Μπορείτε να αλλάξετε το διαχωριστικό χρώμα"
+
+#: inc/admin/customizer/option/footer/option-footer-bottom.php:98
+#: inc/admin/customizer/option/footer/option-footer-main.php:98
+#: inc/admin/customizer/option/footer/option-footer-top.php:98
+msgid "Footer/General"
+msgstr "Υποσέλιδο/Γενικά"
+
+#: inc/admin/customizer/option/footer/option-footer-builder.php:10
+#: inc/admin/customizer/option/footer/option-footer-builder.php:22
+msgid "Footer Builder"
+msgstr "Τελικοί Builder"
+
+#: inc/admin/customizer/option/footer/option-footer-builder.php:22
+msgid "There are 2 methods to build your footer."
+msgstr "Υπάρχουν 2 μέθοδοι για να χτίσει το υποσέλιδο."
+
+#: inc/admin/customizer/option/footer/option-footer-builder.php:22
+#, php-format
+msgid ""
+"1. Complete your footer by drag and drop widgets to %1$sWidget Areas%2$s. "
+"(Classic Footer)"
+msgstr ""
+"1. Πλήρης υποσέλιδο σας με drag and drop widgets για %1$sWidget Περιοχές,"
+"%2$s. (Κλασικό Υποσέλιδο)"
+
+#: inc/admin/customizer/option/footer/option-footer-builder.php:22
+#, php-format
+msgid ""
+"2. Create your footer with %1$sFooter Builder%2$s and show it in %3$sLayout "
+"Dashboard%4$s."
+msgstr ""
+"2. Δημιουργήστε το υποσέλιδο με %1$sFooter Builder%2$s και το δείχνουν σε "
+"%3$sLayout Ταμπλό%4$s."
+
+#: inc/admin/customizer/option/footer/option-footer-builder.php:22
+msgid "Classic Footer"
+msgstr "Κλασικό Υποσέλιδο"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:10
+#: inc/admin/customizer/option/general/option-general.php:11
+msgid "General"
+msgstr "Γενικά"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:22
+#: inc/admin/customizer/option/footer/option-footer-general.php:33
+msgid "Footer Skin"
+msgstr "Υποσέλιδο Δέρμα"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:49
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:48
+msgid "Background"
+msgstr "Φόντο"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:61
+msgid "Link color"
+msgstr "Το χρώμα σύνδεσμο"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:73
+msgid "Link Hover color"
+msgstr "Σύνδεση Hover χρώμα"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:85
+msgid "Divider color"
+msgstr "Διαχωριστικό χρώμα"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:98
+msgid "Scroll To Top Button"
+msgstr "Μεταβείτε Στο Πάνω Κουμπί"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:109
+msgid "Button Size"
+msgstr "Μέγεθος Κουμπιού"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:127
+msgid "Button Position"
+msgstr "Το Κουμπί Θέση"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:131
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:150
+msgid "Left"
+msgstr "Αριστερά"
+
+#: inc/admin/customizer/option/footer/option-footer-general.php:132
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:152
+msgid "Right"
+msgstr "Σωστά"
+
+#: inc/admin/customizer/option/footer/option-footer-main.php:10
+#: inc/admin/customizer/option/footer/option-footer-main.php:33
+msgid "Footer Main"
+msgstr "Υποσέλιδο Κύρια"
+
+#: inc/admin/customizer/option/footer/option-footer-main.php:74
+msgid "Footer Main Padding(px)"
+msgstr "Υποσέλιδο Κύρια Padding(px)"
+
+#: inc/admin/customizer/option/footer/option-footer-main.php:86
+msgid "Add Divider to Footer Main"
+msgstr "Προσθέστε το Διαιρέτη για να Υποσέλιδο Κύρια"
+
+#: inc/admin/customizer/option/footer/option-footer-top.php:10
+#: inc/admin/customizer/option/footer/option-footer-top.php:33
+msgid "Footer Top"
+msgstr "Υποσέλιδο Κορυφή"
+
+#: inc/admin/customizer/option/footer/option-footer-top.php:74
+msgid "Footer Top Padding(px)"
+msgstr "Υποσέλιδο Top Padding(px)"
+
+#: inc/admin/customizer/option/footer/option-footer-top.php:86
+msgid "Add Divider to Footer Top"
+msgstr "Προσθέστε το Διαιρέτη για να Υποσέλιδο Κορυφή"
+
+#: inc/admin/customizer/option/footer/option-footer-typography.php:10
+#: inc/admin/customizer/option/style/option-style-typography.php:10
+msgid "Typography"
+msgstr "Τυπογραφία"
+
+#: inc/admin/customizer/option/footer/option-footer-typography.php:22
+msgid "Footer Typography"
+msgstr "Υποσέλιδο Τυπογραφία"
+
+#: inc/admin/customizer/option/footer/option-footer-typography.php:33
+msgid "Footer Base"
+msgstr "Υποσέλιδο Βάση"
+
+#: inc/admin/customizer/option/footer/option-footer-typography.php:45
+msgid "Widget Title"
+msgstr "Widget Τίτλος"
+
+#: inc/admin/customizer/option/footer/option-footer-typography.php:57
+msgid "Widget"
+msgstr "Widget"
+
+#: inc/admin/customizer/option/general/option-general.php:23
+msgid "General Settings"
+msgstr "Γενικές Ρυθμίσεις"
+
+#: inc/admin/customizer/option/general/option-general.php:33
+msgid "Site Type"
+msgstr "Το Site Τύπος"
+
+#: inc/admin/customizer/option/general/option-general.php:38
+msgid "Boxed"
+msgstr "Συσκευασμένο"
+
+#: inc/admin/customizer/option/general/option-general.php:39
+msgid "Framed"
+msgstr "Πλαισιώνεται"
+
+#: inc/admin/customizer/option/general/option-general.php:50
+msgid "Box/Frame Width (px)"
+msgstr "Το κιβώτιο/το Πλαίσιο Πλάτος (px)"
+
+#: inc/admin/customizer/option/general/option-general.php:69
+msgid "Box/Frame Gap (px)"
+msgstr "Το κιβώτιο/το Πλαίσιο Κενό (px)"
+
+#: inc/admin/customizer/option/general/option-general.php:88
+msgid "Screen Background"
+msgstr "Φόντο Της Οθόνης"
+
+#: inc/admin/customizer/option/general/option-general.php:89
+msgid "Change background of outside the frame."
+msgstr "Αλλάξτε το φόντο του έξω από το πλαίσιο."
+
+#: inc/admin/customizer/option/general/option-general.php:108
+msgid "Content Background"
+msgstr "Το Περιεχόμενο Φόντο"
+
+#: inc/admin/customizer/option/general/option-general.php:121
+msgid "Site Content"
+msgstr "Το Περιεχόμενο Του Ιστοτόπου"
+
+#: inc/admin/customizer/option/general/option-general.php:131
+msgid "Container Width (px)"
+msgstr "Δοχείο Πλάτος (px)"
+
+#: inc/admin/customizer/option/general/option-general.php:143
+msgid "Container Fluid Width (px)"
+msgstr "Δοχείο Υγρού Πλάτος (px)"
+
+#: inc/admin/customizer/option/general/option-general.php:155
+msgid "Grid Gutter Size (px)"
+msgstr "Πλέγμα Υδρορροή Size (px)"
+
+#: inc/admin/customizer/option/general/option-general.php:156
+msgid "This gutter is the space between columns."
+msgstr "Αυτό το βούρκο είναι το διάστημα μεταξύ των στηλών."
+
+#: inc/admin/customizer/option/general/option-general.php:168
+msgid "Grid Gutter Large Size (px)"
+msgstr "Πλέγμα Υδρορροή Μεγάλο Μέγεθος (px)"
+
+#: inc/admin/customizer/option/general/option-general.php:180
+msgid "Grid Gutter Small Size (px)"
+msgstr "Πλέγμα Υδρορροή Μικρό Μέγεθος (px)"
+
+#: inc/admin/customizer/option/header/option-header-builder.php:10
+#: inc/admin/customizer/option/header/option-header-builder.php:22
+msgid "Header Builder"
+msgstr "Header Builder"
+
+#: inc/admin/customizer/option/header/option-header-builder.php:22
+msgid "Create your header with Header Builder and show it in Layout Dashboard"
+msgstr ""
+"Δημιουργήστε την κεφαλίδα σας με Header Builder και να το δείχνουν σε "
+"Διάταξη Ταμπλό"
+
+#: inc/admin/customizer/option/header/option-header-builder.php:22
+msgid "Layout Dashboard"
+msgstr "Διάταξη Ταμπλό"
+
+#: inc/admin/customizer/option/header/option-header-typography.php:10
+msgid "Header Style"
+msgstr "Στυλ Επικεφαλίδας"
+
+#: inc/admin/customizer/option/header/option-header-typography.php:22
+#: inc/admin/customizer/option/header/option-header-typography.php:33
+msgid "Header Typography"
+msgstr "Κεφαλίδα Τυπογραφία"
+
+#: inc/admin/customizer/option/header/option-header-typography.php:45
+msgid "Hover Color"
+msgstr "Hover Χρώμα"
+
+#: inc/admin/customizer/option/header/option-header-typography.php:58
+msgid "Header Bakcground"
+msgstr "Κεφαλίδα Bakcground"
+
+#: inc/admin/customizer/option/header/option-header-typography.php:69
+msgid "Header Background"
+msgstr "Κεφαλίδα Φόντο"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:10
+#: inc/admin/customizer/option/menu/option-menu-labels.php:23
+#: inc/admin/customizer/option/menu/option-menu-labels.php:35
+#: inc/admin/customizer/option/menu/option-menu-labels.php:45
+msgid "Menu Labels"
+msgstr "Ετικέτες Μενού"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:24
+msgid ""
+"Please change or remove registered labels. You could select menu labels "
+"while you are editing menus."
+msgstr ""
+"Παρακαλούμε να αλλάξετε ή να καταργήσετε εγγεγραμμένοι ετικέτες. Μπορείτε να "
+"επιλέξτε μενού ετικέτες κατά την επεξεργασία μενού."
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:60
+msgid "Label Text to Change"
+msgstr "Ετικέτα Κειμένου για να Αλλάξετε"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:62
+msgid "Label Background Color to Change"
+msgstr "Ετικέτα για να Αλλάξετε το Χρώμα του Φόντου"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:66
+#: woocommerce/compare.php:138 woocommerce/wishlist-view.php:245
+msgid "Remove"
+msgstr "Αφαιρέστε"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:92
+msgid "New Label"
+msgstr "Νέα Ετικέτα"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:93
+msgid "Please input label text and color to register new one."
+msgstr ""
+"Παρακαλώ εισάγετε μια ετικέτα κειμένου και το χρώμα για να καταχωρήσετε ένα "
+"νέο."
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:102
+msgid "Input Label Text"
+msgstr "Εισαγωγή Ετικετών Κειμένου"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:104
+msgid "Choose Label Background Color"
+msgstr "Επιλέξτε Την Ετικέτα Χρώμα Του Φόντου"
+
+#: inc/admin/customizer/option/menu/option-menu-labels.php:107
+msgid "Add"
+msgstr "Προσθέστε"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:10
+msgid "Mobile Sticky Icon Bar"
+msgstr "Κινητό Κολλώδες Εικονίδιο Μπαρ"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:23
+msgid "Mobile Icon Bar"
+msgstr "Το Κινητό Το Εικονίδιο Μπαρ"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:34
+msgid "Mobile Bar Icons"
+msgstr "Κινητό Εικονίδια Στη Γραμμή"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:37
+msgid "Select items to show in mobile sticky bottom bar."
+msgstr "Επιλέξτε στοιχεία προς εμφάνιση σε κινητό κολλώδες κάτω γραμμή."
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:39
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:59
+msgid "Mobile Menu Toggle"
+msgstr "Το Μενού Του Κινητού Εναλλαγή"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:41
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:131
+msgid "Shop"
+msgstr "Κατάστημα"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:42
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:167
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:223
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:276
+#: inc/setup/theme-options.php:137
+#: template_parts/header/elements/element-wishlist.php:19
+msgid "Wishlist"
+msgstr "Wishlist"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:43
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:221
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:274
+#: inc/functions/woocommerce/product-loop.php:553
+#: inc/setup/theme-options.php:139
+msgid "Compare"
+msgstr "Συγκρίνετε"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:44
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:203
+#: inc/setup/theme-options.php:141
+msgid "Account"
+msgstr "Λογαριασμό"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:45
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:239
+#: inc/setup/theme-options.php:143
+msgid "Cart"
+msgstr "Καλάθι"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:46
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:275
+#: inc/setup/theme-options.php:145
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:47
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:311
+#: inc/setup/theme-options.php:147
+msgid "To Top"
+msgstr "Στην Κορυφή"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:70
+msgid "Menu Label"
+msgstr "Μενού Ετικέτα"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:82
+msgid "Menu Icon"
+msgstr "Εικονίδιο Του Μενού"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:106
+msgid "Home Label"
+msgstr "Το Σπίτι Ετικέτα"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:118
+msgid "Home Icon"
+msgstr "Σπίτι Εικονίδιο"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:142
+msgid "Shop Label"
+msgstr "Κατάστημα Ετικέτα"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:154
+msgid "Shop Icon"
+msgstr "Κατάστημα Εικονίδιο"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:178
+msgid "Wishlist Label"
+msgstr "Επιθυμητά Ετικέτα"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:190
+msgid "Wishlist Icon"
+msgstr "Επιθυμητά Εικονίδιο"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:214
+msgid "Account Label"
+msgstr "Λογαριασμό Ετικέτα"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:226
+msgid "Account Icon"
+msgstr "Το Εικονίδιο Λογαριασμού"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:250
+msgid "Cart Label"
+msgstr "Καλάθι Ετικέτα"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:262
+msgid "Cart Icon"
+msgstr "Εικονίδιο Με Το Καλάθι"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:286
+msgid "Search Label"
+msgstr "Αναζητήστε Την Ετικέτα"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:298
+msgid "Search Icon"
+msgstr "Αναζήτηση Εικονίδιο"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:322
+msgid "To Top Label"
+msgstr "Στην Κορυφή Ετικέτα"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile-bar.php:334
+msgid "To Top Icon"
+msgstr "Στην Κορυφή Εικονίδιο"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:10
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:23
+msgid "Mobile Menu"
+msgstr "Το Μενού Του Κινητού"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:40
+msgid "Mobile Menus"
+msgstr "Το Κινητό Μενού"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:43
+msgid "Select which menus you want show in mobile menu."
+msgstr "Επιλέξτε το μενού που θέλετε στο μενού του κινητού."
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:54
+msgid "Mobile Menus Arrange"
+msgstr "Mobile Μενού Οργανώσει"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:57
+msgid "How would you like to arrange several menus?"
+msgstr "Πώς θα θέλατε να οργανώσει διάφορα μενού;"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:59
+msgid "Following"
+msgstr "Παρακάτω"
+
+#: inc/admin/customizer/option/menu/option-menu-mobile.php:60
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:105
+msgid "Tab"
+msgstr "Καρτέλα"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:10
+#: inc/admin/customizer/option/menu/option-menu-skin.php:22
+msgid "Menu Skins"
+msgstr "Μενού Δέρματα"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:23
+msgid ""
+"Change styles of below 3 supported menu skins and assign to different menus."
+msgstr ""
+"Αλλαγή του στυλ της κάτω από το 3 υποστηρίζεται μενού δέρματα και να "
+"εκχωρήσετε σε διαφορετικά μενού."
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:36
+#: inc/admin/customizer/option/menu/option-menu-skin.php:50
+msgid "Skin 1"
+msgstr "Δέρμα 1"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:37
+#: inc/admin/customizer/option/menu/option-menu-skin.php:481
+msgid "Skin 2"
+msgstr "Το δέρμα 2"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:38
+#: inc/admin/customizer/option/menu/option-menu-skin.php:912
+msgid "Skin 3"
+msgstr "Το δέρμα 3"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:70
+#: inc/admin/customizer/option/menu/option-menu-skin.php:501
+#: inc/admin/customizer/option/menu/option-menu-skin.php:932
+msgid "Ancestor"
+msgstr "Πρόγονος"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:71
+#: inc/admin/customizer/option/menu/option-menu-skin.php:502
+#: inc/admin/customizer/option/menu/option-menu-skin.php:933
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:72
+#: inc/admin/customizer/option/menu/option-menu-skin.php:503
+#: inc/admin/customizer/option/menu/option-menu-skin.php:934
+msgid "Toggle"
+msgstr "Εναλλαγή"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:90
+#: inc/admin/customizer/option/menu/option-menu-skin.php:521
+#: inc/admin/customizer/option/menu/option-menu-skin.php:952
+msgid "Ancestor Typography"
+msgstr "Πρόγονος Τυπογραφία"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:92
+#: inc/admin/customizer/option/menu/option-menu-skin.php:523
+#: inc/admin/customizer/option/menu/option-menu-skin.php:954
+msgid ""
+"Menu ancestors are top-level menu items, which can have submenus and "
+"megamenus."
+msgstr ""
+"Μενού πρόγονοί είναι top-level στοιχεία μενού, το οποίο μπορεί να έχει "
+"υπομενού και megamenus."
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:115
+#: inc/admin/customizer/option/menu/option-menu-skin.php:546
+#: inc/admin/customizer/option/menu/option-menu-skin.php:977
+msgid "Ancestor Gap Space (px)"
+msgstr "Πρόγονος Κενό Χώρο (px)"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:139
+#: inc/admin/customizer/option/menu/option-menu-skin.php:570
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1001
+msgid "Ancestor Padding(px)"
+msgstr "Πρόγονος Padding(px)"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:163
+#: inc/admin/customizer/option/menu/option-menu-skin.php:594
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1025
+msgid "Ancestor Background"
+msgstr "Πρόγονος Φόντο"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:190
+#: inc/admin/customizer/option/menu/option-menu-skin.php:621
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1052
+msgid "Ancestor Hover Background"
+msgstr "Πρόγονος Αιωρείται Φόντο"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:217
+#: inc/admin/customizer/option/menu/option-menu-skin.php:648
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1079
+msgid "Ancestor Hover Color"
+msgstr "Πρόγονος Hover Χρώμα"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:244
+#: inc/admin/customizer/option/menu/option-menu-skin.php:675
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1106
+msgid "Content Typography"
+msgstr "Το Περιεχόμενο Τυπογραφία"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:246
+#: inc/admin/customizer/option/menu/option-menu-skin.php:677
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1108
+msgid "Please change style of submenus or megamenus"
+msgstr "Παρακαλούμε να αλλάξετε το στυλ των υπομενού ή megamenus"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:269
+#: inc/admin/customizer/option/menu/option-menu-skin.php:700
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1131
+msgid "Menu Content Background"
+msgstr "Το Περιεχόμενο Του Μενού Φόντο"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:296
+#: inc/admin/customizer/option/menu/option-menu-skin.php:727
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1158
+msgid "Menu Item Hover Background"
+msgstr "Στοιχείο Μενού Hover Φόντο"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:323
+#: inc/admin/customizer/option/menu/option-menu-skin.php:754
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1185
+msgid "Menu Item Hover Color"
+msgstr "Στοιχείο Μενού Hover Χρώμα"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:350
+#: inc/admin/customizer/option/menu/option-menu-skin.php:781
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1212
+msgid "Toggle Typography"
+msgstr "Εναλλαγή Τυπογραφία"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:351
+#: inc/admin/customizer/option/menu/option-menu-skin.php:782
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1213
+msgid "Please change menu toggle's style in toggle-type menus."
+msgstr ""
+"Παρακαλούμε να αλλάξετε το μενού εναλλαγής στυλ σε εναλλαγή τύπου μενού."
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:375
+#: inc/admin/customizer/option/menu/option-menu-skin.php:806
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1237
+msgid "Toggle Padding(px)"
+msgstr "Εναλλαγή Padding(px)"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:399
+#: inc/admin/customizer/option/menu/option-menu-skin.php:830
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1261
+msgid "Toggle Background"
+msgstr "Εναλλαγή Φόντο"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:426
+#: inc/admin/customizer/option/menu/option-menu-skin.php:857
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1288
+msgid "Toggle Hover Background"
+msgstr "Εναλλαγή Αιωρείται Φόντο"
+
+#: inc/admin/customizer/option/menu/option-menu-skin.php:453
+#: inc/admin/customizer/option/menu/option-menu-skin.php:884
+#: inc/admin/customizer/option/menu/option-menu-skin.php:1315
+msgid "Toggle Hover Color"
+msgstr "Εναλλαγή Hover Χρώμα"
+
+#: inc/admin/customizer/option/menu/option-menu.php:10
+msgid "Menus"
+msgstr "Μενού"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-config.php:10
+msgid "PTB Config"
+msgstr "PTB Config"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-config.php:21
+msgid "PTB Type"
+msgstr "PTB Τύπος"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-config.php:39
+msgid "Show Page Title"
+msgstr "Εμφάνιση Τίτλος Της Σελίδας"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-config.php:51
+msgid "Show Page Subtitle"
+msgstr "Εμφάνιση Της Σελίδας Υποτίτλων"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-config.php:63
+msgid "Show Breadcrumb"
+msgstr "Εμφάνιση Ψίχουλο"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:10
+msgid "PTB Style"
+msgstr "PTB Στυλ"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:22
+msgid "Title Bar Style"
+msgstr "Τίτλος Μπαρ Στυλ"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:33
+msgid "Title Bar Height (px)"
+msgstr "Γραμμή τίτλου Ύψος (px)"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:61
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:58
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:69
+msgid "Breadcrumb"
+msgstr "Τριμμένη φρυγανιά"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:72
+msgid "Show Home Icon"
+msgstr "Σπίτι Εικονίδιο"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:73
+msgid "Do you want to show home icon instead of home link?"
+msgstr "Θέλετε να δείτε το σπίτι εικονίδιο αντί για το σπίτι link;"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:85
+msgid "Breadcrumb Delimiter"
+msgstr "Τριμμένη Φρυγανιά Οριοθέτη"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:86
+msgid "Please input delimiter text between breadcrumb links"
+msgstr "Παρακαλώ εισάγετε διαχωριστικό κειμένου μεταξύ ψίχουλο συνδέσμους"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:98
+msgid "Use Icon for Delimiter"
+msgstr "Χρησιμοποιήστε το Εικονίδιο για Οριοθέτη"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:110
+msgid "Delimiter Icon"
+msgstr "Διαχωριστικό Εικονίδιο"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-style.php:111
+msgid "Please input icon class for delimiter symbol"
+msgstr "Παρακαλώ εισάγετε το εικονίδιο κατηγορίας για το διαχωριστικό σύμβολο"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:10
+msgid "PTB Typography"
+msgstr "PTB Τυπογραφία"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:33
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:233
+msgid "Page Title"
+msgstr "Ο Τίτλος Της Σελίδας"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb-typography.php:45
+msgid "Page Subtitle"
+msgstr "Σελίδα Υποτίτλων"
+
+#: inc/admin/customizer/option/page_title_bar/option-ptb.php:13
+msgid "Page Title Bar"
+msgstr "Σελίδα Τίτλου Μπαρ"
+
+#: inc/admin/customizer/option/share/option-share.php:15
+msgid "Share"
+msgstr "Μοιραστείτε"
+
+#: inc/admin/customizer/option/share/option-share.php:27
+#: inc/admin/customizer/option/share/option-share.php:105
+msgid "Share Icons"
+msgstr "Μοιραστείτε Εικονίδια"
+
+#: inc/admin/customizer/option/share/option-share.php:39
+#, php-format
+msgid ""
+"Please change options for %1$ssocial share buttons%2$s in single product and "
+"post page."
+msgstr ""
+"Παρακαλώ να αλλάξετε τις επιλογές για το %1$ssocial κουμπιά μερίδιο%2$s σε "
+"ενιαίο προϊόν και μετά τη σελίδα."
+
+#: inc/admin/customizer/option/share/option-share.php:50
+msgid "Share Icon Type"
+msgstr "Μοιραστείτε Το Εικονίδιο Τύπος"
+
+#: inc/admin/customizer/option/share/option-share.php:68
+msgid "Use Custom Color"
+msgstr "Χρησιμοποιήστε Το Χρώμα Συνήθειας"
+
+#: inc/admin/customizer/option/share/option-share.php:80
+#: inc/admin/customizer/option/style/option-style-color.php:10
+msgid "Color"
+msgstr "Χρώμα"
+
+#: inc/admin/customizer/option/style/option-style-color.php:22
+msgid "Colors"
+msgstr "Χρώματα"
+
+#: inc/admin/customizer/option/style/option-style-color.php:32
+msgid "Primary Color"
+msgstr "Πρωτεύον Χρώμα"
+
+#: inc/admin/customizer/option/style/option-style-color.php:47
+msgid "Secondary Color"
+msgstr "Δευτεροβάθμια Χρώμα"
+
+#: inc/admin/customizer/option/style/option-style-color.php:62
+msgid "Alert Color"
+msgstr "Alert Χρώμα"
+
+#: inc/admin/customizer/option/style/option-style-color.php:77
+msgid "Success Color"
+msgstr "Επιτυχία Χρώμα"
+
+#: inc/admin/customizer/option/style/option-style-color.php:92
+msgid "Dark Color"
+msgstr "Σκούρο Χρώμα"
+
+#: inc/admin/customizer/option/style/option-style-color.php:107
+msgid "Light Color"
+msgstr "Ελαφρύ Χρώμα"
+
+#: inc/admin/customizer/option/style/option-style-skin.php:10
+msgid "Skin"
+msgstr "Δέρμα"
+
+#: inc/admin/customizer/option/style/option-style-skin.php:21
+msgid "Enable Rounded Border"
+msgstr "Ενεργοποίηση Στρογγυλεμένες Σύνορα"
+
+#: inc/admin/customizer/option/style/option-style-skin.php:23
+msgid ""
+"All buttons, images and borders will have border-radius value by default. "
+"Product image is an exception."
+msgstr ""
+"Όλα τα κουμπιά, τις εικόνες και τα σύνορα δεν θα έχουν σύνορα-ακτίνα αξία "
+"από προεπιλογή. Εικόνα του προϊόντος είναι μια εξαίρεση."
+
+#: inc/admin/customizer/option/style/option-style-typography.php:21
+#, php-format
+msgid ""
+"You can set header and footer typography in %1$sHeader/Header "
+"General%2$sFooter/Typography%3$s Section"
+msgstr ""
+"Μπορείτε να ρυθμίσετε την κεφαλίδα και το υποσέλιδο τυπογραφία σε "
+"%1$sHeader/Header Γενική%2$sFooter/Τυπογραφία%3$s Τμήμα"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:31
+msgid "Default Typography"
+msgstr "Προεπιλογή Τυπογραφία"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:53
+msgid "Heading Typography"
+msgstr "Τομέας Τυπογραφία"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:75
+msgid "Custom Google Fonts"
+msgstr "Το Έθιμο Google Γραμματοσειρές"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:85
+msgid "Select other google fonts to download"
+msgstr "Επιλέξτε άλλες γραμματοσειρές google για να κατεβάσετε"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:98
+msgid "Custom 1"
+msgstr "Συνήθειας 1"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:99
+msgid "Custom 2"
+msgstr "Συνήθεια 2"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:100
+msgid "Custom 3"
+msgstr "Συνήθεια 3"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:111
+msgid "Custom Font 1"
+msgstr "Προσαρμοσμένη Γραμματοσειρά 1"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:130
+msgid "Custom Font 2"
+msgstr "Προσαρμοσμένη Γραμματοσειρά 2"
+
+#: inc/admin/customizer/option/style/option-style-typography.php:149
+msgid "Custom Font 3"
+msgstr "Προσαρμοσμένη Γραμματοσειρά 3"
+
+#: inc/admin/customizer/option/style/option-style.php:10
+msgid "Style"
+msgstr "Στυλ"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:9
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:21
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:31
+msgid "Category Type"
+msgstr "Κατηγορία Τύπος"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:57
+msgid "You can refer category elements page"
+msgstr "Μπορείτε να ανατρέξετε κατηγορία στοιχείων σελίδας"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:57
+msgid "here"
+msgstr "εδώ"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:67
+msgid "Content Width Auto"
+msgstr "Το Πλάτος Του Περιεχομένου Auto"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:70
+msgid "Do you want to make content width auto for default type?"
+msgstr ""
+"Θέλετε να κάνετε το πλάτος του περιεχομένου αυτοκινήτου για την προεπιλογή "
+"του τύπου;"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:87
+msgid "Subcategory Count"
+msgstr "Υποκατηγορία Μετράνε"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:90
+msgid "Current category type requires subcategories"
+msgstr "Τρέχουσα κατηγορία τύπος απαιτεί υποκατηγορίες"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:107
+msgid "Imave Hover Effect"
+msgstr "Imave Hover Επίδραση"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-category.php:109
+msgid "Select hover effect of category image when mouse is over."
+msgstr ""
+"Επιλέξτε hover επίδραση της κατηγορίας εικόνας όταν το ποντίκι είναι πάνω "
+"από."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-checkout.php:10
+#: inc/admin/customizer/option/woocommerce/option-wc-checkout.php:22
+msgid "Checkout"
+msgstr "Checkout"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-dokan.php:12
+#: inc/admin/customizer/option/woocommerce/option-wc-dokan.php:38
+msgid "Dokan"
+msgstr "Dokan"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-dokan.php:24
+msgid "Vendor Dashboard"
+msgstr "Πωλητής Ταμπλό"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-dokan.php:34
+msgid "Vendor Dashboard Style"
+msgstr "Πωλητής Ταμπλό Στυλ"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-dokan.php:39
+msgid "Theme"
+msgstr "Το θέμα"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:10
+msgid "Woo Features"
+msgstr "Γου Χαρακτηριστικά"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:22
+msgid "Image Swatch"
+msgstr "Εικόνα Swatch"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:32
+msgid "Enable Image Swatch"
+msgstr "Ενεργοποίηση Εικόνας Swatch"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:34
+msgid ""
+"Check this to use image swatches as well as color swatches and label "
+"swatches."
+msgstr ""
+"Ελέγξτε το για να χρησιμοποιήσετε την εικόνα δείγματα, καθώς και δείγματα "
+"χρωμάτων και ετικέτα δείγματα."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:47
+msgid "Notification"
+msgstr "Κοινοποίηση"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:57
+msgid "Auto remove alerts after (seconds)"
+msgstr "Αυτόματη αφαίρεση ειδοποιήσεις μετά (δευτερόλεπτα)"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:59
+msgid ""
+"Notifications from wishlist, checkout and other Woo pages will be removed "
+"automatically after below time."
+msgstr ""
+"Ειδοποιήσεις από λίστα επιλογών, την ολοκλήρωση της παραγγελίας και άλλες "
+"Γου σελίδες θα αφαιρεθεί αυτόματα μετά από κάτω από το χρόνο."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:72
+msgid "Sales Popup"
+msgstr "Πωλήσεις Popup"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:73
+msgid ""
+"Sales popup shows some products to the visitors including recently sold "
+"products, best selling products, featured products."
+msgstr ""
+"Πωλήσεις αναδυόμενο παράθυρο σας δείχνει κάποια προϊόντα για τους επισκέπτες,"
+" συμπεριλαμβανομένων και πρόσφατα πωλούνται τα προϊόντα, καλύτερα πωλώντας "
+"προϊόντα, προτεινόμενα προϊόντα."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:83
+msgid "Popup Content"
+msgstr "Popup Περιεχόμενο"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:86
+msgid "Select which products you want to show in sales popup."
+msgstr "Επιλέξτε τα προϊόντα που θέλετε να δείξετε σε πωλήσεις popup."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:88
+msgid "Do not show"
+msgstr "Δεν δείχνουν"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:89
+msgid "Popular products"
+msgstr "Δημοφιλή προϊόντα"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:90
+msgid "Top rated products"
+msgstr "Κορυφαία βαθμολογία προϊόντων"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:91
+msgid "Sale products"
+msgstr "Πώληση προϊόντα"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:92
+msgid "Featured products"
+msgstr "Προτεινόμενα προϊόντα"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:93
+msgid "Recent products"
+msgstr "Τα τελευταία προϊόντα"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:94
+msgid "Select a category"
+msgstr "Επιλέξτε μια κατηγορία"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:95
+msgid "Select products"
+msgstr "Επιλέξτε προϊόντα"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:121
+msgid "Sales Popup Category"
+msgstr "Πωλήσεις Popup Κατηγορία"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:140
+msgid "Input Products Ids"
+msgstr "Εισαγωγή Προϊόντων Ids"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:141
+msgid "Input comma seperated product ids for sales popup. e.g) 18, 21, 120"
+msgstr ""
+"Εισαγωγή comma seperated αναγνωριστικά προϊόντος για τις πωλήσεις popup. ε.ζ)"
+" 18, 21, 120"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:161
+msgid "Products Count"
+msgstr "Μετράνε Προϊόντα"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:189
+msgid "Popup Title"
+msgstr "Popup Τίτλο"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:209
+msgid "Start Delay(seconds)"
+msgstr "Καθυστέρηση έναρξης(δευτερόλεπτα)"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:211
+msgid "Change delay time to show the first popup after page loading."
+msgstr ""
+"Αλλαγή του χρόνου καθυστέρησης για να δείξει το πρώτο popup μετά την φόρτωση "
+"της σελίδας."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:234
+msgid "Interval(seconds)"
+msgstr "Διάστημα(δευτερόλεπτα)"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:236
+msgid ""
+"Change duration between popups. Each sales popup will be disappeared after 4 "
+"seconds."
+msgstr ""
+"Αλλαγή διάρκειας μεταξύ αναδυόμενα παράθυρα. Κάθε πωλήσεων αναδυόμενο "
+"παράθυρο θα εξαφανιστεί μετά από 4 δευτερόλεπτα."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:258
+msgid "Enable on Mobile"
+msgstr "Ενεργοποιήστε στο Κινητό"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-feature.php:261
+msgid "Do you want to enable sales popup on mobile?"
+msgstr "Θέλετε να ενεργοποιήσετε τις πωλήσεις popup στο κινητό;"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product-images.php:10
+#: inc/admin/customizer/option/woocommerce/option-wc-product-images.php:22
+msgid "Product Images"
+msgstr "Εικόνες Του Προϊόντος"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:10
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:22
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:32
+msgid "Product Type"
+msgstr "Τύπος Προϊόντος"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:48
+msgid "Hover Effect"
+msgstr "Hover Επίδραση"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:54
+msgid "Slide Up"
+msgstr "Σύρετε Προς Τα Πάνω"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:72
+msgid "Add To Cart Position"
+msgstr "Προσθήκη Στο Καλάθι Θέση"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:75
+msgid ""
+"Change add to cart button's position. Cart button will be placed in blue "
+"filled area."
+msgstr ""
+"Αλλαγή προσθήκη στο καλάθι κουμπί για τη θέση. Καλάθι κουμπί, θα "
+"τοποθετούνται σε μπλε γεμάτο χώρο."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:98
+msgid "Quickview Position"
+msgstr "Quickview Θέση"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:101
+msgid ""
+"Change quickview button's position. Quickview button will be placed in blue "
+"filled area."
+msgstr ""
+"Αλλαγή quickview κουμπί θέση. Quickview κουμπί θα τοποθετηθεί σε μπλε γεμάτο "
+"χώρο."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:122
+msgid "Add To Wishlist Position"
+msgstr "Προσθήκη Στη Λίστα Θέση"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:125
+msgid ""
+"Change wishlist button's position. Wishlist button will be placed in blue "
+"filled area."
+msgstr ""
+"Αλλαγή επιθυμητά κουμπί θέση. Επιθυμητά κουμπί θα τοποθετηθεί σε μπλε γεμάτο "
+"χώρο."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:146
+msgid "Content Align"
+msgstr "Το Περιεχόμενο Align"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:151
+msgid "Center"
+msgstr "Κέντρο"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:163
+msgid "Show In Box"
+msgstr "Εμφάνιση Στο Κουτί"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:164
+msgid ""
+"Products will be shown inside boxes. You can see each products have border "
+"around them."
+msgstr ""
+"Τα προϊόντα σας θα εμφανίζονται μέσα σε κουτιά. Μπορείτε να δείτε κάθε "
+"προϊόν έχει σύνορα γύρω τους."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:176
+msgid "Show Review Text"
+msgstr "Εμφάνιση Κειμένου Κριτική"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:178
+msgid "Review link will be shown like ( * reviews )."
+msgstr "Review link θα εμφανίζεται σαν ( * σχόλια )."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:189
+msgid "Show Split Line"
+msgstr "Δείχνουν Τη Διάσπαση Της Γραμμής"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:190
+msgid ""
+"Vertical and Horizontal dividers will be shown between products. If you set "
+"this option, gap option does not work in product layout."
+msgstr ""
+"Κάθετη και Οριζόντια διαχωριστικά θα πρέπει να εμφανίζεται μεταξύ των "
+"προϊόντων. Εάν ορίσετε αυτήν την επιλογή, το χάσμα επιλογή δεν λειτουργεί σε "
+"διάταξη προϊόντος."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:215
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:268
+msgid "Category"
+msgstr "Κατηγορία"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:216
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:269
+msgid "Label"
+msgstr "Ετικέτα"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:217
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:270
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:229
+#: woocommerce/cart/cart.php:34 woocommerce/cart/cart.php:85
+#: woocommerce/wishlist-view.php:73
+msgid "Price"
+msgstr "Τιμή"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:218
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:271
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:231
+msgid "Rating"
+msgstr "Βαθμολογία"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:219
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:272
+msgid "Attributes"
+msgstr "Χαρακτηριστικά"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:220
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:273
+msgid "Add To Cart"
+msgstr "Προσθήκη Στο Καλάθι"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:222
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:275
+msgid "Quickview"
+msgstr "Quickview"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:240
+msgid "Showing Attributes"
+msgstr "Δείχνει Χαρακτηριστικά"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:242
+msgid ""
+"This is efficient when you are going to show label, color and image swatches."
+" Please make sure that each attribute's type is list."
+msgstr ""
+"Αυτή είναι αποτελεσματική όταν πρόκειται να δείξει την ετικέτα, το χρώμα και "
+"την εικόνα δείγματα. Παρακαλώ βεβαιωθείτε ότι κάθε χαρακτηριστικό του τύπου "
+"είναι λίστα."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:254
+msgid "Change different access roles for each items"
+msgstr "Αλλαγή διαφορετική πρόσβαση ρόλους για κάθε στοιχεία"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:265
+#: inc/setup/theme-options.php:667
+msgid "Visitor"
+msgstr "Επισκέπτης"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:307
+msgid "Quickview Popup"
+msgstr "Quickview Popup"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:317
+msgid "Quickview Loading Type"
+msgstr "Quickview Τύπος Φόρτωσης"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:320
+msgid ""
+"Select appearance of quickview while your site is loading product details."
+msgstr ""
+"Επιλέξτε την εμφάνιση του quickview, ενώ το site σας φορτώνει τις "
+"λεπτομέρειες του προϊόντος."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:322
+msgid "Skeleton"
+msgstr "Σκελετός"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:324
+msgid "Loading"
+msgstr "Φόρτωση"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:326
+#, php-format
+msgid ""
+"Skeleton type is available only if skeleton screen is enabled. You could "
+"enable skeleton screen in %1$sTheme Option > Advanced > Theme Features%2$s"
+msgstr ""
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:336
+msgid "Hover Effects"
+msgstr "Hover Επιδράσεις"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:346
+msgid "Box shadow on Hover"
+msgstr "Σκιά κουτί για Hover"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:349
+msgid "Show shadow of product when mouse is over."
+msgstr "Εμφάνιση σκιά του προϊόντος όταν το ποντίκι είναι πάνω από."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:366
+msgid "Media Shadow Effect on Hover"
+msgstr "Media Σκιά Επίδραση στο Hover"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:367
+msgid "Show shadow of Product Image when mouse is over."
+msgstr "Εμφάνιση σκιάς Εικόνα του Προϊόντος, όταν το ποντίκι είναι πάνω από."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:379
+msgid "Change Image on Hover"
+msgstr "Αλλάξτε την Εικόνα για Hover"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-product.php:381
+msgid ""
+"Show second product image when mouse is over. You could change this option "
+"for individual products"
+msgstr ""
+"Εκπομπή δεύτερη εικόνα του προϊόντος, όταν το ποντίκι είναι πάνω από. "
+"Μπορείτε να αλλάξετε αυτή την επιλογή για μεμονωμένα προϊόντα"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:10
+msgid "Shop Pages"
+msgstr "Σελίδες Κατάστημα"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:22
+msgid "Shop Configuration"
+msgstr "Κατάστημα Διαμόρφωση"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:32
+msgid "Shop page display"
+msgstr "Κατάστημα εμφάνιση της σελίδας"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:33
+msgid "Choose what to display on the main shop page."
+msgstr "Επιλέξτε τι θέλετε να εμφανίσετε στην κύρια σελίδα του καταστήματος."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:35
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:52
+msgid "Show products"
+msgstr "Δείτε τα προϊόντα"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:36
+msgid "Show categories"
+msgstr "Εμφάνιση κατηγορίες"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:37
+msgid "Show categories &amp; products"
+msgstr "Εμφάνιση κατηγορίες & προϊόντα"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:49
+msgid "Category display"
+msgstr "Κατηγορία επίδειξης"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:50
+msgid "Choose what to display on product category pages."
+msgstr "Επιλέξτε τι θέλετε να εμφανίσετε στις σελίδες κατηγορία προϊόντος."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:53
+msgid "Show subcategories"
+msgstr "Εμφάνιση υποκατηγορίες"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:54
+msgid "Show subcategories &amp; products"
+msgstr "Εμφάνιση υποκατηγορίες & προϊόντα"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:66
+msgid "Default product sorting"
+msgstr "Προεπιλεγμένη ταξινόμηση προϊόντων"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:67
+msgid "How should products be sorted in shop page by default?"
+msgstr ""
+"Πώς θα πρέπει τα προϊόντα να ταξινομηθούν σε κατάστημα σελίδα από προεπιλογή;"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:71
+msgid "Default sorting (custom ordering + name)"
+msgstr "Προεπιλεγμένη ταξινόμηση (προσαρμοσμένη διαταγή + όνομα)"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:72
+msgid "Popularity (sales)"
+msgstr "Δημοτικότητα (πωλήσεις)"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:73
+msgid "Average rating"
+msgstr "Μέση βαθμολογία"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:74
+msgid "Sort by most recent"
+msgstr "Το είδος με την πιο πρόσφατη"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:75
+msgid "Sort by price (asc)"
+msgstr "Ταξινόμηση κατά τιμή (asc)"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:76
+msgid "Sort by price (desc)"
+msgstr "Ταξινόμηση κατά τιμή (desc)"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:89
+msgid "Shop Grid"
+msgstr "Δίκτυο Καταστημάτων"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:100
+msgid "Products per row"
+msgstr "Προϊόντα ανά σειρά"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:101
+msgid "How many products should be shown per row?"
+msgstr "Πόσα προϊόντα πρέπει να εμφανίζονται ανά σειρά;"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:117
+msgid "List Type Products per row"
+msgstr "Λίστα Τύπος Προϊόντων ανά σειρά"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:118
+msgid "How many products should be shown per row when it is list view mode."
+msgstr ""
+"Πόσα προϊόντα πρέπει να εμφανίζονται ανά σειρά, όταν είναι κατάσταση "
+"προβολής λίστας."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:134
+msgid "Products Gap"
+msgstr "Προϊόντα Χάσμα"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:135
+msgid "Change gap size between products"
+msgstr "Αλλαγή χάσμα μεγέθους μεταξύ προϊόντων"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:138
+msgid "XS"
+msgstr "XS"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:139
+#: inc/setup/theme-setup.php:85
+msgid "S"
+msgstr "S"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:140
+#: inc/setup/theme-setup.php:97
+msgid "M"
+msgstr "M"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:141
+#: inc/setup/theme-setup.php:103
+msgid "L"
+msgstr "L"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:154
+msgid "Simple Shop"
+msgstr "Απλό Κατάστημα"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:155
+msgid ""
+"Show only basic information including image, name and price. The else will "
+"be hidden."
+msgstr ""
+"Δείχνουν μόνο τις βασικές πληροφορίες, συμπεριλαμβανομένων εικόνα, το όνομα "
+"και την τιμή. Το άλλο θα είναι κρυφό."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:167
+msgid "Enable Sticky Toolbox on Mobile."
+msgstr "Ενεργοποίηση Κολλώδη Εργαλειοθήκη στο Κινητό."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:168
+msgid "Show sticky toolbox on mobile."
+msgstr "Εμφάνιση κολλώδη εργαλειοθήκη στο κινητό."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:182
+msgid "Select method to load more products."
+msgstr "Επιλέξτε τη μέθοδο για να φορτώσετε περισσότερα προϊόντα."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:218
+msgid "Shop Top Toolbox"
+msgstr "Το Κατάστημα Top Εργαλειοθήκη"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:229
+msgid "Top Toolbox Items"
+msgstr "Κορυφή Εργαλειοθήκη Στοιχείων"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:230
+msgid "Check items to show in shop page's top toolbox bar"
+msgstr ""
+"Ελέγξτε στοιχεία προς εμφάνιση σε μαγαζί της σελίδας κορυφή εργαλειοθήκη μπαρ"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:234
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:278
+msgid "Result Count of Products"
+msgstr "Αποτέλεσμα Καταμέτρηση των Προϊόντων"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:235
+msgid "Sort By Selectbox"
+msgstr "Ταξινόμηση Κατά Selectbox"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:236
+msgid "View Type Select"
+msgstr "Επιλέξτε Έναν Τύπο Προβολής"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:237
+msgid "Per Page Select Box"
+msgstr "Ανά Σελίδα Επιλέξτε Το Πλαίσιο"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:238
+msgid "Category Filter"
+msgstr "Κατηγορία Φίλτρου"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:239
+msgid "Toggle Type Search"
+msgstr "Εναλλαγή Τύπος Αναζήτησης"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:251
+msgid "Per Page Select Options"
+msgstr "Ανά Σελίδα Επιλέξτε Επιλογές"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:252
+msgid ""
+"Please input comma separated integers. Every integers will be shown as "
+"option of select box in product archive page. Integer with prefix \"_\" will "
+"be default count. e.g: 9, _12, 24, 36"
+msgstr ""
+"Παρακαλώ εισάγετε διαχωρισμένες με κόμμα ακέραιοι. Κάθε ακέραιοι αριθμοί θα "
+"εμφανίζονται ως επιλογή επιλέξτε το πλαίσιο στο προϊόν σελίδα αρχείο. "
+"Ακέραιος αριθμός με πρόθεμα \"_\" θα είναι προεπιλεγμένη αρίθμηση. ε.g: 9, "
+"_12, 24, 36"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:263
+msgid "Shop Bottom Toolbox"
+msgstr "Κατάστημα Κάτω Εργαλειοθήκη"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:274
+msgid "Bottom Toolbox Items"
+msgstr "Κάτω Εργαλειοθήκη Στοιχείων"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-shop.php:275
+msgid "Check items to show in shop page's bottom toolbox bar"
+msgstr ""
+"Ελέγξτε στοιχεία προς εμφάνιση σε μαγαζί της σελίδας κάτω εργαλειοθήκη μπαρ"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:10
+msgid "Product Detail Page"
+msgstr "Προϊόν Λεπτομέρεια Σελίδα"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:22
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:32
+msgid "Single Product Type"
+msgstr "Ενιαίος Τύπος Προϊόντων"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:34
+msgid ""
+"Use supported single product preset or build your own. You can build your "
+"own product page with Riode Template Builder. Please visit products menu of "
+"Riode demos to get complete understanding of each presets."
+msgstr ""
+"Χρήση υποστηρίζεται μόνο προϊόν preset ή να χτίσετε το δικό σας. Μπορείτε να "
+"δημιουργήσετε το δικό σας προϊόν σελίδα με Riode Οικοδόμος Πρότυπο. "
+"Παρακαλούμε επισκεφθείτε προϊόντα μενού Riode demos για να πάρετε την πλήρη "
+"κατανόηση του κάθε preset."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:73
+#, php-format
+msgid "You could build your product layout with %1$sSingle Product Builder%2$s"
+msgstr ""
+"Μπορείς να φτιάξεις το προϊόν σας διάταξη με %1$sSingle Προϊόν Οικοδόμος%2$s"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:84
+msgid "Breadcrumb + Navigation Position"
+msgstr "Τριμμένη Φρυγανιά + Πλοήγησης Θέση"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:85
+msgid ""
+"This option is for breadcrumb and navigation position in single product page."
+msgstr ""
+"Αυτή η επιλογή είναι για ψίχουλο πλοήγησης και θέση σε μία σελίδα του "
+"προϊόντος."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:88
+msgid "On Top"
+msgstr "Στην Κορυφή"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:89
+msgid "Hide"
+msgstr "Απόκρυψη"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:101
+msgid "Data Tab Type"
+msgstr "Στην Καρτέλα Δεδομένα Τύπος"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:103
+msgid ""
+"You could select tab or accordion type of product data tab. Data tab "
+"includes description, additional information and reviews by default. However "
+"you could add some more."
+msgstr ""
+"Μπορείτε να επιλέξετε την καρτέλα ή ακορντεόν τύπος προϊόντος καρτέλα "
+"δεδομένα. Καρτέλα \"δεδομένα\" και περιλαμβάνει την περιγραφή, πρόσθετες "
+"πληροφορίες και κριτικές από προεπιλογή. Ωστόσο, μπορείτε να προσθέσετε λίγο "
+"περισσότερο."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:106
+msgid "Accordion"
+msgstr "Ακορντεόν"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:118
+msgid "Cart Sticky"
+msgstr "Καλάθι Sticky"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:120
+msgid ""
+"Add to cart area will be sticky while scrolling to make visitors easy to buy."
+msgstr ""
+"Προσθήκη στο καλάθι περιοχή θα είναι κολλώδης, ενώ κύλιση για να κάνουν τους "
+"επισκέπτες εύκολο να αγοράσει."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:131
+msgid "Data Tab Inside"
+msgstr "Στην Καρτέλα Δεδομένα Μέσα"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:133
+msgid "Do you want place product data tab inside product information column?"
+msgstr ""
+"Θέλεις θέση του προϊόντος στην καρτέλα δεδομένα μέσα πληροφορίες για το "
+"προϊόν στήλη;"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:144
+msgid "Global Additional Data Tab"
+msgstr "Σφαιρικός Πρόσθετες Καρτέλα Δεδομένα"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:155
+msgid "This is global data tab and will be shown all product detail pages."
+msgstr ""
+"Αυτό είναι παγκόσμια καρτέλα \"δεδομένα\" και εμφανίζονται όλες οι σελίδες "
+"λεπτομερειών του προϊόντος."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:167
+msgid "Custom Tab Content Block"
+msgstr "Προσαρμοσμένη Καρτέλα Περιεχόμενο Μπλοκ"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:168
+msgid "Please select global additional product data tab."
+msgstr "Παρακαλώ επιλέξτε σφαιρικός πρόσθετες προϊόντων καρτέλα δεδομένα."
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:182
+msgid "Related Products"
+msgstr "Σχετικά Προϊόντα"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:193
+msgid "Count of Related Products"
+msgstr "Καταμέτρηση των Συναφών Προϊόντων"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:205
+msgid "Related Products per Row"
+msgstr "Σχετικά Προϊόντα ανά Σειρά"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:230
+msgid "Random"
+msgstr "Τυχαία"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-single.php:233
+msgid "Total Sales"
+msgstr "Το Σύνολο Των Πωλήσεων"
+
+#: inc/admin/customizer/option/woocommerce/option-wc-store-notice.php:10
+#: inc/admin/customizer/option/woocommerce/option-wc-store-notice.php:22
+msgid "Store Notice"
+msgstr "Κατάστημα Προειδοποίηση"
+
+#: inc/admin/customizer/option/woocommerce/option-woocommerce.php:11
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/admin/customizer/option/wp/option-wp.php:10
+msgid "Site Identity"
+msgstr "Ταυτότητα Της Τοποθεσίας"
+
+#: inc/admin/customizer/option/wp/option-wp.php:18
+#: inc/admin/setup_wizard/views/demo.php:51
+msgid "Widgets"
+msgstr "Widgets"
+
+#: inc/admin/customizer/option/wp/option-wp.php:26
+msgid "Homepage Settings"
+msgstr "Αρχική Σελίδα Ρυθμίσεις"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:142
+msgid "Loading Failed"
+msgstr "Φόρτωση Απέτυχε"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:143
+#: inc/admin/setup_wizard/setup_wizard.php:239
+msgid "Failed"
+msgstr "Απέτυχε"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:144
+#: inc/admin/setup_wizard/setup_wizard.php:240
+msgid "Ajax error"
+msgstr "Σφάλμα Ajax"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:328
+#: inc/admin/optimize_wizard/optimize_wizard.php:406
+#: inc/admin/setup_wizard/setup_wizard.php:445
+msgid "No Slug Found"
+msgstr "Όχι Σφαίρα Που Βρέθηκαν"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:348
+#: inc/admin/setup_wizard/setup_wizard.php:465
+msgid "Activating Plugin"
+msgstr "Ενεργοποίηση Plugin"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:363
+#: inc/admin/setup_wizard/setup_wizard.php:480
+msgid "Updating Plugin"
+msgstr "Ενημέρωση Plugin"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:378
+#: inc/admin/setup_wizard/setup_wizard.php:495
+msgid "Installing Plugin"
+msgstr "Εγκατάσταση Του Plugin"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:392
+#: inc/admin/setup_wizard/setup_wizard.php:509
+msgid "Success"
+msgstr "Επιτυχία"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:414
+msgid "Sorry, you are not allowed to deactivate this plugin."
+msgstr "Συγνώμη, δεν επιτρέπεται να απενεργοποιήσετε αυτό το plugin."
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:436
+msgid "Resources"
+msgstr "Πόρων"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:442
+#: inc/admin/optimize_wizard/views/lazyload.php:4
+msgid "Lazyload"
+msgstr "Lazyload"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:448
+msgid "Peformance"
+msgstr "Peformance"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:457
+#: inc/admin/optimize_wizard/views/plugins.php:4
+#: inc/admin/optimize_wizard/views/widgets.php:9
+#: inc/admin/setup_wizard/setup_wizard.php:175
+msgid "Plugins"
+msgstr "Plugins"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:465
+#: inc/admin/setup_wizard/setup_wizard.php:190
+msgid "Ready!"
+msgstr "Έτοιμο!"
+
+#: inc/admin/optimize_wizard/optimize_wizard.php:489
+#: inc/admin/optimize_wizard/optimize_wizard.php:506
+#: inc/admin/optimize_wizard/optimize_wizard.php:545
+msgid "Nonce Error"
+msgstr "Nonce Σφάλμα"
+
+#: inc/admin/optimize_wizard/views/index.php:9
+#: inc/admin/setup_wizard/views/index.php:9
+msgid "Riode eCommerce"
+msgstr "Riode ηλεκτρονικού εμπορίου"
+
+#: inc/admin/optimize_wizard/views/index.php:9
+#: inc/admin/setup_wizard/views/index.php:9
+msgid "version"
+msgstr "έκδοση"
+
+#: inc/admin/optimize_wizard/views/index.php:14
+msgid ""
+"Riode optimize wizard will help you configure proper website with optimum "
+"resources and peak efficiency."
+msgstr ""
+"Riode βελτιστοποίηση οδηγός θα σας βοηθήσει να ρυθμίσετε τη σωστή ιστοσελίδα "
+"με τον βέλτιστο πόρων και μέγιστη αποδοτικότητα."
+
+#: inc/admin/optimize_wizard/views/index.php:15
+msgid ""
+"Note! Make sure that you have finished developing. Changes after running "
+"this wizard will not be affected. If you have such a problem, please rerun "
+"this wizard."
+msgstr ""
+"Σημείωση! Βεβαιωθείτε ότι έχετε τελειώσει την ανάπτυξη. Αλλαγές μετά την "
+"εκτέλεση αυτού του οδηγού δεν θα επηρεαστούν. Αν έχετε ένα τέτοιο πρόβλημα, "
+"εκτελέστε ξανά τον οδηγό αυτό."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:6
+msgid ""
+"This will help you make your site faster by lazyloading images and contents."
+msgstr ""
+"Αυτό θα σας βοηθήσει να κάνετε το site σας πιο γρήγορα από lazyloading "
+"εικόνες και περιεχόμενο."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:9
+msgid "Lazyload Images"
+msgstr "Lazyload Εικόνες"
+
+#: inc/admin/optimize_wizard/views/lazyload.php:11
+msgid ""
+"All image resources will be lazyloaded so that page's loading speed gets "
+"faster."
+msgstr ""
+"Όλοι οι πόροι της εικόνας θα είναι lazyloaded ώστε σελίδας ταχύτητα φόρτωσης "
+"γίνεται πιο γρήγορα."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:12
+msgid ""
+"Use with caution! Disable this option if you have any compability problems."
+msgstr ""
+"Χρησιμοποιήστε το με προσοχή! Απενεργοποιήστε αυτή την επιλογή αν έχετε "
+"οποιαδήποτε compability προβλήματα."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:15
+msgid "Lazyload Menus"
+msgstr "Lazyload Μενού"
+
+#: inc/admin/optimize_wizard/views/lazyload.php:17
+msgid "Menus will be lazyloaded and cached in browsers for faster load."
+msgstr ""
+"Τα μενού θα είναι lazyloaded και να αποθηκεύονται προσωρινά σε προγράμματα "
+"περιήγησης για ταχύτερη φόρτωση."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:18
+msgid ""
+"Cached menus will be updated after they have been changed or customizer "
+"panel has been saved."
+msgstr ""
+"Προσωρινά μενού θα πρέπει να ενημερώνεται μετά την αλλαγή τους ή customizer "
+"επιτροπή έχει αποθηκευτεί."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:23
+msgid ""
+"Instead of real content, skeleton is used to enhance speed of page loading "
+"and makes it more beautiful."
+msgstr ""
+"Αντί για το πραγματικό περιεχόμενο, σκελετών χρησιμοποιείται για να "
+"ενισχύσει την ταχύτητα φόρτωσης της σελίδας και να την κάνει πιο όμορφη."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:26
+msgid "Enable Web Font Loader"
+msgstr "Ενεργοποίηση Web Γραμματοσειράς Loader"
+
+#: inc/admin/optimize_wizard/views/lazyload.php:32
+#, php-format
+msgid ""
+"Using %1$sWeb Font Loader%2$s, you can enhance page loading speed by about 4 "
+"percent in %3$sGoogle PageSpeed Insights%4$s for both mobile and desktop."
+msgstr ""
+"Χρησιμοποιώντας το %1$sWeb Γραμματοσειρά Φορτωτής%2$s, μπορείτε να "
+"βελτιώσετε την ταχύτητα φόρτωσης της σελίδας κατά περίπου 4% σε %3$sGoogle "
+"PageSpeed Insights%4$s και για τα δύο κινητά και desktop."
+
+#: inc/admin/optimize_wizard/views/lazyload.php:42
+#: inc/admin/optimize_wizard/views/resources.php:65
+#: inc/admin/optimize_wizard/views/widgets.php:53
+#: inc/admin/setup_wizard/views/customize.php:30
+#: inc/admin/setup_wizard/views/demo.php:218
+msgid "Skip this step"
+msgstr "Παραλείψτε αυτό το βήμα"
+
+#: inc/admin/optimize_wizard/views/lazyload.php:43
+#: inc/admin/optimize_wizard/views/resources.php:66
+msgid "Save & Continue"
+msgstr "Save & Continue"
+
+#: inc/admin/optimize_wizard/views/plugins.php:6
+msgid "1. Recommended Plugins"
+msgstr "1. Συνιστάται Plugins"
+
+#: inc/admin/optimize_wizard/views/plugins.php:11
+msgid "This will install the plugins which can acclerate your site."
+msgstr ""
+"Αυτό θα εγκαταστήσει τα plugins τα οποία μπορεί να acclerate το site σας."
+
+#: inc/admin/optimize_wizard/views/plugins.php:12
+msgid ""
+"You should disable below plugins while in development. Changes may not be "
+"applied because of them."
+msgstr ""
+"Θα πρέπει να απενεργοποιήσετε το παρακάτω plugins, ενώ σε εξέλιξη. Αλλαγές "
+"δεν μπορεί να εφαρμοστεί εξαιτίας τους."
+
+#: inc/admin/optimize_wizard/views/plugins.php:37
+msgid "How to enable leverage browser  caching."
+msgstr "Πώς να ενεργοποιήσετε το leverage browser caching."
+
+#: inc/admin/optimize_wizard/views/plugins.php:38
+msgid ""
+"Page loading duration can be significantly improved by asking visitors to "
+"save and reuse the files included in your website."
+msgstr ""
+"Φόρτωση της σελίδας διάρκεια μπορεί να βελτιωθεί σημαντικά, ζητώντας από "
+"τους επισκέπτες αποθήκευση και επαναχρησιμοποίηση των αρχείων που "
+"περιλαμβάνονται στην ιστοσελίδα σας."
+
+#: inc/admin/optimize_wizard/views/plugins.php:43
+msgid "Good News! All recommended plugins are already installed up-to-date."
+msgstr ""
+"Καλά Νέα! Όλες οι συνιστώμενες plugins είναι ήδη εγκατεστημένο up-to-"
+"ημερομηνία."
+
+#: inc/admin/optimize_wizard/views/plugins.php:49
+msgid "2. Installed Plugins"
+msgstr "2. Τα Εγκατεστημένα Plugins"
+
+#: inc/admin/optimize_wizard/views/plugins.php:50
+msgid "Please check active plugins. You can deactivate unnecessary plugins."
+msgstr ""
+"Παρακαλώ ελέγξτε active plugins. Μπορείτε να απενεργοποιήσετε περιττές "
+"προσθήκες."
+
+#: inc/admin/optimize_wizard/views/plugins.php:54
+msgid "Plugin Name"
+msgstr "Plugin Όνομα"
+
+#: inc/admin/optimize_wizard/views/plugins.php:55
+#: inc/admin/optimize_wizard/views/templates_load.php:28
+#: inc/admin/optimize_wizard/views/templates_load.php:56
+msgid "Action"
+msgstr "Δράση"
+
+#: inc/admin/optimize_wizard/views/plugins.php:63
+#: inc/admin/panel/views/activate.php:62
+msgid "Deactivate"
+msgstr "Απενεργοποίηση"
+
+#: inc/admin/optimize_wizard/views/plugins.php:74
+msgid "Network Activate"
+msgstr "Το Δίκτυο Την Ενεργοποίηση"
+
+#: inc/admin/optimize_wizard/views/plugins.php:83
+msgid "Share Plugins Information"
+msgstr "Μοιραστείτε Plugins Πληροφορίες"
+
+#: inc/admin/optimize_wizard/views/plugins.php:84
+msgid ""
+"Please contribute to upgrade theme and your site to the best one! Your "
+"cooperation would be highly appreciated."
+msgstr ""
+"Παρακαλώ να συμβάλει στην αναβάθμιση του θέμα και το site σας προς το "
+"καλύτερο! Η συνεργασία σας θα εκτιμηθεί ιδιαίτερα."
+
+#: inc/admin/optimize_wizard/views/plugins.php:85
+msgid ""
+"We will never collect any sensivite or private data such as IP addresses, "
+"email, usernames, or passwords."
+msgstr ""
+"Ποτέ δεν θα συλλέξουμε οποιαδήποτε sensivite ή ιδιωτικών δεδομένων, όπως IP "
+"διευθύνσεις, e-mail, ονόματα χρήστη ή κωδικούς πρόσβασης."
+
+#: inc/admin/optimize_wizard/views/plugins.php:89
+#: inc/admin/setup_wizard/views/customize.php:37
+#: inc/admin/setup_wizard/views/demo.php:219
+#: inc/admin/setup_wizard/views/plugins.php:75
+#: inc/admin/setup_wizard/views/status.php:178
+msgid "Continue"
+msgstr "Συνεχίστε"
+
+#: inc/admin/optimize_wizard/views/ready.php:5
+msgid "Your Website is now optimized much better than before!"
+msgstr ""
+"Η Ιστοσελίδα σας είναι τώρα βελτιστοποιημένη πολύ καλύτερα από ό, τι πριν!"
+
+#: inc/admin/optimize_wizard/views/ready.php:7
+msgid ""
+"Congratulations! The Site is now much faster, better and fully optimized. "
+"Please visit your new site to notice how its performance changed."
+msgstr ""
+"Συγχαρητήρια! Η Ιστοσελίδα είναι τώρα πολύ πιο γρήγορα, καλύτερα και πλήρως "
+"βελτιστοποιηθεί. Παρακαλούμε επισκεφθείτε το νέο site για να παρατηρήσετε "
+"πώς η απόδοση αλλάξει."
+
+#: inc/admin/optimize_wizard/views/ready.php:7
+#: inc/admin/setup_wizard/views/ready.php:48
+msgid "View your new website!"
+msgstr "Δείτε τη νέα σας ιστοσελίδα!"
+
+#: inc/admin/optimize_wizard/views/ready.php:13
+msgid "Leave a Comment"
+msgstr "Αφήστε ένα Σχόλιο"
+
+#: inc/admin/optimize_wizard/views/ready.php:18
+#, php-format
+msgid ""
+"Are you satisfied by Riode Optimize Wizard? If you find any bugs or any new "
+"suggestions, please %1$sleave a comment %2$s. Thank you."
+msgstr ""
+"Είστε ικανοποιημένος από Riode Βελτιστοποίηση Μάγος; Αν βρείτε οποιαδήποτε "
+"σφάλματα ή νέες προτάσεις, παρακαλούμε %1$sleave ένα σχόλιο %2$s. Ευχαριστώ."
+
+#: inc/admin/optimize_wizard/views/ready.php:27
+#, php-format
+msgid ""
+"Please leave a %1$s5-star rating%2$s if you are satisfied with this theme. "
+"Thanks!"
+msgstr ""
+"Παρακαλώ αφήστε %1$s5-star rating%2$s εάν είστε ικανοποιημένοι με αυτό το "
+"θέμα. Ευχαριστώ!"
+
+#: inc/admin/optimize_wizard/views/resources.php:4
+msgid "Performance"
+msgstr "Απόδοση"
+
+#: inc/admin/optimize_wizard/views/resources.php:9
+msgid "Disable animations in mobile"
+msgstr "Απενεργοποίηση κινούμενες εικόνες στο κινητό"
+
+#: inc/admin/optimize_wizard/views/resources.php:12
+msgid "Preload Fonts"
+msgstr "Προφόρτιση Γραμματοσειρές"
+
+#: inc/admin/optimize_wizard/views/resources.php:15
+#, php-format
+msgid ""
+"This improves page load time as the browser caches preloaded resources so "
+"they are available immediately when needed. By using this option, you can "
+"increase page speed about 1 ~ 4 percent in %1$sGoogle PageSpeed Insights%2$s "
+"for both of mobile and desktop."
+msgstr ""
+"Αυτό βελτιώνει το χρόνο φόρτωσης της σελίδας, όπως το πρόγραμμα περιήγησης "
+"αποθηκεύει προεγκατεστημένο πόρων, έτσι ώστε να είναι άμεσα διαθέσιμα όταν "
+"χρειάζεται. Χρησιμοποιώντας αυτήν την επιλογή, μπορείτε να αυξήσετε την "
+"ταχύτητα της σελίδας για 1 ~ 4% σε %1$sGoogle PageSpeed Insights%2$s και για "
+"τα δύο κινητά και desktop."
+
+#: inc/admin/optimize_wizard/views/resources.php:25
+msgid "Riode Icons"
+msgstr "Riode Εικονίδια"
+
+#: inc/admin/optimize_wizard/views/resources.php:28
+msgid "Font Awesome 5 Solid"
+msgstr "Font Awesome 5 Στερεά"
+
+#: inc/admin/optimize_wizard/views/resources.php:31
+msgid "Font Awesome 5 Regular"
+msgstr "Font Awesome 5 Τακτικές"
+
+#: inc/admin/optimize_wizard/views/resources.php:34
+msgid "Font Awesome 5 Brands"
+msgstr "Font Awesome 5 Μάρκες"
+
+#: inc/admin/optimize_wizard/views/resources.php:38
+msgid ""
+"Please input other resources that will be pre loaded. Ex. https://d-themes."
+"com/wordpress/riode/wp-content/themes/riode-child/fonts/custom.woff2."
+msgstr ""
+
+#: inc/admin/optimize_wizard/views/resources.php:42
+msgid "Asynchronous Scripts"
+msgstr "Ασύγχρονη Σενάρια"
+
+#: inc/admin/optimize_wizard/views/resources.php:45
+msgid "Asynchronous load"
+msgstr "Ασύγχρονη φόρτωση"
+
+#: inc/admin/optimize_wizard/views/resources.php:47
+msgid ""
+"Some javascript libraries does not affect first paint. And you can increase "
+"page loading speed by loading them asynchronously."
+msgstr ""
+"Ορισμένες βιβλιοθήκες javascript δεν επηρεάζει πρώτο χρώμα. Και μπορείτε να "
+"αυξήσετε την ταχύτητα φόρτωσης της σελίδας από τη φόρτωση τους ασύγχρονα."
+
+#: inc/admin/optimize_wizard/views/resources.php:50
+msgid "Split tasks"
+msgstr "Διάσπαση εργασιών"
+
+#: inc/admin/optimize_wizard/views/resources.php:52
+msgid ""
+"Long time tasks may cause unintentional rendering suspension or affect to "
+"its performance. To make pages faster, please check split task option."
+msgstr ""
+"Καιρό καθήκοντα μπορεί να προκαλέσει ακούσια δίνει αναστολή ή να επηρεάσει "
+"τις επιδόσεις του. Για να κάνει τις σελίδες πιο γρήγορα, παρακαλώ ελέγξτε "
+"split task επιλογή."
+
+#: inc/admin/optimize_wizard/views/resources.php:55
+msgid "Only necessary JS at loading"
+msgstr "Μόνο απαραίτητο JS στο φόρτωσης"
+
+#: inc/admin/optimize_wizard/views/resources.php:57
+msgid ""
+"While page is loaded, there exists a lot of unnecessary javascripts running "
+"during initialization. If they works in idle time and only necessary ones "
+"runs while loading time, page speed will be faster."
+msgstr ""
+"Ενώ η σελίδα φορτώνεται, υπάρχουν πολλά περιττά javascripts που τρέχουν κατά "
+"την εκκίνηση. Αν λειτουργεί σε χρόνο αδράνειας και μόνο από τα αναγκαία "
+"μέτρα εκτελείται κατά τη φόρτωση του χρόνου, την ταχύτητα της σελίδας θα "
+"είναι ταχύτερη."
+
+#: inc/admin/optimize_wizard/views/resources.php:60
+msgid "Process after load event"
+msgstr "Διαδικασία μετά το συμβάν φόρτωσης"
+
+#: inc/admin/optimize_wizard/views/resources.php:62
+msgid ""
+"This will accelerate page's load time. But this may cause compatibility "
+"issue since page still not be ready. It will be in ready state after "
+"document or window load event is ready. To fix this problem, Please add "
+"event handlers to window's \"riode_complete\" event."
+msgstr ""
+"Αυτό θα επιταχύνει το χρόνο φόρτωσης σελίδας. Αλλά αυτό μπορεί να προκαλέσει "
+"το ζήτημα της συμβατότητας του δεδομένου ότι η σελίδα δεν είναι ακόμα "
+"έτοιμος. Θα είναι σε κατάσταση ready (έτοιμος), αφού το έγγραφο ή το "
+"παράθυρο load event είναι έτοιμο. Για να διορθώσετε αυτό το πρόβλημα, "
+"Παρακαλούμε προσθήκη προγραμμάτων χειρισμού συμβάντων για το παράθυρο "
+"\"riode_complete\" εκδήλωση."
+
+#: inc/admin/optimize_wizard/views/templates_load.php:16
+msgid "Through this step, you can remove unused layouts and sidebars."
+msgstr ""
+"Μέσα από αυτό το βήμα, μπορείτε να αφαιρέσετε αχρησιμοποίητα διατάξεις και "
+"πλαϊνές μπάρες."
+
+#: inc/admin/optimize_wizard/views/templates_load.php:18
+msgid ""
+"Selected items will be saved for next use and the others will be "
+"automatically removed."
+msgstr ""
+"Τα επιλεγμένα στοιχεία θα πρέπει να αποθηκεύονται για την επόμενη χρήση και "
+"οι άλλοι θα καταργηθούν αυτόματα."
+
+#: inc/admin/optimize_wizard/views/templates_load.php:21
+msgid "Please check used layouts and sidebars!"
+msgstr "Παρακαλώ ελέγξτε χρησιμοποιείται διατάξεις και πλαϊνές μπάρες!"
+
+#: inc/admin/optimize_wizard/views/templates_load.php:23
+msgid "1. Layouts"
+msgstr "1. Διατάξεις"
+
+#: inc/admin/optimize_wizard/views/templates_load.php:52
+msgid "2. Sidebars"
+msgstr "2. Πλαϊνές μπάρες"
+
+#: inc/admin/optimize_wizard/views/welcome.php:5
+#, php-format
+msgid "Welcome to the optimize wizard for %s."
+msgstr "Καλώς ήρθατε στην βελτιστοποίηση οδηγός για το %s."
+
+#: inc/admin/optimize_wizard/views/welcome.php:10
+msgid "It looks like you have already optimized your site."
+msgstr "Φαίνεται σαν να έχουν ήδη βελτιστοποιηθεί το site σας."
+
+#: inc/admin/optimize_wizard/views/welcome.php:13
+msgid "Run Optimize Wizard Again"
+msgstr "Εκτελέστε Τη Βελτιστοποίηση Του Οδηγού Και Πάλι"
+
+#: inc/admin/optimize_wizard/views/welcome.php:14
+msgid "Exit to Riode Panel"
+msgstr "Έξοδος για να Riode Πίνακα"
+
+#: inc/admin/optimize_wizard/views/welcome.php:20
+msgid ""
+"This Optimize Wizard is introduced to optimize all resources that are "
+"unnecessary for your site. Every step has enough description about how it "
+"works. Some options may produce some conflicts if your site is still in "
+"development progress, so we advise you to enable all options once site "
+"development is completed."
+msgstr ""
+"Αυτή η Βελτιστοποίηση Οδηγός εισάγεται για να βελτιστοποιήσετε όλους τους "
+"πόρους που είναι απαραίτητο για το site σας. Κάθε βήμα έχει αρκετά περιγραφή "
+"για το πώς λειτουργεί. Ορισμένες επιλογές μπορεί να παράγει κάποιες "
+"συγκρούσεις, αν το site σας είναι ακόμα σε εξέλιξη, πρόοδο, οπότε σας "
+"συμβουλεύουμε να ενεργοποιήσετε όλες τις επιλογές μόλις ανάπτυξη ιστοσελίδας "
+"ολοκληρώθηκε."
+
+#: inc/admin/optimize_wizard/views/welcome.php:21
+msgid "No time right now? "
+msgstr "Δεν υπάρχει χρόνος τώρα; "
+
+#: inc/admin/optimize_wizard/views/welcome.php:21
+msgid ""
+"If you don't want to go through the wizard, you can skip and return to the "
+"WordPress dashboard. Come back anytime you want!"
+msgstr ""
+"Αν δεν θέλετε να πάει μέσω του οδηγού, μπορείτε να προχωρήσετε και να "
+"επιστρέψετε στο ταμπλό WordPress. Επανέλθει οποιαδήποτε στιγμή θέλετε!"
+
+#: inc/admin/optimize_wizard/views/welcome.php:23
+msgid "Not right now"
+msgstr "Όχι τώρα"
+
+#: inc/admin/optimize_wizard/views/welcome.php:24
+msgid "Let's Go"
+msgstr "Πάμε"
+
+#: inc/admin/optimize_wizard/views/widgets.php:4
+msgid "Optimize Resources"
+msgstr "Βελτιστοποίηση Των Πόρων"
+
+#: inc/admin/optimize_wizard/views/widgets.php:7
+msgid "Styles"
+msgstr "Στυλ"
+
+#: inc/admin/optimize_wizard/views/widgets.php:8
+msgid "Templates"
+msgstr "Πρότυπα"
+
+#: inc/admin/optimize_wizard/views/widgets.php:13
+msgid "This will help you to optimize theme styles."
+msgstr "Αυτό θα σας βοηθήσει να βελτιστοποιήσετε το θέμα στυλ."
+
+#: inc/admin/optimize_wizard/views/widgets.php:15
+msgid ""
+"Riode comes with powerful optimization wizard for theme styles. Detailed "
+"options for used components and helper classes will optimize your site "
+"perfectly."
+msgstr ""
+"Riode έρχεται με ισχυρό οδηγός βελτιστοποίηση για το θεματικό στυλ. "
+"Λεπτομερείς επιλογές για μεταχειρισμένα εξαρτήματα και βοηθητικά μαθήματα θα "
+"βελτιστοποιήσετε το site σας τέλεια."
+
+#: inc/admin/optimize_wizard/views/widgets.php:17
+msgid ""
+"All options you have been checked will be saved for next use. After you have "
+"finished development, please run this wizard."
+msgstr ""
+"Όλες οι επιλογές που έχουν ελεγχθεί θα πρέπει να αποθηκεύονται για την "
+"επόμενη χρήση. Αφού έχετε τελειώσει την ανάπτυξη, εκτελέστε αυτόν τον οδηγό."
+
+#: inc/admin/optimize_wizard/views/widgets.php:19
+msgid "Please check used resources."
+msgstr "Παρακαλώ ελέγξτε χρησιμοποιείται πόρων."
+
+#: inc/admin/optimize_wizard/views/widgets.php:22
+#: inc/admin/optimize_wizard/views/widgets.php:29
+msgid "Prev Step"
+msgstr "Προηγούμενο Βήμα"
+
+#: inc/admin/optimize_wizard/views/widgets.php:23
+#: inc/admin/optimize_wizard/views/widgets.php:30
+msgid "Next Step"
+msgstr "Το Επόμενο Βήμα"
+
+#: inc/admin/optimize_wizard/views/widgets.php:35
+msgid ""
+"This is the last step of resource optimize. You can remove unnecessary "
+"plugin styles & scripts."
+msgstr ""
+"Αυτό είναι το τελευταίο βήμα των πόρων, τη βελτιστοποίηση. Μπορείτε να "
+"καταργήσετε περιττά plugin στυλ και scripts."
+
+#: inc/admin/optimize_wizard/views/widgets.php:38
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#: inc/admin/optimize_wizard/views/widgets.php:40
+msgid "If any gutenberg block isn't used in site, check me."
+msgstr ""
+"Εάν οποιαδήποτε gutenberg μπλοκ δεν χρησιμοποιείται στο web, ελέγξτε μου."
+
+#: inc/admin/optimize_wizard/views/widgets.php:43
+msgid "WooCommerce blocks for Gutenberg"
+msgstr "WooCommerce μπλοκ για την Gutenberg"
+
+#: inc/admin/optimize_wizard/views/widgets.php:45
+msgid "If any WooCommerce blocks for Gutenberg isn't used in sites, check me."
+msgstr ""
+"Εάν οποιαδήποτε WooCommerce μπλοκ για την Gutenberg δεν χρησιμοποιείται σε "
+"ιστοσελίδες, ελέγξτε μου."
+
+#: inc/admin/optimize_wizard/views/widgets.php:48
+msgid "Elementor's Resources"
+msgstr "Elementor Πόρων"
+
+#: inc/admin/optimize_wizard/views/widgets.php:50
+msgid "If some elementor resources such as swiper.js are never used, check me."
+msgstr ""
+"Αν κάποια elementor πόρων όπως swiper.js δεν χρησιμοποιούνται ποτέ, ελέγξτε "
+"μου."
+
+#: inc/admin/optimize_wizard/views/widgets.php:54
+msgid "Compile & Continue"
+msgstr "Μεταγλώττιση & Συνεχίσει"
+
+#: inc/admin/optimize_wizard/views/widgets_load.php:7
+msgid "Theme Resources"
+msgstr "Το Θέμα Των Πόρων"
+
+#: inc/admin/optimize_wizard/views/widgets_load.php:11
+msgid "WPBakery Shortcodes"
+msgstr "WPBakery Συντομοι"
+
+#: inc/admin/optimize_wizard/views/widgets_load.php:53
+#: inc/admin/optimize_wizard/views/widgets_load.php:82
+msgid "Toggle All"
+msgstr "Εναλλαγή Όλων"
+
+#: inc/admin/panel/panel.php:26 inc/admin/panel/views/header.php:15
+msgid "Welcome"
+msgstr "Καλώς ήρθατε"
+
+#: inc/admin/panel/views/activate.php:5
+msgid "Welcome to Riode"
+msgstr "Καλώς ήρθατε στο Riode"
+
+#: inc/admin/panel/views/activate.php:7
+msgid "Congratulations! Your product is registered now."
+msgstr "Συγχαρητήρια! Το προϊόν σας έχει καταχωρηθεί τώρα."
+
+#: inc/admin/panel/views/activate.php:9
+msgid ""
+"Thank you for choosing Riode theme from ThemeForest. Please register your "
+"purchase and make sure that you have fulfilled all of the requirements."
+msgstr ""
+"Σας ευχαριστούμε για την επιλογή Riode θέμα από το ThemeForest. Παρακαλούμε "
+"να δηλώσετε την αγορά σας και βεβαιωθείτε ότι έχετε εκπληρώσει όλες τις "
+"απαιτήσεις."
+
+#: inc/admin/panel/views/activate.php:16
+msgid "Please enter your Purchase Code to complete registration."
+msgstr ""
+"Παρακαλώ εισάγετε τον Κωδικό Αγορά σας για να ολοκληρώσετε την εγγραφή."
+
+#: inc/admin/panel/views/activate.php:19
+msgid "Where can I find my purchase code?"
+msgstr "Πού μπορώ να βρω τον κωδικό αγοράς;"
+
+#: inc/admin/panel/views/activate.php:22
+#, php-format
+msgid "Please go to %1$sThemeForest.net/downloads%2$s"
+msgstr "Παρακαλώ πηγαίνετε στο %1$sThemeForest.net/downloads%2$s"
+
+#: inc/admin/panel/views/activate.php:23
+msgid "Click the Download button in Riode row"
+msgstr "Κάντε κλικ στο κουμπί Λήψη σε Riode σειρά"
+
+#: inc/admin/panel/views/activate.php:24
+msgid "Select License Certificate & Purchase code"
+msgstr "Επιλέξτε το Πιστοποιητικό της Άδειας & κωδικό Αγορά"
+
+#: inc/admin/panel/views/activate.php:25
+msgid "Copy Item Purchase Code"
+msgstr "Αντίγραφο Item Code Αγορά"
+
+#: inc/admin/panel/views/activate.php:39
+msgid "Purchase code not updated. We will keep the existing one."
+msgstr "Κωδικός αγορά δεν ενημερώνεται. Θα κρατήσουμε από το υπάρχον."
+
+#: inc/admin/panel/views/activate.php:42
+#, php-format
+msgid ""
+"Your %1$spurchase code is valid%2$s. Thank you! Enjoy Riode Theme and "
+"automatic updates."
+msgstr ""
+"Σας %1$spurchase κωδικός είναι έγκυρος%2$s. Σας ευχαριστώ! Απολαύστε Riode "
+"Θέμα και τις αυτόματες ενημερώσεις."
+
+#: inc/admin/panel/views/activate.php:56
+msgid ""
+"You are using Envato Hosted, this subscription code can not be deregistered."
+msgstr ""
+"Χρησιμοποιώντας Envato Φιλοξενείται, αυτό το κωδικό εγγραφής δεν μπορεί να "
+"διαγραφεί."
+
+#: inc/admin/panel/views/activate.php:59
+msgid "Purchase Code"
+msgstr "Κωδικός Αγορά"
+
+#: inc/admin/panel/views/activate.php:65
+msgid "Activate"
+msgstr "Ενεργοποίηση"
+
+#: inc/admin/panel/views/activate.php:74
+#, php-format
+msgid ""
+"Before you get started, please be sure to always check out %1$sthis "
+"documentation%2$s. We outline all kinds of good information, and provide you "
+"with all the details you need to use Riode."
+msgstr ""
+"Πριν ξεκινήσετε, φροντίστε να ελέγχετε πάντα έξω %1$sthis τεκμηρίωση%2$s. "
+"Έχουμε περιγράψει όλα τα είδη των καλών πληροφοριών, και να σας παρέχει όλες "
+"τις λεπτομέρειες που χρειάζεστε για να χρησιμοποιήσετε Riode."
+
+#: inc/admin/panel/views/activate.php:78
+#, php-format
+msgid ""
+"If you are unable to find your answer in our documentation, we encourage you "
+"to contact us through %1$ssupport page%2$s with your site CPanel (or FTP) "
+"and WordPress admin details. We are very happy to help you and you will get "
+"reply from us more faster than you expected."
+msgstr ""
+"Εάν δεν μπορείτε να βρείτε την απάντηση στην τεκμηρίωση μας, σας "
+"ενθαρρύνουμε να επικοινωνήσετε μαζί μας μέσα από %1$στήριξη σελίδα%2$s με το "
+"site σας CPanel (ή FTP) και το WordPress admin λεπτομέρειες. Είμαστε πολύ "
+"ευτυχείς να σας βοηθήσει και θα πάρετε απάντηση από εμάς πιο γρήγορα από ό, "
+"τι αναμενόταν."
+
+#: inc/admin/setup_wizard/setup_wizard.php:160
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: inc/admin/setup_wizard/setup_wizard.php:167
+#: inc/admin/setup_wizard/views/customize.php:7
+msgid "Child Theme"
+msgstr "Το Θέμα Του Παιδιού"
+
+#: inc/admin/setup_wizard/setup_wizard.php:183
+#: inc/admin/setup_wizard/views/demo.php:85
+msgid "Demo Import"
+msgstr "Demo Εισαγωγής"
+
+#: inc/admin/setup_wizard/setup_wizard.php:231
+msgid "Are you sure you want to leave?"
+msgstr "Είσαι σίγουρος ότι θέλεις να φύγεις;"
+
+#: inc/admin/setup_wizard/setup_wizard.php:232
+msgid "Are you sure to import demo contents and override old one?"
+msgstr ""
+"Είσαι σίγουρος για την εισαγωγή demo περιεχόμενο και να παρακάμψετε τη γριά;"
+
+#: inc/admin/setup_wizard/setup_wizard.php:234
+#, php-format
+msgid ""
+"Failed importing! Please check the %1$s\"System Status\"%2$s tab to ensure "
+"your server meets all requirements for a successful import. Settings that "
+"need attention will be listed in red. If your server provider does not allow "
+"to update settings, please try using alternative import mode."
+msgstr ""
+"Απέτυχε η εισαγωγή! Παρακαλώ ελέγξτε το %1$s\"Κατάσταση Συστήματος\"%2$s tab "
+"για να εξασφαλιστεί ο διακομιστής σας πληροί όλες τις απαιτήσεις για μια "
+"επιτυχημένη εισαγωγή. Ρυθμίσεις που χρειάζονται προσοχή θα πρέπει να "
+"αναγράφονται με κόκκινο χρώμα. Εάν ο διακομιστής σας πάροχος δεν επιτρέπει "
+"να ενημερώσετε τις ρυθμίσεις, παρακαλώ δοκιμάστε να χρησιμοποιήσετε "
+"εναλλακτική λειτουργία εισαγωγής."
+
+#: inc/admin/setup_wizard/setup_wizard.php:235
+msgid " installation is failed!"
+msgstr " εγκατάσταση απέτυχε!"
+
+#: inc/admin/setup_wizard/setup_wizard.php:236
+msgid " installation is finished!"
+msgstr " η εγκατάσταση έχει τελειώσει!"
+
+#: inc/admin/setup_wizard/setup_wizard.php:237
+msgid "Installing"
+msgstr "Εγκατάσταση"
+
+#: inc/admin/setup_wizard/setup_wizard.php:238
+msgid "Visit your site."
+msgstr "Επισκεφθείτε το site σας."
+
+#: inc/admin/setup_wizard/setup_wizard.php:281
+msgid "Failed to find TGM"
+msgstr "Απέτυχε να βρει TGM"
+
+#: inc/admin/setup_wizard/setup_wizard.php:375
+#, php-format
+msgid "Directory permission required for %s"
+msgstr "Κατάλογος άδεια που απαιτείται για %s"
+
+#: inc/admin/setup_wizard/setup_wizard.php:395
+#, php-format
+msgid ""
+"Child Theme %1$s has been created and activated!%2$s Folder is located in "
+"%3$s"
+msgstr ""
+"Παιδί Θέμα %1$s έχει δημιουργηθεί και να ενεργοποιηθεί!%2$s βρίσκονται στο "
+"Φάκελο \" %3$s"
+
+#: inc/admin/setup_wizard/setup_wizard.php:551
+msgid "Remote API error."
+msgstr "Απομακρυσμένη σφάλμα API."
+
+#: inc/admin/setup_wizard/setup_wizard.php:626
+msgid "Successfully reset menus!"
+msgstr "Με επιτυχία επαναφορά του μενού!"
+
+#: inc/admin/setup_wizard/setup_wizard.php:655
+msgid "Successfully reset widgets!"
+msgstr "Με επιτυχία επαναφορά widgets!"
+
+#: inc/admin/setup_wizard/setup_wizard.php:872
+msgid "Successfully imported widgets!"
+msgstr "Επιτυχής εισαγωγή widgets!"
+
+#: inc/admin/setup_wizard/setup_wizard.php:1110
+msgid ""
+"Please compile default css files by publishing options in customize panel."
+msgstr ""
+"Παρακαλώ μεταγλώττιση default css αρχεία από επιλογές δημοσίευσης στην "
+"προσαρμογή του πίνακα."
+
+#: inc/admin/setup_wizard/views/customize.php:4
+msgid "Setup Riode Child Theme (Optional)"
+msgstr "Το Πρόγραμμα Εγκατάστασης Riode Θέμα Το Παιδί (Προαιρετικό)"
+
+#: inc/admin/setup_wizard/views/customize.php:7
+#, php-format
+msgid ""
+"If you are going to make changes to the theme source code please use a %1$s "
+"rather than modifying the main theme HTML/CSS/PHP code. %2$s This allows the "
+"parent theme to receive updates without overwriting your source code changes."
+" Use the form below to create and activate the Child Theme."
+msgstr ""
+"Αν πρόκειται να κάνετε αλλαγές στο θέμα του πηγαίου κώδικα παρακαλούμε να "
+"χρησιμοποιήσετε το %1$s και όχι τροποποιώντας το κύριο θέμα HTML/CSS/PHP "
+"κώδικα. %2$s Αυτό επιτρέπει στο γονέα το θέμα για να λαμβάνετε ενημερώσεις "
+"χωρίς αντικατάσταση του πηγαίου κώδικα αλλαγές. Χρησιμοποιήστε την παρακάτω "
+"φόρμα για να δημιουργήσετε και να ενεργοποιήσετε το Θέμα του Παιδιού."
+
+#: inc/admin/setup_wizard/views/customize.php:23
+msgid "Child Theme Title:"
+msgstr "Το Θέμα Του Παιδιού Τίτλο:"
+
+#: inc/admin/setup_wizard/views/customize.php:27
+msgid ""
+"If you're not sure what a Child Theme is just click the \"Skip this step\" "
+"button."
+msgstr ""
+"Αν δεν είστε σίγουροι για το τι ένα Θέμα το Παιδί είναι απλά κάντε κλικ στο "
+"\"Παραλείψτε αυτό το βήμα\" κουμπί."
+
+#: inc/admin/setup_wizard/views/customize.php:31
+msgid "Create and Use Child Theme"
+msgstr "Δημιουργούν και Χρησιμοποιούν το Θέμα του Παιδιού"
+
+#: inc/admin/setup_wizard/views/demo.php:6
+msgid "Demo Content Installation"
+msgstr "Εγκατάσταση Περιεχομένου Demo"
+
+#: inc/admin/setup_wizard/views/demo.php:7
+msgid "In this step you can upload your logo and select a demo from the list."
+msgstr ""
+"Σε αυτό το βήμα μπορείτε να ανεβάσετε το λογότυπό σας και να επιλέξετε ένα "
+"demo από τη λίστα."
+
+#: inc/admin/setup_wizard/views/demo.php:12
+msgid "Your Logo:"
+msgstr "Το Λογότυπό Σας:"
+
+#: inc/admin/setup_wizard/views/demo.php:35
+msgid "Remove all installed demo contents"
+msgstr "Αφαιρέστε όλα τα εγκατεστημένα demo περιεχόμενο"
+
+#: inc/admin/setup_wizard/views/demo.php:36
+msgid "Remove Content"
+msgstr "Αφαιρέστε Το Περιεχόμενο"
+
+#: inc/admin/setup_wizard/views/demo.php:41
+msgid "Demo Contents Remove"
+msgstr "Demo Περιεχόμενο Αφαιρέσετε"
+
+#: inc/admin/setup_wizard/views/demo.php:46
+msgid "Pages"
+msgstr "Σελίδες"
+
+#: inc/admin/setup_wizard/views/demo.php:48
+msgid "Attachments"
+msgstr "Συνημμένα"
+
+#: inc/admin/setup_wizard/views/demo.php:50
+msgid "Builders"
+msgstr "Οικοδόμοι"
+
+#: inc/admin/setup_wizard/views/demo.php:55
+msgid ""
+"Please backup your site before uninstalling. All imported and overriden "
+"contents from Riode demos would be removed."
+msgstr ""
+"Παρακαλώ αντιγράφων ασφαλείας το site σας πριν από την απεγκατάσταση. Όλα τα "
+"εισαγόμενα και να εξουδετερώνονται τα περιεχόμενα από Riode demos θα πρέπει "
+"να αφαιρεθεί."
+
+#: inc/admin/setup_wizard/views/demo.php:57
+msgid "Uninstall"
+msgstr "Απεγκατάσταση"
+
+#: inc/admin/setup_wizard/views/demo.php:98
+#: inc/admin/setup_wizard/views/demo.php:126
+msgid "Import theme options"
+msgstr "Εισαγωγή επιλογές θέμα"
+
+#: inc/admin/setup_wizard/views/demo.php:99
+#: inc/admin/setup_wizard/views/demo.php:128
+msgid "Reset menus"
+msgstr "Επαναφορά των μενού"
+
+#: inc/admin/setup_wizard/views/demo.php:100
+#: inc/admin/setup_wizard/views/demo.php:129
+msgid "Reset widgets"
+msgstr "Επαναφορά widgets"
+
+#: inc/admin/setup_wizard/views/demo.php:101
+#: inc/admin/setup_wizard/views/demo.php:130
+msgid "Import dummy content"
+msgstr "Εισαγωγή εικονική περιεχόμενο"
+
+#: inc/admin/setup_wizard/views/demo.php:102
+#: inc/admin/setup_wizard/views/demo.php:131
+msgid "Import widgets"
+msgstr "Εισαγωγή widgets"
+
+#: inc/admin/setup_wizard/views/demo.php:103
+#: inc/admin/setup_wizard/views/demo.php:133
+msgid "Import subpages"
+msgstr "Εισαγωγή υποσελίδες"
+
+#: inc/admin/setup_wizard/views/demo.php:125
+msgid "Select Content to Import"
+msgstr "Επιλέξτε το Περιεχόμενο για την Εισαγωγή"
+
+#: inc/admin/setup_wizard/views/demo.php:132
+msgid "Override existing contents"
+msgstr "Αντικαθιστούν το υπάρχον περιεχόμενο"
+
+#: inc/admin/setup_wizard/views/demo.php:136
+msgid "Do you want to install demo? It can also take a minute to complete."
+msgstr ""
+"Θέλετε να εγκαταστήσετε το demo; Μπορεί επίσης να λάβει ένα λεπτό για να "
+"ολοκληρωθεί."
+
+#: inc/admin/setup_wizard/views/demo.php:137
+msgid "Standard Import"
+msgstr "Πρότυπα Εισαγωγής"
+
+#: inc/admin/setup_wizard/views/demo.php:139
+msgid ""
+"Your server performance does not satisfy Riode demo importer engine's "
+"requirement. We recommend you to use alternative method to perform demo "
+"import without any issues but it may take much time than standard import."
+msgstr ""
+"Σας επιδόσεις του διακομιστή δεν πληροί Riode demo εισαγωγέα κινητήρα "
+"απαίτηση. Σας συνιστούμε να χρησιμοποιήσετε μια εναλλακτική μέθοδο για να "
+"εκτελέσετε εισαγωγή demo χωρίς προβλήματα, αλλά μπορεί να πάρει πολύ χρόνο "
+"από ό, τι πρότυπο εισαγωγής."
+
+#: inc/admin/setup_wizard/views/demo.php:141
+msgid ""
+"If you have any issues with standard import, please use Alternative mode. "
+"But it may take much time than standard import."
+msgstr ""
+"Αν έχετε οποιαδήποτε προβλήματα με την τυποποιημένη εισαγωγή, παρακαλούμε "
+"χρησιμοποιήστε Εναλλακτική λειτουργία. Αλλά μπορεί να πάρει πολύ χρόνο από ό,"
+" τι πρότυπο εισαγωγής."
+
+#: inc/admin/setup_wizard/views/demo.php:143
+msgid "Alternative Mode"
+msgstr "Εναλλακτική Λειτουργία"
+
+#: inc/admin/setup_wizard/views/demo.php:184
+#: inc/admin/setup_wizard/views/demo.php:199
+msgid "Install"
+msgstr "Εγκατάσταση"
+
+#: inc/admin/setup_wizard/views/demo.php:210
+msgid ""
+"Installing a demo provides pages, posts, menus, images, theme options, "
+"widgets and more."
+msgstr ""
+"Η εγκατάσταση ενός demo παρέχει τις σελίδες, αναρτήσεις, τα μενού, εικόνες, "
+"επιλογές θέμα, widgets και πολλά άλλα."
+
+#: inc/admin/setup_wizard/views/demo.php:211
+msgid "IMPORTANT: "
+msgstr "ΣΗΜΑΝΤΙΚΌ: "
+
+#: inc/admin/setup_wizard/views/demo.php:211
+msgid ""
+"The included plugins need to be installed and activated before you install a "
+"demo."
+msgstr ""
+"Το συμπεριλαμβανόμενο plugins πρέπει να εγκατασταθεί και να ενεργοποιηθεί "
+"πριν από την εγκατάσταση ενός demo."
+
+#: inc/admin/setup_wizard/views/demo.php:213
+#, php-format
+msgid ""
+"Please check the %1$sStatus%2$s step to ensure your server meets all "
+"requirements for a successful import. Settings that need attention will be "
+"listed in red."
+msgstr ""
+"Παρακαλώ ελέγξτε το %1$sStatus%2$s για να εξασφαλίσει ότι ο διακομιστής σας "
+"πληροί όλες τις απαιτήσεις για μια επιτυχημένη εισαγωγή. Ρυθμίσεις που "
+"χρειάζονται προσοχή θα πρέπει να αναγράφονται με κόκκινο χρώμα."
+
+#: inc/admin/setup_wizard/views/index.php:14
+msgid ""
+"This quick setup wizard will help you configure your new website. This "
+"wizard will install the required WordPress plugins, import demo."
+msgstr ""
+"Γρήγορα οδηγός εγκατάστασης θα σας βοηθήσει να ρυθμίσετε τη νέα σας "
+"ιστοσελίδα. Αυτός ο οδηγός θα εγκαταστήσει το απαιτούμενο WordPress plugins, "
+"demo εισαγωγής."
+
+#: inc/admin/setup_wizard/views/plugins.php:4
+msgid "Default Plugins"
+msgstr "Default Plugins"
+
+#: inc/admin/setup_wizard/views/plugins.php:11
+msgid "This will install the default plugins which are used in Riode."
+msgstr ""
+"Αυτό θα εγκαταστήσει το default plugins που χρησιμοποιούνται στο Riode."
+
+#: inc/admin/setup_wizard/views/plugins.php:26
+msgid "Load more"
+msgstr "Τοποθετήστε περισσότερα"
+
+#: inc/admin/setup_wizard/views/plugins.php:40
+msgid "Installation"
+msgstr "Εγκατάσταση"
+
+#: inc/admin/setup_wizard/views/plugins.php:42
+msgid "Update"
+msgstr "Ενημέρωση"
+
+#: inc/admin/setup_wizard/views/plugins.php:44
+msgid "Activation"
+msgstr "Ενεργοποίηση"
+
+#: inc/admin/setup_wizard/views/plugins.php:49
+#, php-format
+msgid "%s required"
+msgstr "το %s που απαιτείται"
+
+#: inc/admin/setup_wizard/views/plugins.php:52
+#, php-format
+msgid "%s recommended for certain demos"
+msgstr "το %s δεν συνιστάται για ορισμένα demos"
+
+#: inc/admin/setup_wizard/views/plugins.php:66
+#, php-format
+msgid ""
+"Using %1$sseveral page builders%2$s togther affects your site performance."
+msgstr ""
+"Χρησιμοποιώντας το %1$sseveral οικοδόμοι σελίδα%2$s togther επηρεάζει την "
+"απόδοση του ιστότοπού σας."
+
+#: inc/admin/setup_wizard/views/plugins.php:70
+msgid ""
+"Good news! All plugins are already installed and up to date. Please continue."
+msgstr ""
+"Καλά νέα! Όλα τα plugins είναι ήδη εγκατεστημένο και ενημερωμένο. Παρακαλώ "
+"συνεχίστε."
+
+#: inc/admin/setup_wizard/views/ready.php:5
+msgid "Your Website is Ready!"
+msgstr "Η Ιστοσελίδα σας είναι Έτοιμη!"
+
+#: inc/admin/setup_wizard/views/ready.php:7
+msgid ""
+"Congratulations! The theme has been activated and your website is ready. "
+"Please go to your WordPress dashboard to make changes and modify the content "
+"for your needs."
+msgstr ""
+"Συγχαρητήρια! Το θέμα έχει ενεργοποιηθεί και η ιστοσελίδα σας είναι έτοιμη. "
+"Παρακαλώ πηγαίνετε στο WordPress ταμπλό του αυτοκινήτου σας για να κάνετε "
+"αλλαγές και να τροποποιήσετε το περιεχόμενο για τις ανάγκες σας."
+
+#: inc/admin/setup_wizard/views/ready.php:9
+msgid ""
+"This theme comes with 6 months item support from purchase date (with the "
+"option to extend this period). This license allows you to use this theme on "
+"a single website. Please purchase an additional license to use this theme on "
+"another website."
+msgstr ""
+"Το θέμα αυτό έρχεται με 6 μήνες υποστήριξης στοιχείων από την ημερομηνία "
+"αγοράς (με την επιλογή να παρατείνει την περίοδο αυτή). Αυτή η άδεια "
+"επιτρέπει μπορείτε να χρησιμοποιήσετε αυτό το θέμα σε μία ιστοσελίδα. "
+"Παρακαλούμε να αγοράσετε μια πρόσθετη άδεια χρήσης για να χρησιμοποιήσετε "
+"αυτό το θέμα σε άλλη ιστοσελίδα."
+
+#: inc/admin/setup_wizard/views/ready.php:13
+#, php-format
+msgid "Item Support %1$sDOES%2$s Include:"
+msgstr "Με την Υποστήριξη στοιχείο %1$sDOES%2$s Περιλαμβάνουν:"
+
+#: inc/admin/setup_wizard/views/ready.php:16
+msgid "Availability of the author to answer questions"
+msgstr "Διαθεσιμότητα του συγγραφέα να απαντήσει σε ερωτήσεις"
+
+#: inc/admin/setup_wizard/views/ready.php:17
+msgid "Answering technical questions about item features"
+msgstr "Απαντώντας σε τεχνικές ερωτήσεις σχετικά με το προϊόν διαθέτει"
+
+#: inc/admin/setup_wizard/views/ready.php:18
+msgid "Assistance with reported bugs and issues"
+msgstr "Βοήθεια με σφάλματα που αναφέρθηκαν και θέματα"
+
+#: inc/admin/setup_wizard/views/ready.php:19
+msgid "Help with bundled 3rd party plugins"
+msgstr "Βοήθεια με το πακέτο 3ο plugins κόμμα"
+
+#: inc/admin/setup_wizard/views/ready.php:24
+#, php-format
+msgid "Item Support %1$sDOES NOT%2$s Include:"
+msgstr "Με την Υποστήριξη στοιχείο %1$sDOES ΔΕΝ το%2$s Περιλαμβάνουν:"
+
+#: inc/admin/setup_wizard/views/ready.php:26
+#, php-format
+msgid ""
+"Customization services (this is available through %1$sptheme.customize@gmail."
+"com%2$s)"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:27
+#, php-format
+msgid ""
+"Installation services (this is available through %1$sptheme.customize@gmail."
+"com%2$s)"
+msgstr ""
+
+#: inc/admin/setup_wizard/views/ready.php:28
+msgid ""
+"Help and Support for non-bundled 3rd party plugins (i.e. plugins you install "
+"yourself later on)"
+msgstr ""
+"Βοήθεια και Υποστήριξη για μη-πακέτο 3ο plugins κόμμα (δηλαδή plugins που "
+"μπορείτε να εγκαταστήσετε μόνοι σας αργότερα)"
+
+#: inc/admin/setup_wizard/views/ready.php:33
+#, php-format
+msgid ""
+"More details about item support can be found in the ThemeForest %1$sItem "
+"Support Policy%2$s."
+msgstr ""
+"Περισσότερες λεπτομέρειες σχετικά με την υποστήριξη στοιχείο μπορεί να "
+"βρεθεί στο <url> %1$sItem Πολιτική Υποστήριξης%2$s."
+
+#: inc/admin/setup_wizard/views/ready.php:37
+msgid "More Resources"
+msgstr "Περισσότερους Πόρους"
+
+#: inc/admin/setup_wizard/views/ready.php:39
+msgid "Riode Documentation"
+msgstr "Riode Τεκμηρίωση"
+
+#: inc/admin/setup_wizard/views/ready.php:40
+msgid "Learn how to use WooCommerce"
+msgstr "Μάθετε πώς να χρησιμοποιείτε WooCommerce"
+
+#: inc/admin/setup_wizard/views/ready.php:41
+msgid "Learn how to use WordPress"
+msgstr "Μάθετε πώς να χρησιμοποιήσετε το WordPress"
+
+#: inc/admin/setup_wizard/views/ready.php:42
+msgid "Leave an Item Rating"
+msgstr "Αφήστε ένα Στοιχείο Αξιολόγησης"
+
+#: inc/admin/setup_wizard/views/ready.php:45
+#, php-format
+msgid ""
+"Please come back and leave a %1$s5-star rating%2$s if you are happy with "
+"this theme. Thanks!"
+msgstr ""
+"Παρακαλούμε να έρθει πίσω και να αφήσετε το %1$s5-star rating%2$s αν είστε "
+"ευχαριστημένοι με αυτό το θέμα. Ευχαριστώ!"
+
+#: inc/admin/setup_wizard/views/status.php:30
+msgid "System Status"
+msgstr "Η Κατάσταση Του Συστήματος"
+
+#: inc/admin/setup_wizard/views/status.php:31
+msgid "Check your current server performance."
+msgstr "Ελέγξτε την τρέχουσα απόδοση του διακομιστή."
+
+#: inc/admin/setup_wizard/views/status.php:42
+msgid "Uploads folder writable"
+msgstr "Προσθήκες φάκελο εγγραφής"
+
+#: inc/admin/setup_wizard/views/status.php:45
+msgid ""
+"Uploads folder must be writable. Please set write permission to your wp-"
+"content/uploads folder."
+msgstr ""
+"Προσθήκες φάκελος πρέπει να είναι εγγράψιμος. Παρακαλούμε να ορίσετε "
+"δικαιώματα εγγραφής σας wp-content/uploads φάκελο."
+
+#: inc/admin/setup_wizard/views/status.php:56
+msgid "WP File System"
+msgstr "WP Σύστημα Αρχείων"
+
+#: inc/admin/setup_wizard/views/status.php:59
+msgid ""
+"File System access is required for pre-built websites and plugins "
+"installation. Please contact your hosting provider."
+msgstr ""
+"Το Σύστημα αρχείων απαιτείται πρόσβαση για προ-χτισμένο ιστοσελίδες και "
+"plugins εγκατάσταση. Παρακαλώ επικοινωνήστε με τον πάροχο φιλοξενίας σας."
+
+#: inc/admin/setup_wizard/views/status.php:71
+msgid "ZipArchive"
+msgstr "ZipArchive"
+
+#: inc/admin/setup_wizard/views/status.php:74
+msgid ""
+"ZipArchive is required for pre-built websites and plugins installation. "
+"Please contact your hosting provider."
+msgstr ""
+"ZipArchive απαιτείται για την προ-χτισμένο ιστοσελίδες και plugins "
+"εγκατάσταση. Παρακαλώ επικοινωνήστε με τον πάροχο φιλοξενίας σας."
+
+#: inc/admin/setup_wizard/views/status.php:82
+msgid "SUHOSIN Installed"
+msgstr "SUHOSIN Εγκατασταθεί"
+
+#: inc/admin/setup_wizard/views/status.php:83
+msgid ""
+"Suhosin may need to be configured to increase its data submission limits."
+msgstr ""
+"Suhosin μπορεί να χρειαστεί να ρυθμιστεί ώστε να αυξήσει την υποβολή "
+"δεδομένων ορίων."
+
+#: inc/admin/setup_wizard/views/status.php:99
+msgid "PHP Memory Limit"
+msgstr "Το Όριο Μνήμης PHP"
+
+#: inc/admin/setup_wizard/views/status.php:107
+#, php-format
+msgid "Minimum %1$s128 MB%2$s is required, %1$s256 MB%2$s is recommended."
+msgstr "Ελάχιστες %1$s128 MB%2$s απαιτείται, %1$s256 MB%2$s συνιστάται."
+
+#: inc/admin/setup_wizard/views/status.php:111
+#, php-format
+msgid "Current memory limit is OK, however %1$s256 MB%2$s is recommended."
+msgstr "Τρέχον όριο μνήμης είναι ΕΝΤΆΞΕΙ, ωστόσο το %1$s256 MB%2$s συνιστάται."
+
+#: inc/admin/setup_wizard/views/status.php:128
+msgid "PHP max_execution_time"
+msgstr "PHP max_execution_time"
+
+#: inc/admin/setup_wizard/views/status.php:136
+#, php-format
+msgid "Minimum %1$s300%2$s is required, %1$s600%2$s is recommended."
+msgstr "Ελάχιστες %1$s300%2$s απαιτείται, %1$s600%2$s συνιστάται."
+
+#: inc/admin/setup_wizard/views/status.php:140
+#, php-format
+msgid "Current time limit is OK, however %1$s600%2$s is recommended."
+msgstr "Τρέχουσα προθεσμία είναι ΕΝΤΆΞΕΙ, ωστόσο το %1$s600%2$s συνιστάται."
+
+#: inc/admin/setup_wizard/views/status.php:153
+msgid "PHP max_input_vars"
+msgstr "PHP max_input_vars"
+
+#: inc/admin/setup_wizard/views/status.php:159
+msgid "Minimum 2000 is required"
+msgstr "Ελάχιστη 2000 απαιτείται"
+
+#: inc/admin/setup_wizard/views/status.php:163
+msgid ""
+"Do not worry if you are unable to update your server configuration due to "
+"hosting limit, you can use \"Alternative Import\" method in Demo Content "
+"import page."
+msgstr ""
+"Μην ανησυχείτε αν δεν μπορείτε να ενημερώσετε τη διαμόρφωση του διακομιστή "
+"σας λόγω φιλοξενίας όριο, μπορείτε να χρησιμοποιήσετε την επιλογή "
+"\"Εναλλακτική Εισαγωγή\" μέθοδος στην εισαγωγή Περιεχομένου Demo σελίδα."
+
+#: inc/admin/setup_wizard/views/status.php:167
+msgid ""
+"php.ini values are shown above. Real values may vary, please check your "
+"limits using"
+msgstr ""
+"php.ini τιμές που παρουσιάζονται ανωτέρω. Πραγματικές τιμές μπορεί να "
+"διαφέρουν, παρακαλούμε να ελέγξετε τα όρια σας χρησιμοποιώντας"
+
+#: inc/functions/woocommerce/product-archive.php:77
+msgid "Show :"
+msgstr "Εμφάνιση :"
+
+#: inc/functions/woocommerce/product-category.php:199
+msgid "Shop Now"
+msgstr "Κατάστημα Τώρα"
+
+#: inc/functions/woocommerce/product-category.php:217
+#, php-format
+msgid "Subcategory %d"
+msgstr "Υποκατηγορία %d"
+
+#: inc/functions/woocommerce/product-loop.php:168
+#: inc/functions/woocommerce/product-loop.php:212
+#: inc/functions/woocommerce/product-loop.php:302
+msgid "Quick View"
+msgstr "Γρήγορη Προβολή"
+
+#: inc/functions/woocommerce/product-loop.php:489
+#: inc/functions/woocommerce/product-single.php:721
+msgid "Add to Cart"
+msgstr "Προσθήκη στο Καλάθι"
+
+#: inc/functions/woocommerce/product-loop.php:489
+msgid "Select Options"
+msgstr "Επιλέξτε Επιλογές"
+
+#: inc/functions/woocommerce/product-loop.php:489
+msgid "Read more"
+msgstr "Διαβάστε περισσότερα"
+
+#: inc/functions/woocommerce/product-loop.php:550
+#: inc/functions/woocommerce/product-single.php:842
+msgid "Added"
+msgstr "Πρόσθεσε"
+
+#: inc/functions/woocommerce/product-single.php:299
+#: inc/functions/woocommerce/product-single.php:491
+msgid "Awaiting product image"
+msgstr "Εν αναμονή της εικόνας του προϊόντος"
+
+#: inc/functions/woocommerce/product-single.php:339
+#: inc/general_function.php:478 inc/general_function.php:545
+#: inc/general_function.php:547
+msgid "Prev"
+msgstr "Προηγ"
+
+#: inc/functions/woocommerce/product-single.php:348
+#: inc/general_function.php:479 inc/general_function.php:550
+#: inc/general_function.php:552
+msgid "Next"
+msgstr "Την επόμενη"
+
+#: inc/functions/woocommerce/product-single.php:613
+msgid "Off Ends In:"
+msgstr "Από Τις Άκρες Σε:"
+
+#: inc/functions/woocommerce/product-single.php:626
+msgid "days"
+msgstr "ημέρες"
+
+#: inc/functions/woocommerce/product-single.php:845
+msgid "Add To Compare"
+msgstr "Προσθήκη Για Σύγκριση"
+
+#: inc/functions/woocommerce/woocommerce.php:89 inc/setup/theme-assets.php:298
+msgid "View Cart"
+msgstr "View Cart"
+
+#: inc/functions/woocommerce/woocommerce.php:95
+msgid "Go To Checkout"
+msgstr "Πηγαίνετε Στο Ταμείο"
+
+#: inc/functions/woocommerce/woocommerce.php:232
+msgid "Product added to cart successfully"
+msgstr "Το προϊόν προστέθηκε με επιτυχία στο καλάθι"
+
+#: inc/functions/woocommerce/woocommerce.php:295
+msgid "Default sorting"
+msgstr "Προεπιλεγμένη ταξινόμηση"
+
+#: inc/functions/woocommerce/woocommerce.php:296
+msgid "Sort by popularity"
+msgstr "Ταξινόμηση κατά δημοτικότητα"
+
+#: inc/functions/woocommerce/woocommerce.php:297
+msgid "Sort by average rating"
+msgstr "Ταξινόμηση κατά μέσο όρο βαθμολογία"
+
+#: inc/functions/woocommerce/woocommerce.php:298
+msgid "Sort by latest"
+msgstr "Ταξινόμηση ανά τελευταία"
+
+#: inc/functions/woocommerce/woocommerce.php:299
+msgid "Sort by price: low to high"
+msgstr "Ταξινόμηση ανά τιμή: χαμηλή προς υψηλή"
+
+#: inc/functions/woocommerce/woocommerce.php:300
+msgid "Sort by price: high to low"
+msgstr "Ταξινόμηση ανά τιμή: υψηλή προς χαμηλή"
+
+#: inc/functions/woocommerce/woocommerce.php:310
+msgid "Relevance"
+msgstr "Σημασία"
+
+#: inc/general_function.php:457
+msgid "Load More"
+msgstr "Τοποθετήστε Περισσότερα"
+
+#: inc/general_function.php:613
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/general_function.php:613
+msgid "(Edit)"
+msgstr "(Edit)"
+
+#: inc/general_function.php:623
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s στο %2$s"
+
+#: inc/general_function.php:628
+msgid "Your comment is awaiting moderation."
+msgstr "Το σχόλιό σας περιμένει μέτρο."
+
+#: inc/general_function.php:683
+#, php-format
+msgid "%s ago"
+msgstr "%s πριν"
+
+#: inc/general_function.php:1115 inc/general_function.php:1117
+msgid "Our Blog"
+msgstr "Το Blog Μας"
+
+#: inc/init.php:115 inc/init.php:166
+msgid "Default Animation"
+msgstr "Προεπιλογή Animation"
+
+#: inc/init.php:116
+msgid "Bounce"
+msgstr "Αναπήδηση"
+
+#: inc/init.php:117
+msgid "Flash"
+msgstr "Flash"
+
+#: inc/init.php:118
+msgid "Pulse"
+msgstr "Σφυγμού"
+
+#: inc/init.php:119
+msgid "RubberBand"
+msgstr "Το λάστιχο"
+
+#: inc/init.php:120
+msgid "Shake"
+msgstr "Ανακινήστε"
+
+#: inc/init.php:121
+msgid "HeadShake"
+msgstr "HeadShake"
+
+#: inc/init.php:122
+msgid "Swing"
+msgstr "Swing"
+
+#: inc/init.php:123
+msgid "Tada"
+msgstr "Τάντα"
+
+#: inc/init.php:124
+msgid "Wobble"
+msgstr "Ταλάντευση"
+
+#: inc/init.php:125
+msgid "Jello"
+msgstr "Ζελέ"
+
+#: inc/init.php:126
+msgid "HearBeat"
+msgstr "HearBeat"
+
+#: inc/init.php:127 inc/init.php:209
+msgid "BlurIn"
+msgstr "BlurIn"
+
+#: inc/init.php:128
+msgid "BounceIn"
+msgstr "BounceIn"
+
+#: inc/init.php:129
+msgid "BounceInUp"
+msgstr "BounceInUp"
+
+#: inc/init.php:130
+msgid "BounceInDown"
+msgstr "BounceInDown"
+
+#: inc/init.php:131
+msgid "BounceInLeft"
+msgstr "BounceInLeft"
+
+#: inc/init.php:132
+msgid "BounceInRight"
+msgstr "BounceInRight"
+
+#: inc/init.php:133
+msgid "FadeIn"
+msgstr "FadeIn"
+
+#: inc/init.php:134
+msgid "FadeInUp"
+msgstr "FadeInUp"
+
+#: inc/init.php:135
+msgid "FadeInUpBig"
+msgstr "FadeInUpBig"
+
+#: inc/init.php:136
+msgid "FadeInDown"
+msgstr "FadeInDown"
+
+#: inc/init.php:137
+msgid "FadeInDownBig"
+msgstr "FadeInDownBig"
+
+#: inc/init.php:138
+msgid "FadeInLeft"
+msgstr "FadeInLeft"
+
+#: inc/init.php:139
+msgid "FadeInLeftBig"
+msgstr "FadeInLeftBig"
+
+#: inc/init.php:140
+msgid "FadeInRight"
+msgstr "FadeInRight"
+
+#: inc/init.php:141
+msgid "FadeInRightBig"
+msgstr "FadeInRightBig"
+
+#: inc/init.php:142
+msgid "Flip"
+msgstr "Flip"
+
+#: inc/init.php:143
+msgid "FlipInX"
+msgstr "FlipInX"
+
+#: inc/init.php:144
+msgid "FlipInY"
+msgstr "FlipInY"
+
+#: inc/init.php:145
+msgid "LightSpeedIn"
+msgstr "LightSpeedIn"
+
+#: inc/init.php:146
+msgid "RotateIn"
+msgstr "RotateIn"
+
+#: inc/init.php:147
+msgid "RotateInUpLeft"
+msgstr "RotateInUpLeft"
+
+#: inc/init.php:148
+msgid "RotateInUpRight"
+msgstr "RotateInUpRight"
+
+#: inc/init.php:149
+msgid "RotateInDownLeft"
+msgstr "RotateInDownLeft"
+
+#: inc/init.php:150
+msgid "RotateInDownRight"
+msgstr "RotateInDownRight"
+
+#: inc/init.php:151
+msgid "Hinge"
+msgstr "Άρθρωση"
+
+#: inc/init.php:152
+msgid "JackInTheBox"
+msgstr "JackInTheBox"
+
+#: inc/init.php:153
+msgid "RollIn"
+msgstr "RollIn"
+
+#: inc/init.php:154
+msgid "ZoomIn"
+msgstr "ZoomIn"
+
+#: inc/init.php:155
+msgid "ZoomInUp"
+msgstr "ZoomInUp"
+
+#: inc/init.php:156
+msgid "ZoomInDown"
+msgstr "ZoomInDown"
+
+#: inc/init.php:157
+msgid "ZoomInLeft"
+msgstr "ZoomInLeft"
+
+#: inc/init.php:158
+msgid "ZoomInRight"
+msgstr "ZoomInRight"
+
+#: inc/init.php:159
+msgid "SlideInUp"
+msgstr "SlideInUp"
+
+#: inc/init.php:160
+msgid "SlideInDown"
+msgstr "SlideInDown"
+
+#: inc/init.php:161
+msgid "SlideInLeft"
+msgstr "SlideInLeft"
+
+#: inc/init.php:162
+msgid "SlideInRight"
+msgstr "SlideInRight"
+
+#: inc/init.php:167
+msgid "BlurOut"
+msgstr "BlurOut"
+
+#: inc/init.php:168
+msgid "BounceOut"
+msgstr "BounceOut"
+
+#: inc/init.php:169
+msgid "BounceOutUp"
+msgstr "BounceOutUp"
+
+#: inc/init.php:170
+msgid "BounceOutDown"
+msgstr "BounceOutDown"
+
+#: inc/init.php:171
+msgid "BounceOutLeft"
+msgstr "BounceOutLeft"
+
+#: inc/init.php:172
+msgid "BounceOutRight"
+msgstr "BounceOutRight"
+
+#: inc/init.php:173
+msgid "FadeOut"
+msgstr "FadeOut"
+
+#: inc/init.php:174
+msgid "FadeOutUp"
+msgstr "FadeOutUp"
+
+#: inc/init.php:175
+msgid "FadeOutUpBig"
+msgstr "FadeOutUpBig"
+
+#: inc/init.php:176
+msgid "FadeOutDown"
+msgstr "FadeOutDown"
+
+#: inc/init.php:177
+msgid "FadeOutDownBig"
+msgstr "FadeOutDownBig"
+
+#: inc/init.php:178
+msgid "FadeOutLeft"
+msgstr "FadeOutLeft"
+
+#: inc/init.php:179
+msgid "FadeOutLeftBig"
+msgstr "FadeOutLeftBig"
+
+#: inc/init.php:180
+msgid "FadeOutRight"
+msgstr "FadeOutRight"
+
+#: inc/init.php:181
+msgid "FadeOutRightBig"
+msgstr "FadeOutRightBig"
+
+#: inc/init.php:182
+msgid "FlipOutX"
+msgstr "FlipOutX"
+
+#: inc/init.php:183
+msgid "FlipOutY"
+msgstr "FlipOutY"
+
+#: inc/init.php:184
+msgid "LightSpeedOut"
+msgstr "LightSpeedOut"
+
+#: inc/init.php:185
+msgid "RotateOutUpLeft"
+msgstr "RotateOutUpLeft"
+
+#: inc/init.php:186
+msgid "RotateOutUpRight"
+msgstr "RotateOutUpRight"
+
+#: inc/init.php:187
+msgid "RotateOutDownLeft"
+msgstr "RotateOutDownLeft"
+
+#: inc/init.php:188
+msgid "RotateOutDownRight"
+msgstr "RotateOutDownRight"
+
+#: inc/init.php:189
+msgid "RollOut"
+msgstr "Εγκατάσταση"
+
+#: inc/init.php:190
+msgid "ZoomOut"
+msgstr "ZoomOut"
+
+#: inc/init.php:191
+msgid "ZoomOutUp"
+msgstr "ZoomOutUp"
+
+#: inc/init.php:192
+msgid "ZoomOutDown"
+msgstr "ZoomOutDown"
+
+#: inc/init.php:193
+msgid "ZoomOutLeft"
+msgstr "ZoomOutLeft"
+
+#: inc/init.php:194
+msgid "ZoomOutRight"
+msgstr "ZoomOutRight"
+
+#: inc/init.php:195
+msgid "SlideOutUp"
+msgstr "SlideOutUp"
+
+#: inc/init.php:196
+msgid "SlideOutDown"
+msgstr "SlideOutDown"
+
+#: inc/init.php:197
+msgid "SlideOutLeft"
+msgstr "SlideOutLeft"
+
+#: inc/init.php:198
+msgid "SlideOutRight"
+msgstr "SlideOutRight"
+
+#: inc/init.php:203
+msgid "Fade In Down Shorter"
+msgstr "Fade Στο Κάτω Μικρότερο"
+
+#: inc/init.php:204
+msgid "Fade In Left Shorter"
+msgstr "Fade In Αριστερά Μικρότερη"
+
+#: inc/init.php:205
+msgid "Fade In Right Shorter"
+msgstr "Fade In Δικαίωμα Μικρότερη"
+
+#: inc/init.php:206
+msgid "Fade In Up Shorter"
+msgstr "Fade Σε Μικρότερη"
+
+#: inc/plugins/importer/importer-api.php:180
+msgid "The package could not be downloaded."
+msgstr "Το πακέτο δεν θα μπορούσε να κατεβάσει."
+
+#: inc/plugins/importer/importer-api.php:201
+msgid "WordPress filesystem error."
+msgstr "WordPress σύστημα αρχείων σφάλμα."
+
+#: inc/plugins/importer/importer-api.php:206
+msgid "The package could not be unziped."
+msgstr "Το πακέτο δεν θα μπορούσε να unziped."
+
+#: inc/plugins/importer/importer-api.php:211
+#, php-format
+msgid "Demo data directory does not exist (%s)."
+msgstr "Δεδομένα Demo κατάλογος δεν υπάρχει (%s)."
+
+#: inc/plugins/importer/parsers.php:45 inc/plugins/importer/parsers.php:93
+#: inc/plugins/importer/parsers.php:101
+#: inc/plugins/importer/riode-parsers.php:46
+#: inc/plugins/importer/riode-parsers.php:96
+#: inc/plugins/importer/riode-parsers.php:104
+msgid "There was an error when reading this WXR file"
+msgstr "Υπήρχε ένα σφάλμα κατά την ανάγνωση αυτό το WXR αρχείο"
+
+#: inc/plugins/importer/parsers.php:46
+#: inc/plugins/importer/riode-parsers.php:47
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+"Λεπτομέρειες παρουσιάζονται ανωτέρω. Ο εισαγωγέας θα προσπαθήσει και πάλι με "
+"ένα διαφορετικό αναλυτή."
+
+#: inc/plugins/importer/parsers.php:106 inc/plugins/importer/parsers.php:112
+#: inc/plugins/importer/parsers.php:403 inc/plugins/importer/parsers.php:620
+#: inc/plugins/importer/riode-parsers.php:109
+#: inc/plugins/importer/riode-parsers.php:115
+#: inc/plugins/importer/riode-parsers.php:408
+#: inc/plugins/importer/riode-parsers.php:630
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+"Αυτό δεν φαίνεται να είναι ένα WXR αρχείο που λείπει/άκυρο WXR αριθμό έκδοσης"
+
+#: inc/plugins/importer/parsers.php:561
+#: inc/plugins/importer/riode-parsers.php:569
+msgid "GZ Not Enabled"
+msgstr "GZ Δεν είναι Ενεργοποιημένη"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:210
+msgid "Imported categories"
+msgstr "Εισάγονται κατηγορίες"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:215
+msgid "Imported tags"
+msgstr "Εισάγονται κατηγορία"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:220
+msgid "Imported terms"
+msgstr "Εισάγονται όροι"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:226
+msgid "Imported posts"
+msgstr "Εισάγονται θέσεις"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:232
+msgid "Importing posts"
+msgstr "Εισαγωγή θέσεις"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:241
+msgid "Importing menus"
+msgstr "Εισαγωγή μενού"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:247
+#: inc/plugins/importer/riode-wordpress-importer.php:255
+#: inc/plugins/importer/riode-wordpress-importer.php:260
+msgid "Processing menus"
+msgstr "Μενού επεξεργασίας"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:267
+msgid "Successfully imported dummy content!"
+msgstr "Με επιτυχία εισάγονται dummy περιεχόμενο!"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:314
+#: inc/plugins/importer/riode-wordpress-importer.php:323
+#: inc/plugins/importer/riode-wordpress-importer.php:380
+#: inc/plugins/importer/riode-wordpress-importer.php:384
+#: inc/plugins/importer/riode-wordpress-importer.php:394
+#: inc/plugins/importer/wordpress-importer.php:207
+#: inc/plugins/importer/wordpress-importer.php:216
+#: inc/plugins/importer/wordpress-importer.php:278
+#: inc/plugins/importer/wordpress-importer.php:282
+#: inc/plugins/importer/wordpress-importer.php:292
+msgid "Sorry, there has been an error."
+msgstr "Λυπούμαστε, υπήρξε ένα σφάλμα."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:315
+#: inc/plugins/importer/wordpress-importer.php:208
+msgid "The file does not exist, please try again."
+msgstr "Το αρχείο δεν υπάρχει, παρακαλώ προσπαθήστε ξανά."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:386
+#: inc/plugins/importer/wordpress-importer.php:284
+#, php-format
+msgid ""
+"The export file could not be found at %s. It is likely that this was caused "
+"by a permissions problem."
+msgstr ""
+"Το αρχείο εξαγωγής δεν θα μπορούσε να βρεθεί σε %s. Είναι πιθανό ότι αυτό "
+"προκαλείται από ένα πρόβλημα με τα δικαιώματα."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:403
+#: inc/plugins/importer/wordpress-importer.php:301
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+"Αυτό το WXR αρχείο (έκδοση %s) μπορεί να μην υποστηρίζεται από αυτήν την "
+"έκδοση του εισαγωγέα. Παρακαλούμε να εξετάσει την αναβάθμιση."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:429
+#: inc/plugins/importer/wordpress-importer.php:327
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+"Απέτυχε η εισαγωγή του συντάκτη %s. Τις θέσεις τους θα πρέπει να αποδοθεί "
+"στον τρέχοντα χρήστη."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:456
+#: inc/plugins/importer/wordpress-importer.php:354
+msgid "Assign Authors"
+msgstr "Να Αντιστοιχίσετε Συγγραφείς"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:458
+#: inc/plugins/importer/wordpress-importer.php:356
+#, php-format
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as %1$sadmin%2$ss "
+"entries."
+msgstr ""
+"Για να καταστεί ευκολότερη για να μπορείτε να επεξεργαστείτε και να "
+"αποθηκεύσετε το περιεχόμενο το οποίο έχει εισαχθεί, μπορεί να θέλετε να "
+"αντιστοιχίσετε εκ νέου ο συγγραφέας των εισαγόμενων στοιχείων σε έναν "
+"υπάρχοντα χρήστη αυτής της ιστοσελίδας. Για παράδειγμα, μπορεί να θέλετε να "
+"εισαγάγετε όλες τις καταχωρήσεις σε %1$sadmin%2$ες καταχωρήσεις."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:461
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user's role will be set as %s. Manually changing the "
+"new user&#8217;s details will be necessary."
+msgstr ""
+"Αν ένας νέος χρήστης που έχει δημιουργηθεί από το WordPress, ένα νέο κωδικό "
+"πρόσβασης θα είναι τυχαία και το νέο ρόλο χρήστη θα πρέπει να οριστεί ως %s. "
+"Αλλάξετε με μη αυτόματο τρόπο τις νέες λεπτομέρειες για τον χρήστη θα είναι "
+"απαραίτητο."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:471
+#: inc/plugins/importer/wordpress-importer.php:369
+msgid "Import Attachments"
+msgstr "Εισαγωγή Συνημμένων"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:474
+#: inc/plugins/importer/wordpress-importer.php:372
+msgid "Download and import file attachments"
+msgstr "Κατεβάστε και εισαγωγή συνημμένων αρχείων"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:491
+#: inc/plugins/importer/wordpress-importer.php:389
+msgid "Import author:"
+msgstr "Εισαγωγή του συντάκτη:"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:505
+#: inc/plugins/importer/wordpress-importer.php:403
+msgid "or create new user with login name:"
+msgstr "ή να δημιουργήσετε νέο χρήστη με το όνομα χρήστη:"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:508
+#: inc/plugins/importer/wordpress-importer.php:406
+msgid "as a new user:"
+msgstr "ως νέος χρήστης:"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:516
+#: inc/plugins/importer/wordpress-importer.php:414
+msgid "assign posts to an existing user:"
+msgstr "να αντιστοιχίσετε τις δημοσιεύσεις σε έναν υπάρχοντα χρήστη:"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:518
+#: inc/plugins/importer/wordpress-importer.php:416
+msgid "or assign posts to an existing user:"
+msgstr "ή να εκχωρήσετε τις δημοσιεύσεις σε έναν υπάρχοντα χρήστη:"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:525
+#: inc/plugins/importer/wordpress-importer.php:423
+msgid "- Select -"
+msgstr "- Επιλέξτε -"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:584
+#: inc/plugins/importer/wordpress-importer.php:482
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+"Απέτυχε να δημιουργήσει νέο χρήστη %s. Τις θέσεις τους θα πρέπει να αποδοθεί "
+"στον τρέχοντα χρήστη."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:669
+#: inc/plugins/importer/wordpress-importer.php:565
+#, php-format
+msgid "Failed to import category %s"
+msgstr "Αποτυχία εισαγωγής %s"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:724
+#: inc/plugins/importer/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr "Αποτυχία εισαγωγής ετικέτας %s"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:806
+#: inc/plugins/importer/riode-wordpress-importer.php:1146
+#: inc/plugins/importer/wordpress-importer.php:698
+#: inc/plugins/importer/wordpress-importer.php:1038
+#, php-format
+msgid "Failed to import %1$s %2$s"
+msgstr "Απέτυχε η εισαγωγή του %1$s %2$s"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:912
+#: inc/plugins/importer/wordpress-importer.php:795
+#, php-format
+msgid "Failed to import &#8220;%1$s&#8221;: Invalid post type %2$s"
+msgstr ""
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1003
+#: inc/plugins/importer/riode-wordpress-importer.php:1105
+#: inc/plugins/importer/wordpress-importer.php:895
+#: inc/plugins/importer/wordpress-importer.php:999
+#, php-format
+msgid "Failed to import %1$s &#8220;%2$s&#8221;"
+msgstr ""
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1366
+#: inc/plugins/importer/wordpress-importer.php:1261
+msgid "Menu item skipped due to missing menu slug"
+msgstr "Στοιχείο μενού παραλείπεται λόγω ελλιπών μενού slug"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1373
+#: inc/plugins/importer/wordpress-importer.php:1268
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "Στοιχείο μενού παραλείπεται, λόγω μη έγκυρη μενού slug: %s"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1456
+#: inc/plugins/importer/wordpress-importer.php:1351
+msgid "Fetching attachments is not enabled"
+msgstr "Γοητευτικός συνημμένα δεν είναι ενεργοποιημένη"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1473
+#: inc/plugins/importer/wordpress-importer.php:1368
+msgid "Invalid file type"
+msgstr "Μη έγκυρος τύπος αρχείου"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1542
+#: inc/plugins/importer/wordpress-importer.php:1437
+msgid "Remote server did not respond"
+msgstr "Απομακρυσμένος διακομιστής δεν ανταποκρίνεται"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1549
+#: inc/plugins/importer/wordpress-importer.php:1444
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr "Απομακρυσμένος διακομιστής επέστρεψε σφάλμα αντίδραση %1$d %2$s"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1558
+#: inc/plugins/importer/wordpress-importer.php:1453
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr "Απομακρυσμένο αρχείο είναι πολύ μεγάλο, το όριο είναι %s"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1671
+#: inc/plugins/importer/wordpress-importer.php:1560
+msgid "Import WordPress"
+msgstr "Εισαγωγή WordPress"
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1679
+#: inc/plugins/importer/wordpress-importer.php:1568
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+"Μια νέα έκδοση αυτού του εισαγωγέα είναι διαθέσιμη. Παρακαλώ αναβαθμίστε "
+"στην έκδοση %s για να διασφαλιστεί η συμβατότητα με νεότερες εξαγωγή αρχείων."
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1694
+#: inc/plugins/importer/wordpress-importer.php:1583
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: inc/plugins/importer/riode-wordpress-importer.php:1695
+#: inc/plugins/importer/wordpress-importer.php:1584
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+"Επιλέξτε ένα WXR (.xml) να ανεβάσετε το αρχείο και, στη συνέχεια, κάντε κλικ "
+"στην επιλογή Μεταφόρτωση αρχείου και εισαγωγή."
+
+#: inc/plugins/importer/wordpress-importer.php:262
+msgid "All done."
+msgstr "Όλα γίνονται."
+
+#: inc/plugins/importer/wordpress-importer.php:262
+msgid "Have fun!"
+msgstr "Έχετε τη διασκέδαση!"
+
+#: inc/plugins/importer/wordpress-importer.php:263
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+"Θυμηθείτε να ενημερώσετε τους κωδικούς πρόσβασης και τους ρόλους των "
+"εισαγόμενων χρήστες."
+
+#: inc/plugins/importer/wordpress-importer.php:359
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+"Αν ένας νέος χρήστης που έχει δημιουργηθεί από το WordPress, ένα νέο κωδικό "
+"πρόσβασης θα είναι τυχαία και το νέο ρόλο χρήστη θα πρέπει να οριστεί ως %s. "
+"Αλλάξετε με μη αυτόματο τρόπο τις νέες λεπτομέρειες για τον χρήστη θα είναι "
+"απαραίτητο."
+
+#: inc/plugins/importer/wordpress-importer.php:845
+#, php-format
+msgid "%1$s &#8220;%2$s&#8221; already exists."
+msgstr ""
+
+#: inc/setup/theme-assets.php:257
+msgid "Loading..."
+msgstr "Φόρτωση..."
+
+#: inc/setup/theme-assets.php:258
+msgid "Loading failed"
+msgstr "Φόρτωση απέτυχε"
+
+#: inc/setup/theme-assets.php:259
+msgid "The content could not be loaded."
+msgstr "Το περιεχόμενο δεν μπορεί να φορτωθεί."
+
+#: inc/setup/theme-assets.php:260
+#, php-format
+msgid "all %d"
+msgstr "all %d"
+
+#: inc/setup/theme-assets.php:296
+msgid "Successfully Added"
+msgstr "Με Επιτυχία Πρόσθεσε"
+
+#: inc/setup/theme-assets.php:297
+msgid "Add to wishlist"
+msgstr "Προσθήκη στη λίστα"
+
+#: inc/setup/theme-assets.php:299
+msgid "Check Out"
+msgstr "Ελέγξτε Έξω"
+
+#: inc/setup/theme-options.php:13
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/setup/theme-options.php:14
+msgid "Twitter"
+msgstr "Το Twitter"
+
+#: inc/setup/theme-options.php:15
+msgid "Linkedin"
+msgstr "Το Linkedin"
+
+#: inc/setup/theme-options.php:17
+msgid "Google +"
+msgstr "Το Google +"
+
+#: inc/setup/theme-options.php:18
+msgid "Pinterest"
+msgstr "Το Pinterest"
+
+#: inc/setup/theme-options.php:19
+msgid "Reddit"
+msgstr "Reddit"
+
+#: inc/setup/theme-options.php:20
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: inc/setup/theme-options.php:21
+msgid "VK"
+msgstr "VK"
+
+#: inc/setup/theme-options.php:22
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: inc/setup/theme-options.php:23
+msgid "Xing"
+msgstr "Xing"
+
+#: inc/setup/theme-options.php:24
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/setup/theme-options.php:131
+msgid "Menu"
+msgstr "Μενού"
+
+#: inc/setup/theme-options.php:135
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: inc/setup/theme-setup.php:22
+msgid "Account Menu"
+msgstr "Μενού Του Λογαριασμού"
+
+#: inc/setup/theme-setup.php:38
+msgid "Currency Switcher"
+msgstr "Νόμισμα Switcher"
+
+#: inc/setup/theme-setup.php:39
+msgid "Language Switcher"
+msgstr "Γλώσσα Switcher"
+
+#: inc/setup/theme-setup.php:40
+msgid "Main Menu"
+msgstr "Κύριο Μενού"
+
+#: inc/setup/theme-setup.php:84
+msgid "Small"
+msgstr "Μικρό"
+
+#: inc/setup/theme-setup.php:90
+msgid "Normal"
+msgstr "Κανονική"
+
+#: inc/setup/theme-setup.php:91
+msgid "N"
+msgstr "N"
+
+#: inc/setup/theme-setup.php:96
+msgid "Medium"
+msgstr "Μέσο"
+
+#: inc/setup/theme-setup.php:102
+msgid "Large"
+msgstr "Μεγάλες"
+
+#: inc/setup/theme-setup.php:108
+msgid "Huge"
+msgstr "Τεράστια"
+
+#: inc/setup/theme-setup.php:109
+msgid "huge"
+msgstr "τεράστια"
+
+#: inc/setup/theme-setup.php:121
+msgid "Primary"
+msgstr "Κύρια"
+
+#: inc/setup/theme-setup.php:126
+msgid "Secondary"
+msgstr "Δευτεροβάθμια"
+
+#: inc/setup/theme-setup.php:131
+msgid "Alert"
+msgstr "Alert"
+
+#: inc/setup/theme-setup.php:141
+msgid "White"
+msgstr "Λευκό"
+
+#: inc/setup/theme-setup.php:146
+msgid "Default Font Color"
+msgstr "Προεπιλεγμένο Χρώμα Γραμματοσειράς"
+
+#: inc/setup/theme-setup.php:151
+msgid "Transparent"
+msgstr "Διαφανής"
+
+#: inc/walker/walker-init.php:67
+msgid "Riode Custom Fields"
+msgstr "Riode Προσαρμοσμένα Πεδία"
+
+#: inc/walker/walker-init.php:72
+msgid "No Link"
+msgstr "Κανένας Σύνδεσμος (Link)"
+
+#: inc/walker/walker-init.php:79
+msgid "Megamenu"
+msgstr "Megamenu"
+
+#: inc/walker/walker-init.php:85
+msgid "Megamenu Width (px)"
+msgstr "Megamenu Πλάτος (px)"
+
+#: inc/walker/walker-init.php:92
+msgid "Megamenu Position"
+msgstr "Megamenu Θέση"
+
+#: inc/walker/walker-init.php:122
+msgid "Select A Block"
+msgstr "Επιλέξτε Ένα Μπλοκ"
+
+#: inc/walker/walker-init.php:133
+msgid "This option only works in megamenu."
+msgstr "Αυτή η επιλογή λειτουργεί μόνο σε megamenu."
+
+#: inc/walker/walker-init.php:141
+msgid "Prefix Icon Class"
+msgstr "Πρόθεμα Εικονίδιο Κατηγορίας"
+
+#: inc/walker/walker-init.php:143
+msgid "Riode Icon Store might be useful for you to select icons."
+msgstr ""
+"Riode Εικονίδιο Κατάστημα μπορεί να είναι χρήσιμο για σας για να επιλέξετε "
+"εικόνες."
+
+#: inc/walker/walker-init.php:149
+msgid "Add Label"
+msgstr "Προσθήκη Ετικετών"
+
+#: inc/walker/walker-init.php:151
+msgid "Select A Label"
+msgstr "Επιλέξτε Μια Ετικέτα"
+
+#: inc/widget-area/widget-init.php:26
+#, php-format
+msgid "Footer %1$s Widget %2$s"
+msgstr "Υποσέλιδο %1$s Widget %2$s"
+
+#: inc/widget-area/widget-init.php:39
+msgid "Blog Sidebar"
+msgstr "Blog Sidebar"
+
+#: inc/widget-area/widget-init.php:50
+msgid "Shop Sidebar"
+msgstr "Κατάστημα Sidebar"
+
+#: inc/widget-area/widget-init.php:66
+#, php-format
+msgid "%s"
+msgstr "το %s"
+
+#: page.php:27 template_parts/posts/archive.php:125
+msgid "Nothing Found"
+msgstr "Τίποτα Δεν Βρέθηκε"
+
+#: searchform.php:17
+msgid "Search your keyword..."
+msgstr "Αναζητήστε τη λέξη-κλειδί σας..."
+
+#: searchform.php:53
+msgid "All Categories"
+msgstr "Όλες Οι Κατηγορίες"
+
+#: template_parts/header/elements/element-cart.php:77
+msgid "Shopping Cart"
+msgstr "Καλάθι Αγορών"
+
+#: template_parts/header/elements/element-cart.php:77
+msgid "close"
+msgstr "κοντά"
+
+#: template_parts/header/elements/element-compare.php:38
+#, php-format
+msgid "%1$sYith Compare Plugin%2$s is not installed."
+msgstr "%1$sYith Συγκρίνετε Plugin%2$s δεν είναι εγκατεστημένο."
+
+#: template_parts/header/elements/element-currency-switcher.php:102
+#: template_parts/header/elements/element-currency-switcher.php:105
+msgid "USD"
+msgstr "USD"
+
+#: template_parts/header/elements/element-currency-switcher.php:104
+msgid "EUR"
+msgstr "EUR"
+
+#: template_parts/header/elements/element-language-switcher.php:100
+#: template_parts/header/elements/element-language-switcher.php:102
+msgid "ENG"
+msgstr "ENG"
+
+#: template_parts/header/elements/element-language-switcher.php:103
+msgid "FRA"
+msgstr "FRA"
+
+#: template_parts/header/elements/element-menu.php:93
+msgid "Select Menu"
+msgstr "Επιλέξτε Μενού"
+
+#: template_parts/header/elements/element-wishlist.php:36
+#, php-format
+msgid "%1$sYith Wishlist Plugin%2$s is not installed."
+msgstr "%1$sYith Επιθυμητά Plugin%2$s δεν είναι εγκατεστημένο."
+
+#: template_parts/header/header.php:62
+msgid "Welcome to Riode Store Message or Remove it!"
+msgstr "Καλώς ήρθατε στο Riode Κατάστημα Μήνυμα ή να το Αφαιρέσετε!"
+
+#: template_parts/posts/archive.php:126
+msgid ""
+"Sorry, I am afraid you do not have any matches. Please try again with other "
+"keywords."
+msgstr ""
+"Λυπάμαι, φοβάμαι πως δεν έχετε σπίρτα. Παρακαλώ δοκιμάστε ξανά με άλλες "
+"λέξεις-κλειδιά."
+
+#: template_parts/posts/elements/post-author.php:16
+#, php-format
+msgid "View all posts by %s"
+msgstr "Προβολή όλων των δημοσιεύσεων από %s"
+
+#: template_parts/posts/elements/post-meta.php:26
+#, php-format
+msgid "%1$s0%2$s Comments"
+msgstr "%1$s0%2$s Σχόλια"
+
+#: template_parts/posts/elements/post-meta.php:27
+#, php-format
+msgid "%1$s1%2$s Comment"
+msgstr "%1$s1,%2$s Σχόλιο"
+
+#: template_parts/posts/elements/post-meta.php:28
+#, php-format
+msgid "%1$s%2$s%3$s Comment"
+msgstr "%1$s%2$s%3$s Σχόλιο"
+
+#: template_parts/posts/elements/post-navigation.php:5
+msgid "Previous Post"
+msgstr "Προηγούμενο Post"
+
+#: template_parts/posts/elements/post-navigation.php:6
+msgid "Next Post"
+msgstr "Επόμενο Post"
+
+#: template_parts/posts/post.php:137
+msgid "Read More"
+msgstr "Διαβάστε Περισσότερα"
+
+#: template_parts/sidebar.php:74 woocommerce/loop/orderby.php:218
+#: woocommerce/single-product/add-to-cart/variable.php:71
+msgid "Clean All"
+msgstr "Καθαρίστε Όλα"
+
+#: woocommerce/cart/cart-shipping.php:31
+msgid "Calculate Shipping"
+msgstr "Υπολογίστε Τη Ναυτιλία"
+
+#: woocommerce/cart/cart-shipping.php:52
+#, php-format
+msgid "Shipping to %s."
+msgstr "Ναυτιλία σε %s."
+
+#: woocommerce/cart/cart-shipping.php:53
+msgid "Change address"
+msgstr "Αλλαγή διεύθυνσης"
+
+#: woocommerce/cart/cart-shipping.php:55
+msgid "Shipping options will be updated during checkout."
+msgstr "Επιλογές αποστολής θα ενημερώνεται κατά τη διάρκεια του checkout."
+
+#: woocommerce/cart/cart-shipping.php:63
+msgid "Shipping costs are calculated during checkout."
+msgstr "Τα έξοδα αποστολής υπολογίζονται κατά την ολοκλήρωση της παραγγελίας."
+
+#: woocommerce/cart/cart-shipping.php:65
+msgid "Enter your address to view shipping options."
+msgstr "Εισάγετε τη διεύθυνσή σας για να δείτε τις επιλογές αποστολής."
+
+#: woocommerce/cart/cart-shipping.php:68
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+"Δεν υπάρχουν διαθέσιμες επιλογές αποστολής. Παρακαλώ βεβαιωθείτε ότι η "
+"διεύθυνσή σας έχει εισαχθεί σωστά, ή να επικοινωνήσετε μαζί μας αν "
+"χρειάζεστε οποιαδήποτε βοήθεια."
+
+#: woocommerce/cart/cart-shipping.php:71
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr "Όχι επιλογές αποστολής βρέθηκαν %s."
+
+#: woocommerce/cart/cart-shipping.php:72
+msgid "Enter a different address"
+msgstr "Εισάγετε μια διαφορετική διεύθυνση"
+
+#: woocommerce/cart/cart-totals.php:26
+msgid "Cart Totals"
+msgstr "Καλάθι Σύνολα"
+
+#: woocommerce/cart/cart-totals.php:38 woocommerce/cart/cart-totals.php:39
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:113
+msgid "Subtotal"
+msgstr "Μερικό σύνολο"
+
+#: woocommerce/cart/cart-totals.php:54 woocommerce/cart/cart-totals.php:55
+msgid "Shipping"
+msgstr "Ναυτιλία"
+
+#: woocommerce/cart/cart-totals.php:74
+#, php-format
+msgid "(estimated for %s)"
+msgstr "(εκτίμηση για το %s)"
+
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:65
+#: woocommerce/wishlist-view.php:63
+msgid "Product"
+msgstr "Το προϊόν"
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:91
+#: woocommerce/wishlist-view.php:84
+msgid "Quantity"
+msgstr "Ποσότητα"
+
+#: woocommerce/cart/cart.php:80
+msgid "Available on backorder"
+msgstr "Διαθέσιμο για προ-παραγγελία"
+
+#: woocommerce/cart/cart.php:125 woocommerce/cart/mini-cart.php:67
+msgid "Remove this item"
+msgstr "Να καταργήσετε αυτό το στοιχείο"
+
+#: woocommerce/cart/cart.php:144
+msgid "Continue Shopping"
+msgstr "Συνεχίστε Τις Αγορές"
+
+#: woocommerce/cart/cart.php:145
+msgid "Update cart"
+msgstr "Ενημέρωση καλαθιού"
+
+#: woocommerce/cart/cart.php:149
+msgid "Coupon Discount"
+msgstr "Κουπόνι Έκπτωση"
+
+#: woocommerce/cart/cart.php:151
+msgid "Enter coupon code here..."
+msgstr "Εισάγετε το κωδικό κουπονιού εδώ..."
+
+#: woocommerce/cart/cart.php:152
+msgid "Apply coupon"
+msgstr "Το κουπόνι ισχύει"
+
+#: woocommerce/cart/mini-cart.php:103
+msgid "No products in the cart."
+msgstr "Δεν υπάρχουν προϊόντα στο καλάθι."
+
+#: woocommerce/cart/shipping-calculator.php:29
+msgid "Select a country / region&hellip;"
+msgstr "Επιλέξτε μια χώρα / περιοχή..."
+
+#: woocommerce/cart/shipping-calculator.php:48
+#: woocommerce/cart/shipping-calculator.php:53
+#: woocommerce/cart/shipping-calculator.php:65
+msgid "State / County"
+msgstr "State / County"
+
+#: woocommerce/cart/shipping-calculator.php:54
+msgid "Select an option&hellip;"
+msgstr "Επιλέξτε μια επιλογή..."
+
+#: woocommerce/cart/shipping-calculator.php:74
+msgid "City"
+msgstr "Πόλη"
+
+#: woocommerce/cart/shipping-calculator.php:80
+msgid "Postcode / ZIP"
+msgstr "Ταχυδρομικός κώδικας / ZIP"
+
+#: woocommerce/cart/shipping-calculator.php:84
+msgid "Update Totals"
+msgstr "Ενημέρωση Σύνολα"
+
+#: woocommerce/checkout/payment.php:25
+msgid "Payment Methods"
+msgstr "Μέθοδοι Πληρωμής"
+
+#: woocommerce/checkout/payment.php:35
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"Συγγνώμη, φαίνεται ότι δεν υπάρχουν διαθέσιμοι τρόποι πληρωμής για το κράτος "
+"σας. Παρακαλώ επικοινωνήστε μαζί μας αν χρειάζεστε βοήθεια ή θέλετε να "
+"κάνετε εναλλακτικές ρυθμίσεις."
+
+#: woocommerce/checkout/payment.php:35
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+"Παρακαλούμε συμπληρώστε τα στοιχεία σας \" παραπάνω για να δείτε τις "
+"διαθέσιμες μεθόδους πληρωμής."
+
+#: woocommerce/checkout/payment.php:44
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+"Από το πρόγραμμα περιήγησής σας δεν υποστηρίζει JavaScript ή είναι "
+"απενεργοποιημένη, παρακαλώ βεβαιωθείτε ότι κάνετε κλικ στο κουμπί %1$sUpdate "
+"Σύνολα%2$s κουμπί πριν από την παραγγελία σας. Μπορεί να χρεωθείτε "
+"περισσότερο από το ποσό που αναφέρεται παραπάνω, εάν αποτύχει να το πράξει."
+
+#: woocommerce/checkout/payment.php:46
+msgid "Update totals"
+msgstr "Ενημέρωση σύνολα"
+
+#: woocommerce/checkout/thankyou.php:31
+msgid ""
+"Unfortunately your order cannot be processed as the originating "
+"bank/merchant has declined your transaction. Please attempt your purchase "
+"again."
+msgstr ""
+"Δυστυχώς η παραγγελία σας δεν μπορεί να υποβληθεί σε επεξεργασία ως την "
+"τράπεζα προέλευσης/έμπορος αρνήθηκε τη συναλλαγή σας. Παρακαλώ προσπάθεια "
+"για την αγορά σας και πάλι."
+
+#: woocommerce/checkout/thankyou.php:34
+msgid "Pay"
+msgstr "Πληρώσει"
+
+#: woocommerce/checkout/thankyou.php:36
+msgid "My account"
+msgstr "Λογαριασμού μου"
+
+#: woocommerce/checkout/thankyou.php:54
+msgid "Thank you!"
+msgstr "Σας ευχαριστώ!"
+
+#: woocommerce/checkout/thankyou.php:55
+msgid "Your order has been received"
+msgstr "Η παραγγελία σας έχει παραληφθεί"
+
+#: woocommerce/checkout/thankyou.php:63
+msgid "Order number:"
+msgstr "Αριθμός παραγγελίας:"
+
+#: woocommerce/checkout/thankyou.php:68
+msgid "Status:"
+msgstr "Κατάσταση:"
+
+#: woocommerce/checkout/thankyou.php:73
+msgid "Date:"
+msgstr "Ημερομηνία:"
+
+#: woocommerce/checkout/thankyou.php:78
+msgid "Email:"
+msgstr "E-mail:"
+
+#: woocommerce/checkout/thankyou.php:83
+msgid "Total:"
+msgstr "Συνολικά:"
+
+#: woocommerce/checkout/thankyou.php:89
+msgid "Payment method:"
+msgstr "Μέθοδος πληρωμής:"
+
+#: woocommerce/checkout/thankyou.php:103
+msgid "Thank you. Your order has been received."
+msgstr "Ευχαριστώ. Η παραγγελία σας έχει παραληφθεί."
+
+#: woocommerce/compare.php:92
+msgid "Close window [X]"
+msgstr ""
+
+#: woocommerce/compare.php:126
+msgid "No products added in the compare table."
+msgstr "Δεν υπάρχουν προϊόντα που προστέθηκαν στην συγκρίνετε πίνακα."
+
+#: woocommerce/loop/orderby.php:114 woocommerce/loop/orderby.php:144
+msgid "Sort By"
+msgstr "Ταξινόμηση Κατά"
+
+#: woocommerce/loop/orderby.php:117 woocommerce/loop/orderby.php:146
+msgid "Shop order"
+msgstr "Shop σειρά"
+
+#: woocommerce/loop/rating.php:50
+msgid "reviews"
+msgstr "κριτικές"
+
+#: woocommerce/loop/result-count.php:31
+msgid "Showing the single result"
+msgstr "Δείχνει το ενιαίο αποτέλεσμα"
+
+#: woocommerce/loop/result-count.php:36
+#, php-format
+msgid "Showing %1$sall %2$d%3$s Product"
+msgid_plural "Showing %1$sall %2$d%3$s Products"
+msgstr[0] "Εμφάνιση %1$sall %2$d%3$s Προϊόντων"
+msgstr[1] "Εμφάνιση %1$sall %2$d%3$s Προϊόντων"
+
+#: woocommerce/loop/result-count.php:43
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing %4$s%1$d&ndash;%2$d of %3$d%5$s Product"
+msgid_plural "Showing %4$s%1$d&ndash;%2$d of %3$d%5$s Products"
+msgstr[0] "Παρουσίαση %4$s%1$d–%2$d από %3$d%5$s Προϊόντων"
+msgstr[1] "Παρουσίαση %4$s%1$d–%2$d από %3$d%5$s Προϊόντων"
+
+#: woocommerce/loop/sale-flash.php:43
+msgid "Top"
+msgstr "Κορυφή"
+
+#: woocommerce/loop/sale-flash.php:56
+msgid "off"
+msgstr "από"
+
+#: woocommerce/loop/sale-flash.php:62
+msgid "Out of Stock"
+msgstr "Απόθεμα"
+
+#: woocommerce/myaccount/form-login.php:29
+msgid "Login"
+msgstr "Είσοδος"
+
+#: woocommerce/myaccount/form-login.php:32
+msgid "or"
+msgstr "ή"
+
+#: woocommerce/myaccount/form-login.php:34
+#: woocommerce/myaccount/form-login.php:112
+msgid "Register"
+msgstr "Μητρώο"
+
+#: woocommerce/myaccount/form-login.php:46
+msgid "Username or Email Address"
+msgstr "Το όνομα χρήστη ή Διεύθυνση Ηλεκτρονικού ταχυδρομείου"
+
+#: woocommerce/myaccount/form-login.php:49
+#: woocommerce/myaccount/form-login.php:94
+msgid "Password"
+msgstr "Κωδικό πρόσβασης"
+
+#: woocommerce/myaccount/form-login.php:56
+msgid "Remember me"
+msgstr "Να με θυμάσαι"
+
+#: woocommerce/myaccount/form-login.php:59
+msgid "Lost your password?"
+msgstr "Χάσατε τον κωδικό σας;"
+
+#: woocommerce/myaccount/form-login.php:64
+msgid "LogIn"
+msgstr "Είσοδος"
+
+#: woocommerce/myaccount/form-login.php:82
+msgid "Username"
+msgstr "Όνομα χρήστη"
+
+#: woocommerce/myaccount/form-login.php:88
+msgid "Your Email address"
+msgstr "Η διεύθυνση Ηλεκτρονικού ταχυδρομείου σας"
+
+#: woocommerce/myaccount/form-login.php:99
+msgid "A password will be sent to your email address."
+msgstr ""
+"Ένας κωδικός πρόσβασης θα σταλεί στη διεύθυνση ηλεκτρονικού ταχυδρομείου σας."
+
+#: woocommerce/myaccount/form-login.php:107
+#, php-format
+msgid "%1$sI agree to the %2$s"
+msgstr "%1$sI συμφωνείτε με το %2$s"
+
+#: woocommerce/order/order-details-customer.php:32
+msgid "Billing address"
+msgstr "Διεύθυνση χρέωσης"
+
+#: woocommerce/order/order-details-customer.php:35
+#: woocommerce/order/order-details-customer.php:55
+msgid "N/A"
+msgstr "N/A"
+
+#: woocommerce/order/order-details-customer.php:53
+msgid "Shipping address"
+msgstr "Διεύθυνση αποστολής"
+
+#: woocommerce/order/order-details-customer.php:66
+msgid "Back To List"
+msgstr "Πίσω Στην Λίστα"
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr "Αυτό το προϊόν είναι προς το παρόν εξαντληθεί και δεν είναι διαθέσιμο."
+
+#: woocommerce/wishlist-view.php:95
+msgid "Stock status"
+msgstr "Την κατάσταση των αποθεμάτων"
+
+#: woocommerce/wishlist-view.php:113
+msgid "Arrange"
+msgstr "Το κανονίσουμε"
+
+#: woocommerce/wishlist-view.php:197
+msgid "Out of stock"
+msgstr "Απόθεμα"
+
+#: woocommerce/wishlist-view.php:197
+msgid "In Stock"
+msgstr "Σε Απόθεμα"
+
+#: woocommerce/wishlist-view.php:206
+#, php-format
+msgid "Added on: %s"
+msgstr "Προστέθηκε στις: %s"
+
+#: woocommerce/wishlist-view.php:219
+msgid "Move"
+msgstr "Κίνηση"
+
+#: woocommerce/wishlist-view.php:238
+msgid "Move to another list &rsaquo;"
+msgstr "Μετακινήσετε σε μια άλλη λίστα \""
+
+#: woocommerce/wishlist-view.php:245 woocommerce/wishlist-view.php:259
+msgid "Remove this product"
+msgstr "Αφαιρέστε αυτό το προϊόν"
+
+#: woocommerce/wishlist-view.php:272
+msgid "No products added to the wishlist"
+msgstr "Όχι προϊόντα που προστίθενται στην wishlist"
+
+#: woocommerce/wishlist-view.php:277
+msgid "GO SHOP"
+msgstr "ΠΗΓΑΊΝΕΤΕ ΚΑΤΆΣΤΗΜΑ"

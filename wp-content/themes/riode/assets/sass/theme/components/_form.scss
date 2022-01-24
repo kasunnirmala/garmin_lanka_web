@@ -1,0 +1,224 @@
+/* -------------------------------------------
+    Form
+---------------------------------------------- */
+
+@include set-default(
+    (
+        form: (
+            input-group: (
+                height: 4.5rem,
+                color: $primary-color-dark,
+                border-color: #ccc
+            )
+        )
+    )
+);
+.form .form-control {
+    margin-bottom: 2rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    min-height: 4rem;
+    padding: 1.2rem 1.5rem;
+    border: 1px solid #e1e1e1;
+    font-size: font-size(1.3rem);
+    line-height: 1.5;
+    font-weight: 400;
+    color: #999;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    outline: 0;
+    &::placeholder {
+        color: inherit;
+        transition: color .3s;
+    }
+    &::-webkit-input-placeholder {
+        color: inherit;
+        transition: color .3s;
+    }
+    &::-moz-placeholder {
+        color: inherit;
+        transition: color .3s;
+    }
+    &:focus::placeholder {
+        color: transparent;
+    }
+    &:focus::-webkit-input-placeholder {
+        color: transparent;
+    }
+    &:focus::-moz-placeholder {
+        color: transparent;
+    }
+    &.form-solid {
+        background-color: #fff;
+        border: 0;
+        color: #8d8d8d;
+    }
+}
+
+textarea {
+    font-family: inherit;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+// CheckBox
+input[type="checkbox"],
+input[type="radio"] {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background: #fff;
+    color: #fff;
+        cursor: pointer;
+            width: 18px;
+            height: 18px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 2px;
+    margin-#{$right}: 4px;
+
+    ~ label, ~ span {
+        cursor: pointer;
+            }
+        }
+
+input[type="checkbox"] {
+    &:checked {
+        background: #222;
+        border-color: #222;
+
+        &:before {
+        content: '\f00c';
+        font-size: 9px;
+            font-weight: 900;
+        font-family: 'Font Awesome 5 Free';
+            display: block;
+            line-height: 18px;
+        }
+    }
+}
+
+input[type="radio"] {
+    border-radius: 50%;
+
+    &:checked {
+        &:before {
+            content: "";
+            width: 0.8rem;
+            height: 0.8rem;
+            background: #666;
+            display: inline-block;
+            border-radius: 50%;
+            margin-bottom: 2px;
+        }
+    }
+}
+
+// Select Box
+select { // updated (925)
+    width: 100%;
+    height: 40px;
+    font-family: $font-family, sans-serif;
+    min-height: auto;
+    border: 1px solid #d7d7d7;
+    border-radius: 2px;
+    background: #fff url('../../images/select-bg.svg') if-ltr(98%, 4%) 46%/26px 60px no-repeat;
+    cursor: pointer;
+    padding: 0 1.5rem;
+    max-width: 28rem;
+    margin: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+.select-box {
+    position: relative;
+}
+
+.select-box select {
+    position: relative;
+    max-width: 15rem;
+    min-height: auto;
+    width: auto;
+    height: 100%;
+    padding: side-values(8.5px 25px 8.5px 9px);
+    border: 1px solid #d7d7d7;
+    border-radius: 2px;
+    color: inherit;
+    background-color: transparent;
+    font-size: font-size(1.2rem);
+    font-family: inherit;
+    letter-spacing: inherit;
+    z-index: 1;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    &:focus {
+        outline: none;
+    }
+}
+
+@include only-for-ie() {
+    select::-ms-expand { display: none }
+    select:focus::-ms-value { background: transparent; color: currentColor }
+}
+
+// Quantity
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.quantity {
+    display: inline-flex;
+    @include css(height, form, input-group, height);
+    @include css(line-height, form, input-group, height);
+    vertical-align: middle;
+
+    .qty {
+        -moz-appearance: textfield;
+        width: 48px;
+        font-size: font-size(1.4rem);
+		font-weight: 700;
+        @if ( get(form, input-group, border-color) ) {
+            border: solid get(form, input-group, border-color);
+            border-width: 1px 0;
+        }
+        @include css(color, form, input-group, color);
+        text-align: center;
+    }
+    button {
+        padding: 8px;
+        @if ( get(form, input-group, border-color) ) {
+            border: 1px solid get(form, input-group, border-color);
+        }
+        font-size: font-size(1.3rem);
+        line-height: 1;
+        @include css(color, form, input-group, color);
+        background-color: transparent;
+        cursor: pointer;
+        -webkit-appearance: none;
+    }
+}
+
+// Input Wrapper
+.input-wrapper {
+    input.form-control {
+        flex: 1;
+        min-width: 40px;
+        font-size: font-size(1.2rem);
+    }
+}
+.input-wrapper-inline {
+    display: flex;
+    position: relative;
+    max-width: 61.3rem;
+    width: 100%;
+    height: 40px;
+    .btn {
+        line-height: 1;
+    }
+}

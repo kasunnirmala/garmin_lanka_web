@@ -1,0 +1,290 @@
+/* -------------------------------------------
+    Alert
+        - Default
+        - Simple Alert
+        - Dark Alert
+        - Icon Alert
+        - Light Alert
+        - Message Alert
+        - Button Alert
+        - Summary Alert
+---------------------------------------------- */
+
+// Alert Radius
+.alert-round {
+    border-radius: 3px;
+}
+
+// Default
+.alert {
+    position: relative;
+    padding: side-values(1.6rem 4.5rem 1.6rem 1.8rem);
+    border:  1px solid #222;
+    font-size: font-size(1.4rem);
+    line-height: 1.75;
+    
+    strong {
+        margin-#{$right}: 3px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .close-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+        &::before {
+            box-shadow: 0 0 1px rgba(0,0,0,.5);
+            height: 1px;
+            top: calc(50% - .5px);
+        }
+        &::after {
+            box-shadow: 0 0 1px rgba(0,0,0,.5);
+            width: 1px;
+            #{$left}: calc(50% - .5px);
+        }
+    }
+    
+    .btn-close {
+        display: inline-block;
+        position: absolute;
+        top: 2rem;
+        #{$right}: 2rem;
+        line-height: 0;
+    }
+}
+
+.alert-title {
+    color: inherit;
+}
+
+.btn-close {
+    .close-icon {
+        &::before,
+        &::after {
+            transition: background-color .3s;
+        }
+    }
+    &:hover {
+        .close-icon::before,
+        .close-icon::after {
+            background-color: #000;
+        }
+    }
+}
+
+// Color types
+.alert-primary {
+    background-color: var(--rio-primary-color, #27c);
+    border-color: var(--rio-primary-color, #27c);
+    color: var(--rio-primary-color, #27c);
+}
+
+.alert-success {
+    background-color: var(--rio-success-color, #a8c26e);
+    border-color: var(--rio-success-color, #a8c26e);
+    color: var(--rio-success-color, #a8c26e);
+}
+
+.alert-warning {
+    background-color: var(--rio-secondary-color, #d26e4b);
+    border-color: var(--rio-secondary-color, #d26e4b);
+    color: var(--rio-secondary-color, #d26e4b);
+}
+
+.alert-error {
+    background-color: var(--rio-alert-color, #b10001);
+    border-color: var(--rio-alert-color, #b10001);
+    color: var(--rio-alert-color, #b10001);
+
+    .btn-close:hover {
+        .close-icon::before,
+        .close-icon::after {
+            background-color: #000;
+        }
+    }
+}
+
+.alert-black {
+    background-color: #222;
+    border-color: #222;
+
+    .btn-close:hover {
+        .close-icon::before,
+        .close-icon::after {
+            background-color: #666;
+        }
+    }
+}
+
+.alert .close-icon {
+    &::before,
+    &::after {
+        background: #222;
+    }
+}
+
+//  Simple
+.alert-simple {
+    background-color: transparent;
+    border-style: dashed;
+    border-color: #cacbcc;
+}
+
+
+//   Dark
+.alert-dark {
+    color: #fff;
+    .close-icon {
+        &::before,
+        &::after {
+            box-shadow: none;
+            background-color: #fff;
+        }
+    }
+}
+
+//  Icon
+.alert-icon {
+    padding: side-values(1.5rem 4.5rem 1.5rem 1.9rem);
+    > i {
+        vertical-align: middle;
+        margin-#{$right}: 1.2rem;
+        line-height: 1;
+        font: {
+            size: 2.4rem;
+            weight: 600;
+        }
+    }
+}
+
+//  Light
+.alert-light {
+    &.alert-primary {
+        background-color: #edf4f9;
+        border-color: #edf4f9;
+    }
+
+    &.alert-error {
+        background-color: #f6d6d5;
+        border-color: #f6d6d5;
+        color: #6d1a17;
+        .close-icon {
+            &::before,
+            &::after {
+                box-shadow: none;
+                background-color: #6d1a17;
+            }
+        }
+    }
+
+    &.alert-warning {
+        background-color: #fff5eb;
+        border-color: #fff5eb;
+    }
+}
+
+// Message
+.alert-message {
+    display: block;
+    padding: side-values(1.3rem 3.9rem 1.9rem 1.9rem);
+    .btn-close {
+        position: absolute;
+        transform: translateY(0);
+        top: 2rem;
+        #{$right}: 2rem;
+    }
+
+    .alert-title {
+        margin-bottom: .5rem;
+        text-transform: uppercase;
+        font: {
+            size: 1.4rem;
+            weight: 700;
+        }
+        line-height: 1.7;
+    }
+
+    p {
+        margin: 0;
+        line-height: 1.7;
+    }
+
+    &.alert-link {
+        p {
+            color: #666;
+        }
+        
+        a {
+            color: var(--rio-primary-color, #27c);
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &.alert-inline {
+        padding-#{$right}: 4rem;
+        .alert-title {
+            display: inline-block;
+            margin: side-values(0 .8rem 0 0);
+        }
+        p { 
+            display: inline;
+        }
+    }
+}
+
+//  Buttons
+.alert-btn {
+    &:not(.alert-message) {
+        padding: side-values(.9rem 3.9rem .9rem .9rem);
+    } 
+
+    .btn:not(.btn-close) {
+        margin-#{$right}: 1rem;
+        padding: .73em 1.61em;
+        vertical-align: middle;
+    }
+
+    &.alert-message {
+        p {
+            margin-bottom: 1rem
+        }
+    }
+
+    &.alert-dark {
+        &.alert-warning {
+            .btn:not(.btn-close) {
+                background-color: transparent;
+                padding: .7em 1.43em;
+                border-width: 3px;
+                color: #fff;
+                &:hover {
+                    background-color: #df7f50;
+                    border-color: #df7f50;
+                }
+            }
+        }
+    }
+
+    &.alert-light {
+        &.alert-warning {
+            .btn:not(.btn-close)  {
+                color:  $secondary-color;
+                background-color: #fff;
+                border-color: #fff;
+                &:hover {
+                    color: #fff;
+                    background-color: var(--rio-secondary-color, #d26e4b);
+                    border-color: var(--rio-secondary-color, #d26e4b);
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .alert-message p {
+        padding-#{$right}: 2rem;
+    }
+}

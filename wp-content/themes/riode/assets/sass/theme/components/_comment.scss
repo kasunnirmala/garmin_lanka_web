@@ -1,0 +1,158 @@
+// Comments
+.comments {
+	position: relative;
+	margin-bottom: 6rem;
+	padding-top: 4.5rem;
+
+	.title {
+		margin-bottom: 2.6rem;
+		font-size: font-size(2.1rem);
+		font-weight: 700;
+		line-height: 1.2;
+		color: #222;
+		text-transform: capitalize;
+	}
+}
+.commentlist {
+	.children {
+		margin-#{$left}: 6rem;
+		padding-top: 4.5rem;
+	}
+	li.comment {
+		margin-bottom: 4.5rem;
+		&:last-child {
+			border-bottom-width: 0;
+			margin-bottom: 0;
+			padding-bottom: 0;
+		}
+	}
+}
+
+div.comment,
+.comment_container {
+	display: flex;
+}
+
+.comment-text {
+	position: relative;
+	width: calc(100% - 6rem);
+	padding: side-values(.8rem 0 0 2.5rem);
+
+	> p {
+		margin-bottom: 1rem;
+	}
+}
+
+.comment-reply-link {
+	text-transform: uppercase;
+
+	&::after {
+		content: '\e97f';
+		font-family: 'riode';
+		margin-#{$left}: 10px;
+		transition: margin .4s;
+	}
+
+	&:hover::after {
+		margin-#{$left}: 15px;
+	}
+}
+
+.comment-avatar {
+	background: #ebebeb;
+	max-width: 6rem;
+	flex: 0 0 6rem;
+	height: 6rem;
+}
+
+.comment-name {
+	margin-bottom: 1rem;
+	font-size: font-size(1.8rem);
+	font-weight: 600;
+}
+
+.comment-date {
+	margin-bottom: 0.5rem;
+	color: #999;
+	font-weight: 400;
+	font-size: font-size(1.3rem);
+}
+
+.comment-respond {
+	margin-bottom: 4.5rem;
+
+	.comment-reply-title {
+		font-size: font-size(2rem);
+		font-weight: 600;
+		margin-bottom: .5rem;
+		text-transform: capitalize;
+		small {
+			display: inline-block;
+			float: $right;
+			font-size: font-size( 1.3rem );
+			text-transform: uppercase;
+			margin-top: 7px;
+		}
+	}
+
+	.comment-form-rating label {
+		color: #222;
+	}
+
+	.form-control {
+		margin-bottom: 2rem;
+		max-width: 100%;
+		color: #999;
+		border-color: #e1e1e1;
+		background: #fff;
+	}
+
+	.comment-notes {
+		margin-bottom: 2.5rem;
+	}
+
+	p {
+		font-size: font-size(1.3rem);
+	}
+
+	.form-submit {
+		margin-bottom: 0;
+	}
+
+	.btn-submit {
+		padding: 1.2em 2.8em;
+
+		i {
+			font-size: 2rem;
+			margin: side-values( 0 0 3px 10px );
+		}
+	}
+}
+
+@include mq(md, max) {
+	.commentlist {
+		.children {
+			margin-#{$left}: 3rem;
+		}
+	}
+}
+
+@include mq(sm, max) {
+	.comment-avatar {
+		max-width: 5rem;
+		flex: 0 0 5rem;
+		height: 5rem;
+	}
+	.comment-text {
+		padding-#{$left}: 2rem;
+		width: calc(100% - 5rem);
+	}
+}
+
+@include mq(xs, max) {
+	.commentlist {
+		.children {
+			margin-#{$left}: 1rem;
+		}
+	}
+}

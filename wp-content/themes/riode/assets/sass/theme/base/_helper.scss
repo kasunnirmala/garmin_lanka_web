@@ -1,0 +1,181 @@
+/* -------------------------------------------
+	Helper
+---------------------------------------------- */
+
+// Width, Height, Position
+@if use(w-auto) { .w-auto { width: auto !important; } }
+@if use(w-25) { .w-25 { width: 25% !important; } }
+@if use(w-50) { .w-50 { width: 50% !important; } }
+@if use(w-75) { .w-75 { width: 75% !important; } }
+@if use(w-100) { .w-100 { width: 100% !important; } }
+@if use(h-100) { .h-100 { height: 100% !important; } }
+@if use(p-relative) { .p-relative { position: relative !important; } }
+@if use(p-absolute) { .p-absolute { position: absolute !important; } }
+@if use(p-static) { .p-static { position: static !important; } }
+
+// Display
+@if use(d-none) { .d-none { display: none !important; } }
+@if use(d-block) { .d-block { display: block !important; } }
+@if use(d-inline-block) { .d-inline-block { display: inline-block !important; } }
+@if use(d-flex) { .d-flex { display: flex !important; } }
+@if use(d-inline-flex) { .d-inline-flex { display: inline-flex !important; } }
+@if use(justify-content-center) { .justify-content-center { justify-content: center !important; } }
+@if use(justify-content-start) { .justify-content-start { justify-content: flex-start !important; } }
+@if use(justify-content-end) { .justify-content-end { justify-content: flex-end !important; } }
+@if use(justify-content-between) { .justify-content-between { justify-content: space-between !important; } }
+@if use(align-items-start) { .align-items-start { align-items: flex-start !important; } }
+@if use(align-items-center) { .align-items-center { align-items: center !important; } }
+@if use(align-items-end) { .align-items-end { align-items: flex-end !important; } }
+@if use(align-self-start) { .align-self-start { align-self: flex-start !important; } }
+@if use(align-self-center) { .align-self-center { align-self: center !important; } }
+@if use(align-self-end) { .align-self-end { align-self: flex-end !important; } }
+@if use(flex-column) { .flex-column { flex-direction: column !important; } }
+@if use(flex-wrap) { .flex-wrap { flex-wrap: wrap !important; } }
+@if use(flex-1) { .flex-1 { flex: 1 !important; } }
+@if use(flex-none) { .flex-none { flex: none !important; } }
+@if use(overflow-hidden) { .overflow-hidden { overflow: hidden !important; } }
+@if use(vertical-top) { .vertical-top{ vertical-align: top !important; } }
+@if use(vertical-middle) { .vertical-middle{ vertical-align: middle !important; } }
+@if use(vertical-bottom) { .vertical-bottom{ vertical-align: bottom !important; } }
+
+@include mq(sm) {
+	@if use(d-sm-none) { .d-sm-none { display: none !important; } }
+	@if use(d-sm-block) { .d-sm-block { display: block !important; } }
+	@if use(d-sm-flex) { .d-sm-flex { display: flex !important; } }
+}
+@include mq(md) {
+	@if use(d-md-none) { .d-md-none { display: none !important; } }
+	@if use(d-md-block) { .d-md-block { display: block !important; } }
+	@if use(d-md-flex) { .d-md-flex { display: flex !important; } }
+	@if use(w-md-auto) { .w-md-auto { width: auto !important; } }
+	@if use(w-md-100) { .w-md-100 { width: 100% !important; } }
+	@if use(flex-md-1) { .flex-md-1 { flex: 1 !important; } }
+	@if use(flex-md-none) { .flex-md-none { flex: none !important; } }
+}
+@include mq(lg) {
+	@if use(d-lg-none) { .d-lg-none { display: none !important; } }
+	@if use(d-lg-block) { .d-lg-block { display: block !important; } }
+	@if use(d-lg-flex) { .d-lg-flex { display: flex !important; } }
+	@if use(w-lg-auto) { .w-lg-auto { width: auto !important; } }
+	@if use(w-lg-100) { .w-lg-100 { width: 100% !important; } }
+	@if use(flex-lg-1) { .flex-lg-1 { flex: 1 !important; } }
+	@if use(flex-lg-none) { .flex-lg-none { flex: none !important; } }
+
+	@if use(col-lg-1-5) { .col-lg-1-5 { max-width: 20%; flex-basis: 20%; } }
+	@if use(col-lg-2-5) { .col-lg-2-5 { max-width: 40%; flex-basis: 40%; } }
+	@if use(col-lg-3-5) { .col-lg-3-5 { max-width: 60%; flex-basis: 60%; } }
+	@if use(col-lg-4-5) { .col-lg-4-5 { max-width: 80%; flex-basis: 80%; } }
+}
+@include mq(xl) {
+	@if use(d-xl-none) { .d-xl-none { display: none !important; } }
+	@if use(d-xl-block) { .d-xl-block { display: block !important; } }
+	@if use(d-xl-flex) { .d-xl-flex { display: flex !important; } }
+	@if use(w-xl-auto) { .w-xl-auto { width: auto !important; } }
+	@if use(w-xl-100) { .w-xl-100 { width: 100% !important; } }
+	@if use(flex-xl-1) { .flex-xl-1 { flex: 1 !important; } }
+	@if use(flex-xl-none) { .flex-xl-none { flex: none !important; } }
+}
+
+// Font Family
+@if use(font-primary) { .font-primary { font-family: $font-family !important; } }
+
+// Font Weight
+@if use(font-weight-bold) { .font-weight-bold { font-weight: 700 !important; } }
+@if use(font-weight-semi-bold) { .font-weight-semi-bold { font-weight: 600 !important; } }
+@if use(font-weight-normal) { .font-weight-normal { font-weight: 400 !important; } }
+
+// Text Transform
+@if use(text-uppercase) { .text-uppercase { text-transform: uppercase !important; } }
+@if use(text-capitalize) { .text-capitalize { text-transform: capitalize !important; } }
+@if use(text-normal) { .text-normal { text-transform: none !important; } }
+
+// Font Type
+@if use(font-italic) { .font-italic { font-style: italic !important; } }
+@if use(font-normal) { .font-normal { font-stretch: normal !important; } }
+
+// Text Align
+.text-left { text-align: left !important; }
+.text-center { text-align: center !important; }
+.text-right { text-align: right !important; }
+.text-start { text-align: #{$left} !important; }
+.text-end { text-align: #{$right} !important; }
+
+// Text Color
+@if use(text-white) { .text-white { color: #fff !important; } }
+@if use(text-light) { .text-light { color: var(--rio-light-color) !important; } }
+@if use(text-grey) { .text-grey { color: $grey-color !important; } }
+@if use(text-body) { .text-body { color: var(--rio-body-color) !important; } }
+@if use(text-primary) { .text-primary { color: var(--rio-primary-color) !important; } }
+@if use(text-secondary) { .text-secondary { color: var(--rio-secondary-color) !important; } }
+@if use(text-success) { .text-success { color: var(--rio-success-color) !important; } }
+@if use(text-alert) { .text-alert { color: var(--rio-alert-color) !important; } }
+@if use(text-light) { .text-light { color: var(--rio-light-color) !important; } }
+@if use(text-dark) { .text-dark { color: var(--rio-dark-color) !important; } }
+@if use(text-black) { .text-black { color: #000 !important; } }
+
+// Letter Spacing
+@if use(ls-s) { .ls-s { letter-spacing: -.01em !important; } }
+@if use(ls-m) { .ls-m { letter-spacing: -.025em !important; } }
+@if use(ls-l) { .ls-l { letter-spacing: -.05em !important; } }
+@if use(ls-normal) { .ls-normal { letter-spacing: 0 !important; } }
+
+// Line Height
+@if use(lh-1) { .lh-1 { line-height: 1 !important; } }
+
+// Background
+@if use(bg-white) { .bg-white { background-color: #fff !important; } }
+@if use(bg-dark) { .bg-dark { background-color: var(--rio-dark-color) !important; } }
+@if use(bg-grey) { .bg-grey { background-color: $grey-color !important; } }
+@if use(bg-light) { .bg-light { background-color: var(--rio-light-color) !important; } }
+@if use(bg-black) { .bg-black { background-color: #000 !important; } }
+@if use(bg-primary) { .bg-primary { background-color: var(--rio-primary-color) !important; } }
+@if use(bg-secondary) { .bg-secondary { background-color: var(--rio-secondary-color) !important;  } }
+
+// Border
+@if use(border-no) { .border-no { border: none !important; } }
+
+// Border Radius
+.br-3 { border-radius: 3px; }
+.br-10 { border-radius: 10px; }
+
+.no-transition { transition: none !important; }
+
+// Transforms
+.t-none { transform: translate(0, 0) !important; }
+.t-m { transform: translateY(-50%) !important; }
+.t-c { transform: translateX(-50%) !important; }
+.t-mc { transform: translate(-50%, -50%) !important; }
+
+// Responsive Helper Classes
+@media (min-width: 1200px) {
+	.hide-on-xl { display: none !important; }
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+	.hide-on-lg { display: none !important; }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+	.hide-on-md { display: none !important; }
+}
+@media (max-width: 767px) and (min-width: 576px) {
+	.hide-on-sm { display: none !important; }
+}
+@media (max-width: 575px) {
+	.hide-on-xs { display: none !important; }
+}
+
+// Specific Helper Classes for Elementor.
+@media (max-width: 1024px) {
+	.show-only-desktop { display: none !important;}
+}
+@media (max-width: 767px), (min-width: 1025px) {
+	.show-only-tablet { display: none !important; }
+}
+@media (min-width: 1025px) {
+	.show-tablet { display: none !important;}
+}
+@media (min-width: 768px) {
+	.show-only-mobile { display: none !important; }
+}
+@media (max-width: 767px) {
+	.hide-mobile { display: none !important; }
+}

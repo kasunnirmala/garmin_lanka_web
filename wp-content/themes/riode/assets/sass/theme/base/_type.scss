@@ -1,0 +1,211 @@
+/* -------------------------------------------
+		Typography
+---------------------------------------------- */
+@include set-default(
+	(
+		typography: (
+			// Body
+			body: (
+				font-family: $font-family,
+				font-weight: false,
+				font-size: 1.4rem,
+				line-height: 1.86,
+				letter-spacing: false,
+				color: $body-color,
+			),
+			// Heading
+			heading: (
+				margin: 0 0 2rem,
+				font-family: false,
+				font-weight: 600,
+				line-height: 1.2,
+				color: #222,
+			),
+			// Paragraph
+			paragraph: (
+				margin: 0 0 2rem,
+			)
+		),
+	)
+);
+
+body {
+	font-family: var(--rio-body-font-family), sans-serif;
+	font-weight: var(--rio-body-font-weight);
+	font-size: var(--rio-body-font-size);
+	line-height: var(--rio-body-line-height);
+	letter-spacing: var(--rio-body-letter-spacing);
+	text-transform: var(--rio-body-text-transform);
+	color: var(--rio-body-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	margin: 0 0 2rem;
+
+	font-family: var(--rio-heading-font-family), var(--rio-body-font-family), sans-serif;
+	font-weight: var(--rio-heading-font-weight, 600);
+	font-size: var(--rio-heading-font-size);
+	line-height: var(--rio-heading-line-height, var(--rio-body-line-height));
+	letter-spacing: var(--rio-heading-letter-spacing, var(--rio-body-letter-spacing));
+	text-transform: var(--rio-heading-text-transform, var(--rio-body-text-transform));
+	color: var(--rio-heading-color, var(--rio-body-color));
+}
+
+p {
+	margin: 0 0 2rem;
+}
+
+h1 { font-size: font-size(4rem); }
+h2 { font-size: font-size( 3.4rem ); }
+h3 { font-size: font-size( 3rem ); }
+h4 { font-size: font-size( 2.4rem ); }
+h5 { font-size: font-size( 1.8rem ); }
+h6 { font-size: font-size( 1.5rem ); }
+// Text Block
+.text-bd-left {
+	position: relative;
+	padding-left: 2rem;
+	&::before {
+		content: '';
+		display: block;
+		position: absolute;
+		left: 0;
+		width: 2px;
+		top: 5px;
+		bottom: 5px;
+		background-color: #dae1e5;
+	}
+}
+.text-bd-right {
+	position: relative;
+	padding-right: 2rem;
+	&::before {
+		content: '';
+		display: block;
+		position: absolute;
+		right: 0;
+		width: 2px;
+		top: 5px;
+		bottom: 5px;
+		background-color: #dae1e5;
+	}
+}
+
+.list-type-none {
+	list-style: none;
+	padding-#{$left}: 0;
+}
+
+.list-type-check {
+	list-style: none;
+	padding-#{$left}: 0;
+
+	li {
+		position: relative;
+		padding-#{$left}: 2.4rem;
+
+		&::before {
+			position: absolute;
+			display: block;
+			#{$left}: 3px;
+			top: 2px;
+			content: '\e960';
+			font-family: 'riode';
+			font-weight: 700;
+			font-size:  1.2rem;
+			color: #222;
+		}
+	}
+}
+
+.list-type-number {
+	list-style-type: decimal;
+}
+
+.riode-rounded-skin {
+	.btn,
+	.post-calendar,
+	.product-details .btn-product, .product-details .btn-product-icon,
+	.product-hide-details .btn-product, .product-hide-details .btn-product-icon,
+	.post-single > .post-wrap img,
+	.post-single .post-author-detail,
+	.post-media,
+	.post-framed,
+	.post-overlap .post-details,
+	.minipopup-box,
+	.product-category,
+	.product-category .category-content,
+	.product-with-qty .quantity button,
+	.vendor-widget .vendor-logo,
+	.vendor-widget .vendor-product > figure,
+	.vendor-widget .vendor-banner {
+		border-radius: 3px;
+		overflow: hidden;
+	}
+
+	.product-category img {
+		border-radius: 4px;
+		overflow: hidden;
+	}
+
+	.login-popup {
+		border-radius: 3px;
+	}
+
+	.form-row [type="text"],
+	.form-row [type="tel"],
+	.form-row [type="password"],
+	.form-row [type="email"],
+	.form-row textarea,
+	.form-control,
+	.wpcf7-form-control {
+		border-radius: 3px;
+	}
+
+	.btn-link,
+	.form-coupon .input-text,
+	.product-category.cat-type-icon-overlay .category-content {
+		border-radius: 0;
+		overflow: visible;
+	}
+
+	.post.post-mask.gradient::before {
+		border-radius: corner-values(0 0 3px 3px);
+		overflow: hidden;
+	}
+
+	.mfp-product:not(.mfp-offcanvas) .product,
+	.product-category.cat-type-default,
+	.product-category.cat-type-icon-overlay,
+	.blockquote-type5 .blockquote-media,
+	.blockquote-type5 blockquote,
+	.blockquote-type4 {
+		border-radius: 10px;
+	}
+
+	.blockquote-type5 .blockquote-media,
+	.blockquote-type4 {
+		overflow: hidden;
+	}
+
+	.product-category.cat-type-default,
+	.product-category.cat-type-icon-overlay {
+		img {
+			border-radius: 12px;
+			overflow: hidden;
+		}
+		figure::after {
+			border-radius: 12px;
+			overflow: hidden;
+		}
+	}
+}
+
+html {
+	// position: relative;
+}
+
+.riode-block {
+	position: relative;
+}

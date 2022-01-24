@@ -1,0 +1,108 @@
+/* Social Icons */
+
+.social-icons {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;;
+
+    &.inline-icons {
+        margin-left: -14px;
+        margin-right: -14px;
+    }
+}
+
+@include set-default(
+    (
+        social: (
+            _color: #999,
+        ),
+        share: (
+            _color: #aaa,
+        ),
+    )
+);
+
+@each $social, $value in (social-facebook, $social-facebook ), 
+                         (social-twitter, $social-twitter ), 
+                         (social-linkedin, $social-linkedin ), 
+                         (social-email, $social-email ), 
+                         (social-google, $social-google ), 
+                         (social-pinterest, $social-pinterest ), 
+                         (social-reddit, $social-reddit ), 
+                         (social-tumblr, $social-tumblr ), 
+                         (social-vk, $social-vk ), 
+                         (social-whatsapp, $social-whatsapp ), 
+                         (social-xing, $social-xing ),
+                         (social-instagram, $social-instagram),
+                         (social-youtube, $social-youtube),
+                         (social-tiktok, $social-tiktok),
+                         (social-wechat, $social-wechat) {
+    .#{$social} {
+        color: #{$value};
+        &.social-custom:hover {
+            color: #{$value};
+        }
+    }
+    .#{$social}.stacked {
+        background-color: #{$value};
+        color: #fff;
+    }
+    .#{$social}.framed,
+    .#{$social}.stacked {
+        &:hover, &:focus {
+            border-color: #{$value};
+            background-color: #{$value};
+            color: #fff;
+        }
+    }
+}
+
+.footer .social-icon {
+    color: inherit;
+}
+
+.main-content .social-custom:not(:hover),
+.product-quickview .social-custom:not(:hover) {
+    color: var(--rio-share-custom-color);
+    border-color: var(--rio-share-custom-color);
+}
+.main-content .social-custom.stacked:not(:hover),
+.product-quickview .social-custom.stacked:not(:hover) {
+    background-color: var(--rio-share-custom-color);
+    color: #fff;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    border-radius: 50%;
+    transition: color .3s, background .3s, border .3s;
+    margin: side-values(3px 14px 3px 14px);
+
+    &.rounded {
+        border-radius: 3px;
+    }
+
+    &.stacked,
+    &.framed {
+        margin: side-values(3px 4px 3px 4px);
+    }
+
+    &.stacked,
+    &.framed {
+        width: 30px;
+        height: 30px;
+    }
+
+    &.framed {
+        border: 2px solid;
+    }
+
+    &:hover {
+        color: var(--rio-primary-color, #27c);
+    }
+}

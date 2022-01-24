@@ -1,0 +1,45 @@
+/* -------------------------------------------
+	Image Box
+---------------------------------------------- */
+
+@if use_component(image-box) {
+	.image-box {
+		figure {
+			display: inline-block;
+			position: relative;
+			margin-bottom: 1rem;
+		}
+
+		img {
+			display: block;
+		}
+
+		&.inner {
+			.title, .subtitle {
+				color: #fff;
+			}
+		}
+
+		.title {
+			margin-bottom: 3px;
+			font-size: calc( 1.4rem / 14px * var(--rio-body-size, 14px) );
+			text-transform: uppercase;
+		}
+
+		.subtitle {
+			margin-bottom: 0;
+			font-size: calc( 1.2rem / 14px * var(--rio-body-size, 14px) );
+			font-weight: 400;
+			text-transform: uppercase;
+			color: #666;
+		}
+
+		.content {
+			margin-top: 1rem;
+		}
+
+		&.outer .content {
+			margin-top: 0;
+		}
+	}
+}

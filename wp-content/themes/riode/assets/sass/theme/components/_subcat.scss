@@ -1,0 +1,56 @@
+.subcat-title {
+    display: inline;
+    margin-#{$right}: 2rem;
+
+    &:after {
+        margin-#{$left}: 0;
+        margin-#{$right}: 2rem;
+        line-height: 1;
+    }
+}
+.subcat-menu {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    li {
+        display: block;
+        margin-bottom: 2rem;
+    }
+}
+.subcat-nav a {
+    position: relative;
+
+    &:hover,
+    &:focus {
+        &::before {
+            transform: scaleX(1);
+        }
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        width: 100%;
+        border-bottom: 1px solid;
+        transform: scaleX(0);
+        transition: transform .3s;
+    }
+    &:not(:last-child) {
+        display: inline-block;
+        margin-#{$right}: 2rem;
+
+        &::after {
+            display: inline-block;
+            position: absolute;
+            #{$right}: -1.5rem;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 16px;
+            color: #999;
+        }
+    }
+    &:last-child::before {
+        width: 100%;
+    }
+}

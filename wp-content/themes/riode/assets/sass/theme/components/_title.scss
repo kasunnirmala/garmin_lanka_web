@@ -1,0 +1,133 @@
+/* -------------------------------------------
+   Titles
+        - Default
+        - Simple
+        - Line
+        - Underline
+        - Icon
+        - Link
+---------------------------------------------- */
+
+// Variables
+@if use_component(title) {
+@include set-default(
+	(
+		base: (
+            title: (
+                border: (
+                    color: #e1e1e1,
+                    _active-color: var(--rio-primary-color, #27c),
+                    _width: 2px
+                ),
+            )
+        )
+    )
+);
+.title-wrapper {
+    display: flex;
+    align-items: center;
+    .link {
+        display: inline-flex;
+        align-items: center;
+    }
+    .divider {
+        margin: 0 1.5rem;
+    }
+}
+.title {
+    margin-bottom: 0;
+    max-width: 100%;
+
+    &::before,
+    &::after {
+        @include css( height, base, title, border, _width );
+        @include css( background-color, base, title, border, color );
+    }
+}
+.title-left .title {
+    margin-right: auto;
+}
+.title-right .title {
+    margin-left: auto;
+    text-align: right;
+}
+.title-center .title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.link-left {
+    .title { margin-left: 0; margin-right: 0; }
+    &.title-left { justify-content: if-ltr(flex-start, flex-end); }
+    &.title-center { justify-content: center; }
+    &.title-right { justify-content: if-ltr(flex-end, flex-start); }
+}
+// Title Cross
+.title-cross {
+    .title {
+        display: flex;
+        position: relative;
+        align-items: center;
+        flex: 1;
+        &::before {
+            margin-#{$right}: 3rem;
+        }
+        &::after {
+            margin-#{$left}: 3rem;
+        }
+        &::before,
+        &::after {
+            flex: 1;
+            content: '';
+        }
+    }
+    &.title-left .title::before,
+    &.title-right .title::after { content: none }
+} 
+
+// Underline
+.title-underline {
+    position: relative;
+    text-align: $left;
+    &:after {
+        content: '';
+        margin: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        @include css( height, base, title, border, _width );
+        @include css( background-color, base, title, border, color );
+    }
+    .title {
+        display: inline-block;
+        flex: 0 0 auto;
+        position: relative;
+        z-index: 2;
+        @include css( line-height, base, title, border, line-height );
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            bottom: 0; 
+            @include css( background-color, base, title, border, _active-color );
+        }
+    }
+}
+
+// Extra Fixed Titles
+.related h2,
+.up-sells h2,
+.cross-sells h2,
+.post-single .title {
+    margin-bottom: 2.6rem;
+    font-size: font-size(2.4rem);
+    line-height: 1.2;
+    color: #222;
+    text-transform: capitalize;
+    font-weight: 700;
+}}

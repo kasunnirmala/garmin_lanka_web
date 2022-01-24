@@ -1,0 +1,321 @@
+/* WooCommerce Plugin */
+
+.form-row [type="text"],
+.form-row [type="tel"],
+.form-row [type="password"],
+.form-row [type="email"],
+.form-row textarea {
+    display: block;
+    width: 100%;
+    min-height: 4.5rem;
+    padding: 1.2rem 1.5rem;
+    border: 1px solid #e1e1e1;
+    font-size: font-size( 1.3rem );
+    line-height: 1.5;
+    font-weight: 400;
+    color: #999;
+    background-color: transparent;
+    box-shadow: none;
+    outline: 0;
+
+    &::placeholder {
+        color: #999;
+    }
+
+    &:focus {
+        border: 1px solid #222;
+    }
+}
+
+.woocommerce-form {
+    font-size: font-size( 1.2rem );
+
+    .form-row {
+        margin-bottom: 1.8rem;
+    }
+
+    label {
+        margin-bottom: 8px;
+    }
+}
+
+.button {
+    display: inline-block;
+    border: 2px solid #e4eaec;
+    background-color: #e4eaec;
+    color: #222;
+    outline: 0;
+    border-radius: 0;
+    padding: 1em 2em;
+    font-weight: 700;
+    font-size: font-size( 1.4rem );
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    transition: color 0.3s, border-color 0.3s, background-color 0.3s, box-shadow 0.3s;
+    white-space: nowrap;
+    cursor: pointer;
+
+    @include button-variant(var(--rio-primary-color, #27c), var(--rio-primary-color-hover, #3478dd));
+
+    &.loading {
+        opacity: .3;
+    }
+
+    &[disabled] {
+        cursor: not-allowed;
+        pointer-events: none;
+    }
+}
+
+// Login Form
+.form-footer label {
+    margin-bottom: 0;
+}
+
+.lost_password {
+    margin-bottom: 0;
+}
+
+.woocommerce-privacy-policy-link {
+    color: var(--rio-primary-color, #27c);
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+form {
+    .submit-status {
+        margin: 2rem 0 0;
+        color: var(--rio-alert-color, #b10001);
+    }
+}
+
+form.lost_reset_password {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #ebebeb;
+    padding: 5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    @include mq(xs, max) {
+        padding: 3rem;
+    }
+}
+
+.woocommerce > .login-popup {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.woocommerce-form .button,
+.woocommerce-form-row .button {
+    display: block;
+    width: 100%;
+}
+
+.login-popup .woocommerce-form-login {
+    p {
+        font-size: inherit;
+        line-height: 1;
+    }
+    
+    .form-row {
+        margin-bottom: 1.5rem;
+
+        label {
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+
+        .form-control {
+            height: 3.7rem;
+        }
+
+        .input-text {
+            background: #fff;
+        }
+    }
+
+    .form-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+        font-size: font-size( 1.2rem );
+        flex-wrap: wrap;
+
+        label, p {
+            margin-top: 3px;
+            margin-bottom: 3px;
+        }
+
+        p {
+            line-height: inherit;
+        }
+    }
+
+    .lost-link {
+        text-align: $right;
+        color: var(--rio-secondary-color, #d26e4b);
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .custom-checkbox {
+        margin-bottom: 2.5rem;
+        line-height: initial;
+    }
+
+    .woocommerce-password-strength {
+        margin: 10px 0;
+        padding: 8px;
+        color: #fff;
+        text-align: center;
+        background: #27c;
+
+        &.short {
+            background: var(--rio-alert-color, #b10001);
+        }
+
+        &.bad {
+            background: #d26e4b;
+        }
+
+        &.good {
+            background: var(--rio-success-color, #a8c26e);
+        }
+    }
+
+    .woocommerce-password-hint {
+        font-size: font-size( 1.2rem );
+        line-height: 1.86;
+    }
+}
+
+#yith-wcwl-popup-message {
+    display: none !important;
+}
+
+.woocommerce-message {
+    .button {
+        width: auto;
+    }
+}
+
+.woocommerce-product-gallery .woocommerce-product-gallery__trigger {
+    display: none;
+}
+
+// WCML
+.wcml-spinner {
+    display: none;
+}
+.entry-summary .product_meta .wcml_currency_switcher {
+    display: none;
+}
+
+// Woocommerce Info
+.main-content > .woocommerce-info {
+    padding-top: 1.8rem;
+}
+
+@include mq(lg) {
+    .sidebar-toggle-remain.left-sidebar.closed ~ .main-content > .woocommerce-info {
+        padding-left: 10rem;
+    }
+}
+
+// Sub Pages
+.woocommerce .alert {
+    color: inherit;
+    margin-bottom: 2rem;
+
+    + .alert {
+        margin-top: -1rem;
+    }
+}
+
+.woocommerce {
+    .alert-success a:not(.btn),
+    .alert-success i {
+        color: var(--rio-success-color, #a8c26e);
+    }
+    .alert-error a:not(.btn),
+    .alert-error i {
+        color: var(--rio-alert-color, #b10001);
+    }
+    .alert-primary a:not(.btn),
+    .alert-primary i {
+        color: var(--rio-primary-color, #27c);
+    }
+
+    .showcoupon + .btn-close,
+    .showlogin + .btn-close {
+        display: none;
+    }
+}
+
+// Overlay
+.blockOverlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #fff !important;
+    opacity: 0.6 !important;
+}
+.blockMsg {
+    opacity: 0;
+}
+.woocommerce .add_to_wishlist .blockOverlay {
+    background: transparent !important;
+}
+.woocommerce .blockUI.blockOverlay::before {
+    background: none;
+}
+
+// YITH Compare
+.yith_woocompare_colorbox #cboxTopCenter, .yith_woocompare_colorbox #cboxTopLeft, .yith_woocompare_colorbox #cboxTopRight, .yith_woocompare_colorbox #cboxMiddleLeft, .yith_woocompare_colorbox #cboxMiddleRight, .yith_woocompare_colorbox #cboxBottomLeft, .yith_woocompare_colorbox #cboxBottomCenter, .yith_woocompare_colorbox #cboxBottomRight {
+    background: transparent;
+    width: 0;
+    height: 0;
+}.yith-woocompare-widget ul.products-list li .title {
+    line-height: 2;
+}
+
+// WooCommerce Store Notice
+.woocommerce-store-notice {
+    position: relative;
+    margin-bottom: 0;
+    padding: 1rem 2rem;
+    background-color: var(--rio-primary-color);
+    color: #fff;
+    text-align: center;
+}
+
+.woocommerce-store-notice__dismiss-link {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    height: 16px;
+    width: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 1;
+    color: #fff;
+
+    &:hover {
+        color: rgba(255,255,255,.8);
+    }
+
+    &::before {
+        content: '\e958';
+        font-family: 'riode';
+        font-size: 16px;
+    }
+}

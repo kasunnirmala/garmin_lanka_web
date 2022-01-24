@@ -1,0 +1,28 @@
+.comment-text .review-medias + .feeling {
+    margin-top: 2.4rem;
+}
+.comment-text .feeling {
+    display: inline-block;
+}
+.comment-text .feeling .btn:hover,
+.comment-text .feeling .btn.active {
+    color: var(--rio-primary-color, #27c);
+}
+.comment-text .feeling .like {
+    margin-right: 2rem;
+}
+.comment-text .feeling .count::before {
+    content: '(';
+}
+.comment-text .feeling .count::after {
+    content: ')';
+}
+.comment-text .feeling .unlike {
+    margin-left: 0;
+}
+body.rtl .commet-text .feeling .like {
+    margin-right: 0;
+}
+body.rtl .commet-text .feeling .unlike {
+    margin-left: 2rem;
+}

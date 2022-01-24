@@ -1,0 +1,104 @@
+/* -------------------------------------------
+    Accordion
+---------------------------------------------- */
+
+// Default
+@if use_component(accordion) {
+	.accordion {
+		overflow: hidden;
+
+		.collapsed,
+		.expanding {
+			display: none;
+		}
+
+		.card {
+			margin-bottom: -1px;
+			border: 1px solid #ebebeb;
+			background: #fff;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		.card .card-body {
+			padding: 1rem 2rem 2rem;
+		}
+
+		.card-header {
+			text-transform: capitalize;
+			font-size: font-size(1.8rem);
+			font-weight: 600;
+			line-height: 1;
+			color: #222;
+
+			a {
+				display: flex;
+				align-items: center;
+				position: relative;
+				padding: 2rem;
+
+				> i:first-child {
+					margin-#{$right}: 15px;
+				}
+
+				&:hover, &.collapse {
+					color: var(--rio-primary-color, #27c);
+				}
+			}
+
+			.opened,
+			.closed {
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				#{$right}: 2rem;
+			}
+		}
+
+		.collapse .closed,
+		.expand .opened {
+			display: none;
+		}
+	}
+
+	.accordion-shadow {
+		box-shadow: 0 0 20px 5px rgba(#000, 0.08);
+
+		.card {
+			border: none;
+			border-bottom: 2px solid #f4f4f4;
+			margin-bottom: 0;
+
+			&:last-child {
+				border: none;
+			}
+
+			.card-header a {
+				color: inherit;
+			}
+		}
+	}
+
+	.accordion-stacked {
+		.card {
+			border: none;
+			margin-bottom: 10px;
+		}
+
+		.card .card-body {
+			padding-top: 2rem;
+			border: 1px solid #f4f4f4;
+			border-width: 0 1px 1px 1px;
+		}
+
+		.card-header {
+			background-color: var(--rio-primary-color, #27c);
+
+			a, a:hover, a.collapse {
+				color: #fff;
+			}
+		}
+	}
+}

@@ -1,0 +1,279 @@
+/*
+Plugins Compatiblity
+ 1. WOOF
+ 2. Uni CPO
+ 3. Rank Math SEO
+*/
+
+// 1. WOOF
+.classic-sidebar .widget.widget-woof:first-child {
+    border-top: 0;
+}
+.sidebar .widget.widget-woof {
+    margin-bottom: 0 !important;
+    .toggle-btn {
+        top: 47px;
+    }
+}
+.sidebar .widget-woof {
+    position: relative;
+    .woof_submit_search_form_container {
+        margin-top: 10px;
+        .button {
+            padding: 0.7em 2em;
+            font-size: calc(1.4rem * var(--rio-typo-ratio, 1));
+            font-weight: 700;
+            text-transform: uppercase;
+            background: var(--rio-secondary-color,#313438);
+            border-color: var(--rio-secondary-color,#313438);
+            color: #fff;
+            border-radius: 2px;
+            transition: background .3s, border-color .3s;
+            float: none;
+            cursor: pointer;
+            &:hover {
+                background: var(--rio-primary-color, #26c);
+                border-color: var(--rio-primary-color, #26c);
+            }
+        }
+    }
+    .woof_container {
+        padding-bottom: 15px;
+        border-bottom: 1px solid #eee;
+        margin-bottom: 15px;
+        h4 {
+            font-size: font-size(1.6rem);
+        }
+        &:nth-last-child(2) {
+            padding-bottom: 0;
+            margin-bottom: 0;
+            border-bottom: none;
+        }
+    }
+}
+.sidebar .woof_submit_search_form_container {
+    .woof_submit_search_form {
+        margin-right: 10px;
+    }
+}
+.widget-collapsible .widget-woof .collapsed .toggle-btn:before {
+    transform: rotate(90deg);
+}
+.widget-collapsible .widget-woof .collapsed .toggle-btn:after {
+    transform: rotate(180deg);
+}
+// WOOF Price Filter
+.woof .widget_price_filter {
+    .price_slider_amount {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 1.5rem;
+        padding-#{$left}: 2px;
+
+        .clear, input {
+            display: none;
+        }
+
+        .price_label {
+            margin-bottom: 10px;
+            order: -1;
+            color: #222;
+        }
+    }
+
+    .ui-slider-horizontal {
+        height: 23px;
+        .ui-slider-range {
+            top: 11px;
+            height: 3px;
+        }
+    }
+    .ui-slider {
+        position: relative;
+        margin: side-values(5px 7px 10px 7px);
+
+        .ui-slider-range {
+            background: #999;
+        }
+        .ui-slider-handle {
+            width: 1.2rem;
+            height: 1.7rem;
+            background: #444;
+            border: 0;
+            border-radius: 3px;
+            cursor: pointer;
+            outline: 0;
+            top: 4px;
+            margin-#{$left}: -.55rem;
+        }
+    }
+    .price_slider_wrapper .ui-widget-content {
+        background: none;
+    }
+}
+.sidebar .woof .woof_price_search_container {
+    .price_slider_amount {
+        padding-bottom: 0;
+    }
+    form {
+        margin-bottom: 0;
+    }
+}
+.woof .chosen-container .chosen-single {
+    position: relative;
+    height: 37px !important;
+    padding-#{$left}: 14px;
+    line-height: 35px !important;
+    border: 1px solid #d7d7d7;
+    border-radius: 2px;
+    box-shadow: none;
+    background: #fff url(../../images/select-bg.svg) 98% 46%/26px 60px no-repeat;
+    span {
+        font-size: font-size( 14px );
+    }
+    div {
+        display: none;
+    }
+}
+// WOOF Authors Container 
+.sidebar .widget-woof .woof_checkbox_authors_container {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+    li {
+        padding: .5rem 0;
+    }
+}
+// WOOF Text Search
+.woof_text_search_container {
+    input[type='search'] {
+        padding-#{$left}: 14px !important;
+        border: 1px solid #e1e1e1;
+    }
+    .woof_text_search_go {
+        top: 50%;
+        transform: translateY(-50%);
+        #{$right}: 10px;
+    }
+}
+// WOOF Products Messenger
+.woof .woof_products_messenger_container {
+    .woof_subscr_item {
+        padding: 0;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    .woof_add_subscr_cont {
+        margin-top: 10px;
+    }
+    .sidebar & ul {
+        margin-bottom: 0;
+    }
+}
+// WOOF Current Search Query
+.woof .woof_query_save_container {
+    .woof_query_save_item {
+        padding: 0;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    .woof_add_query_count {
+        margin-top: 10px;
+    }
+    .woof_save_query_title {
+        padding-#{$left}: 14px !important;
+        border: 1px solid #e1e1e1;
+    }
+    .sidebar & ul {
+        margin-bottom: 0;
+    }
+    .woof_add_query_save {
+        margin-top: 15px;
+        padding: 0.7em 2em;
+        font-size: calc(1.4rem * var(--rio-typo-ratio, 1));
+        font-weight: 700;
+        text-transform: uppercase;
+        background: var(--rio-secondary-color,#313438);
+        border-color: var(--rio-secondary-color,#313438);
+        color: #fff;
+        border-radius: 2px;
+        transition: background .3s, border-color .3s;
+        cursor: pointer;
+        &:hover {
+            background: var(--rio-primary-color, #26c);
+            border-color: var(--rio-primary-color, #26c);
+        }
+    }
+}
+// WOOF Top Panel
+.woof_products_top_panel {
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+.woof_products_top_panel_ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.woof_reset_button_2 {
+    padding: 10px 20px;
+    background-color: var(--rio-primary-color);
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color .3s;
+    &:hover {
+        background-color: var(--rio-primary-color-hover);
+    }
+}
+.woof_products_top_panel li span {
+    padding: 10px 28px 10px 10px;
+    background: #f4f4f4;
+    &::after {
+        content: "\f343";
+        position: absolute;
+        top: 50%;
+        display: inline-block;
+        margin-left: 3px;
+        padding: 5px;
+        transform: translateY(-50%);
+        font-family: 'riode';
+        font-size: 10px;
+        line-height: 1em;
+    }
+}
+.woof_list li.woof_childs_list_li {
+    padding-bottom: 5px !important;
+}
+p:hover.woof_tooltip span.woof_tooltip_data {
+    left: 0;
+    margin-left: -20px;
+}
+// 2. Uni CPO
+.uni-cpo-calculate-btn {
+	display: block;
+	margin: 2rem 0;
+	i {
+		margin-#{$right}: 10px;
+	}
+}
+
+// 3. Rank Math SEO
+.rank-math-breadcrumb {
+    p {
+        padding: 1rem 0;
+        margin-bottom: 0;
+    }
+    .separator {
+        display: inline-block;
+        padding: 0 .7rem;
+        color: #e1e1e1;
+    }
+}

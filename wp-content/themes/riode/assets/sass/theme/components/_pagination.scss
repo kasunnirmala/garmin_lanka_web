@@ -1,0 +1,104 @@
+/* -------------------------------------------
+    Pagination
+---------------------------------------------- */
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: font-size(1.4rem);
+
+    i {
+        font-size: font-size(2rem);
+    }
+
+    .prev i {
+        margin-#{$right}: .8rem;
+        @include if-rtl {
+            &:before {
+                content: '\e97f';
+            }
+        }
+    }
+    .next i {
+        margin-#{$left}: .8rem;
+        @include if-rtl {
+            &:before {
+                content: '\e97e';
+            }
+        }
+    }
+
+    .commentlist + & {
+        margin-top: 3rem;
+        padding-top: 2.5rem;
+        border-top: 1px solid #e1e1e1;
+        margin-bottom: 3rem;
+    }
+}
+// Pagination
+.pagination-footer { // added(925)
+    padding-top: 15px;
+    clear: both;
+}
+.pagination-footer > .links {
+    text-align: center;
+    margin: 15px 0;
+}
+.pagination-footer .name {
+    display: inline-block;
+    margin-#{$right}: 1rem;
+}
+.page-numbers,
+.pagination-footer .links .post-page-numbers {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 3rem;
+    height: 4rem;
+    padding: 0 .3rem;
+    line-height: 1;
+    background-color: transparent;
+    border: .1rem solid transparent;
+    transition: border .3s;
+
+    &:hover,
+    &.current {
+        border-color: #dadada;
+        color: #222;
+    }
+    &.disabled {
+        color: #aaa;
+        pointer-events: none;
+    }
+
+    &:not(:last-child) {
+        margin-#{$right}: .5rem;
+    }
+
+    &.dots {
+        min-width: auto;
+        padding: 0 0 .8rem;
+        border: none;
+    }
+}
+.pagination .prev,
+.pagination .next {
+    min-width: 8rem;
+    padding: 1.2rem;
+}
+.pagination .prev {
+    margin-#{$right}: 5px;
+}
+.pagination .next {
+    margin-#{$left}: 5px;
+}
+.show-info {
+    margin: 0;
+    color: #aaa;
+
+    span {
+        color: #222;
+    }
+}

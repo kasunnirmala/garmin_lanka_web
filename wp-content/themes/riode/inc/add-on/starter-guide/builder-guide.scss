@@ -1,0 +1,149 @@
+.riode-tooltip-container {
+	position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgb(0 0 0 / 0.5);
+    z-index: 999999;
+}
+.riode-welcome-container {
+	color: #ffff;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 40px;
+	max-width: 400px;
+	img {
+		position: absolute;
+		left: -50px;
+	}
+	h2 {
+		color: #ffff;
+		font-family: 'Poppins';
+		font-size: 44px;
+		line-height: 1;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin: 0 0 10px;
+	}
+	p {
+		font-family: "Segoe UI";
+		font-weight: 500;
+		font-size: 18px;
+		font-style: italic;
+		line-height: 26px;
+	}
+}
+
+@keyframes fade { from { opacity: 0; } to { opacity: 1; }  }
+
+.riode-helper {
+	display: none;
+	position: absolute;
+	width: 360px;
+	z-index: 999999;
+	box-shadow: 0 0 10px 5px rgb(0,0,0,0.1);
+	&.tip-active {
+		display: block;
+		animation: .3s fade;
+	}
+	.wp-pointer-left {
+		padding-left: 0;
+		border: 1px solid #00a0d2;
+		.wp-pointer-arrow {
+			left: -13px;
+			border-right-color: #00a0d2;
+		}
+	}
+	&.wp-pointer-close .wp-pointer-arrow {
+		left: 1px;
+	}
+	.wp-pointer-bottom {
+		padding-bottom: 0;
+		border: 1px solid #00a0d2;
+		.wp-pointer-arrow {
+			bottom: -13px;
+			border-top-color: #00a0d2;
+		}
+	}
+	.riode-help-content {
+		padding: 0 0 10px;
+		background: #ffff;
+	}
+	h3 {
+		position: relative;
+		margin: 0 0 5px;
+		padding: 15px 18px 14px 60px;
+		background-color: #00a0d2;
+		color: #fff;
+		font-family: 'Poppins';
+		font-size: 16px;
+		line-height: 20px;
+		&::before {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 22px;
+			left: 33px;
+			width: 5px;
+			height: 5px;
+			transform: rotate(45deg);
+			box-shadow: -3px 3px 0 6px #00a0d2;
+			z-index: 2;
+		}
+		&::after {
+			content: '';
+			position: absolute;
+			width: 32px;
+			height: 32px;
+			left: 15px;
+			top: 8px;
+			background-color: #fff;
+			border-radius: 100%;
+		}
+	}
+	img {
+		width: 100%;
+		padding: 0 4px;
+		box-sizing: border-box;
+	}
+	p {
+		font-family: 'Poppins';
+		font-size: 13px;
+		font-style: italic;
+		line-height: 22px;
+		padding: 0 20px;
+		margin: 1em 0;
+	}
+}
+
+.riode-help-actions {
+	display: flex;
+    justify-content: space-between;
+	align-items: center;
+	padding: 5px 20px;
+	.tip-skip {
+		font-weight: 500;
+		color: #00a0d2;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	.tip-next {
+		padding: 5px 20px;
+		border: 2px solid;
+		font-size: 14px;
+		color: #00a0d2;
+		transition: color .3s, background-color .3s, border-color .3s;
+		&:hover {
+			background-color: #00a0d2;
+			border-color: #00a0d2;
+			color: #fff;
+		}
+	}
+}
+
+#customize-control-cs_shop_link {
+	z-index: 500003;
+}

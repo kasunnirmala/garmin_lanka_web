@@ -1,0 +1,33 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_riode">
+            <key name="post_loadmore_label" />
+            <key name="menu_labels" />
+            <key name="mobile_bar_menu_label" />
+            <key name="mobile_bar_menu_icon" />
+            <key name="mobile_bar_home_label" />
+            <key name="mobile_bar_home_icon" />
+            <key name="mobile_bar_shop_label" />
+            <key name="mobile_bar_shop_icon" />
+            <key name="mobile_bar_wishlist_label" />
+            <key name="mobile_bar_wishlist_icon" />
+            <key name="mobile_bar_cart_label" />
+            <key name="mobile_bar_cart_icon" />
+            <key name="mobile_bar_search_label" />
+            <key name="mobile_bar_search_icon" />
+            <key name="mobile_bar_top_label" />
+            <key name="mobile_bar_top_icon" />
+            <key name="ptb_delimiter" />
+            <key name="ptb_delimiter_icon" />
+            <key name="shop_loadmore_label" />
+            <key name="sales_popup_title" />
+            <key name="single_product_tab_title" />
+        </key>
+    </admin-texts>
+    <custom-fields>
+        <custom-field action="translate">title</custom-field>
+        <custom-field action="translate">subtitle</custom-field>
+        <custom-field action="translate">guide_text</custom-field>
+        <custom-field action="translate">guide_icon</custom-field>
+    </custom-fields>
+</wpml-config>

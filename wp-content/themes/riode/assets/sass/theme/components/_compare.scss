@@ -1,0 +1,233 @@
+.compare-page {
+    .main {
+        padding-top: 1rem;
+    }
+}
+
+.riode-compare-table {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    color: var(--rio-dark-color, $dark-color);
+
+    .compare-row {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .compare-col {
+        padding: 25px 0;
+        word-break: break-word;
+
+        > *:last-child {
+            margin-bottom: 0;
+        }
+
+        ul {
+            margin-top: 0;
+        }
+
+        & + .compare-col {
+            padding-#{$left}: 2rem;
+            padding-#{$right}: 1rem;
+        }
+    }
+    .compare-basic .compare-value {
+        padding-#{$right}: 0;
+    }
+    .compare-field {
+        flex: 0 0 20%;
+        max-width: 20%;
+        color: #999;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: $right;
+        padding-#{$right}: 5rem;
+    }
+    .compare-type {
+        text-transform: capitalize;
+    }
+    .compare-sku {
+        text-transform: uppercase;
+    }
+    .compare-value {
+        position: relative;
+        flex: 0 0 20%;
+        max-width: 20%;
+
+        .swatch {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            line-height :28px;
+            text-align: center;
+            background: #fff;
+            margin-#{$right}: 8px;
+            border-radius: 2px;
+            vertical-align: middle;
+            border: 1px solid #e1e1e1;
+
+            &.color {
+                border: none;
+            }
+        }
+    }
+
+    .compare-basic-info {
+        position: relative;
+    }
+
+    .compare-row:nth-child(even) > .compare-col {
+        background-color: #f8f8f8;
+    }
+
+    .compare-basic {
+        font-size: 1rem;
+        text-align: center;
+
+        .compare-field {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+    }
+
+    .to-left, .to-right {
+        font-size: 18px;
+        margin: 0 5px 5px;
+        line-height: 1;
+        opacity: 0;
+        visibility: hidden;
+        transition: all .2s;
+    }
+
+    .to-left {
+        transform: translateX(30px);
+    }
+    .to-right {
+        transform: translateX(-30px);
+    }
+
+    .compare-basic-info:hover {
+        .to-left, .to-right {
+            opacity: 1;
+            visibility: visible;
+            transform: none;
+        }
+    }
+
+    .compare-value:nth-child(2) .to-left,
+    .compare-value:last-child .to-right {
+        pointer-events: none;
+        color: #e1e1e1;
+    }
+
+    .product-action {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        justify-content: center;
+    }
+
+    .btn-product-icon {
+        border: 1px solid #e1e1e1;
+        margin: 0 5px;
+        border-radius: 3px;
+    }
+
+    .remove_from_compare {
+        font-size: 18px;
+    }
+
+    .product-title {
+        font-weight: 600;
+    }
+
+    .product-media {
+        margin-bottom: 1.5rem;
+    }
+
+    .stock {
+        margin: 0;
+        background: transparent;
+        color: inherit;
+        font-weight: inherit;
+        padding: 0;
+    }
+
+    .woocommerce-Price-amount {
+        color: var(--rio-primary-color, $primary-color);
+    }
+
+    del {
+        color: #999;
+
+        .woocommerce-Price-amount {
+            color: inherit;
+        }
+    }
+    
+    .compare-value[data-title="Availability"] {
+        color: var(--rio-success-color, $success-color);
+
+        .stock {
+            color: var(--rio-alert-color, $alert-color);
+        }
+    }
+
+    &.empty {
+        color: inherit;
+        text-align: center;
+        h2 {
+            font-size: inherit;
+            color: inherit;
+            margin: 22px 0;
+        }
+        .button {
+            margin-top: 1rem;
+            width: 20rem;
+            border-radius: 2px;
+        }
+        i {
+            font-size: 80px;
+        }
+    }
+}
+
+@include mq(xl, 'max') {
+    .riode-compare-table {
+        .compare-value,
+        .compare-field {
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+    }
+}
+
+@include mq(lg, 'max') {
+    .riode-compare-table {
+        .compare-value,
+        .compare-field {
+            flex: 0 0 33.33%;
+            max-width: 33.33%;
+        }
+    }
+}
+
+@include mq(md, 'max') {
+    .riode-compare-table {
+        .compare-value,
+        .compare-field {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+}
+
+@include mq('399px', 'max') {
+    .riode-compare-table {
+        .compare-value,
+        .compare-field {
+            flex: 0 0 75%;
+            max-width: 75%;
+        }
+    }
+}
